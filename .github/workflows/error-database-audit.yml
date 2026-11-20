@@ -1,0 +1,32 @@
+name: Error database audit
+
+on:
+  pull_request:
+    paths:
+      - "errors_bsod.json"
+      - "errors_windows.json"
+      - "scripts/audit_error_databases.py"
+      - ".github/workflows/error-database-audit.yml"
+  push:
+    branches: [main]
+    paths:
+      - "errors_bsod.json"
+      - "errors_windows.json"
+      - "scripts/audit_error_databases.py"
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check JSON structure and duplicate error codes
+        run: python scripts/audit_error_databases.py
