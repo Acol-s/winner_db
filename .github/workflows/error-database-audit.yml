@@ -15,6 +15,7 @@ on:
       - "scripts/audit_error_databases.py"
   schedule:
     - cron: "17 6 * * 1"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
