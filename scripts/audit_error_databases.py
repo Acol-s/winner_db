@@ -1,4 +1,3 @@
-import hashlib
 import json
 import sys
 from pathlib import Path
@@ -71,7 +70,6 @@ for filename in FILES:
                 failed = True
 
         entry = reviewed_for_file.get(normalized)
-        digest = hashlib.sha256(json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
         if entry and entry.get("status") == "reviewed" and entry.get("sources"):
             continue
         pending.append(code)
@@ -82,4 +80,4 @@ for filename in FILES:
 
 if failed:
     sys.exit(1)
-print("Structural audit passed. Reviewed records with unchanged hashes are excluded from content-review work; this workflow does not automatically edit records.")
+print("Structural audit passed. Records marked reviewed with sources are excluded from content-review work; this workflow does not automatically edit records.")
