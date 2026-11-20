@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "records": {
+    "errors_bsod.json": {
+      "0x0000001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a--memory-management",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/driver-verifier"
+        ],
+        "note": "Removed unsupported advice to increase RAM voltage; retained conservative default settings and diagnostic guidance."
+      },
+      "0x0000012b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a--memory-management"
+        ],
+        "note": "Removed advice to increase RAM voltage; recommend stock settings and manufacturer specifications."
+      }
+    }
+  },
+  "source_policy": {
+    "primary": "Microsoft documentation and official vendor documentation",
+    "secondary": "Microsoft Q&A, Microsoft Community, Reddit, and other established technical communities may be used as corroboration, with URLs and dates; never as sole support for safety-sensitive or system-modifying advice."
+  }
+}
