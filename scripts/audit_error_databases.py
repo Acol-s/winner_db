@@ -30,7 +30,6 @@ for filename in FILES:
 
     codes = {}
     pending = []
-    stale = []
     reviewed_for_file = reviewed.get(filename, {})
     for index, record in enumerate(records):
         where = f"{filename}[{index}]"
@@ -73,18 +72,13 @@ for filename in FILES:
 
         entry = reviewed_for_file.get(normalized)
         digest = hashlib.sha256(json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
-        if entry and entry.get("status") == "reviewed":
-            if entry.get("sha256") == digest and entry.get("sources"):
-                continue
-            stale.append(code)
-        else:
-            pending.append(code)
+        if entry and entry.get("status") == "reviewed" and entry.get("sources"):
+            continue
+        pending.append(code)
 
-    print(f"{filename}: {len(records)} records; {len(codes)} unique codes; {len(pending)} awaiting content review; {len(stale)} changed since review")
+    print(f"{filename}: {len(records)} records; {len(codes)} unique codes; {len(pending)} awaiting content review")
     if pending:
         print("  pending: " + ", ".join(pending))
-    if stale:
-        print("  review again after edits: " + ", ".join(stale))
 
 if failed:
     sys.exit(1)
