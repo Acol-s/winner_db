@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "abcd10cb6192e72518329534ed16122291a2045320cc2465b01665fa72dbca1b",
+  "current_windows_sha256": "c62a6296ddb62d3f12e23ee7403fc5cf6229691ad71da375fa2e35a8f35dc8e5",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -1017,28 +1017,215 @@
         "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
       ],
       "note": "Rejected unconfirmed adapter/IPv6/gateway changes. Changing error 860 to 812 was not a successful connection."
+    },
+    "0x0000035d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Conditional AD-domain certificate deployment using Microsoft instructions for Server 2016/2019/2022/2025; requires identifying the intended root and target validating machines.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"861\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Combines the RAS missing-root cause with the documented GPO distribution mechanism. No exact-code successful forum report found; not a universal repair or proof of old-OS UI compatibility."
+    },
+    "0x0000035e": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_workaround",
+      "scope": "NPS policy certificate misassignment; January 2025 Reddit author reports matching error text, no numeric code or OS version. Current Microsoft UI procedure lists Server 2016/2019/2022/2025.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "message_matched_author_reported_success_without_numeric_code",
+      "search_queries": [
+        "\"862\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "site:reddit.com/r/sysadmin/comments/1i6i5sn NPS certificate policies fixed"
+      ],
+      "note": "Restoring intended policy certificate is supported by the reported outcome. Why selection changed remains unresolved; do not infer that removing root certificates or disabling renewal is a proven remedy."
+    },
+    "0x0000035f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"863\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000360": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Conditional AD-domain certificate deployment using Microsoft instructions for Server 2016/2019/2022/2025; requires identifying the intended root and target validating machines.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"864\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Combines the RAS missing-root cause with the documented GPO distribution mechanism. No exact-code successful forum report found; not a universal repair or proof of old-OS UI compatibility."
+    },
+    "0x00000361": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"865\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000362": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Own AD CS PKI and NPS. Current template instructions list Server 2016/2019/2022/2025; related author report concerns Windows 10 after 1709 16299.194.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "related_name_configuration_success_without_numeric_code",
+      "search_queries": [
+        "\"866\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "site:reddit.com/r/sysadmin/comments/bwq0k8 \"subject\" \"1903\""
+      ],
+      "note": "Official nonempty Subject/template requirements distinguished from a user-specific DNS Subject outcome. Existing certificates need separate issuance/assignment; no universal template value inferred."
+    },
+    "0x00000363": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"867\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000364": {
+      "reviewed_at": "2026-11-22",
+      "status": "research_incomplete",
+      "scope": "Separate cases: Windows 7/Check Point 2010, intermittent VPN 2024, Intune AOVPN/Windows 11 2025. Resolve-DnsName advice limited to modern VPNv2/NRPT diagnostics.",
+      "forum_result": "multiple_matching_cases_without_confirmed_fix",
+      "reddit_result": "matching_case_reports_failed_resets",
+      "search_queries": [
+        "\"868\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "site:reddit.com \"error 868\" VPN",
+        "site:learn.microsoft.com \"nslookup\" \"VPN server\""
+      ],
+      "note": "Accepted answer is referral, not a fix. Helpful votes are not success evidence. Static-IP cases prevent assuming every 868 is a simple DNS-setting fault. NRPT must not be tested solely with nslookup."
+    },
+    "0x00000365": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"869\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000366": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"870\" \"IKEv2\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000367": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"871\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000368": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"872\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x00000369": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"873\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x0000036a": {
+      "reviewed_at": "2026-11-22",
+      "status": "research_incomplete",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "ServerFault_matching_message_without_confirmed_fix",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"874\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"VPN\" \"certificate for single sign-on\" missing"
+      ],
+      "note": "Manual PBK thumbprint edit produced another error; network reset failed. Suggested server SSL binding check is unconfirmed. No OS version inferred."
+    },
+    "0x0000036b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"875\" \"compliance\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x0000036c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"876\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x0000036d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"877\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+    },
+    "0x0000036e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"878\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_WINHTTP_AUTO_PROXY_SERVICE\" VPN solution",
+        "\"VPN\" \"WinHTTP Auto Proxy\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
     }
   },
-  "pending_count": 6212,
+  "pending_count": 6194,
   "pending_codes": [
-    "0x0000035d",
-    "0x0000035e",
-    "0x0000035f",
-    "0x00000360",
-    "0x00000361",
-    "0x00000362",
-    "0x00000363",
-    "0x00000364",
-    "0x00000365",
-    "0x00000366",
-    "0x00000367",
-    "0x00000368",
-    "0x00000369",
-    "0x0000036a",
-    "0x0000036b",
-    "0x0000036c",
-    "0x0000036d",
-    "0x0000036e",
     "0x00000384",
     "0x00000385",
     "0x00000386",
@@ -7320,6 +7507,18 @@
     "0x00000358",
     "0x00000359",
     "0x0000035b",
-    "0x0000035c"
+    "0x0000035c",
+    "0x0000035e",
+    "0x0000035f",
+    "0x00000361",
+    "0x00000364",
+    "0x00000366",
+    "0x00000367",
+    "0x00000368",
+    "0x00000369",
+    "0x0000036a",
+    "0x0000036b",
+    "0x0000036c",
+    "0x0000036e"
   ]
 }
