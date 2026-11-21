@@ -1347,9 +1347,10 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L1351",
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
         ],
-        "note": "Code identity, documented parameters and causes checked against Microsoft Learn. Unverified fixes removed; legacy OS configuration and recovery instructions qualified."
+        "note": "Имя и код подтверждены текущим заголовком Windows SDK Microsoft: AUDIT_FAILURE, сообщение “Audit attempt has failed.” В общей Learn-таблице код отсутствует, подробная причина/параметры не документированы; шаги ограничены сбором дампа и аудит-журнала."
       },
       "0x00000090": {
         "status": "reviewed",
@@ -1435,10 +1436,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/fr-fr/answers/questions/3170674/ecran-bleu-r-current-pc-windows-7?page=2",
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L1577",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2",
+          "https://learn.microsoft.com/fr-fr/answers/questions/3170674/ecran-bleu-r-current-pc-windows-7?page=2"
         ],
-        "note": "Retained as historical FP_EMULATION_ERROR based on archived Microsoft code list; current Learn documentation does not provide a supported diagnosis or remedy."
+        "note": "Windows SDK Microsoft подтверждает 0xA6 FP_EMULATION_ERROR. Текущая общая Learn-таблица не содержит код и не задаёт параметров/исправления; Microsoft Q&A используется только как вторичное свидетельство, не как основание универсального решения."
       },
       "0x000000a7": {
         "status": "reviewed",
@@ -1452,9 +1454,10 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xab--session-has-valid-pool-on-exit"
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xab--session-has-valid-pool-on-exit",
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L1622"
         ],
-        "note": "Code meaning/applicability and diagnostic steps checked against Microsoft documentation; unsupported causes and risky generic remedies removed. Historical/live-dump status is explicit where relevant."
+        "note": "Microsoft Learn подтверждает код и параметры как live dump; явно указывает, что 0xAB не может быть реальным bug check. Запись оставлена как диагностический код, чтобы не смешивать его с BSOD."
       },
       "0x000000b1": {
         "status": "reviewed",
@@ -2788,13 +2791,14 @@
         "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
       },
       "0x00000187": {
-        "status": "excluded",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x187--video-dwminit-timeout-fallback-bdd",
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/kernel-live-dump-code-reference"
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/kernel-live-dump-code-reference",
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L2322"
         ],
-        "note": "Исключено из BSOD-аудита: Microsoft определяет 0x187 как live dump, который не может быть реальным bugcheck."
+        "note": "Microsoft Learn подтверждает 0x187 как live dump, не реальный bug check, и определяет параметр 1=0x1 как сбой инициализации DWM с переходом на BDD. Удалены несвязанные DDU/разгон/стресс-тесты/общий системный ремонт."
       },
       "0x00000191": {
         "status": "reviewed",
