@@ -149373,97 +149373,246 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1457"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1457",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/nap/network-access-protection-start-page",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-top"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASQEC_CONN_DOESNOTEXIST=0x00000335 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASQEC_CONN_DOESNOTEXIST=0x00000335 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Historical RAS/NAP deployment only. NAP unavailable from Windows 10 and Server 2016.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"821\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "SDK retry/admin escalation guidance retained; detailed scenario-specific repair and user success not established. RAS Vista-and-later note is qualified by component removal documentation."
+        }
       },
       "0x00000336": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1462"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1462",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/nap/network-access-protection-start-page",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-top"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASQEC_TIMEOUT=0x00000336 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASQEC_TIMEOUT=0x00000336 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Historical RAS/NAP deployment only. NAP unavailable from Windows 10 and Server 2016.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"822\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "SDK retry/admin escalation guidance retained; detailed scenario-specific repair and user success not established. RAS Vista-and-later note is qualified by component removal documentation."
+        }
       },
       "0x00000337": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1469"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1469",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_CRYPTOBINDING_INVALID=0x00000337 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_CRYPTOBINDING_INVALID=0x00000337 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"823\" \"Crypto-Binding\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x00000338": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1474"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1474",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED=0x00000338 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED=0x00000338 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"824\" \"Crypto-Binding\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x00000339": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1481"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1481",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_VPNSTRATEGY=0x00000339 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_VPNSTRATEGY=0x00000339 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"825\" \"IPv6\" \"PPTP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft explicitly recommends L2TP for PPTP/IPv6 incompatibility. No forum success established; deployment-specific server requirements retained."
+        }
       },
       "0x0000033a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1488"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1488",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID=0x0000033A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID=0x0000033A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"826\" \"EAPTLS\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft says discard cached credentials, but a validated client/profile-specific procedure was not found. No blanket credential or certificate deletion instructions added."
+        }
       },
       "0x0000033b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1494"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1494",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IPSEC_SERVICE_STOPPED=0x0000033B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IPSEC_SERVICE_STOPPED=0x0000033B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"VPN\" \"827\" \"Base Filtering\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "SDK explicitly requires both named services started before dialing; service-console steps implement that prerequisite. No separate forum success established."
+        }
       },
       "0x0000033c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1501"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1501",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/answers/questions/449128/users-getting-randomly-disconnected-from-point-to"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IDLE_TIMEOUT=0x0000033C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IDLE_TIMEOUT=0x0000033C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_workaround",
+          "scope": "P2S VPN forum discussion; workaround commenter did not state OS/client version.",
+          "forum_result": "user_reconnect_workaround_and_counterexample_to_timeout_setting",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"828\" \"idle timeout\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Auto-reconnect reported as workaround, not root-cause fix. A different participant explicitly reports never timeout setting does not help."
+        }
       },
       "0x0000033d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1506"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1506",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_LINK_FAILURE=0x0000033D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_LINK_FAILURE=0x0000033D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"829\" \"link failure\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x0000033e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1511"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1511",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_USER_LOGOFF=0x0000033E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_USER_LOGOFF=0x0000033E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"830\" \"user logged off\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x0000033f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1516"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1516",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_FAST_USER_SWITCH=0x0000033F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_FAST_USER_SWITCH=0x0000033F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"831\" \"832\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x00000340": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1521"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1521",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_HIBERNATION=0x00000340 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_HIBERNATION=0x00000340 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"831\" \"832\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+        }
       },
       "0x00000341": {
         "status": "reviewed",
