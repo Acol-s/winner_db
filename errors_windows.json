@@ -1850,16 +1850,15 @@
     },
     {
         "errorCode": "0xC00D1049",
-        "title": "Частичная библиотека (NS_E_WMP_PARTIAL_LIBRARY_AVAILABLE)",
-        "description": "Доступна только часть библиотеки Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Windows Media Player не может определить цифровой аудиоидентификатор для короткой композиции (NS_E_WMP_DAI_SONGTOOSHORT)",
+        "description": "Композиция слишком короткая для расчёта Digital Audio ID. Это не ошибка частичной медиатеки.",
+        "officialSolution": "Проверьте длительность и целостность музыкального файла; для слишком короткого фрагмента идентификатор может не вычисляться. Это служебный legacy-функционал WMP и для воспроизведения файла обычно не нужен.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте длительность и целостность музыкального файла; для слишком короткого фрагмента идентификатор может не вычисляться.",
+            "• Это служебный legacy-функционал WMP и для воспроизведения файла обычно не нужен."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте длительность и целостность музыкального файла; для слишком короткого фрагмента идентификатор может не вычисляться.\",\"• Это служебный legacy-функционал WMP и для воспроизведения файла обычно не нужен.\"]"
     },
     {
         "errorCode": "0xC00D1041",
@@ -1876,120 +1875,111 @@
     },
     {
         "errorCode": "0xC00D11CF",
-        "title": "MMS не поддерживается (NS_E_WMP_MMS_NOTSUPPORTED)",
-        "description": "Протокол MMS не поддерживается этой версией WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Привод CD занят другим пользователем (NS_E_WMP_CD_ANOTHER_USER)",
+        "description": "Привод CD используется другим пользователем/задачей; код не означает неподдерживаемый MMS.",
+        "officialSolution": "Дождитесь завершения текущей операции с CD и повторите. Проверьте, не используется ли привод другой программой или сеансом пользователя; не пытайтесь насильно завершать процесс записи.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Дождитесь завершения текущей операции с CD и повторите.",
+            "• Проверьте, не используется ли привод другой программой или сеансом пользователя; не пытайтесь насильно завершать процесс записи."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Дождитесь завершения текущей операции с CD и повторите.\",\"• Проверьте, не используется ли привод другой программой или сеансом пользователя; не пытайтесь насильно завершать процесс записи.\"]"
     },
     {
         "errorCode": "0xC00D0FBA",
-        "title": "Сбой компонента DRM (NS_E_WMP_DRM_COMPONENT_FAILED)",
-        "description": "Компонент DRM Windows Media Player не работает. Обновите компоненты безопасности.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Путь файла уже есть в библиотеке (NS_E_WMP_PATH_ALREADY_IN_LIBRARY)",
+        "description": "Этот путь уже зарегистрирован в медиатеке WMP. Это не сбой компонента DRM.",
+        "officialSolution": "Проверьте библиотеку на существующую запись и не добавляйте тот же путь повторно. Если файл перемещён, используйте функцию WMP для поиска/обновления расположения; заранее сохраните пользовательскую библиотеку перед её восстановлением.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте библиотеку на существующую запись и не добавляйте тот же путь повторно.",
+            "• Если файл перемещён, используйте функцию WMP для поиска/обновления расположения; заранее сохраните пользовательскую библиотеку перед её восстановлением."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте библиотеку на существующую запись и не добавляйте тот же путь повторно.\",\"• Если файл перемещён, используйте функцию WMP для поиска/обновления расположения; заранее сохраните пользовательскую библиотеку перед её восстановлением.\"]"
     },
     {
         "errorCode": "0xC00D1075",
-        "title": "Неверное максимальное значение (NS_E_WMP_INVALID_MAX_VALUE)",
-        "description": "Недопустимое максимальное значение в Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Не зарегистрирован фильтр авто-плейлиста (NS_E_MLS_SMARTPLAYLIST_FILTER_NOT_REGISTERED)",
+        "description": "Автоматический список воспроизведения использует тип фильтра, который недопустим или не установлен в этой версии WMP.",
+        "officialSolution": "Проверьте условие фильтра и поддержку его типа конкретной версией WMP. Измените правило на поддерживаемое; если это компонент расширения, устанавливайте его только из доверенного источника.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте условие фильтра и поддержку его типа конкретной версией WMP.",
+            "• Измените правило на поддерживаемое; если это компонент расширения, устанавливайте его только из доверенного источника."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте условие фильтра и поддержку его типа конкретной версией WMP.\",\"• Измените правило на поддерживаемое; если это компонент расширения, устанавливайте его только из доверенного источника.\"]"
     },
     {
         "errorCode": "0xC00D1076",
-        "title": "Автозапуск отключён (NS_E_WMP_AUTOPLAY_DISABLED)",
-        "description": "Автозапуск отключён в Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Слишком много вложенных плейлистов (NS_E_WMX_INVALID_FORMAT_OVER_NESTING)",
+        "description": "WMP не может разобрать список, потому что в нём слишком много вложенных плейлистов. Это не настройка автозапуска.",
+        "officialSolution": "Проверьте структуру плейлиста, уменьшите глубину вложения или используйте плоский список поддерживаемого формата. Сохраните копию перед редактированием.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте структуру плейлиста, уменьшите глубину вложения или используйте плоский список поддерживаемого формата.",
+            "• Сохраните копию перед редактированием."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте структуру плейлиста, уменьшите глубину вложения или используйте плоский список поддерживаемого формата.\",\"• Сохраните копию перед редактированием.\"]"
     },
     {
         "errorCode": "0xC00D11B3",
-        "title": "WMDM недоступен (NS_E_WMP_WMDM_NOTAVAILABLE)",
-        "description": "Windows Media Device Manager недоступен. Обновите компоненты.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Сервер Windows Media не отвечает (NS_E_WMP_SERVER_NOT_RESPONDING)",
+        "description": "WMP получил сетевую ошибку при воспроизведении; сервер может быть недоступен, а сетевое соединение или прокси — нарушено.",
+        "officialSolution": "Проверьте доступность сервера и прокси из той же сети, повторите позднее и сопоставьте журналы сервера/клиента. Сетевые протоколы Windows Media устарели, поэтому убедитесь, что поставщик ещё поддерживает endpoint.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте доступность сервера и прокси из той же сети, повторите позднее и сопоставьте журналы сервера/клиента.",
+            "• Сетевые протоколы Windows Media устарели, поэтому убедитесь, что поставщик ещё поддерживает endpoint."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте доступность сервера и прокси из той же сети, повторите позднее и сопоставьте журналы сервера/клиента.\",\"• Сетевые протоколы Windows Media устарели, поэтому убедитесь, что поставщик ещё поддерживает endpoint.\"]"
     },
     {
         "errorCode": "0xC00D11B6",
-        "title": "Просмотр галереи медиа (NS_E_WMP_ML_MEDIAGALLERYVIEW_SHOW)",
-        "description": "Ошибка отображения галереи медиа Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Сетевой экран препятствует UDP-потоку Windows Media (NS_E_WMP_NETWORK_FIREWALL)",
+        "description": "Firewall может блокировать UDP-транспорт, используемый для указанного потока. Это не просмотр галереи медиатеки.",
+        "officialSolution": "Если сервер поддерживает другой транспорт, проверьте его в параметрах сети WMP/URL и используйте согласованный протокол. Меняйте правила firewall только для конкретного доверенного сервера/порта после проверки администратором.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Если сервер поддерживает другой транспорт, проверьте его в параметрах сети WMP/URL и используйте согласованный протокол.",
+            "• Меняйте правила firewall только для конкретного доверенного сервера/порта после проверки администратором."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Если сервер поддерживает другой транспорт, проверьте его в параметрах сети WMP/URL и используйте согласованный протокол.\",\"• Меняйте правила firewall только для конкретного доверенного сервера/порта после проверки администратором.\"]"
     },
     {
         "errorCode": "0xC00D11B7",
-        "title": "Квота добавлений (NS_E_WMP_2_QUOTA_ADDS_FIXED)",
-        "description": "Превышена квота добавлений в Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Не обнаружен съёмный носитель (NS_E_WMP_NO_REMOVABLE_MEDIA)",
+        "description": "WMP не обнаружил съёмный носитель, требуемый для операции синхронизации/воспроизведения.",
+        "officialSolution": "Подключите нужное устройство/носитель, проверьте, что Windows распознала его, и повторите операцию. Если устройство подключено, проверьте его кабель, питание и журнал; не переустанавливайте службы WMP.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Подключите нужное устройство/носитель, проверьте, что Windows распознала его, и повторите операцию.",
+            "• Если устройство подключено, проверьте его кабель, питание и журнал; не переустанавливайте службы WMP."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Подключите нужное устройство/носитель, проверьте, что Windows распознала его, и повторите операцию.\",\"• Если устройство подключено, проверьте его кабель, питание и журнал; не переустанавливайте службы WMP.\"]"
     },
     {
         "errorCode": "0xC00D11B8",
-        "title": "Переключение хранилищ (NS_E_WMP_ML_HIGHSCHOOL_STORES_SWITCHED)",
-        "description": "Сбой переключения хранилищ библиотеки Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Прокси-сервер не отвечает (NS_E_WMP_PROXY_CONNECT_TIMEOUT)",
+        "description": "WMP не получил ответ от настроенного proxy; это не переключение медиахранилищ.",
+        "officialSolution": "Проверьте доступность proxy и его настройки в используемой версии Player/Windows, затем обратитесь к администратору сети. Не подменяйте proxy случайными адресами и не отключайте сетевую защиту.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте доступность proxy и его настройки в используемой версии Player/Windows, затем обратитесь к администратору сети.",
+            "• Не подменяйте proxy случайными адресами и не отключайте сетевую защиту."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте доступность proxy и его настройки в используемой версии Player/Windows, затем обратитесь к администратору сети.\",\"• Не подменяйте proxy случайными адресами и не отключайте сетевую защиту.\"]"
     },
     {
         "errorCode": "0xC00D11BA",
-        "title": "Нет медиасерверов (NS_E_WMP_HME_NO_MEDIA_SERVERS)",
-        "description": "Не найдено медиасерверов для потоковой передачи Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Проблема с аудиоустройством (NS_E_WMP_AUDIO_HW_PROBLEM)",
+        "description": "WMP не может вывести звук: устройство отсутствует, занято другим приложением или не функционирует.",
+        "officialSolution": "Проверьте выбранное устройство вывода, подключение и наличие другого приложения, эксклюзивно использующего устройство. При сбое устройства проверьте его состояние в диспетчере устройств и используйте драйвер производителя, поддерживающий этот выпуск Windows.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте выбранное устройство вывода, подключение и наличие другого приложения, эксклюзивно использующего устройство.",
+            "• При сбое устройства проверьте его состояние в диспетчере устройств и используйте драйвер производителя, поддерживающий этот выпуск Windows."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте выбранное устройство вывода, подключение и наличие другого приложения, эксклюзивно использующего устройство.\",\"• При сбое устройства проверьте его состояние в диспетчере устройств и используйте драйвер производителя, поддерживающий этот выпуск Windows.\"]"
     },
     {
         "errorCode": "0xC00D11BE",
