@@ -172006,5 +172006,284 @@
     ],
     "category": "Windows",
     "stepByStep": "[\"• Запишите полный код, вызвавший API/службу, операцию, редакцию и версию Windows, версию компонента и соседние записи журнала.\",\"• Сверьте ситуацию с документацией Microsoft для именно этого API и версии; не применяйте посторонние процедуры восстановления без подтверждения источника ошибки.\"]"
+  },
+  {
+    "errorCode": "0x80261001",
+    "title": "ERROR_MONITOR_NO_DESCRIPTOR — Monitor descriptor could not be obtained.",
+    "description": "Microsoft HRESULT ERROR_MONITOR_NO_DESCRIPTOR: не удалось получить дескриптор монитора. Это описание кода; точная причина зависит от вызвавшего API и контекста.",
+    "officialSolution": "Для этого HRESULT Microsoft подтверждает код и смысл, но не задаёт универсальную пользовательскую процедуру исправления. Установите, какое приложение или API вернуло код, и используйте документацию этого компонента.",
+    "userSolutions": "Подтверждённого универсального исправления по одному коду нет. Сохраните полный текст ошибки, название приложения/API, действие и сведения о дисплее и драйвере.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, полное сообщение и операцию, при которой он возник.\", \"Установите приложение/API, вернувшие код, и зафиксируйте модель дисплея, версию драйвера и сборку Windows.\", \"Сверьте сценарий с документацией Microsoft или поставщика именно этого компонента; не применяйте системный сброс только по этому коду.\"]"
+  },
+  {
+    "errorCode": "0x80261002",
+    "title": "ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT — Format of the obtained monitor descriptor is not supported by this release.",
+    "description": "Microsoft HRESULT ERROR_MONITOR_UNKNOWN_DESCRIPTOR_FORMAT: формат полученного дескриптора монитора не поддерживается этим выпуском. Это описание кода; точная причина зависит от вызвавшего API и контекста.",
+    "officialSolution": "Для этого HRESULT Microsoft подтверждает код и смысл, но не задаёт универсальную пользовательскую процедуру исправления. Установите, какое приложение или API вернуло код, и используйте документацию этого компонента.",
+    "userSolutions": "Подтверждённого универсального исправления по одному коду нет. Сохраните полный текст ошибки, название приложения/API, действие и сведения о дисплее и драйвере.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, полное сообщение и операцию, при которой он возник.\", \"Установите приложение/API, вернувшие код, и зафиксируйте модель дисплея, версию драйвера и сборку Windows.\", \"Сверьте сценарий с документацией Microsoft или поставщика именно этого компонента; не применяйте системный сброс только по этому коду.\"]"
+  },
+  {
+    "errorCode": "0x8004d101",
+    "title": "XACT_E_TOOMANY_ENLISTMENTS — The maximum number of enlistments for the specified transaction has been reached.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_TOOMANY_ENLISTMENTS: The maximum number of enlistments for the specified transaction has been reached.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d103",
+    "title": "XACT_E_NOTSINGLEPHASE — The prepare request given was not eligible for single-phase optimizations.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_NOTSINGLEPHASE: The prepare request given was not eligible for single-phase optimizations.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d104",
+    "title": "XACT_E_RECOVERYALREADYDONE — RecoveryComplete has already been called for the given resource manager.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_RECOVERYALREADYDONE: RecoveryComplete has already been called for the given resource manager.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d105",
+    "title": "XACT_E_PROTOCOL — The interface call made was incorrect for the current state of the protocol.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_PROTOCOL: The interface call made was incorrect for the current state of the protocol.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d106",
+    "title": "XACT_E_RM_FAILURE — The xa_open call failed for the XA resource.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_RM_FAILURE: The xa_open call failed for the XA resource.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d107",
+    "title": "XACT_E_RECOVERY_FAILED — The xa_recover call failed for the XA resource.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_RECOVERY_FAILED: The xa_recover call failed for the XA resource.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d108",
+    "title": "XACT_E_LU_NOT_FOUND — The logical unit of work specified cannot be found.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_NOT_FOUND: The logical unit of work specified cannot be found.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d109",
+    "title": "XACT_E_DUPLICATE_LU — The specified logical unit of work already exists.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_DUPLICATE_LU: The specified logical unit of work already exists.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d10a",
+    "title": "XACT_E_LU_NOT_CONNECTED — Subordinate creation failed. The specified logical unit of work was not connected.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_NOT_CONNECTED: Subordinate creation failed. The specified logical unit of work was not connected.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d10c",
+    "title": "XACT_E_LU_BUSY — The resource is in use.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_BUSY: The resource is in use.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d10d",
+    "title": "XACT_E_LU_NO_RECOVERY_PROCESS — The LU Recovery process is down.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_NO_RECOVERY_PROCESS: The LU Recovery process is down.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d10e",
+    "title": "XACT_E_LU_DOWN — The remote session was lost.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_DOWN: The remote session was lost.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d10f",
+    "title": "XACT_E_LU_RECOVERING — The resource is currently recovering.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_RECOVERING: The resource is currently recovering.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d110",
+    "title": "XACT_E_LU_RECOVERY_MISMATCH — There was a mismatch in driving recovery.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_LU_RECOVERY_MISMATCH: There was a mismatch in driving recovery.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8004d111",
+    "title": "XACT_E_RM_UNAVAILABLE — An error occurred with the XA resource.",
+    "description": "Microsoft MS-ERREF HRESULT XACT_E_RM_UNAVAILABLE: An error occurred with the XA resource.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x80070032",
+    "title": "ERROR_NOT_SUPPORTED — The server cannot support a client request for a dynamic virtual channel.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_NOT_SUPPORTED: The server cannot support a client request for a dynamic virtual channel.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x80070070",
+    "title": "ERROR_DISK_FULL — There is not enough space on the disk.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_DISK_FULL: There is not enough space on the disk.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8dead01b",
+    "title": "TRK_E_NOT_FOUND — A requested object was not found.",
+    "description": "Microsoft MS-ERREF HRESULT TRK_E_NOT_FOUND: A requested object was not found.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8dead01c",
+    "title": "TRK_E_VOLUME_QUOTA_EXCEEDED — The server received a CREATE_VOLUME subrequest of a SYNC_VOLUMES request, but the ServerVolumeTable size limit for the RequestMachine has already been reached.",
+    "description": "Microsoft MS-ERREF HRESULT TRK_E_VOLUME_QUOTA_EXCEEDED: The server received a CREATE_VOLUME subrequest of a SYNC_VOLUMES request, but the ServerVolumeTable size limit for the RequestMachine has already been reached.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x8dead01e",
+    "title": "TRK_SERVER_TOO_BUSY — The server is busy, and the client should retry the request at a later time.",
+    "description": "Microsoft MS-ERREF HRESULT TRK_SERVER_TOO_BUSY: The server is busy, and the client should retry the request at a later time.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc0262504",
+    "title": "ERROR_GRAPHICS_OPM_PARAMETER_ARRAY_TOO_SMALL — An array passed to a function cannot hold all of the data that the function wants to put in it.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_OPM_PARAMETER_ARRAY_TOO_SMALL: An array passed to a function cannot hold all of the data that the function wants to put in it.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc0262506",
+    "title": "ERROR_GRAPHICS_PVP_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME — The protected video path (PVP) cannot find an actual GDI display device that corresponds to the passed-in GDI display device name.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PVP_NO_DISPLAY_DEVICE_CORRESPONDS_TO_NAME: The protected video path (PVP) cannot find an actual GDI display device that corresponds to the passed-in GDI display device name.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc0262507",
+    "title": "ERROR_GRAPHICS_PVP_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP — This function failed because the GDI display device passed to it was not attached to the Windows desktop.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PVP_DISPLAY_DEVICE_NOT_ATTACHED_TO_DESKTOP: This function failed because the GDI display device passed to it was not attached to the Windows desktop.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc0262508",
+    "title": "ERROR_GRAPHICS_PVP_MIRRORING_DEVICES_NOT_SUPPORTED — The PVP does not support mirroring display devices because they do not have video outputs.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PVP_MIRRORING_DEVICES_NOT_SUPPORTED: The PVP does not support mirroring display devices because they do not have video outputs.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc026250a",
+    "title": "ERROR_GRAPHICS_OPM_INVALID_POINTER — The function failed because an invalid pointer parameter was passed to it. A pointer parameter is invalid if it is null, it points to an invalid address, it points to a kernel mode address, or it is not correctly aligned.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_OPM_INVALID_POINTER: The function failed because an invalid pointer parameter was passed to it. A pointer parameter is invalid if it is null, it points to an invalid address, it points to a kernel mode address, or it is not correctly aligned.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc026250d",
+    "title": "ERROR_GRAPHICS_PVP_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE — This function failed because the GDI device passed to it did not have any monitors associated with it.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PVP_NO_MONITORS_CORRESPOND_TO_DISPLAY_DEVICE: This function failed because the GDI device passed to it did not have any monitors associated with it.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc0262519",
+    "title": "ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS — The operating system asynchronously destroyed this OPM video output because the operating system's state changed. This error typically occurs because the monitor physical device object (PDO) associated with this video output was removed, the monitor PDO associated with this video output was stopped, the video output's session became a nonconsole session or the video output's desktop became an inactive desktop.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_OPM_VIDEO_OUTPUT_NO_LONGER_EXISTS: The operating system asynchronously destroyed this OPM video output because the operating system's state changed. This error typically occurs because the monitor physical device object (PDO) associated with this video output was removed, the monitor PDO associated with this video output was stopped, the video output's session became a nonconsole session or the video output's desktop became an inactive desktop.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc02625d6",
+    "title": "ERROR_GRAPHICS_PMEA_INVALID_MONITOR — The HMONITOR no longer exists, is not attached to the desktop, or corresponds to a mirroring device.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PMEA_INVALID_MONITOR: The HMONITOR no longer exists, is not attached to the desktop, or corresponds to a mirroring device.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0xc02625d7",
+    "title": "ERROR_GRAPHICS_PMEA_INVALID_D3D_DEVICE — The Direct3D (D3D) device's GDI display device no longer exists, is not attached to the desktop, or is a mirroring display device.",
+    "description": "Microsoft MS-ERREF HRESULT ERROR_GRAPHICS_PMEA_INVALID_D3D_DEVICE: The Direct3D (D3D) device's GDI display device no longer exists, is not attached to the desktop, or is a mirroring display device.",
+    "officialSolution": "Для этого кода Microsoft подтверждает HRESULT и его значение, но ссылка на каталог не задаёт универсальную пользовательскую процедуру исправления. Установите компонент/API и операцию, вернувшие HRESULT, затем используйте актуальную документацию именно этого компонента.",
+    "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
   }
 ]
