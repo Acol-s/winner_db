@@ -116926,8 +116926,8 @@
     },
     {
         "errorCode": "0X80040300",
-        "title": "NET_E_GENERAL",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “A network read or write operation has failed.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "NET_E_GENERAL / FHCFG_E_CORRUPT_CONFIG_FILE (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “A network read or write operation has failed.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHCFG_E_CORRUPT_CONFIG_FILE; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -116935,8 +116935,8 @@
     },
     {
         "errorCode": "0X80040303",
-        "title": "NET_E_DISCONNECTED",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The network connection was lost. Try the query again.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "NET_E_DISCONNECTED / FHCFG_E_NO_VALID_CONFIGURATION_LOADED (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The network connection was lost. Try the query again.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHCFG_E_NO_VALID_CONFIGURATION_LOADED; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -116944,8 +116944,8 @@
     },
     {
         "errorCode": "0X80040308",
-        "title": "NET_E_INVALIDPARAMS",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The parameters passed were not valid.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "NET_E_INVALIDPARAMS / FHCFG_E_TARGET_NOT_ENOUGH_FREE_SPACE (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The parameters passed were not valid.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHCFG_E_TARGET_NOT_ENOUGH_FREE_SPACE; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -116953,8 +116953,8 @@
     },
     {
         "errorCode": "0X80040309",
-        "title": "NET_E_OPERATIONINPROGRESS",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “Another operation is already in progress on this socket. Try the query again.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "NET_E_OPERATIONINPROGRESS / FHCFG_E_TARGET_CANNOT_BE_USED (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “Another operation is already in progress on this socket. Try the query again.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHCFG_E_TARGET_CANNOT_BE_USED; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -117403,8 +117403,8 @@
     },
     {
         "errorCode": "0X80040601",
-        "title": "CM_E_TOOMANYDATASERVERS",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The limit on the number of search servers was reached.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "CM_E_TOOMANYDATASERVERS / FHSVC_E_NOT_CONFIGURED (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The limit on the number of search servers was reached.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHSVC_E_NOT_CONFIGURED; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -117412,8 +117412,8 @@
     },
     {
         "errorCode": "0X80040602",
-        "title": "CM_E_TOOMANYDATASOURCES",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The limit on the number of indexes was reached.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "CM_E_TOOMANYDATASOURCES / FHSVC_E_CONFIG_DISABLED (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The limit on the number of indexes was reached.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHSVC_E_CONFIG_DISABLED; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -117421,8 +117421,8 @@
     },
     {
         "errorCode": "0X80040603",
-        "title": "CM_E_NOQUERYCONNECTIONS",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “No query connections to the server can be established.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "CM_E_NOQUERYCONNECTIONS / FHSVC_E_CONFIG_DISABLED_GP (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “No query connections to the server can be established.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHSVC_E_CONFIG_DISABLED_GP; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -117430,8 +117430,8 @@
     },
     {
         "errorCode": "0X80040604",
-        "title": "CM_E_DATASOURCENOTAVAILABLE",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The requested content index is disabled.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "CM_E_DATASOURCENOTAVAILABLE / FHSVC_E_FATAL_CONFIG_ERROR (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The requested content index is disabled.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHSVC_E_FATAL_CONFIG_ERROR; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -117439,8 +117439,8 @@
     },
     {
         "errorCode": "0X80040605",
-        "title": "CM_E_CONNECTIONTIMEOUT",
-        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The network timed out trying to acquire a connection to a search server.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
+        "title": "CM_E_CONNECTIONTIMEOUT / FHSVC_E_CONFIG_REHYDRATING (File History context)",
+        "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “The network timed out trying to acquire a connection to a search server.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. File History также определяет это числовое значение как FHSVC_E_CONFIG_REHYDRATING; трактовка зависит от компонента, вернувшего HRESULT.",
         "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
         "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
         "category": "Windows",
@@ -141657,15 +141657,6 @@
         "stepByStep": "[\"Зафиксируйте HRESULT, DirectMusic API/приложение, операцию и аудиоустройство; сохраните сборку Windows и сведения о компоненте.\",\"Сохраните журнал приложения и точный этап (инициализация, порт, загрузка сегмента/сэмпла, воспроизведение); SDK-код не определяет причину без контекста.\",\"Проверьте поддержку DirectMusic API и доступность нужного драйвера/устройства в данной версии Windows; DirectMusic может быть устаревшим или необязательным компонентом.\",\"Не устанавливайте сторонние драйверы/кодеки и не меняйте аудиореестр наугад; используйте документацию Microsoft и производителя устройства для этой версии ОС.\"]"
     },
     {
-        "errorCode": "0x80040300",
-        "title": "FHCFG_E_CORRUPT_CONFIG_FILE",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
         "errorCode": "0x80040301",
         "title": "FHCFG_E_CONFIG_FILE_NOT_FOUND",
         "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
@@ -141677,15 +141668,6 @@
     {
         "errorCode": "0x80040302",
         "title": "FHCFG_E_CONFIG_ALREADY_EXISTS",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040303",
-        "title": "FHCFG_E_NO_VALID_CONFIGURATION_LOADED",
         "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
         "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
         "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
@@ -141729,24 +141711,6 @@
         "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
     },
     {
-        "errorCode": "0x80040308",
-        "title": "FHCFG_E_TARGET_NOT_ENOUGH_FREE_SPACE",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040309",
-        "title": "FHCFG_E_TARGET_CANNOT_BE_USED",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
         "errorCode": "0x8004030A",
         "title": "FHCFG_E_INVALID_REHYDRATION_STATE",
         "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
@@ -141767,51 +141731,6 @@
     {
         "errorCode": "0x80040600",
         "title": "FHSVC_E_BACKUP_BLOCKED",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040601",
-        "title": "FHSVC_E_NOT_CONFIGURED",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040602",
-        "title": "FHSVC_E_CONFIG_DISABLED",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040603",
-        "title": "FHSVC_E_CONFIG_DISABLED_GP",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040604",
-        "title": "FHSVC_E_FATAL_CONFIG_ERROR",
-        "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
-        "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
-        "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
-        "category": "Windows",
-        "stepByStep": "[\"Запишите HRESULT, операцию File History, целевой диск/сетевую цель и сборку Windows.\",\"Сохраните журнал FileHistory-Engine/Operational и состояние конфигурации, не удаляя резервные данные.\",\"Уточните, связано ли событие с настройкой цели, доступностью, свободным местом, rehydration или службой; сверяйте с документацией именно установленной версии.\",\"Не форматируйте целевой диск и не удаляйте File History каталог для проверки; сначала обеспечьте копию резервных данных и устраните установленную причину.\"]"
-    },
-    {
-        "errorCode": "0x80040605",
-        "title": "FHSVC_E_CONFIG_REHYDRATING",
         "description": "HRESULT File History из Windows SDK, вычисленный как MAKE_HRESULT(ERROR,FACILITY_ITF,code). Поведение зависит от состояния цели, службы и версии Windows.",
         "officialSolution": "Универсального исправления по коду нет. Сначала определите фазу ошибки по File History журналу; следуйте инструкции Microsoft для соответствующей версии компонента и не удаляйте резервные копии.",
         "userSolutions": "Не форматируйте диск и не очищайте каталог File History как общий совет; это может уничтожить единственные резервные данные.",
