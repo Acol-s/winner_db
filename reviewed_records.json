@@ -149868,129 +149868,342 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1590"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1590",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV=0x0000034D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV=0x0000034D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"845\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x0000034e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1595"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1595",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PREFERENCES=0x0000034E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PREFERENCES=0x0000034E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"846\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x0000034f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1600"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1600",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID=0x0000034F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID=0x0000034F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"847\" \"smart card\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000350": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1605"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1605",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SSTP_COOKIE_SET_FAILURE=0x00000350 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SSTP_COOKIE_SET_FAILURE=0x00000350 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"848\" \"SSTP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000351": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1609"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1609",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PEAP_COOKIE_ATTRIBUTES=0x00000351 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PEAP_COOKIE_ATTRIBUTES=0x00000351 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"849\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000352": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1614"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1614",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_NOT_INSTALLED=0x00000352 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_NOT_INSTALLED=0x00000352 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"850\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000353": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1619"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1619",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_DOES_NOT_SUPPORT_SSO=0x00000353 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_DOES_NOT_SUPPORT_SSO=0x00000353 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"851\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000354": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1624"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1624",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_OPERATION_NOT_SUPPORTED=0x00000354 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_METHOD_OPERATION_NOT_SUPPORTED=0x00000354 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"852\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000355": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1629"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1629",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_INVALID=0x00000355 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_INVALID=0x00000355 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:reddit.com \"853\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000356": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1634"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1634",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_EXPIRED=0x00000356 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_EXPIRED=0x00000356 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:learn.microsoft.com/answers \"854\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000357": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1639"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1639",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_REVOKED=0x00000357 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_REVOKED=0x00000357 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:reddit.com \"855\" \"revoked\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000358": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1644"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1644",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_OTHER_ERROR=0x00000358 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_CERT_OTHER_ERROR=0x00000358 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:learn.microsoft.com/answers \"856\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x00000359": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1649"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1649",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_INVALID=0x00000359 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_INVALID=0x00000359 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:reddit.com \"857\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x0000035a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1654"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1654",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-manage-certificates",
+          "https://www.reddit.com/r/sysadmin/comments/f2ey5n/"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_EXPIRED=0x0000035A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_EXPIRED=0x0000035A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Official NPS policy-certificate replacement: Server 2016/2019/2022/2025. Related Reddit report: Server 2012 R2, PEAP/802.1X; no numeric RAS code.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "related_certificate_expiration_success_without_exact_code",
+          "search_queries": [
+            "site:learn.microsoft.com/answers \"858\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal",
+            "site:reddit.com/r/sysadmin NPS expired certificate \"fixed\"",
+            "https://www.reddit.com/r/sysadmin/comments/f2ey5n/ 802.1X Certificates Expired"
+          ],
+          "note": "NPS-specific documented procedure, including policy binding and IAS restart. Reddit report remains contextual; parent-certificate renewal is not generalized into CA-renewal instructions."
+        }
       },
       "0x0000035b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1659"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1659",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_REVOKED=0x0000035B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_REVOKED=0x0000035B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:reddit.com \"859\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+        }
       },
       "0x0000035c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1664"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1664",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap",
+          "https://learn.microsoft.com/en-us/answers/questions/656480/aon-vpn-failed-in-w-10-0-19042-enterprise"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_OTHER_ERROR=0x0000035C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_CERT_OTHER_ERROR=0x0000035C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+          "forum_result": "matching_case_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "site:learn.microsoft.com/answers \"860\" \"certificate\" VPN",
+            "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+          ],
+          "note": "Rejected unconfirmed adapter/IPv6/gateway changes. Changing error 860 to 812 was not a successful connection."
+        }
       },
       "0x0000035d": {
         "status": "reviewed",
