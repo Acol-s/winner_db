@@ -52995,9 +52995,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32360",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L40"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_ALL_SUBSCRIBERS_FAILED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_ALL_SUBSCRIBERS_FAILED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040203": {
         "status": "reviewed",
@@ -53005,9 +53006,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32378",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L42"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_QUERYSYNTAX). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_QUERYSYNTAX). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040204": {
         "status": "reviewed",
@@ -53015,9 +53017,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32387",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L43"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_QUERYFIELD). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_QUERYFIELD). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040205": {
         "status": "reviewed",
@@ -53025,9 +53028,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32396",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L44"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INTERNALEXCEPTION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INTERNALEXCEPTION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040206": {
         "status": "reviewed",
@@ -53035,9 +53039,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32405",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L45"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INTERNALERROR). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INTERNALERROR). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040207": {
         "status": "reviewed",
@@ -53045,9 +53050,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32414",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L46"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INVALID_PER_USER_SID). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INVALID_PER_USER_SID). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040208": {
         "status": "reviewed",
@@ -53055,9 +53061,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32423",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L47"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_USER_EXCEPTION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_USER_EXCEPTION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040209": {
         "status": "reviewed",
@@ -53065,9 +53072,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32432",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L48"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_TOO_MANY_METHODS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_TOO_MANY_METHODS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x8004020a": {
         "status": "reviewed",
@@ -53075,9 +53083,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32441",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L49"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_MISSING_EVENTCLASS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_MISSING_EVENTCLASS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x8004020b": {
         "status": "reviewed",
@@ -53085,9 +53094,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32450",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L50",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L15"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_NOT_ALL_REMOVED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_NOT_ALL_REMOVED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x8004020c": {
         "status": "reviewed",
@@ -53095,9 +53106,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32459",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L51",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L16"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_COMPLUS_NOT_INSTALLED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_COMPLUS_NOT_INSTALLED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x8004020d": {
         "status": "reviewed",
@@ -53105,9 +53118,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32468",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L52",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L17"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x8004020e": {
         "status": "reviewed",
@@ -53115,9 +53130,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32477",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L53",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L18"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x8004020f": {
         "status": "reviewed",
@@ -53125,9 +53142,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32486",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L54",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L19"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INVALID_EVENT_CLASS_PARTITION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_INVALID_EVENT_CLASS_PARTITION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040210": {
         "status": "reviewed",
@@ -53135,9 +53154,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32495",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L55",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L20"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_PER_USER_SID_NOT_LOGGED_ON). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_PER_USER_SID_NOT_LOGGED_ON). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040241": {
         "status": "reviewed",
@@ -53155,9 +53176,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32513",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L57",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L22"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_NO_DEFAULT_TABLET). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_NO_DEFAULT_TABLET). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x8004021b": {
         "status": "reviewed",
@@ -53165,9 +53188,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32522",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L66",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L31"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_UNKNOWN_PROPERTY). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_UNKNOWN_PROPERTY). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040219": {
         "status": "reviewed",
@@ -53175,9 +53200,11 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32531",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L64",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L29"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INVALID_INPUT_RECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INVALID_INPUT_RECT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040222": {
         "status": "reviewed",
@@ -53185,9 +53212,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32540",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L38"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INVALID_STROKE). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INVALID_STROKE). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040223": {
         "status": "reviewed",
@@ -53195,9 +53223,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32549",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L39"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INITIALIZE_FAIL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (TPC_E_INITIALIZE_FAIL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       },
       "0x80040232": {
         "status": "reviewed",
@@ -124017,19 +124046,21 @@
       },
       "0x80040200": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5266"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5266",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L39"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80040202": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5285"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5285",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L41"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
       },
       "0x80042401": {
         "status": "reviewed",
@@ -146827,6 +146858,214 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wmcodecdsp.h#L3948"
         ],
         "note": "Символ и числовое значение сверены с закреплённым заголовком Microsoft Windows SDK. Заголовок не задаёт минимальную версию ОС или способ ремонта; диагноз/действие зависят от конкретного codec/TOC/AEC component."
+      },
+      "0x80040211": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L56",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L21"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040213": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L58",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L23"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040214": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L59",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L24"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040215": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L60",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L25"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040216": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L61",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L26"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040217": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L62",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L27"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040218": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L63",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L28"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004021a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L65",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L30"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004021c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L32"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004021d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L33"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004021e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L34"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004021f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L35"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040220": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L36"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040221": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L37"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040224": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L40"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040225": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L41"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040226": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L42"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040227": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L43"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040228": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L44"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x80040229": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L45"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004022a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L46"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004022b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L47"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004022c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L48"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004022d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L49"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
+      },
+      "0x8004022e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapierror.h#L50"
+        ],
+        "note": "Код отсутствовал в БД и добавлен по официальному Microsoft Windows SDK. Значение вычислено из официальной формулы IMAPI в imapierror.h; значение/контекст могут совпадать с HRESULT других API, поэтому учитывается фактический источник вызова."
       }
     }
   },
