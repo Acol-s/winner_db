@@ -4405,6 +4405,286 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Код отсутствует в проверенной таблице MS-ERREF; имя и применимость не считать подтверждёнными. Требуется точный SDK/header или событие приложения."
+      },
+      "0xc00d11f8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11f9": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11fb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11fc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11fd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11fe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11ff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1204": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1206": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1207": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d1208": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Значение HRESULT Windows Media/DRM сверено по MS-ERREF; исправлено неверное имя и даны действия только для указанного сценария."
+      },
+      "0xc00d11ea": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11eb": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11ec": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11ed": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11ef": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f0": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f1": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f2": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f3": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f4": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f5": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f6": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d11f7": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1200": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1201": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d120c": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d120d": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d120e": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d120f": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1210": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1211": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1212": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
       }
     }
   },
