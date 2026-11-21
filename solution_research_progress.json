@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "a60286bc09ba41c4dfb1008166a9ef5aa2534c0fd8567cf4857bfc074040bec9",
+  "current_windows_sha256": "64a84505a701ee394164079af2961b5edefb276c1eeb59febb9473729b447614",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -693,22 +693,148 @@
         "\"831\" \"832\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
       ],
       "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x00000341": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific code; Microsoft documents from Windows Vista.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"833\" \"system\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Meaning and minimum source version note checked; no universal repair established."
+    },
+    "0x00000342": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific code; Microsoft documents from Windows Vista.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"834\" \"RasMan\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Meaning and minimum source version note checked; no universal repair established."
+    },
+    "0x00000343": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_temporary_workaround",
+      "scope": "L2TP certificate authentication, Server 2016 replacement for 2008 R2; Windows 7/10 clients.",
+      "forum_result": "temporary_success_reversed_by_GPO_reenrollment",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"835\" \"certificate\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Author says deleting a competing server certificate temporarily restores connection until GPO auto-enrollment. Root cause unresolved; no universal deletion or certificate-validation bypass instructions provided."
+    },
+    "0x00000344": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Historical NAP deployment; unavailable starting Windows 10 and Server 2016.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"836\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "SDK directs administrator to check NAP enforcement client, NAP Agent service and PEAP NAP enforcement. Not a modern Windows NAP enablement guide; no user success established."
+    },
+    "0x00000345": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"837\" \"tunnel\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Meaning and minimum source version note checked; no universal repair established."
+    },
+    "0x00000346": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"838\" \"RAS\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft allows one Update Connection request at a time. Serializing requests follows that API constraint; no forum-confirmed outcome established."
+    },
+    "0x00000347": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"839\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft recommends another enabled negotiation protocol; no universal server configuration or user success found."
+    },
+    "0x00000348": {
+      "reviewed_at": "2026-11-22",
+      "status": "research_incomplete",
+      "scope": "Windows 10 native IKEv2 client / Cisco C891F / IPv6 assignment.",
+      "forum_result": "Cisco matching_case_without_complete_solution",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"840\" \"internal address\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Author later reports inability to get IPv4 and IPv6 simultaneously and retained L2TP/IPsec. Configuration shown in thread is not a verified dual-stack solution."
+    },
+    "0x00000349": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"841\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft requires a request for internal IPv4 or IPv6. No validated client/server-specific repair steps found."
+    },
+    "0x0000034a": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"842\" \"Traffic Selectors\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Meaning and minimum source version note checked; no universal repair established.",
+      "sources_not_used": [
+        {
+          "url": "https://developer-docs.netscaler.com/us/en/adc-nitro-api/current-release/api-reference/error-messages.html",
+          "reason": "NetScaler NITRO uses the same number 842 for an invalid autoproxy URL; different namespace, not Windows RAS traffic-selector negotiation."
+        }
+      ]
+    },
+    "0x0000034b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"843\" \"MOBIKE\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Meaning and minimum source version note checked; no universal repair established."
+    },
+    "0x0000034c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"844\" \"MOBIKE\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft permits MOBIKE update only in Connected state. This is an API state constraint, not a confirmed general connection fix."
     }
   },
-  "pending_count": 6240,
+  "pending_count": 6228,
   "pending_codes": [
-    "0x00000341",
-    "0x00000342",
-    "0x00000343",
-    "0x00000344",
-    "0x00000345",
-    "0x00000346",
-    "0x00000347",
-    "0x00000348",
-    "0x00000349",
-    "0x0000034a",
-    "0x0000034b",
-    "0x0000034c",
     "0x0000034d",
     "0x0000034e",
     "0x0000034f",
@@ -7002,6 +7128,16 @@
     "0x0000033d",
     "0x0000033e",
     "0x0000033f",
-    "0x00000340"
+    "0x00000340",
+    "0x00000341",
+    "0x00000342",
+    "0x00000343",
+    "0x00000344",
+    "0x00000345",
+    "0x00000347",
+    "0x00000348",
+    "0x00000349",
+    "0x0000034a",
+    "0x0000034b"
   ]
 }
