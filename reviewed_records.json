@@ -3794,9 +3794,12 @@
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30519",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L128",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK."
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK. MAPI_E_INTERFACE_NOT_SUPPORTED=0x80004002 сверено с WabCode.h; формула/алиас: E_NOINTERFACE. WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80004003": {
         "status": "reviewed",
@@ -5547,9 +5550,12 @@
           "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30564",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L129",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK. MAPI_E_NO_ACCESS=0x80070005 сверено с WabCode.h; формула/алиас: E_ACCESSDENIED. WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8007000d": {
         "status": "reviewed",
@@ -5576,9 +5582,12 @@
           "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30510",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L127",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK. MAPI_E_INVALID_PARAMETER=0x80070057 сверено с WabCode.h; формула/алиас: E_INVALIDARG. WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80070422": {
         "status": "reviewed",
@@ -5616,9 +5625,12 @@
           "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30501",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L126",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK. MAPI_E_NOT_ENOUGH_MEMORY=0x8007000e сверено с WabCode.h; формула/алиас: E_OUTOFMEMORY. WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0xc00d11d8": {
         "status": "reviewed",
@@ -6131,9 +6143,12 @@
           "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30555",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L125",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80004005 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK."
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80004005 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается. Точное имя/значение дополнительно сверены с WinError.h Microsoft SDK. MAPI_E_CALL_FAILED=0x80004005 сверено с WabCode.h; формула/алиас: E_FAIL. WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x87e10bc6": {
         "status": "reviewed",
@@ -52425,9 +52440,12 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31580",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L131",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (DRAGDROP_E_INVALIDHWND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (DRAGDROP_E_INVALIDHWND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. MAPI_E_NO_SUPPORT=0x80040102 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x102 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040103": {
         "status": "reviewed",
@@ -52435,9 +52453,12 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31589",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L132",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (DRAGDROP_E_CONCURRENT_DRAG_ATTEMPTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (DRAGDROP_E_CONCURRENT_DRAG_ATTEMPTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. MAPI_E_BAD_CHARWIDTH=0x80040103 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x103 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040110": {
         "status": "reviewed",
@@ -52445,9 +52466,12 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31602",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L143",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_NOAGGREGATION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_NOAGGREGATION). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. MAPI_E_VERSION=0x80040110 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x110 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040111": {
         "status": "reviewed",
@@ -52455,9 +52479,12 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31611",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L144",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_CLASSNOTAVAILABLE). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_CLASSNOTAVAILABLE). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. MAPI_E_LOGON_FAILED=0x80040111 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x111 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040112": {
         "status": "reviewed",
@@ -52465,9 +52492,12 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31620",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L145",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_NOTLICENSED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (CLASS_E_NOTLICENSED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. MAPI_E_SESSION_LIMIT=0x80040112 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x112 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040140": {
         "status": "reviewed",
@@ -53206,9 +53236,12 @@
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32360",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L40"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L40",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L161",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_ALL_SUBSCRIBERS_FAILED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (EVENT_E_ALL_SUBSCRIBERS_FAILED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. MAPI_E_UNKNOWN_ENTRYID=0x80040201 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x201 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040203": {
         "status": "reviewed",
@@ -121632,12 +121665,15 @@
       },
       "0x80040303": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1767",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L68"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L68",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L169",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation."
+        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation. MAPI_E_TYPE_NO_SUPPORT=0x80040303 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x303 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040308": {
         "status": "reviewed",
@@ -121691,35 +121727,47 @@
       },
       "0x80040400": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1831"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1831",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L179",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_UNABLE_TO_COMPLETE=0x80040400 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x400 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040401": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1841"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1841",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L180",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_TIMEOUT=0x80040401 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x401 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040402": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1850"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1850",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L181",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_TABLE_EMPTY=0x80040402 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x402 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040403": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1859"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1859",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L182",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_TABLE_TOO_BIG=0x80040403 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x403 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040404": {
         "status": "reviewed",
@@ -121731,11 +121779,14 @@
       },
       "0x80040405": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1877"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1877",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L184",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_INVALID_BOOKMARK=0x80040405 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x405 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040406": {
         "status": "reviewed",
@@ -122078,21 +122129,27 @@
       },
       "0x80040604": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2278",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L183"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L183",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L197",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation."
+        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation. MAPI_E_COLLISION=0x80040604 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x604 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040605": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2288",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L189"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L189",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L198",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation."
+        "note": "Shared HRESULT value with component-specific meanings. Existing Windows meaning and File History alias are linked to Microsoft sources; caller context determines interpretation. MAPI_E_NOT_INITIALIZED=0x80040605 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x605 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040606": {
         "status": "reviewed",
@@ -122128,11 +122185,14 @@
       },
       "0x8004060b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2342"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2342",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L199",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_FOLDER_CYCLE=0x8004060b сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x60B ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040701": {
         "status": "reviewed",
@@ -124032,171 +124092,234 @@
       },
       "0x80040105": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4976"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4976",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L133",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_STRING_TOO_LONG=0x80040105 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x105 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040106": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4986"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4986",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L134",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_UNKNOWN_FLAGS=0x80040106 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x106 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040107": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4996"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L4996",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L135",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_INVALID_ENTRYID=0x80040107 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x107 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040108": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5005"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5005",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L136",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_INVALID_OBJECT=0x80040108 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x108 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040109": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5014"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5014",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L137",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_OBJECT_CHANGED=0x80040109 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x109 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004010a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5023"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5023",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L138",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_OBJECT_DELETED=0x8004010a сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x10A ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004010b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5033"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5033",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L139",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_BUSY=0x8004010b сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x10B ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004010d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5043"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5043",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L140",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_NOT_ENOUGH_DISK=0x8004010d сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x10D ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004010e": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5053"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5053",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L141",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_NOT_ENOUGH_RESOURCES=0x8004010e сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x10E ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004010f": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5062"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5062",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L142",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_NOT_FOUND=0x8004010f сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x10F ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040113": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5098"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5098",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L146",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_USER_CANCEL=0x80040113 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x113 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040114": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5107"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5107",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L147",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_UNABLE_TO_ABORT=0x80040114 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x114 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040115": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5116"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5116",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L148",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_NETWORK_ERROR=0x80040115 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x115 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040116": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5125"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5125",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L149",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_DISK_ERROR=0x80040116 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x116 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040117": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5134"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5134",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L150",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_TOO_COMPLEX=0x80040117 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x117 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040118": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5144"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5144",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L151",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_BAD_COLUMN=0x80040118 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x118 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040119": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5154"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5154",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L152",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_EXTENDED_ERROR=0x80040119 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x119 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004011a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5164"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5164",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L153",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_COMPUTED=0x8004011a сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x11A ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004011b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5174"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5174",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L154",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_CORRUPT_DATA=0x8004011b сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x11B ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004011c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5184"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5184",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L155",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_UNCONFIGURED=0x8004011c сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x11C ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004011d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5193"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5193",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L156",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. MAPI_E_FAILONEPROVIDER=0x8004011d сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x11D ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004011e": {
         "status": "reviewed",
@@ -124259,18 +124382,24 @@
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5266",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L39"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L39",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L160",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. MAPI_E_END_OF_SESSION=0x80040200 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x200 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040202": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L5285",
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L41"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/Mpeg2Error.h#L41",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L162",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления."
+        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version. Значение вычислено по формуле и константе из Mpeg2Error.h; семантика указана по имени Microsoft SDK, без неподтверждённого рецепта исправления. MAPI_E_MISSING_REQUIRED_COLUMN=0x80040202 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x202 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80042401": {
         "status": "reviewed",
@@ -145078,51 +145207,69 @@
       },
       "0x80040301": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L56"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L56",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L167",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_BAD_VALUE=0x80040301 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x301 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040302": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L62"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L62",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L168",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_INVALID_TYPE=0x80040302 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x302 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040304": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L74"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L74",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L170",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_UNEXPECTED_TYPE=0x80040304 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x304 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040305": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L80"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L80",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L171",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_TOO_BIG=0x80040305 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x305 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040306": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L86"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L86",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L172",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_DECLINE_COPY=0x80040306 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x306 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x80040307": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-22",
+        "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L92"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L92",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L173",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
         ],
-        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent. MAPI_E_UNEXPECTED_ID=0x80040307 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x307 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       },
       "0x8004030a": {
         "status": "reviewed",
@@ -148436,6 +148583,66 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/TCError.h#L126"
         ],
         "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_TOO_MANY_CLIENTS=0x00001D61 сверено с TCError.h (Microsoft SDK). Контекст: traffic control (TC). Минимальный выпуск Windows этим заголовком не указан."
+      },
+      "0x00040203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L163",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_W_NO_SERVICE=0x00040203 сверено с WabCode.h; формула/алиас: MAKE_MAPI_S( 0x203 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
+      },
+      "0x00040380": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L175",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_W_ERRORS_RETURNED=0x00040380 сверено с WabCode.h; формула/алиас: MAKE_MAPI_S( 0x380 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
+      },
+      "0x00040481": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L186",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_W_POSITION_CHANGED=0x00040481 сверено с WabCode.h; формула/алиас: MAKE_MAPI_S( 0x481 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
+      },
+      "0x00040482": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L187",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_W_APPROX_COUNT=0x00040482 сверено с WabCode.h; формула/алиас: MAKE_MAPI_S( 0x482 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
+      },
+      "0x00040680": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L189",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_W_PARTIAL_COMPLETION=0x00040680 сверено с WabCode.h; формула/алиас: MAKE_MAPI_S( 0x680 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
+      },
+      "0x80040700": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WabCode.h#L193",
+          "https://learn.microsoft.com/en-us/office/client-developer/outlook/mapi/mapi-return-value-documentation",
+          "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-overview"
+        ],
+        "note": "MAPI/WAB HRESULT проверен по Microsoft SDK. MAPI_E_AMBIGUOUS_RECIP=0x80040700 сверено с WabCode.h; формула/алиас: MAKE_MAPI_E( 0x700 ). WAB заменён Windows Contacts начиная с Vista; MAPI-провайдеры требуют отдельной проверки контекста."
       }
     }
   },
