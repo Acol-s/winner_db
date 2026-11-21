@@ -3632,6 +3632,94 @@
           "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
         ],
         "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x80073cf0": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d05": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d10": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d21": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d22": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d26": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d27": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d11": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d01": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
+      },
+      "0x80073d20": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Имя/значение для кода не подтверждено доступной официальной таблицей; требуется точная запись события, Windows SDK/header или документация версии. Не считать запись окончательно проверенной и повторно исследовать."
+      },
+      "0x80073d23": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Имя/значение для кода не подтверждено доступной официальной таблицей; требуется точная запись события, Windows SDK/header или документация версии. Не считать запись окончательно проверенной и повторно исследовать."
       }
     }
   },
