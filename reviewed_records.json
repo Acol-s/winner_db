@@ -523,14 +523,6 @@
         ],
         "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
       },
-      "0x000000a8": {
-        "status": "excluded",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
-        ],
-        "note": "Removed from errors_bsod.json: BOOTING_IN_SAFEMODE_MINIMAL is a legacy Safe Mode boot status/marker, not a stop-error entry in Microsoft's current bug check reference."
-      },
       "0x000000bb": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
@@ -603,14 +595,6 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc5--driver-corrupted-expool"
         ],
         "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
-      },
-      "0x000000aa": {
-        "status": "excluded",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
-        ],
-        "note": "Removed from errors_bsod.json: BOOTING_IN_SAFEMODE_DSREPAIR is a legacy Safe Mode boot status/marker, not a stop-error entry in Microsoft's current bug check reference."
       },
       "0x0000007d": {
         "status": "reviewed",
@@ -1511,14 +1495,6 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1b--pfn-share-count"
         ],
         "note": "Code meaning/applicability and diagnostic steps checked against Microsoft documentation; unsupported causes and risky generic remedies removed. Historical/live-dump status is explicit where relevant."
-      },
-      "0x000000a9": {
-        "status": "excluded",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
-        ],
-        "note": "Removed from BSOD records: 0xA9 BOOTING_IN_SAFEMODE_NETWORK is not listed as a documented bug check in Microsoft's current code reference; existing row described a boot mode, not a system error."
       },
       "0x0000001c": {
         "status": "reviewed",
@@ -3703,20 +3679,20 @@
         "note": "Проверены числовой код, официальное имя и условия AppX deployment по Microsoft Learn; исправлены ошибочные alias/причины, шаги привязаны к журналам и документированным условиям."
       },
       "0x80073d20": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
         ],
-        "note": "Имя/значение для кода не подтверждено доступной официальной таблицей; требуется точная запись события, Windows SDK/header или документация версии. Не считать запись окончательно проверенной и повторно исследовать."
+        "note": "Имя, значение и сценарий подтверждены таблицей Microsoft AppX deployment troubleshooting; рекомендации сверены с описанием кода и контекстом журналов/ActivityId."
       },
       "0x80073d23": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
         ],
-        "note": "Имя/значение для кода не подтверждено доступной официальной таблицей; требуется точная запись события, Windows SDK/header или документация версии. Не считать запись окончательно проверенной и повторно исследовать."
+        "note": "Имя, значение и сценарий подтверждены таблицей Microsoft AppX deployment troubleshooting; рекомендации сверены с описанием кода и контекстом журналов/ActivityId."
       },
       "0xc0000005": {
         "status": "reviewed",
