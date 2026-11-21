@@ -2729,6 +2729,96 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x15b--worker-thread-returned-with-system-page-priority-active"
                 ],
                 "note": "Проверено по документации Microsoft: значение/параметры уточнены; советы без связи с документированной причиной удалены. Диагностика и исправления ограничены совместимой версией Windows."
+            },
+            "0x00000170": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x170--cluster-csv-clussvc-disconnect-watchdog",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x00000171": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x171--crypto-library-internal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x00000173": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x173--coremsgcall-internal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x00000174": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x174--coremsg-internal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x0000016c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x16c--invalid-rundown-protection-flags",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x0000016d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x16d--invalid-slot-allocator-flags",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x0000016e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x16e--eresource-invalid-release",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x0000017b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x17b--profiler-configuration-illegal",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x0000018d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x18d--secure-fault-unhandled",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; недоказанные потребительские решения удалены. Совместимость проверки зависит от версии Windows."
+            },
+            "0x00000187": {
+                "status": "excluded",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x187--video-dwminit-timeout-fallback-bdd",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/kernel-live-dump-code-reference"
+                ],
+                "note": "Исключено из BSOD-аудита: Microsoft определяет 0x187 как live dump, который не может быть реальным bugcheck."
             }
         }
     },
