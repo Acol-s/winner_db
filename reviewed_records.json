@@ -5078,6 +5078,22 @@
           "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
         ],
         "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d11fa": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Добавлен отсутствовавший код из публичного MS-ERREF; сохранены точное legacy-значение и ограниченная совместимой Windows Media Player применимость."
+      },
+      "0xc00d1205": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Добавлен отсутствовавший код из публичного MS-ERREF; сохранены точное legacy-значение и ограниченная совместимой Windows Media Player применимость."
       }
     }
   },
