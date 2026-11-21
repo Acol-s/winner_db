@@ -4165,6 +4165,94 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
+      },
+      "0xc00d1049": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d0fba": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d1075": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d1076": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11b3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11b6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11b7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11b8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11ba": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d11cf": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Проверено точное значение legacy Windows Media Player HRESULT по MS-ERREF; удалено ошибочное описание и применены соответствующие коду безопасные действия."
+      },
+      "0xc00d1041": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной таблице MS-ERREF; символ и назначение требуют проверки по SDK/header/источнику приложения. Повторить исследование."
       }
     }
   },
