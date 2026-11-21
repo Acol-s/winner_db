@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "2af94319d0c1112a7145fc835ea44e5021d9b98d90cc10d091f25369bcea5668",
+  "current_windows_sha256": "dfebecfee7acf03c470990c4f43c8ecc6faccf2ad482bca3df8cbb7ff47ba55e",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -184,9 +184,105 @@
         "\"8024201f\" \"fixed\""
       ],
       "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x80240011": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240011\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240011\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240012": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240012\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240012\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240013": {
+      "reviewed_at": "2026-11-22",
+      "status": "research_incomplete",
+      "scope": "Older WUA language-list/self-update cases and Windows 10 Store cases differ.",
+      "forum_result": "multiple_matching_cases_need_followup",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240013\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240013\" site:reddit.com"
+      ],
+      "note": "Found 2015 Serbian/Bosnian language-pack case and 2017 Store thread with multiple pages. Migrated tags can incorrectly label an old 2011 question Windows 11. No remedy or OS applicability inferred from those tags; further answers need review."
+    },
+    "0x80240014": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240014\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240014\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240062": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240062\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240064": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240064\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240065": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "First research pass only; remedies and version compatibility remain unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240065\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+      ],
+      "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+    },
+    "0x80240069": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_fix_and_user_report",
+      "scope": "Windows 11 22H2/23H2 downloading 24H2 through WSUS/ConfigMgr in spring 2025.",
+      "forum_result": "Q&A has scenario-specific workarounds; Reddit contains direct success report",
+      "reddit_result": "user_reported_success",
+      "search_queries": [
+        "\"0x80240069\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"0x80240069\" site:reddit.com"
+      ],
+      "note": "Microsoft KB5058502 documents service-crash fix. KB5062170 includes it and requires restart. Reddit user reports success after removing old KIR policy, installing KB5062170 and rebooting. No universal cure for all service exits; later-version cases unresolved. Raw registry-feature override and unrelated LongPathTool promotion excluded."
     }
   },
-  "pending_count": 6278,
+  "pending_count": 6270,
   "pending_codes": [
     "0x00000285",
     "0x00000292",
@@ -4278,10 +4374,6 @@
     "0x8022002a",
     "0x8022002b",
     "0x80221003",
-    "0x80240011",
-    "0x80240012",
-    "0x80240013",
-    "0x80240014",
     "0x8024004b",
     "0x8024004d",
     "0x8024004e",
@@ -4302,13 +4394,9 @@
     "0x8024005e",
     "0x8024005f",
     "0x80240060",
-    "0x80240062",
     "0x80240063",
-    "0x80240064",
-    "0x80240065",
     "0x80240067",
     "0x80240068",
-    "0x80240069",
     "0x8024006a",
     "0x8024006b",
     "0x8024006c",
@@ -6495,6 +6583,13 @@
     "0x8024201d",
     "0x80240066",
     "0x8024601e",
-    "0x8024201f"
+    "0x8024201f",
+    "0x80240011",
+    "0x80240012",
+    "0x80240013",
+    "0x80240014",
+    "0x80240062",
+    "0x80240064",
+    "0x80240065"
   ]
 }
