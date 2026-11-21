@@ -149083,81 +149083,291 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L349"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L349",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_INTERNAL=0x00000285 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_INTERNAL=0x00000285 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "Windows RAS error 645 internal authentication error Microsoft",
+            "\"645\" \"internal authentication\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"error 645\" \"dial\" site:reddit.com",
+            "\"ERROR_AUTH_INTERNAL\" \"645\" \"solved\""
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 645,
+            "symbol": "ERROR_AUTH_INTERNAL",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          },
+          "sources_not_used": [
+            {
+              "url": "https://learn.microsoft.com/en-us/answers/questions/6036828/kb5127648-breaks-wired-802-1x-peap-authentication",
+              "reason": "Wired 802.1X/PEAP context and HRESULT 0x80070285; not established as the same RAS API scenario. No regression workaround transferred."
+            }
+          ]
+        }
       },
       "0x00000292": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L421"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L421",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICENAME_TOO_LONG=0x00000292 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICENAME_TOO_LONG=0x00000292 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"error 658\" \"modem\" Windows",
+            "\"658\" \"device name\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_DEVICENAME_TOO_LONG\" \"fix\""
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 658,
+            "symbol": "ERROR_DEVICENAME_TOO_LONG",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000293": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L426"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L426",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICENAME_NOT_FOUND=0x00000293 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICENAME_NOT_FOUND=0x00000293 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"error 659\" Windows modem",
+            "\"659\" \"media.ini\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_DEVICENAME_NOT_FOUND\" \"fix\""
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 659,
+            "symbol": "ERROR_DEVICENAME_NOT_FOUND",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000294": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L431"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L431",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_RESPONSES=0x00000294 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_RESPONSES=0x00000294 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"error 660\" Windows modem",
+            "\"660\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_NO_RESPONSES\" \"660\" solution"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 660,
+            "symbol": "ERROR_NO_RESPONSES",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000295": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L436"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L436",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_COMMAND_FOUND=0x00000295 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_COMMAND_FOUND=0x00000295 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"661\" \"device.INF\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_NO_COMMAND_FOUND\" \"661\" solution"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 661,
+            "symbol": "ERROR_NO_COMMAND_FOUND",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000296": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L441"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L441",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_WRONG_KEY_SPECIFIED=0x00000296 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_WRONG_KEY_SPECIFIED=0x00000296 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"662\" \"macro\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_WRONG_KEY_SPECIFIED\" \"662\" solution"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 662,
+            "symbol": "ERROR_WRONG_KEY_SPECIFIED",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000297": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L446"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L446",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UNKNOWN_DEVICE_TYPE=0x00000297 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UNKNOWN_DEVICE_TYPE=0x00000297 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"663\" \"media.INI\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_UNKNOWN_DEVICE_TYPE\" \"663\" solution"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 663,
+            "symbol": "ERROR_UNKNOWN_DEVICE_TYPE",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000298": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L451"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L451",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALLOCATING_MEMORY=0x00000298 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALLOCATING_MEMORY=0x00000298 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"664\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_ALLOCATING_MEMORY\" \"664\" solution"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 664,
+            "symbol": "ERROR_ALLOCATING_MEMORY",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x0000029a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L461"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L461",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICE_NOT_READY=0x0000029A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICE_NOT_READY=0x0000029A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"error 666\" \"modem\" site:learn.microsoft.com/answers",
+            "\"error 666\" \"modem\" site:reddit.com"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 666,
+            "symbol": "ERROR_DEVICE_NOT_READY",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x0000029b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L466"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L466",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/error-codes-for-dial-up-vpn-connection"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_READING_INI_FILE=0x0000029B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_READING_INI_FILE=0x0000029B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"667\" \"media.INI\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+          "compatibility_evidence": {
+            "decimal_code": 667,
+            "symbol": "ERROR_READING_INI_FILE",
+            "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+            "version_mapping": "not established"
+          }
+        }
       },
       "0x00000335": {
         "status": "reviewed",
