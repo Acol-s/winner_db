@@ -120309,6 +120309,950 @@
           "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
         ],
         "note": "Symbol/value verified against pinned Microsoft SDK slerror.h. Remedy and applicability depend on Windows release and licensing channel."
+      },
+      "0x80041600": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L71"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041601": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L80"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041602": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L89"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041603": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L98"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041604": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L107"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041605": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L116"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041606": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L125"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041607": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L134"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041608": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L143"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041609": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L152"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004160a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L161"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004160b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L170"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004160c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L179"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041651": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L191"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041652": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L200"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041653": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L209"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041654": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L218"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041655": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L227"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041656": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L236"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041657": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L245"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041658": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L254"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041659": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L263"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004165a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L272"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004165b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L281"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004165c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L290"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004165d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L299"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004165e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L309"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041660": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L318"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041661": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L327"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041662": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L336"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041663": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L345"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041664": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L354"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041665": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L363"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041666": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L372"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041667": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L381"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041668": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L390"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041669": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L399"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L408"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L417"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L426"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L435"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L444"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004166f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L453"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041670": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L462"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041671": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L471"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041672": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L480"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041673": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L489"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041674": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L498"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041675": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L507"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041676": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L516"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041677": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L525"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041678": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L534"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004167a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L552"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004167b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L561"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041681": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L582"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041682": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L591"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041683": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L600"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041684": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L609"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041686": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L627"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041687": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L636"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041688": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L645"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x800416a1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L666"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x800416a2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L675"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041730": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L687"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041734": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L723"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041736": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L741"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041737": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L750"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041738": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L759"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041739": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L768"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004173b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L786"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004173d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L804"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004173e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L813"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041780": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L825"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041782": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L843"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041783": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L852"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041784": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L861"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041785": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L870"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041790": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L879"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041791": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L888"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041792": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L897"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041800": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L918"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041801": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L927"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041802": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L936"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041803": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L945"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041804": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L954"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041805": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L963"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041806": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L972"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041807": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L981"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041808": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L990"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041809": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L999"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004180a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1008"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004180b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1017"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004180c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1026"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004180d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1035"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004180f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1053"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041810": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1062"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041811": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1071"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041812": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1080"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041813": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1089"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041815": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1107"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041816": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1116"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041817": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1125"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041818": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1134"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041819": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1143"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1152"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1161"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1170"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1179"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1188"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x8004181f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1197"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041820": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1206"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041821": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1215"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041822": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1224"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041823": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1233"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0xc0041824": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1242"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041827": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1269"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041828": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1278"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+      },
+      "0x80041829": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L1287"
+        ],
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
       }
     }
   },
