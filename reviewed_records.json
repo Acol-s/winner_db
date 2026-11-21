@@ -116425,13 +116425,16 @@
       },
       "0x80240438": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L1744",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/troubleshoot-windows-update-network-proxy-azure-vm",
+          "https://learn.microsoft.com/en-us/answers/questions/2134181/failed-to-deploy-update-kb5046612-to-some-windows-servers",
+          "https://www.reddit.com/r/SCCM/comments/1gadb9s/sccm_managed_client_error_0x80240438_when/"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_PT_ENDPOINT_UNREACHABLE; existing row preserved."
+        "note": "Microsoft documentation confirms 0x80240438 is a general Windows Update network-connectivity error. Microsoft Q&A staff and a separate SCCM/RSAT Reddit case provide real, context-specific troubleshooting; the UseWUServer workaround is limited to managed optional-feature installation and must respect policy. No steps were generalized beyond those scenarios."
       },
       "0x80240439": {
         "status": "reviewed",
