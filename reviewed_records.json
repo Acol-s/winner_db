@@ -5280,6 +5280,166 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0xc00d1234": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1235": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1236": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1237": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1238": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1239": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d123f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1240": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1241": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1242": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1243": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1244": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1245": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1246": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc00d1247": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
       }
     }
   },
