@@ -1278,6 +1278,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6e--session2-initialization-failed"
                 ],
                 "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000070": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x70--session4-initialization-failed"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000071": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x71--session5-initialization-failed"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000072": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x72--assign-drive-letters-failed"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000075": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x75--cannot-write-configuration"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000078": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x78--phase0-exception"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000079": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x79--mismatched-hal"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000081": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x81--spin-lock-init-failure"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x00000085": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x85--setup-failure"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x0000006f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6f--session3-initialization-failed"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
+            },
+            "0x0000007c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7c--bugcode-ndis-driver"
+                ],
+                "note": "Exact code, parameters and documented semantics checked against Microsoft Learn; unsupported remedies removed and procedures qualified to the applicable Windows generation."
             }
         }
     },
