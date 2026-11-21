@@ -4253,6 +4253,158 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Код не найден в проверенной таблице MS-ERREF; символ и назначение требуют проверки по SDK/header/источнику приложения. Повторить исследование."
+      },
+      "0xc00d11be": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11c1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11c7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11cb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11d7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11d9": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11da": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11dd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11df": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11ee": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставление с точным кодом Windows Media Player в MS-ERREF подтверждено; советы адаптированы к legacy-контексту и не обещают доступность устаревших сетевых/DRM-сервисов."
+      },
+      "0xc00d11e7": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код отсутствует в проверенной таблице MS-ERREF; имя и применимость не считать подтверждёнными. Требуется точный SDK/header или событие приложения."
+      },
+      "0xc00d11e8": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код отсутствует в проверенной таблице MS-ERREF; имя и применимость не считать подтверждёнными. Требуется точный SDK/header или событие приложения."
+      },
+      "0xc00d11e9": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код отсутствует в проверенной таблице MS-ERREF; имя и применимость не считать подтверждёнными. Требуется точный SDK/header или событие приложения."
       }
     }
   },
