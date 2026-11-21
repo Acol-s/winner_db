@@ -2079,6 +2079,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1dd--bugcode-mbbadapter-driver"
                 ],
                 "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x000001de": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1de--bugcode-wifiadapter-driver"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x00000017": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x17--cid-handle-deletion"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x000000ba": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xba--session-has-valid-views-on-exit"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x000000f3": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf3--disorderly-shutdown"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x000000fa": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xfa---http-driver-corrupted"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x000000ff": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xff---reserve-queue-overflow"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x00000103": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x103---mup-file-system"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x00000108": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x108--third-party-file-system-failure"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x0000010f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x10f---resource-manager-exception-not-handled"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x00000112": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x112---msrpc-state-violation"
+                ],
+                "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
             }
         }
     },
