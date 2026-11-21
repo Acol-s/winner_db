@@ -189,6 +189,96 @@
           "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
         ],
         "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x0000004e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4e--pfn-list-corrupt",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x0000002e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x2e--data-bus-error",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x0000007a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7a--kernel-data-inpage-error",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x0000003d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3d--interrupt-exception-not-handled",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x00000119": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x119---video-scheduler-internal-error",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x00000139": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x139--kernel-security-check-failure",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x0000010d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x10d---wdf-violation",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/wdf-verification"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x0000009c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x9c--machine-check-exception",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x124---whea-uncorrectable-error"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x00000074": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x74--bad-system-config-info",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
+      },
+      "0x00000113": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x113---video-dxgkrnl-fatal-error",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/error-0x113-intel-amd-graphics-adapters"
+        ],
+        "note": "Code and diagnostic steps checked against Microsoft Learn; unsupported generic fixes removed. One malformed 9-digit code corrected to documented 0x113."
       }
     }
   },
