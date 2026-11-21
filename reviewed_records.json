@@ -522,6 +522,87 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/dma-verification"
         ],
         "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000a8": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+        ],
+        "note": "Removed from errors_bsod.json: BOOTING_IN_SAFEMODE_MINIMAL is a legacy Safe Mode boot status/marker, not a stop-error entry in Microsoft's current bug check reference."
+      },
+      "0x000000bb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbb--network-boot-initialization-failed"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000df": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xdf--impersonating-worker-thread"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x0000007f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7f--unexpected-kernel-mode-trap"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x0000009e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x9e--user-mode-health-monitor"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000ce": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xce--driver-unloaded-without-cancelling-pending-operations"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000f2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf2--hardware-interrupt-storm"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000c9": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc9--driver-verifier-iomanager-violation",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/i-o-verification"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000e1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe1--worker-thread-returned-at-bad-irql"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000c5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc5--driver-corrupted-expool"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
       }
     }
   },
