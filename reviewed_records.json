@@ -3416,25 +3416,25 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
       },
       "0x80242005": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
       },
       "0x80242008": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
       },
       "0x80246008": {
         "status": "reviewed",
@@ -4933,6 +4933,62 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0x80242009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+        ],
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
+      },
+      "0x8024400b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+        ],
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
+      },
+      "0x8024e001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+        ],
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
+      },
+      "0x8024e002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+        ],
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
+      },
+      "0x8024f001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+        ],
+        "note": "Код и официальное обозначение сверены с Windows Update Agent error reference; объяснение и шаги сужены до документированного контекста."
+      },
+      "0x80073cf1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
+        ],
+        "note": "Проверено по Microsoft AppX deployment error table; действия привязаны к package state и официальным диагностическим журналам."
+      },
+      "0x8000ffff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "E_UNEXPECTED трактуется как общий HRESULT неожиданного состояния объекта; удалены утверждения о типичных неисправностях Store/Windows Update."
       }
     }
   },
