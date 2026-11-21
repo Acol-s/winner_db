@@ -2630,92 +2630,92 @@
     {
         "errorCode": "0x0000011A",
         "title": "EM_INITIALIZATION_FAILURE",
-        "description": "Сбой инициализации Windows. Причины: повреждение реестра, устаревшие драйверы, аппаратные или программные проблемы, сбой жёсткого диска, вирусные атаки, устаревшая ОС.",
-        "officialSolution": "Восстановите системные файлы через sfc/DISM, проверьте диск и обновите драйверы.",
-        "userSolutions": "• Выполните sfc и DISM (решение minitool).\n• Проверьте диск на ошибки через chkdsk.\n• Обновите драйверы и Windows.",
+        "description": "EM_INITIALIZATION_FAILURE (0x11A) is a Microsoft-listed bug check. The accessible Microsoft code reference confirms the name, but no public bug-check article with supported cause, parameters, or user remediation was found; do not infer a general Windows initialization failure.",
+        "officialSolution": "Save the dump and Windows build, then run !analyze -v. Use only details confirmed by the dump or a relevant OEM/Microsoft recovery article; if repeated, escalate with the dump.",
+        "userSolutions": "Do not run SFC/DISM, CHKDSK, or driver removal as code-specific steps without evidence. The code name alone does not establish registry, disk, or driver corruption.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Проверка системных файлов: безопасный режим с Command Prompt → sfc /scannow → DISM /Online /Cleanup-Image /CheckHealth → /ScanHealth → /RestoreHealth → перезагрузка (minitool).\", \"Шаг 2: Проверка диска: Command Prompt (admin) → chkdsk C: /f /r → Y → перезагрузка.\", \"Шаг 3: Восстановление реестра: загрузочная USB → Command Prompt → проверьте C:\\\\Windows\\\\System32\\\\config\\\\regback (если не пуст — восстановите).\", \"Шаг 4: Обновление драйверов: Диспетчер устройств → обновите драйверы с жёлтым значком → перезагрузка.\", \"Шаг 5: Обновление Windows: Параметры → Центр обновления → Проверить → перезагрузка.\", \"Шаг 6: Проверка на вирусы: Windows Security → Защита от вирусов → Полная проверка → перезагрузка.\", \"Шаг 7: Восстановление при загрузке: загрузочная USB → Восстановление → Дополнительные параметры → Восстановление при загрузке.\"]"
+        "stepByStep": "[\"Confirm 0x11A and record Windows edition/build; save the dump.\",\"Run !analyze -v and retain full parameters/stack.\",\"Microsoft reference confirms the code name but available documentation does not establish a general cause; do not infer from the name alone.\",\"If repeated, send dump/build details to OEM or qualified debugger; take only evidence-based recovery actions.\"]"
     },
     {
         "errorCode": "0x0000011B",
         "title": "DRIVER_RETURNED_HOLDING_CANCEL_LOCK",
-        "description": "Драйвер вернулся из cancel-подпрограммы, удерживая глобальную блокировку отмены (cancel spin lock). Это приводит к сбою всех последующих вызовов отмены и вызывает deadlock или другую проверку ошибок.",
-        "officialSolution": "Откат или обновление драйвера. Используйте !analyze в WinDbg для определения виновного драйвера.",
-        "userSolutions": "• Определите драйвер через анализ дампа и обновите его.\n• Удалите антивирусы и low-level ПО.\n• Восстановите системные файлы.",
+        "description": "0x11B means a driver returned from its cancel routine while holding the global cancel lock, causing later cancellation calls to fail and possibly deadlock. Parameters 1–2 are the canceled IRP and cancel routine; the cancel spin lock should have been released.",
+        "officialSolution": "Save the dump and use !analyze -v to inspect the cancel routine/stack and identify the driver. The vendor should correct its cancellation routine; do not guess which device is responsible.",
+        "userSolutions": "Do not update an arbitrary device or invoke global Driver Verifier. Confirm the caller from the dump before changing drivers.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выявит драйвер, удерживающий cancel lock.\", \"Шаг 2: Обновление драйвера: Диспетчер устройств → обновите устройство с этим драйвером → перезагрузка.\", \"Шаг 3: Откат драйвера: Диспетчер устройств → Свойства → Драйвер → Откатить (если обновление вызвало проблему).\", \"Шаг 4: Удаление low-level ПО: Win+R → appwiz.cpl → удалите антивирусы, отладчики, перехватчики → перезагрузка.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Включение Driver Verifier: verifier /standard /all → перезагрузка, чтобы подтвердить виновный драйвер.\"]"
+        "stepByStep": "[\"Record parameters 1–2 and save the dump.\",\"In WinDbg run !analyze -v and inspect the cancel routine/caller; parameter 1 may be invalid, as Microsoft notes.\",\"Identify the driver that returned while holding the lock and check its supported version with the vendor.\",\"Make an address-specific update/rollback and confirm whether the same cancellation path recurs.\"]"
     },
     {
         "errorCode": "0x0000011D",
         "title": "EVENT_TRACING_FATAL_ERROR",
-        "description": "Подсистема Event Tracing столкнулась с неожиданной фатальной ошибкой. Обычно связана с неисправным, повреждённым или отсутствующим оборудованием или драйверами.",
-        "officialSolution": "Выполните hard reboot, sfc/DISM, обновите драйверы и отключите Secure Boot/Driver Signature Enforcement.",
-        "userSolutions": "• Hard reboot ПК (решение thewindowsclub).\n• Выполните sfc и DISM, запустите Blue Screen Troubleshooter.\n• Обновите драйверы, отключите Secure Boot и Driver Signature Enforcement.",
+        "description": "0x11D means the Event Tracing subsystem encountered an unexpected fatal error. Parameter 1 identifies the subtype (security/processor initialization, registration corruption, invalid handle, EventWrite overrun, lost event, trace buffer corruption, or related ETW state); parameter 2 is subtype-dependent.",
+        "officialSolution": "Save parameters and dump; run !analyze -v and interpret parameter 1/2 using the Microsoft table. Use ETW/trace context to identify the logger or component; no generic disk/hardware diagnosis is established.",
+        "userSolutions": "Do not force-reboot repeatedly or run SFC/DISM as a specific fix. Do not reset tracing providers/registrations without identifying the failing subtype.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Hard reboot: удерживайте кнопку питания 10 секунд → отпустите → включите ПК (thewindowsclub).\", \"Шаг 2: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 3: Обновление драйверов: Диспетчер устройств → обновите драйверы с жёлтым значком → Параметры → Центр обновления → Дополнительные обновления → перезагрузка.\", \"Шаг 4: Blue Screen Troubleshooter: Параметры → Обновление и безопасность → Устранение неполадок → Синий экран → Запустить.\", \"Шаг 5: Отключение Driver Signature Enforcement: Параметры → Восстановление → Особые варианты загрузки → Перезагрузить → F7 (Disable Driver Signature Enforcement).\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выявит виновный драйвер Event Tracing.\"]"
+        "stepByStep": "[\"Record parameters 1–2 and save the dump.\",\"In WinDbg run !analyze -v and map parameter 1 (ETW subtype) and any parameter 2 data to Microsoft's table.\",\"Inspect ETW logger/provider/trace buffer context shown by the dump.\",\"Address only the identified provider/component; do not reset unrelated tracing or system components.\"]"
     },
     {
         "errorCode": "0x0000011E",
         "title": "TOO_MANY_RECURSIVE_FAULTS",
-        "description": "Файловая система вызвала слишком много рекурсивных ошибок в условиях нехватки ресурсов. Возникает при нехватке места на диске, несовместимом BIOS или драйверах, повреждении реестра.",
-        "officialSolution": "Загрузитесь в безопасном режиме, освободите место на диске, обновите драйверы и выполните sfc/chkdsk.",
-        "userSolutions": "• Загрузитесь в безопасном режиме (решение filerecovery.pl).\n• Освободите место на диске (2-10 ГБ) и обновите драйверы.\n• Выполните sfc /scannow и chkdsk c: /f.",
+        "description": "TOO_MANY_RECURSIVE_FAULTS (0x11E) is listed by Microsoft Bug Check Code Reference. The accessible code reference does not establish that it means low disk space, BIOS incompatibility, or registry damage and gives no generic remedy.",
+        "officialSolution": "Save the dump and Windows build; run !analyze -v and inspect the failing stack/parameters. If the code repeats, send the dump to a qualified debugger/OEM.",
+        "userSolutions": "Do not enter Safe Mode or clear temp files as if low disk space were a confirmed cause. Avoid destructive disk operations absent separate evidence.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Безопасный режим: Shift+Перезагрузка → Параметры загрузки → 4 → перезагрузка (filerecovery.pl).\", \"Шаг 2: Освобождение места: Win+R → %temp% → удалить всё → очистите C:\\\\Windows\\\\Temp → оставьте минимум 2-10 ГБ на C:.\", \"Шаг 3: Обновление драйверов: Диспетчер устройств → обновите драйверы с жёлтым значком → перезагрузка.\", \"Шаг 4: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 5: Проверка диска: Command Prompt (admin) → chkdsk C: /f → Y → перезагрузка.\", \"Шаг 6: Отключение автозагрузки: Ctrl+Shift+Esc → Автозагрузка → отключите всё → перезагрузка.\", \"Шаг 7: Обновление BIOS: сайт производителя материнской платы → прошейте последнюю версию → перезагрузка.\"]"
+        "stepByStep": "[\"Confirm 0x11E and record Windows build; save the dump.\",\"Run !analyze -v and retain parameters and stack trace.\",\"Do not infer disk-space, BIOS or registry cause from the name alone; the Microsoft reference does not specify these.\",\"If recurring, provide the dump and recent-change history to OEM/qualified debugger.\"]"
     },
     {
         "errorCode": "0x0000011F",
         "title": "INVALID_DRIVER_HANDLE",
-        "description": "Кто-то закрыл начальный дескриптор драйвера между вставкой объекта драйвера и ссылкой на дескриптор.",
-        "officialSolution": "Определите драйвер через анализ дампа и обновите его.",
-        "userSolutions": "• Определите драйвер через дамп памяти и обновите его.\n• Удалите антивирусы и low-level ПО.\n• Восстановите системные файлы.",
+        "description": "0x11F means someone closed the initial handle for a driver between inserting the driver object and referencing that handle. Parameters 1–3 are the handle, status returned by the reference attempt, and PDRIVER_OBJECT address; 4 is reserved.",
+        "officialSolution": "Save the dump and run !analyze -v; use parameters/object context and stack to identify the driver code that closed the handle. Contact its vendor.",
+        "userSolutions": "Do not install a random driver update from Device Manager based on a guessed filename. The code describes a driver-object handle lifecycle bug, not an ordinary device warning.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выявит драйвер с закрытым дескриптором.\", \"Шаг 2: Обновление драйвера: Диспетчер устройств → обновите устройство с этим драйвером → перезагрузка.\", \"Шаг 3: Откат драйвера: Диспетчер устройств → Свойства → Драйвер → Откатить (если обновление вызвало проблему).\", \"Шаг 4: Удаление low-level ПО: Win+R → appwiz.cpl → удалите антивирусы, отладчики, перехватчики → перезагрузка.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Включение Driver Verifier: verifier /standard /all → перезагрузка, чтобы подтвердить виновный драйвер.\"]"
+        "stepByStep": "[\"Record parameters 1–3 and preserve the dump.\",\"Run !analyze -v and inspect the driver handle/status/object address and stack.\",\"Identify the driver that closed the initial handle and check compatibility with the exact Windows build.\",\"Update/replace only the identified driver through its official vendor channel.\"]"
     },
     {
         "errorCode": "0x00000121",
         "title": "DRIVER_VIOLATION",
-        "description": "Драйвер вызвал нарушение. Определите имя драйвера через стек вызовов в отладчике ядра.",
-        "officialSolution": "Используйте !analyze и команды k (Display Stack Backtrace) в WinDbg для определения виновного драйвера.",
-        "userSolutions": "• Выявите драйвер через дамп памяти и обновите, откатите или удалите его (решение bsodstop.ru).\n• Выполните общие рекомендации по устранению BSOD.\n• Восстановите системные файлы.",
+        "description": "0x121 means a driver caused an IRQL violation. Parameter 1 subtype 0x1: function called at a required IRQL, with current/required values in parameters 2–3; subtype 0x2: current IRQL exceeded the function's maximum. Microsoft recommends !analyze and a kernel stack.",
+        "officialSolution": "Save dump and parameters; run !analyze -v, then k to view the call stack and identify the driver. Use the exact IRQL subtype when reporting to its vendor.",
+        "userSolutions": "Do not update every driver or run Driver Verifier /standard /all by default. Act only on the module and IRQL violation shown in the dump.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выполните команду k для стека вызовов → выявит виновный драйвер (Microsoft/bsodstop).\", \"Шаг 2: Обновление драйвера: Диспетчер устройств → обновите устройство с этим драйвером → перезагрузка.\", \"Шаг 3: Откат драйвера: Диспетчер устройств → Свойства → Драйвер → Откатить (если обновление вызвало проблему).\", \"Шаг 4: Удаление драйвера: ПКМ → Удалить устройство → перезагрузка → установите свежую версию с сайта производителя.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Включение Driver Verifier: verifier /standard /all → перезагрузка, чтобы подтвердить виновный драйвер.\"]"
+        "stepByStep": "[\"Record all parameters and save the dump; parameter 1 defines subtype.\",\"Run !analyze -v and a k stack command to identify the driver, as Microsoft recommends.\",\"Compare current/required or current/maximum IRQL values for subtype 0x1/0x2.\",\"Provide the trace to the vendor and update/rollback only the identified driver.\"]"
     },
     {
         "errorCode": "0x00000125",
         "title": "NMR_INVALID_STATE",
-        "description": "NMR (Network Module Registrar) обнаружил недопустимое состояние. Связано с сетевыми модулями ядра.",
-        "officialSolution": "Используйте !analyze в WinDbg. Обновите сетевые драйверы.",
-        "userSolutions": "• Обновите сетевые драйверы и проверьте системные файлы.\n• Удалите антивирусы и low-level ПО.\n• Восстановите систему из точки восстановления.",
+        "description": "NMR_INVALID_STATE (0x125) means the Network Module Registrar detected an invalid state. The Microsoft Learn page's published parameter table appears to mix NMR state labels with WHEA error-source subtypes; do not treat those conflicting rows as a reliable network-module diagnosis without verifying the dump.",
+        "officialSolution": "Preserve all parameters and run !analyze -v. Check the exact Windows symbols/build and call stack; if parameter decoding conflicts with the documentation table, escalate to Microsoft/OEM instead of guessing.",
+        "userSolutions": "Do not update network drivers or run SFC/DISM just because NMR appears in the code name. The public article's parameter details need validation against actual symbols/dump.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновление сетевых драйверов: Диспетчер устройств → Сетевые адаптеры → ПКМ → Обновить драйвер → сайт Intel/Realtek → перезагрузка.\", \"Шаг 2: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → sfc /scannow → перезагрузка.\", \"Шаг 3: Удаление low-level ПО: Win+R → appwiz.cpl → удалите антивирусы, отладчики, перехватчики → перезагрузка.\", \"Шаг 4: Сброс сетевого стека: Command Prompt (admin) → netsh winsock reset → netsh int ip reset → перезагрузка.\", \"Шаг 5: Просмотр сетевых модулей: Command Prompt (admin) → fltmc filters → отсоедините сторонние фильтры (fltmc detach [имя] C:) → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выявит виновный сетевой модуль.\"]"
+        "stepByStep": "[\"Record parameters 1–4, Windows build, and save the dump.\",\"Run !analyze -v and inspect NMR-related symbols/stack; compare the parameter decoding with the exact build's symbols.\",\"Because the public Microsoft table appears internally inconsistent, do not infer a subtype from its WHEA-labelled rows alone.\",\"If unresolved, send dump and symbol/build information to OEM/Microsoft; do not change network stack speculatively.\"]"
     },
     {
         "errorCode": "0x00000128",
         "title": "WORKER_THREAD_RETURNED_WITH_BAD_IO_PRIORITY",
-        "description": "IOPriority рабочего потока неправильно изменён вызываемой рабочей подпрограммой. Параметр 1 — адрес рабочей подпрограммы.",
-        "officialSolution": "Используйте команду ln (List Nearest Symbols) по адресу из Параметра 1 для определения виновного драйвера.",
-        "userSolutions": "• Определите драйвер через ln в WinDbg (решение Microsoft).\n• Обновите или удалите виновный драйвер.\n• Восстановите системные файлы.",
+        "description": "0x128 means a called worker routine changed a worker thread's I/O priority incorrectly. Parameter 1 is the worker routine address; parameters 2–4 contain current I/O priority, work-item parameter and address.",
+        "officialSolution": "Save the dump and run !analyze -v. Use ln <parameter 1> in WinDbg to identify the offending driver, then check it with the vendor.",
+        "userSolutions": "Do not update storage drivers merely because the word I/O appears. Identify the worker routine and priority change first.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выполните ln <адрес из Параметра 1> для определения виновного драйвера (Microsoft).\", \"Шаг 2: Обновление драйвера: Диспетчер устройств → обновите устройство с этим драйвером → перезагрузка.\", \"Шаг 3: Откат драйвера: Диспетчер устройств → Свойства → Драйвер → Откатить (если обновление вызвало проблему).\", \"Шаг 4: Удаление low-level ПО: Win+R → appwiz.cpl → удалите антивирусы, отладчики, перехватчики → перезагрузка.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Включение Driver Verifier: verifier /standard /all → перезагрузка, чтобы подтвердить виновный драйвер.\"]"
+        "stepByStep": "[\"Record parameters 1–4 and save the dump.\",\"In WinDbg run !analyze -v, then ln <parameter 1> to identify the worker routine/driver.\",\"Inspect work-item context and current I/O priority.\",\"Update/rollback only the driver identified by symbols and stack; verify after the change.\"]"
     },
     {
         "errorCode": "0x00000129",
         "title": "WORKER_THREAD_RETURNED_WITH_BAD_PAGING_IO_PRIORITY",
-        "description": "Paging IOPriority рабочего потока неправильно изменён вызываемой рабочей подпрограммой. Параметр 1 — адрес рабочей подпрограммы.",
-        "officialSolution": "Используйте команду ln (List Nearest Symbols) по адресу из Параметра 1 для определения виновного драйвера.",
-        "userSolutions": "• Определите драйвер через ln в WinDbg (решение Microsoft).\n• Обновите или удалите виновный драйвер.\n• Восстановите системные файлы.",
+        "description": "0x129 means a called worker routine changed a worker thread's paging I/O priority incorrectly. Parameter 1 is the worker routine address; parameters 2–4 describe current paging priority and work item.",
+        "officialSolution": "Save the dump and run !analyze -v; use ln <parameter 1> to identify the offending driver, as Microsoft documents.",
+        "userSolutions": "Do not change pagefile settings or storage drivers based only on “paging I/O” in the code name. Identify the routine first.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выполните ln <адрес из Параметра 1> для определения виновного драйвера (Microsoft).\", \"Шаг 2: Обновление драйвера: Диспетчер устройств → обновите устройство с этим драйвером → перезагрузка.\", \"Шаг 3: Откат драйвера: Диспетчер устройств → Свойства → Драйвер → Откатить (если обновление вызвало проблему).\", \"Шаг 4: Удаление low-level ПО: Win+R → appwiz.cpl → удалите антивирусы, отладчики, перехватчики → перезагрузка.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Включение Driver Verifier: verifier /standard /all → перезагрузка, чтобы подтвердить виновный драйвер.\"]"
+        "stepByStep": "[\"Record parameters 1–4 and save the dump.\",\"Run !analyze -v, then ln <parameter 1> in WinDbg to identify the worker routine.\",\"Inspect paging I/O priority and work-item context in the dump.\",\"Check supported fixes for the identified driver with its vendor; do not alter pagefile settings as a generic fix.\"]"
     },
     {
         "errorCode": "0x0000012D",
         "title": "VOLSNAP_OVERLAPPED_TABLE_ACCESS",
-        "description": "Драйвер volsnap попытался получить доступ к общей таблице из двух разных потоков, что может привести к её повреждению.",
-        "officialSolution": "Откатите или обновите драйверы хранения, перезапустите службу VSS, выполните chkdsk и проверку ОЗУ.",
-        "userSolutions": "• Откатите или обновите драйверы IDE ATA/ATAPI и хранения (решение Microsoft Q&A).\n• Перезапустите службу Volume Shadow Copy.\n• Выполните chkdsk и проверку ОЗУ через mdsched.exe.",
+        "description": "0x12D means volsnap tried to access a common table from two different threads, risking table corruption. Microsoft lists no parameters and does not say this is caused by storage driver updates or a restartable Volume Shadow Copy service.",
+        "officialSolution": "Save the dump and analyze the volsnap stack/context with !analyze -v. Check recent VSS/volsnap activity and supported Windows updates; escalate to Microsoft/OEM if repeated.",
+        "userSolutions": "Do not change storage-controller drivers or restart services as a code-specific fix without evidence; protect existing shadow copies/backups before VSS changes.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Откат/обновление драйверов хранения: Диспетчер устройств → IDE ATA/ATAPI Controllers и Storage Controllers → Свойства → Драйвер → Откатить или Обновить (Microsoft Q&A).\", \"Шаг 2: Перезапуск VSS: Win+R → services.msc → Volume Shadow Copy → ПКМ → Перезапуск.\", \"Шаг 3: Проверка диска: Этот компьютер → ПКМ на C: → Свойства → Сервис → Проверка → Проверить диск → перезагрузка.\", \"Шаг 4: Проверка ОЗУ: Win+R → mdsched.exe → Перезагрузить и проверить → при ошибках — MemTest86 → 2 прохода.\", \"Шаг 5: Проверка системных файлов: Command Prompt (admin) → sfc /scannow → DISM /Online /Cleanup-Image /RestoreHealth → перезагрузка.\", \"Шаг 6: Восстановление системы: Win+R → rstrui.exe → точка до сбоев → Готово → перезагрузка.\", \"Шаг 7: Анализ дампа: WinDbg → C:\\\\Windows\\\\Minidump\\\\*.dmp → !analyze -v → выявит виновный драйвер volsnap.\"]"
+        "stepByStep": "[\"Confirm 0x12D and save the dump; Microsoft lists no parameters.\",\"In WinDbg run !analyze -v and inspect the volsnap stack and concurrency context.\",\"Review VSS/volsnap logs and recent backup/snapshot activity around the crash.\",\"Do not modify storage drivers or delete shadow copies without a backup and a confirmed cause.\"]"
     },
     {
         "errorCode": "0x0000012E",
