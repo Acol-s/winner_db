@@ -129061,6 +129061,582 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L626"
         ],
         "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80042301": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L69"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042302": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L79"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042303": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L88"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042304": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L97"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042306": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L106"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042307": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L115"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042308": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L124"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004230c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L160"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004230e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L169"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004230d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L178"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004230f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L187"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042310": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L197"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042311": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L207"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042312": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L216"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042313": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L225"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042314": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L234"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042315": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L243"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042316": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L252"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042317": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L261"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042318": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L271"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042319": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L281"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004231a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L291"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004231b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L300"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004231d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L309"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004231e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L318"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004231f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L327"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042320": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L336"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042321": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L354"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042322": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L363"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042323": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L372"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042324": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L382"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042325": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L392"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042326": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L401"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042327": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L410"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042328": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L419"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042329": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L429"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L438"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L447"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f0": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L458"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L467"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L476"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L486"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L496"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L505"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L514"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L523"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L532"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423f9": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L541"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423fa": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L550"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423fb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L559"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423fc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L568"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423fd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L577"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423fe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L586"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x800423ff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L595"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042400": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L604"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L613"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L622"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L631"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004232f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L640"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042336": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L649"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042403": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L679"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042407": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L715"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042408": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L724"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042409": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L733"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x8004240a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L742"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042411": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L751"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042412": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L775"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042413": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L784"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042414": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L793"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042415": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L802"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042416": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L811"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
+      },
+      "0x80042417": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/vsserror.h#L820"
+        ],
+        "note": "VSS HRESULT symbol/value verified against pinned Microsoft SDK vsserror.h. Correct remediation depends on the writer/provider and backup product; no generic destructive remedy asserted."
       }
     }
   },
