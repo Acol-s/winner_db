@@ -125525,6 +125525,262 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L8247"
         ],
         "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+      },
+      "0x80420010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L55"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L58"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L61"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L64"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L67"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L70"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L76"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L79"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L82"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x8042001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L85"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L88"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420100": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L97"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420101": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L100"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420102": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L103"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420103": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L106"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420104": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L109"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420105": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L112"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420111": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L118"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420112": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L121"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420113": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L124"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420200": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L131"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L134"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L137"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L140"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420204": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L143"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420300": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L151"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420301": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L154"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420302": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L157"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420400": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L163"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420401": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L166"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420406": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L169"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80420500": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L172"
+        ],
+        "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
       }
     }
   },
