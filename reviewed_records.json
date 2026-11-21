@@ -3160,9 +3160,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены точный Win32 код/название и смысл с Microsoft Learn; неподтверждённые причины и универсальные ремонты удалены. Рекомендации оставлены применимыми к старым и современным версиям Windows."
+        "note": "Сверены точный Win32 код/название и смысл с Microsoft Learn; неподтверждённые причины и универсальные ремонты удалены. Рекомендации оставлены применимыми к старым и современным версиям Windows. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x80070004": {
         "status": "reviewed",
@@ -3376,9 +3378,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x80244023": {
         "status": "reviewed",
@@ -3421,20 +3425,19 @@
         "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
       },
       "0x8024600e": {
-        "status": "reviewed",
+        "status": "needs_source",
         "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
-        ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "sources": [],
+        "note": "Первичный Microsoft code reference не содержит этот код; доступные Microsoft Q&A записи относятся к разным старым Store-сценариям и не устанавливают точное значение. Требуется источник SDK/официальный компонентный каталог."
       },
       "0x8024a004": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Предыдущая расшифровка была неверной: исправлено по официальной таблице компонентов Windows Update Microsoft; рекомендации ограничены подтверждённым состоянием кода."
       },
       "0x8024a005": {
         "status": "reviewed",
@@ -3448,17 +3451,19 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x8024d00c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Предыдущая расшифровка была неверной: исправлено по официальной таблице компонентов Windows Update Microsoft; рекомендации ограничены подтверждённым состоянием кода."
       },
       "0x800f0906": {
         "status": "reviewed",
@@ -3480,9 +3485,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x800f0954": {
         "status": "reviewed",
@@ -3568,9 +3575,11 @@
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x800f0801": {
         "status": "reviewed",
@@ -3786,9 +3795,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-errors"
+          "https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x80072eff": {
         "status": "reviewed",
@@ -5191,9 +5202,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x8007000d": {
         "status": "reviewed",
@@ -5207,9 +5220,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x80070057": {
         "status": "reviewed",
@@ -5223,25 +5238,30 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x80073701": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x800f081f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0x8007000e": {
         "status": "reviewed",
@@ -5735,9 +5755,11 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
-        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80072F8F указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80072F8F указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       },
       "0xc004e003": {
         "status": "reviewed",
@@ -5770,6 +5792,1678 @@
           "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
         ],
         "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80070652 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x80243fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_AUCLIENT_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024a000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_AU_NOSERVICE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024a002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_AU_NONLEGACYSERVER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024a003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_AU_LEGACYCLIENTDISABLED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024afff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_AU_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INSTALLATION_RESULTS_UNKNOWN_VERSION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INSTALLATION_RESULTS_INVALID_DATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INSTALLATION_RESULTS_NOT_FOUND сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_TRAYICON_FAILURE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243ffd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_NON_UI_MODE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80243ffe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_WUCLTUI_UNSUPPORTED_VERSION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024043d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_SERVICEPROP_NOTAVAIL сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80249001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVENTORY_PARSEFAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80249002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVENTORY_GET_INVENTORY_TYPE_FAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80249003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVENTORY_RESULT_UPLOAD_FAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80249004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVENTORY_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80249005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVENTORY_WMI_ERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024e003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_MISSING_METADATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024e004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_INVALID_VERSION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024e005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_NOT_INITIALIZED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024e006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_INVALID_ATTRIBUTEDATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024e007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_CLUSTER_ERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024efff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_EE_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80247001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_OL_INVALID_SCANFILE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80247002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_OL_NEWCLIENT_REQUIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80247fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_OL_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024f002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REPORTER_EVENTNAMESPACEPARSEFAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024f003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVALID_EVENT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024f004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_SERVER_BUSY сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024ffff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REPORTER_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80245001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REDIRECTOR_LOAD_XML сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80245002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REDIRECTOR_S_FALSE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80245003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REDIRECTOR_ID_SMALLER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80245fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_REDIRECTOR_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_BASE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_INITIALIZE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_OUTOFMEMORY сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_GENERATE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_CONNECT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_SEND сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_SERVER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_PT_SOAPCLIENT_SOAPFAULT. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80244008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_PARSEFAULT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_READ сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024400a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAPCLIENT_PARSE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024400c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAP_MUST_UNDERSTAND сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024400d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAP_CLIENT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024400e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SOAP_SERVER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024400f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_WMI_ERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_EXCEEDED_MAX_SERVER_TRIPS сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SUS_SERVER_NOT_SET сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_DOUBLE_INITIALIZATION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_INVALID_COMPUTER_NAME сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_REFRESH_CACHE_REQUIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_DENIED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_FORBIDDEN сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024401a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_BAD_METHOD сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024401b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_PT_HTTP_STATUS_PROXY_AUTH_REQ. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x8024401c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_REQUEST_TIMEOUT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024401d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_CONFLICT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024401e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_GONE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024401f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_SERVER_ERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_NOT_SUPPORTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_BAD_GATEWAY сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_VERSION_NOT_SUP сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_FILE_LOCATIONS_CHANGED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_REGISTRATION_NOT_SUPPORTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_NO_AUTH_PLUGINS_REQUESTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_NO_AUTH_COOKIES_CREATED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_INVALID_CONFIG_PROP сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024402a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_CONFIG_PROP_MISSING сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024402b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_HTTP_STATUS_NOT_MAPPED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024402c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_WINHTTP_NAME_NOT_RESOLVED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024402f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_PT_ECP_SUCCEEDED_WITH_ERRORS. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80244030": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_INIT_FAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244031": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_INVALID_FILE_FORMAT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244032": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_INVALID_METADATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244033": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_FAILURE_TO_EXTRACT_DIGEST сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244034": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_FAILURE_TO_DECOMPRESS_CAB_FILE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244035": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_ECP_FILE_LOCATION_ERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80244fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024502d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_SAME_REDIR_ID сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024502e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_PT_NO_MANAGED_RECOVER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_URLNOTAVAILABLE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_INCORRECTFILEHASH сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_UNKNOWNALGORITHM сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_NEEDDOWNLOADREQUEST сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_NONETWORK сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_WRONGBITSVERSION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_NOTDOWNLOADED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_BITSTRANSFERERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024600a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_DOWNLOADLOCATIONCHANGED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024600b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_CONTENTCHANGED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80246fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DM_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_REMOTEUNAVAILABLE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_LOCALONLY сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_UNKNOWNHANDLER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_REMOTEALREADYACTIVE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_UH_INVALIDMETADATA. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80242007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_INSTALLERHUNG сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_CANREQUIREINPUT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_INSTALLERFAILURE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_FALLBACKTOSELFCONTAINED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_NEEDANOTHERDOWNLOAD сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_NOTIFYFAILURE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024200f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_INCONSISTENT_FILE_NAMES сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_FALLBACKERROR сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_TOOMANYDOWNLOADREQUESTS сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_UNEXPECTEDCBSRESPONSE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_BADCBSPACKAGEID сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_UH_POSTREBOOTSTILLPENDING. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80242015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_POSTREBOOTRESULTUNKNOWN сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_POSTREBOOTUNEXPECTEDSTATE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_NEW_SERVICING_STACK_REQUIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80242fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UH_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_SHUTDOWN сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_INUSE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_INVALID сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_TABLEMISSING сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_TABLEINCORRECT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_INVALIDTABLENAME сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_BADVERSION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_NODATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_MISSINGDATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_MISSINGREF сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_UNKNOWNHANDLER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_CANTDELETE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_LOCKTIMEOUTEXPIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_NOCATEGORIES сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_ROWEXISTS сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024800f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_STOREFILELOCKED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_CANNOTREGISTER сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_UNABLETOSTART сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_DUPLICATEUPDATEID сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_UNKNOWNSERVICE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_SERVICEEXPIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_DECLINENOTALLOWED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_TABLESESSIONMISMATCH сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_SESSIONLOCKMISMATCH сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_NEEDWINDOWSSERVICE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024801a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_INVALIDOPERATION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024801b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_SCHEMAMISMATCH сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024801c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_RESETREQUIRED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024801d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_IMPERSONATED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80248fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DS_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_PRUNED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_NOPROP_OR_LEGACY сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_REG_MISMATCH сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_NO_METADATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_MISSING_ATTRIBUTE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_SYNC_FAILED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024c007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_NO_PRINTER_CONTENT сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024cfff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_DRV_UNEXPECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_NO_SERVICE сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_MAX_CAPACITY_REACHED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_UNKNOWN_ID сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_NOT_INITIALIZED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_RANGEOVERLAP сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_TOOMANYRANGES сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_INVALIDINDEX сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_ITEMNOTFOUND сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_OPERATIONINPROGRESS сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024000a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_COULDNOTCANCEL сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024000b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_CALL_CANCELLED. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x8024000c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_NOOP сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_XML_MISSINGDATA сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x8024000e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Код/сообщение сверены по каталогу Windows Update Microsoft; применённые шаги соответствуют статье common Windows Update errors для сценария WU_E_XML_INVALID. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x8024000f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_CYCLE_DETECTED сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80240010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и имя WU_E_TOO_DEEP_RELATION сверены с каталогом Windows Update Microsoft. Каталог не даёт отдельного исправления для конечного пользователя; сохранены только безопасные диагностические шаги и указание смотреть логи/обратиться к администратору."
+      },
+      "0x80070bc9": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80200053": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80072efe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80d02002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x8024a10a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80240020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80246017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x800f0825": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x800f0920": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x800f0831": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80070570": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x8007371b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80072ee2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80240022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80070490": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x800706be": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
       }
     }
   },
