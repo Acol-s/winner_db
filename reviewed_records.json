@@ -4519,12 +4519,12 @@
         "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
       },
       "0xc00d11ef": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc00d11f0": {
         "status": "reviewed",
@@ -5024,28 +5024,28 @@
         "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
       },
       "0xc004f034": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc004f210": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc004f212": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc004c4ce": {
         "status": "needs_source",
@@ -5072,31 +5072,28 @@
         "note": "Добавлен отсутствовавший код из публичного MS-ERREF; сохранены точное legacy-значение и ограниченная совместимой Windows Media Player применимость."
       },
       "0x80073b06": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0x80073b09": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0x80073b0a": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc00d0ffc": {
         "status": "needs_source",
@@ -5117,31 +5114,28 @@
         "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
       },
       "0xc00d36c4": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc00d36fa": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc00d36f2": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/Mferror.h"
         ],
-        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код, символ и текст сообщения сверены с Windows SDK Mferror.h; совет ограничен контекстом Media Foundation и не обещает универсального пользовательского исправления."
       },
       "0xc00d124a": {
         "status": "needs_source",
