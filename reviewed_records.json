@@ -127901,6 +127901,1166 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L414"
         ],
         "note": "Excluded after source-type review: codecapi.h STATIC_CODECAPI_* values are codec property identifiers/GUID data, not HRESULT error codes."
+      },
+      "0xc0aa0002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L64"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L73"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L109"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L139"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L148"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L157"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0204": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L166"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0205": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L175"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0206": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L184"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0207": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L193"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0208": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L202"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0209": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L211"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L220"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L229"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L238"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L247"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L256"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa020f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L265"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0210": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L274"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0211": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L283"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0212": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L292"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa02ff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L301"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0300": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L316"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0301": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L325"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0400": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L349"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0401": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L358"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0402": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L367"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0403": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L376"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0404": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L385"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0405": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L394"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0406": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L403"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0407": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L412"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0408": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L421"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0500": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L436"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0501": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L445"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0502": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L454"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0503": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L463"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0504": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L472"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0505": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L481"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0506": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L490"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0507": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L499"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0508": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L508"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0509": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L517"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L526"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L535"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L544"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L553"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L562"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa050f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L571"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0600": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L587"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0601": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L596"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0602": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L605"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0603": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L614"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0604": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L623"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0606": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L632"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0607": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L641"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0609": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L650"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa060a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L659"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa060d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L668"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa060e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L677"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa060f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L686"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0610": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L695"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0900": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L712"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0901": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L722"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0902": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L732"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0903": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L742"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0904": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L751"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0905": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L760"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0906": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L769"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0907": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L780"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0908": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L789"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa0909": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L798"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa090a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L807"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aa090b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L816"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a00": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L832"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a01": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L842"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a02": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L851"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a03": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L860"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a04": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L869"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a05": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L878"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a06": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L887"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a07": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L896"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a09": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L914"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0x80aa0a0a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2error.h#L923"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab100": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L61"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab101": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L71"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab102": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L84"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab103": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L93"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab104": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L102"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab105": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L111"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab106": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L120"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab108": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L130"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab109": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L139"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab10a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L148"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab10b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L157"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab110": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L167"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab111": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L176"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab112": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L185"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab113": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L194"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab118": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L204"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab119": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L213"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab11a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L222"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab120": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L232"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab121": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L241"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab128": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L251"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab129": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L260"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab12a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L269"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab12b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L278"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab130": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L288"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab131": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L297"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab132": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L306"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab133": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L315"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab138": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L325"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab139": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L334"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab13a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L343"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab13b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L352"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab140": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L362"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab141": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L371"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab142": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L380"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab148": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L390"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab149": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L399"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab14a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L408"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab150": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L418"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab151": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L427"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab152": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L436"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab153": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L445"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab154": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L454"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab155": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L463"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab156": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L472"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab157": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L481"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab158": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L490"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab159": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L499"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab15a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L508"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab15b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L517"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab15c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L526"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab15d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L535"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab15e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L544"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab160": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L562"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab161": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L571"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab162": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L580"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab163": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L589"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab200": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L599"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L608"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L617"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
+      },
+      "0xc0aab203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/imapi2fserror.h#L626"
+        ],
+        "note": "IMAPI2 HRESULT symbol/value verified against pinned Microsoft SDK headers. Operation, device and supported Windows version determine remediation; no universal fix asserted."
       }
     }
   },
