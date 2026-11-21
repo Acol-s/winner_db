@@ -439,6 +439,89 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x8e--kernel-mode-exception-not-handled"
         ],
         "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x000000c4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc4--driver-verifier-detected-violation",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/handling-a-bug-check-when-driver-verifier-is-enabled"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000ed": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xed--unmountable-boot-volume"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x00000073": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x73--config-list-failed"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x00000117": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x117---video-tdr-timeout-detected",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/stop-code-error-troubleshooting"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x00000080": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x80--nmi-hardware-failure"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x0000002f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x2f--instruction-bus-error"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000b4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xb4--video-driver-init-failure"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x00000014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14--create-delete-lock-not-locked"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x00000069": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x69--io1-initialization-failed"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000e6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe6--driver-verifier-dma-violation",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/dma-verification"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
       }
     }
   },
