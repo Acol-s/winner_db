@@ -1919,6 +1919,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x145--secure-boot-violation-"
                 ],
                 "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000149": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x149--refs-file-system"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0x0000014f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14f--pdc-watchdog-timeout"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0x00000154": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x154--unexpected-store-exception"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0x0000015a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x15a--sdbus-internal-error"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0x000001d5": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d5--driver-pnp-watchdog"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0x00020001": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x20001--hypervisor-error"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0xc0000218": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc0000218--status-cannot-load-registry-file"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0xc000021a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc000021a--winlogin-fatal-error"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0xc0000221": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc0000221--status-image-checksum-mismatch"
+                ],
+                "note": "Code-specific meaning, parameters, applicability, and safe diagnostic guidance checked against Microsoft Learn; unsupported generic fixes removed."
+            },
+            "0xdeaddead": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Retained because Microsoft code reference lists MANUALLY_INITIATED_CRASH1; trigger details are not asserted without a supporting Microsoft article."
             }
         }
     },
