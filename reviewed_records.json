@@ -603,6 +603,86 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc5--driver-corrupted-expool"
         ],
         "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; speculative causes and unsafe generic remedies removed."
+      },
+      "0x000000aa": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+        ],
+        "note": "Removed from errors_bsod.json: BOOTING_IN_SAFEMODE_DSREPAIR is a legacy Safe Mode boot status/marker, not a stop-error entry in Microsoft's current bug check reference."
+      },
+      "0x0000007d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7d--install-more-memory"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000045": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x45--insufficient-system-map-regs"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x0000005a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x5a--critical-service-failed"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000043": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000046": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x46--deref-unknown-logon-session"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000052": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x52--mailslot-file-system"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x0000005c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x5c--hal-initialization-failed"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x0000005d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x5d--unsupported-processor"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000060": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+        ],
+        "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
       }
     }
   },
