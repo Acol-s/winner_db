@@ -149149,257 +149149,712 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L155"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L155",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-network-policy-server"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_AUTHENTICATION_FAILURE=0x0000039C сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_AUTHENTICATION_FAILURE=0x0000039C сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"924\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x0000039d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L160"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L160",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows-server/remote/remote-access/get-started-install-ras-as-vpn",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_HAS_NO_DEVICES=0x0000039D сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_HAS_NO_DEVICES=0x0000039D сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional modern RRAS UI procedure for Server 2016/2019/2022/2025; not proof of UI compatibility with Server 2000/2003.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"925\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x0000039e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L165"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L165",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/ns-mprapi-mpr_interface_2"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IDLE_DISCONNECTED=0x0000039E сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IDLE_DISCONNECTED=0x0000039E сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"926\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x0000039f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L170"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L170",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/ns-mprapi-mpr_interface_0",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_UNREACHABLE=0x0000039F сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_UNREACHABLE=0x0000039F сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "MprAdmin/MPR_INTERFACE_0 server-side API, minimum Windows 2000 Server; level 0 chosen for historical diagnostics.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"927\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a0": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L175"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L175",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SERVICE_IS_PAUSED=0x000003A0 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SERVICE_IS_PAUSED=0x000003A0 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"928\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a1": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L180"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L180",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_DISCONNECTED=0x000003A1 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_DISCONNECTED=0x000003A1 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"929\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a2": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L185"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L185",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-network-policy-server",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-firewalls-configure",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winsvc/ns-winsvc-service_sid_info",
+          "https://learn.microsoft.com/en-us/answers/questions/2520268/vpn-error-930-error-message-when-you-use-a-vpn-con",
+          "https://www.reddit.com/r/sysadmin/comments/gdhipz/"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_SERVER_TIMEOUT=0x000003A2 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_SERVER_TIMEOUT=0x000003A2 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Exact-code Q&A: Windows 8, unresolved. Conditional official fix: NPS Server 2019 firewall/service SID. Related Reddit success: Server 2019 Azure VM, no numeric MPR code.",
+          "forum_result": "matching_code_without_confirmed_fix",
+          "reddit_result": "related_firewall_block_author_success_without_numeric_code",
+          "search_queries": [
+            "\"930\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "NPS shared secret fixed site:reddit.com/r/sysadmin",
+            "site:learn.microsoft.com \"NPS\" \"2019\" \"firewall\" \"IAS\""
+          ],
+          "note": "Microsoft SID command and Reddit manual-rule workaround are separate procedures. SERVICE_SID_INFO says change takes effect at next system start; no claim that a service-only restart is proven sufficient. No blanket firewall disablement copied."
+        }
       },
       "0x000003a3": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L190"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L190",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PORT_LIMIT_REACHED=0x000003A3 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PORT_LIMIT_REACHED=0x000003A3 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"931\" \"multilink\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a4": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L195"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L195",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/sdoias/ne-sdoias-attributeid",
+          "https://www.rfc-editor.org/rfc/rfc2865.html"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PPP_SESSION_TIMEOUT=0x000003A4 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PPP_SESSION_TIMEOUT=0x000003A4 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"932\" \"VPN\" \"session\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a5": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L200"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L200",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_LAN_INTERFACE_LIMIT=0x000003A5 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_LAN_INTERFACE_LIMIT=0x000003A5 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"933\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a6": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L205"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L205",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_WAN_INTERFACE_LIMIT=0x000003A6 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_WAN_INTERFACE_LIMIT=0x000003A6 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"934\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a7": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L210"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L210",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_CLIENT_INTERFACE_LIMIT=0x000003A7 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MAX_CLIENT_INTERFACE_LIMIT=0x000003A7 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"935\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a8": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L215"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L215",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_BAP_DISCONNECTED=0x000003A8 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_BAP_DISCONNECTED=0x000003A8 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"936\" \"BAP\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003a9": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L220"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L220",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-nz/answers/questions/2490144/how-can-i-allow-multiple-incoming-connections-on-m"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_USER_LIMIT=0x000003A9 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_USER_LIMIT=0x000003A9 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Windows 7 Ultimate receiving a second incoming VPN connection, April 2011 Q&A; not all outgoing Windows VPN sessions.",
+          "forum_result": "accepted_explanation_of_limit_no_deployment_outcome",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"937\" \"VPN\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Accepted answer is a contextual product-limit explanation, not proof of an implemented successful fix. No firmware flashing or arbitrary modern product recommendation copied."
+        }
       },
       "0x000003aa": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L225"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L225",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-network-policy-server",
+          "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/netsh-ras"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_RADIUS_SERVERS=0x000003AA сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_RADIUS_SERVERS=0x000003AA сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"938\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003ab": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L230"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L230",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-network-policy-server",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-radius-clients",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-manage-templates",
+          "https://www.reddit.com/r/UNIFI/comments/1pkv5dd/unable_to_get_ethernet_8021x_authentication/"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_RADIUS_RESPONSE=0x000003AB сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_RADIUS_RESPONSE=0x000003AB сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Official case-sensitive RADIUS shared-secret consistency procedure. Related user case: UniFi wired 802.1X/NPS Server 2022, December 2025, NPS Event 18, not numeric MPR 939.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "related_message_authenticator_author_success_without_numeric_code",
+          "search_queries": [
+            "\"939\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "RADIUS invalid authenticator solved site:reddit.com"
+          ],
+          "note": "User key-length workaround is not generalized into an NPS 30-character limit. Two changes were reported; no controlled proof of each change or universal timeout value. Request-side NPS event is not equated to a response-side MPR error."
+        }
       },
       "0x000003ac": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L236"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L236",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DIALIN_HOURS_RESTRICTION=0x000003AC сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DIALIN_HOURS_RESTRICTION=0x000003AC сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"940\" \"VPN\" \"hours\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003ad": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L241"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L241",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-np-overview"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALLOWED_PORT_TYPE_RESTRICTION=0x000003AD сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALLOWED_PORT_TYPE_RESTRICTION=0x000003AD сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"941\" \"VPN\" \"port\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003ae": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L246"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L246",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/troubleshoot-network-policy-server",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-np-overview"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_PROTOCOL_RESTRICTION=0x000003AE сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_PROTOCOL_RESTRICTION=0x000003AE сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"942\" \"VPN\" \"authentication\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003af": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L251"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L251",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_BAP_REQUIRED=0x000003AF сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_BAP_REQUIRED=0x000003AF сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"943\" \"BAP\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b0": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L256"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L256",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DIALOUT_HOURS_RESTRICTION=0x000003B0 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DIALOUT_HOURS_RESTRICTION=0x000003B0 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"944\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b1": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L261"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L261",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ROUTER_CONFIG_INCOMPATIBLE=0x000003B1 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ROUTER_CONFIG_INCOMPATIBLE=0x000003B1 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"945\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b2": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L266"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L266",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. WARNING_NO_MD5_MIGRATION=0x000003B2 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. WARNING_NO_MD5_MIGRATION=0x000003B2 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"946\" \"MD5\" \"migration\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Pinned SDK lines 266-269 and Learn both contain literal run XXXX. Preserve warning identity; do not invent a migration utility or treat placeholder as an executable."
+        }
       },
       "0x000003b4": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L272"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L272",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_ALREADY_INSTALLED=0x000003B4 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_ALREADY_INSTALLED=0x000003B4 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"948\" \"router\" \"protocol\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b5": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L277"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L277",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc3579.html"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SIGNATURE_LENGTH=0x000003B5 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SIGNATURE_LENGTH=0x000003B5 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"949\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b6": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L282"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L282",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc2865.html",
+          "https://www.rfc-editor.org/rfc/rfc3579.html",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-radius-clients"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SIGNATURE=0x000003B6 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SIGNATURE=0x000003B6 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"950\" \"RADIUS\" \"signature\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b7": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L287"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L287",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc3579.html",
+          "https://support.microsoft.com/en-gb/servicing/os/windows/2024/07/kb5043417-radius-authentication-to-nps-might-fail-with-the-july-2024-security-update-and-later-updat"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_SIGNATURE=0x000003B7 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_SIGNATURE=0x000003B7 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"951\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "RFC 3579 EAP Message-Authenticator requirement dates to 2003. KB5043417 describes separate July 2024 compatibility changes for listed OSs. No exact-code success, guessed vendor patch version or authentication-integrity bypass promoted."
+        }
       },
       "0x000003b8": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L292"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L292",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc2865.html"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PACKET_LENGTH_OR_ID=0x000003B8 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PACKET_LENGTH_OR_ID=0x000003B8 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"952\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003b9": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L297"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L297",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc2865.html"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_ATTRIBUTE_LENGTH=0x000003B9 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_ATTRIBUTE_LENGTH=0x000003B9 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"953\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003ba": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L302"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L302",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc2865.html"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PACKET=0x000003BA сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_PACKET=0x000003BA сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"954\" \"RADIUS\" \"packet\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x000003bb": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L307"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L307",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://www.rfc-editor.org/rfc/rfc2865.html",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-radius-clients"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTHENTICATOR_MISMATCH=0x000003BB сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTHENTICATOR_MISMATCH=0x000003BB сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"955\" \"RADIUS\" \"authenticator\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Response Authenticator and Message-Authenticator are different fields. NPS Event 14/18 reports from other directions of traffic do not prove a fix for MPR 955."
+        }
       },
       "0x000003bc": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L312"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L312",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/mprerror.h",
+          "https://learn.microsoft.com/en-us/windows-server/remote/remote-access/get-started-install-ras-as-vpn"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTEACCESS_NOT_CONFIGURED=0x000003BC сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTEACCESS_NOT_CONFIGURED=0x000003BC сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional modern RRAS UI procedure for Server 2016/2019/2022/2025; not proof of UI compatibility with Server 2000/2003.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"956\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+        }
       },
       "0x00000285": {
         "status": "reviewed",
