@@ -168075,6 +168075,1104 @@
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
         "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+      },
+      "0x80261001": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L43468"
+        ],
+        "note": "Microsoft MS-ERREF and the pinned Windows SDK confirm the HRESULT name and meaning. No code-specific user remediation was found in the primary source; retained neutral triage steps and marked needs_source."
+      },
+      "0x80261002": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L43477"
+        ],
+        "note": "Microsoft MS-ERREF and the pinned Windows SDK confirm the HRESULT name and meaning. No code-specific user remediation was found in the primary source; retained neutral triage steps and marked needs_source."
+      },
+      "0x00000000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L231",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Successful return code, not an error."
+      },
+      "0x80000008": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30643",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Conditional fallback definition from the non-WIN32 branch; Microsoft documents the Windows HRESULT E_FAIL as 0x80004005. This alternate value is not a Windows error entry."
+      },
+      "0x80000009": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L30652",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Conditional fallback definition from the non-WIN32 branch; Microsoft documents the Windows HRESULT E_ACCESSDENIED as 0x80070005. This alternate value is not a Windows error entry."
+      },
+      "0x001f0001": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L43064",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Microsoft documents this as an I/O completion status, not a failure result."
+      },
+      "0x4026200a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L43655",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result: partial data was populated; excluded from the error database."
+      },
+      "0x40262201": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L43967",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result instructing the caller to skip allocation preparation; excluded from the error database."
+      },
+      "0x00262307": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44042",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x0026231e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44222",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x0026234b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44627",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x0026234c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44636",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x00262351": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44681",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x4026242f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44810",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result indicating presence could not be reliably detected; excluded from the error database."
+      },
+      "0x40262437": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44882",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result indicating start was deferred; excluded from the error database."
+      },
+      "0x40262439": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44900",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT status does not have the failure bit set; excluded from the error database."
+      },
+      "0x4026243a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44909",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result indicating start was deferred; excluded from the error database."
+      },
+      "0x4026243c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L44927",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "HRESULT success/informational result; excluded from the error database."
+      },
+      "0x00340001": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L52993",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "NDIS status says the request will complete later through a status indication; not a failure result."
+      },
+      "0x00350059": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L53388",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Hyper-V pending-page-request status, not a failure result."
+      },
+      "0x00e70001": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L59109",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Storage Spaces informational status indicating the pool was deleted by the driver; not a failure result."
+      },
+      "0x8004d101": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33133"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d103": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33153"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d104": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33163"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d105": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33173"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d106": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33183"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d107": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33193"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d108": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33203"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d109": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33213"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d10a": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33223"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d10c": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33243"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d10d": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33253"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d10e": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33263"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d10f": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33273"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d110": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33283"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8004d111": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33293"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x80070032": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L571"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x80070070": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L967"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8dead01b": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8dead01c": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x8dead01e": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc0262504": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc0262506": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc0262507": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc0262508": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc026250a": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc026250d": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc0262519": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45095"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc02625d6": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0xc02625d7": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF confirms this failing HRESULT, symbol, and meaning. No code-specific Microsoft remediation source has yet been verified; only neutral diagnostic steps are included, so the record remains needs_source."
+      },
+      "0x00030200": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_CONVERTED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030201": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_BLOCK as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030202": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_RETRYNOW as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030203": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_MONITORING as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030204": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_MULTIPLEOPENS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030205": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_CONSOLIDATIONFAILED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00030206": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists STG_S_CANNOTCONSOLIDATE as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLE_S_USEREG as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040001": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLE_S_STATIC as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040002": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLE_S_MAC_CLIPFORMAT as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040100": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists DRAGDROP_S_DROP as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040101": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists DRAGDROP_S_CANCEL as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040102": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists DRAGDROP_S_USEDEFAULTCURSORS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040130": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists DATA_S_SAMEFORMATETC as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040140": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists VIEW_S_ALREADY_FROZEN as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040170": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CACHE_S_FORMATETC_NOTSUPPORTED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040171": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CACHE_S_SAMECACHE as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040172": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CACHE_S_SOMECACHES_NOTUPDATED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040180": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLEOBJ_S_INVALIDVERB as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040181": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLEOBJ_S_CANNOT_DOVERB_NOW as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040182": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists OLEOBJ_S_INVALIDHWND as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401a0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists INPLACE_S_TRUNCATED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401c0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CONVERT10_S_NO_PRESENTATION as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401e2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists MK_S_REDUCED_TO_SELF as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401e4": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists MK_S_ME as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401e5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists MK_S_HIM as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401e6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists MK_S_US as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x000401e7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists MK_S_MONIKERALREADYREGISTERED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040200": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists EVENT_S_SOME_SUBSCRIBERS_FAILED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00040202": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists EVENT_S_NOSUBSCRIBERS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041300": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_READY as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041301": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_RUNNING as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041302": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_DISABLED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041303": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_HAS_NOT_RUN as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041304": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_NO_MORE_RUNS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041305": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_NOT_SCHEDULED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041306": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_TERMINATED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041307": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_TASK_NO_VALID_TRIGGERS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00041308": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_EVENT_TRIGGER as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004131b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_SOME_TRIGGERS_FAILED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004131c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SCHED_S_BATCH_LOGON_PROBLEM as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_ASYNC as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d002": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_READONLY as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d003": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_SOMENORETAIN as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d004": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_OKINFORM as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d005": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_MADECHANGESCONTENT as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d006": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_MADECHANGESINFORM as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d007": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_ALLNORETAIN as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d008": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_ABORTING as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d009": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_SINGLEPHASE as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d00a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_LOCALLY_OK as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0004d010": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists XACT_S_LASTRESOURCEMANAGER as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00080012": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CO_S_NOTALLINTERFACES as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00080013": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CO_S_MACHINENAMENOTFOUND as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090312": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_CONTINUE_NEEDED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090313": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_COMPLETE_NEEDED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090314": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_COMPLETE_AND_CONTINUE as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090315": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_LOCAL_LOGON as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090317": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_CONTEXT_EXPIRED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090320": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_INCOMPLETE_CREDENTIALS as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090321": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_RENEGOTIATE as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00090323": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_NO_LSA_CONTEXT as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0009035c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists SEC_I_SIGNATURE_NEEDED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00091012": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists CRYPT_I_NEW_PROTECTION_REQUIRED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x00300100": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists PLA_S_PROPERTY_IGNORED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0dead100": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists TRK_S_OUT_OF_SYNC as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0dead102": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists TRK_VOLUME_NOT_FOUND as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0dead103": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists TRK_VOLUME_NOT_OWNED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x0dead107": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists TRK_S_NOTIFICATION_QUOTA_EXCEEDED as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
+      },
+      "0x40262009": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://learn.microsoft.com/en-us/windows/win32/api/winerror/nf-winerror-failed"
+        ],
+        "note": "Microsoft MS-ERREF lists ERROR_GRAPHICS_DRIVER_MISMATCH as a success/informational HRESULT; its success bit is not set, so it is not an error record for errors_windows.json."
       }
     }
   },
