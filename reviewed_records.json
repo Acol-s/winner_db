@@ -2998,6 +2998,94 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001d3": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d3--wfp-invalid-operation",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001d6": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d6--worker-thread-returned-with-non-default-workload-class",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001d7": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Официальный справочник подтверждает имя кода, но подробная статья с параметрами/решением не найдена; смысл не дополнялся догадками."
+            },
+            "0x000001d9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d9--hal-iommu-internal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001da": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1da--hal-blocked-processor-internal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001db": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1db--ipi-watchdog-timeout",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001dc": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1dc--dma-common-buffer-vector-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001df": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1df--processor-start-timeout",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001e4": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1e4--video-dxgkrnl-sysmm-fatal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с Microsoft по смыслу и параметрам; нерелевантные универсальные шаги удалены. Проверять применимость к конкретному выпуску Windows."
+            },
+            "0x000001e9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Официальный справочник подтверждает имя кода, но подробная статья с параметрами/решением не найдена; смысл не дополнялся догадками."
             }
         }
     },
