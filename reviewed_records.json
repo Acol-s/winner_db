@@ -843,6 +843,86 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
         ],
         "note": "Code identity and documented meaning checked against Microsoft Learn; unsupported generic causes and remedies removed."
+      },
+      "0x00000012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12--trap-cause-unknown"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13--empty-thread-reaper-list"
+        ],
+        "note": "Retained for historical Windows coverage; Microsoft says this bug check is not used by current Windows. Advice is version-qualified."
+      },
+      "0x00000015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x15--last-chance-called-from-kmode"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x16--cid-handle-creation"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x18--reference-by-pointer"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x22--file-system"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x23--fat-file-system"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x25--npfs-file-system"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x26--cdfs-file-system"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
+      },
+      "0x00000028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x28--corrupt-access-token"
+        ],
+        "note": "Reviewed for historical and current Windows applicability; version-sensitive behavior and safe diagnostic steps recorded from Microsoft Learn."
       }
     }
   },
