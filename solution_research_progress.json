@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "scope": "All Windows error codes added relative to the saved 11,447-record baseline. A researched case is not necessarily a solved case.",
+  "scope": "All added Windows codes relative to the saved 11,447-record baseline. research_completed_for records a research pass, not a solved case; unresolved outcomes require follow-up.",
   "baseline_windows_records": 11447,
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "5e118ac44b552ddd3607dcd74a16df600e183ff39f2347db6ea72c15c102927a",
+  "current_windows_sha256": "6a16c0482999a72dcd1032024b70a9ae3c88138acae882faef88b5514090d697",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -48,9 +48,49 @@
       "status": "prior_sourced_review",
       "note": "Microsoft documentation confirms 0x80240438 is a general Windows Update network-connectivity error. Microsoft Q&A staff and a separate SCCM/RSAT Reddit case provide real, context-specific troubleshooting; the UseWUServer workaround is limited to managed optional-feature installation and must respect policy. No steps were generalized beyond those scenarios.",
       "reviewed_at": "2026-11-22"
+    },
+    "0x80240061": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_success",
+      "scope": "Three separate Windows 10 device scenarios from 2018; no universal OS/device compatibility established.",
+      "forum_result": "PSC1200 manual Catalog installation has two success reports; LaserJet1320 USB and Dell960 OEM-driver cases have author-reported outcomes.",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Distinct devices/procedures kept separate. No signature-check bypass. Dell case reports disappearance of the offer, not retroactive successful installation.",
+      "search_queries": [
+        "\"0x80240061\" site:reddit.com",
+        "\"80240061\" \"fixed\" reddit",
+        "\"80240061\" domain:reddit.com",
+        "\"0x80240061\" \"solved\""
+      ]
+    },
+    "0x80240059": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft Q&A case: Windows 11 25H2 / KB5072033, December 2025.",
+      "forum_result": "matching_case_without_confirmed_fix",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Alternative connection is only an unconfirmed diagnostic suggestion. Generic antivirus removal and clean-boot recommendations not promoted to proven remedies.",
+      "search_queries": [
+        "\"0x80240059\" site:learn.microsoft.com/answers OR site:reddit.com",
+        "\"80240059\" domain:reddit.com",
+        "\"WU_E_NETWORK_COST_EXCEEDS_POLICY\""
+      ]
+    },
+    "0x80240047": {
+      "reviewed_at": "2026-11-22",
+      "status": "source_conflict_needs_followup",
+      "scope": "Pinned SDK symbol and Learn symbol differ for the same numeric HRESULT; version split unproven.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Original SDK title preserved; conflicting Learn interpretation disclosed in description. No invented version mapping.",
+      "search_queries": [
+        "\"0x80240047\" site:learn.microsoft.com/answers OR site:reddit.com",
+        "site:reddit.com (\"80240045\" OR \"80240046\" OR \"80240047\" OR \"80240048\")",
+        "\"WU_E_REVERT_NOT_ALLOWED\" \"WU_E_NOTSUPPORTED\""
+      ]
     }
   },
-  "pending_count": 6289,
+  "pending_count": 6286,
   "pending_codes": [
     "0x00000285",
     "0x00000292",
@@ -4148,7 +4188,6 @@
     "0x80240014",
     "0x80240045",
     "0x80240046",
-    "0x80240047",
     "0x80240048",
     "0x80240049",
     "0x8024004b",
@@ -4164,7 +4203,6 @@
     "0x80240056",
     "0x80240057",
     "0x80240058",
-    "0x80240059",
     "0x8024005a",
     "0x8024005b",
     "0x8024005c",
@@ -4172,7 +4210,6 @@
     "0x8024005e",
     "0x8024005f",
     "0x80240060",
-    "0x80240061",
     "0x80240062",
     "0x80240063",
     "0x80240064",
@@ -6359,5 +6396,10 @@
     },
     "consumer_runtime_compatibility": "unverified: consumer application code is not available in this checkout; mixed string/array userSolutions values already existed in baseline",
     "windows_versions": "Applicability must be determined per source and scenario; no blanket Windows 2004-2026 compatibility claimed."
-  }
+  },
+  "requires_further_solution_research": [
+    "0x80240043",
+    "0x80240059",
+    "0x80240047"
+  ]
 }
