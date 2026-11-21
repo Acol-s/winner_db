@@ -320,224 +320,211 @@
     },
     {
         "errorCode": "0x80244016",
-        "title": "HTTP 400 — Неверный запрос (WU_E_PT_HTTP_STATUS_BAD_REQUEST)",
-        "description": "Центр обновления получил HTTP 400 — сервер не смог обработать запрос из-за недопустимого синтаксиса.",
-        "officialSolution": "Проверьте прокси и сеть. Сбросьте компоненты Windows Update. Запустите sfc /scannow. Обновите BITS. Обратитесь к Microsoft Update Catalog.",
+        "title": "HTTP 400 — неверный запрос (WU_E_PT_HTTP_STATUS_BAD_REQUEST)",
+        "description": "Windows Update Agent получил HTTP 400 от настроенного источника обновлений. Это означает, что сервер не смог обработать запрос; код не доказывает повреждение компонентов клиента.",
+        "officialSolution": "Уточните источник обновлений (Microsoft Update, WSUS или Configuration Manager) и проверьте его доступность, прокси и серверные журналы. В управляемой сети передайте код администратору вместе с временем и журналами Windows Update; сбрасывайте кэш только если журналы указывают на локальные метаданные.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Уточните источник обновлений (Microsoft Update, WSUS или Configuration Manager) и проверьте его доступность, прокси и серверные журналы.",
+            "• В управляемой сети передайте код администратору вместе с временем и журналами Windows Update; сбрасывайте кэш только если журналы указывают на локальные метаданные."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Уточните источник обновлений (Microsoft Update, WSUS или Configuration Manager) и проверьте его доступность, прокси и серверные журналы.\",\"• В управляемой сети передайте код администратору вместе с временем и журналами Windows Update; сбрасывайте кэш только если журналы указывают на локальные метаданные.\"]"
     },
     {
         "errorCode": "0x80244019",
-        "title": "HTTP 403 — Доступ запрещён (WU_E_PT_HTTP_STATUS_FORBIDDEN)",
-        "description": "Центр обновления получил HTTP 403 — доступ запрещён. Часто из-за прокси, брандмауэра или VPN.",
-        "officialSolution": "Отключите VPN/прокси. Проверьте брандмауэр и антивирус. Сбросьте компоненты обновления. Запустите sfc /scannow. Обновите Windows.",
+        "title": "HTTP 404 — ресурс не найден (WU_E_PT_HTTP_STATUS_NOT_FOUND)",
+        "description": "Код соответствует HTTP 404: запрошенный URI/ресурс не найден сервером. Прежняя подпись 403 была ошибочной.",
+        "officialSolution": "Проверьте правильность и доступность настроенного источника обновлений, его URL/WSUS синхронизацию и сетевой прокси. Если компьютер управляется организацией, передайте администратору журнал и адрес источника; отключение VPN/брандмауэра не является универсальным исправлением.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте правильность и доступность настроенного источника обновлений, его URL/WSUS синхронизацию и сетевой прокси.",
+            "• Если компьютер управляется организацией, передайте администратору журнал и адрес источника; отключение VPN/брандмауэра не является универсальным исправлением."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте правильность и доступность настроенного источника обновлений, его URL/WSUS синхронизацию и сетевой прокси.\",\"• Если компьютер управляется организацией, передайте администратору журнал и адрес источника; отключение VPN/брандмауэра не является универсальным исправлением.\"]"
     },
     {
         "errorCode": "0x80244022",
-        "title": "HTTP 503 — Служба недоступна (WU_E_PT_HTTP_STATUS_SERVICE_UNAVAIL)",
-        "description": "Центр обновления получил HTTP 503 — служба обновления недоступна или перегружена. Временная ошибка сервера.",
-        "officialSolution": "Подождите и повторите позже. Сбросьте компоненты обновления. Проверьте сеть/прокси. Запустите sfc /scannow. Используйте каталог Microsoft.",
+        "title": "HTTP 503 — служба временно недоступна (WU_E_PT_HTTP_STATUS_SERVICE_UNAVAIL)",
+        "description": "Источник Windows Update вернул HTTP 503, то есть временно не может обслужить запрос. Это может быть Microsoft Update или корпоративный WSUS.",
+        "officialSolution": "Подождите и повторите поиск/установку позднее. Если повторяется, выясните настроенный источник, проверьте доступность сервера и прокси по журналам; для WSUS/Configuration Manager обратитесь к администратору.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Подождите и повторите поиск/установку позднее.",
+            "• Если повторяется, выясните настроенный источник, проверьте доступность сервера и прокси по журналам; для WSUS/Configuration Manager обратитесь к администратору."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Подождите и повторите поиск/установку позднее.\",\"• Если повторяется, выясните настроенный источник, проверьте доступность сервера и прокси по журналам; для WSUS/Configuration Manager обратитесь к администратору.\"]"
     },
     {
         "errorCode": "0x80244023",
-        "title": "HTTP 504 — Таймаут шлюза (WU_E_PT_HTTP_STATUS_GATEWAY_TIMEOUT)",
-        "description": "Центр обновления получил HTTP 504 — шлюз не дождался ответа от вышестоящего сервера. Сетевая ошибка между серверами.",
-        "officialSolution": "Проверьте сеть и прокси. Сбросьте компоненты обновления. Запустите sfc /scannow. Отключите VPN. Повторите позже.",
+        "title": "HTTP 504 — тайм-аут шлюза (WU_E_PT_HTTP_STATUS_GATEWAY_TIMEOUT)",
+        "description": "Шлюз или прокси не дождался ответа от вышестоящего сервера. Сам код не локализует неисправность на этом компьютере.",
+        "officialSolution": "Повторите операцию позднее и проверьте сетевую доступность источника обновлений. В корпоративной сети передайте администратору время ошибки и журналы клиента/прокси; не запускайте системное восстановление для ответа HTTP 504.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Повторите операцию позднее и проверьте сетевую доступность источника обновлений.",
+            "• В корпоративной сети передайте администратору время ошибки и журналы клиента/прокси; не запускайте системное восстановление для ответа HTTP 504."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Повторите операцию позднее и проверьте сетевую доступность источника обновлений.\",\"• В корпоративной сети передайте администратору время ошибки и журналы клиента/прокси; не запускайте системное восстановление для ответа HTTP 504.\"]"
     },
     {
         "errorCode": "0x80242004",
-        "title": "Лицензия недоступна (WU_E_EULA_UNAVAILABLE)",
-        "description": "Условия лицензии (EULA) для обновления не найдены или недоступны. Часто при синхронизации WSUS/SCCM.",
-        "officialSolution": "Сбросьте компоненты обновления. Запустите средство устранения неполадок. Проверьте WSUS/SCCM. Запустите sfc /scannow. Обновите Windows вручную.",
+        "title": "Недоступны условия лицензии (WU_E_EULA_UNAVAILABLE)",
+        "description": "Агент Windows Update не смог получить требуемые условия лицензии для обновления. Код не доказывает неисправность профиля пользователя или общую поломку кэша.",
+        "officialSolution": "Проверьте, какое обновление не устанавливается, доступность настроенного источника и журналы Windows Update/WSUS. Для управляемых устройств проверьте синхронизацию метаданных обновления на сервере; используйте процедуру для соответствующей версии Windows.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте, какое обновление не устанавливается, доступность настроенного источника и журналы Windows Update/WSUS.",
+            "• Для управляемых устройств проверьте синхронизацию метаданных обновления на сервере; используйте процедуру для соответствующей версии Windows."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте, какое обновление не устанавливается, доступность настроенного источника и журналы Windows Update/WSUS.\",\"• Для управляемых устройств проверьте синхронизацию метаданных обновления на сервере; используйте процедуру для соответствующей версии Windows.\"]"
     },
     {
         "errorCode": "0x80242005",
-        "title": "Служба остановлена (WU_E_SERVICE_STOP)",
-        "description": "Операция не завершена, так как служба или система завершала работу. Часто при остановке службы обновления во время операции.",
-        "officialSolution": "Перезапустите службы Windows Update и BITS. Запустите средство устранения неполадок. Запустите sfc /scannow. Проверьте автозапуск служб.",
+        "title": "Операция Windows Update прервана остановкой службы (WU_E_SERVICE_STOP)",
+        "description": "Операция обновления прервана из-за остановки службы/завершения работы во время операции. Код не означает, что сервисы повреждены.",
+        "officialSolution": "Если шло выключение или перезагрузка, запустите операцию после загрузки и проверьте, не осталось ли ожидающего перезапуска. Если ошибка повторяется, сопоставьте время с журналами Windows Update и системными событиями, чтобы определить, кто остановил службу.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Если шло выключение или перезагрузка, запустите операцию после загрузки и проверьте, не осталось ли ожидающего перезапуска.",
+            "• Если ошибка повторяется, сопоставьте время с журналами Windows Update и системными событиями, чтобы определить, кто остановил службу."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Если шло выключение или перезагрузка, запустите операцию после загрузки и проверьте, не осталось ли ожидающего перезапуска.\",\"• Если ошибка повторяется, сопоставьте время с журналами Windows Update и системными событиями, чтобы определить, кто остановил службу.\"]"
     },
     {
         "errorCode": "0x80242008",
-        "title": "Ошибка загрузки EULA (WU_E_EULA_DOWNLOAD_FAILED)",
-        "description": "Сбой загрузки/установки обновления из-за прерванного компонента или повреждённых файлов обновления.",
-        "officialSolution": "Сбросьте компоненты обновления. Перезапустите службы. Запустите средство устранения неполадок и sfc /scannow. Установите вручную через каталог.",
+        "title": "Не удалось загрузить условия лицензии (WU_E_EULA_DOWNLOAD_FAILED)",
+        "description": "Windows Update не смог загрузить файл EULA, требуемый для данного обновления. Это может быть связано с источником/сетевым запросом; код не устанавливает повреждение файлов обновления.",
+        "officialSolution": "Проверьте доступ к настроенному источнику обновлений и соответствующие записи в журнале Windows Update. При WSUS проверьте синхронизацию и доступность метаданных; повторите установку после восстановления источника. Не сбрасывайте все службы без указания журналов.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте доступ к настроенному источнику обновлений и соответствующие записи в журнале Windows Update.",
+            "• При WSUS проверьте синхронизацию и доступность метаданных; повторите установку после восстановления источника.",
+            "• Не сбрасывайте все службы без указания журналов."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте доступ к настроенному источнику обновлений и соответствующие записи в журнале Windows Update.\",\"• При WSUS проверьте синхронизацию и доступность метаданных; повторите установку после восстановления источника.\",\"• Не сбрасывайте все службы без указания журналов.\"]"
     },
     {
         "errorCode": "0x80246008",
-        "title": "Сбой подключения к BITS (WU_E_DM_FAILTOCONNECTTOBITS)",
-        "description": "Диспетчер загрузки не смог подключиться к службе BITS. Часто из-за остановленной службы BITS или повреждения.",
-        "officialSolution": "Запустите службу BITS. Сбросьте компоненты обновления. Запустите sfc /scannow. Создайте новую учётную запись. Обновите Windows.",
+        "title": "Не удалось подключиться к BITS (WU_E_DM_FAILTOCONNECTTOBITS)",
+        "description": "Менеджер загрузки Windows Update не смог подключиться к BITS. Это говорит о проблеме взаимодействия компонентов, но не обязательно означает повреждение ОС.",
+        "officialSolution": "Проверьте состояние BITS и события Service Control Manager в момент сбоя, а также журналы Windows Update. Если служба отключена политикой, сначала выясните причину и требования версии Windows/организации; затем повторите загрузку.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте состояние BITS и события Service Control Manager в момент сбоя, а также журналы Windows Update.",
+            "• Если служба отключена политикой, сначала выясните причину и требования версии Windows/организации; затем повторите загрузку."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте состояние BITS и события Service Control Manager в момент сбоя, а также журналы Windows Update.\",\"• Если служба отключена политикой, сначала выясните причину и требования версии Windows/организации; затем повторите загрузку.\"]"
     },
     {
         "errorCode": "0x8024600E",
-        "title": "Неверная лицензия диспетчера загрузки (WU_E_DM_WRONGLICENSED)",
-        "description": "Сбой диспетчера загрузки из-за неверной лицензии. Часто из-за непроверенной учётной записи Microsoft или неверной даты/времени.",
-        "officialSolution": "Проверьте учётную запись Microsoft. Синхронизируйте дату/время. Сбросьте компоненты Store (wsreset). Запустите sfc /scannow. Обновите Windows.",
+        "title": "Недопустимая лицензия диспетчера загрузки (WU_E_DM_WRONGLICENSED)",
+        "description": "Код Windows Update относится к лицензированию компонента управления загрузками, а не обязательно к Microsoft Account или дате/времени.",
+        "officialSolution": "Проверьте журналы Windows Update и идентификатор обновления, затем выясните, совпадает ли пакет с версией/редакцией Windows и источником обновлений. В управляемой среде проверьте конфигурацию сервера обновлений; не меняйте лицензионные данные вручную.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте журналы Windows Update и идентификатор обновления, затем выясните, совпадает ли пакет с версией/редакцией Windows и источником обновлений.",
+            "• В управляемой среде проверьте конфигурацию сервера обновлений; не меняйте лицензионные данные вручную."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте журналы Windows Update и идентификатор обновления, затем выясните, совпадает ли пакет с версией/редакцией Windows и источником обновлений.\",\"• В управляемой среде проверьте конфигурацию сервера обновлений; не меняйте лицензионные данные вручную.\"]"
     },
     {
         "errorCode": "0x8024A004",
         "title": "Служба автообновления недоступна (WU_E_AU_SERVICE_UNAVAILABLE)",
-        "description": "Служба автоматических обновлений не может обслуживать запросы. Часто при обновлении Windows 11 21H1→22H2 из-за остановленных служб.",
-        "officialSolution": "Запустите службы wuauserv и BITS. Сбросьте компоненты обновления. Запустите sfc /scannow и DISM. Отключите антивирус. Обновите вручную.",
+        "description": "Компонент Automatic Updates не смог выполнить запрос. Привязка ошибки к конкретному переходу версий необоснованна без дополнительного контекста.",
+        "officialSolution": "Проверьте службу Windows Update и события её запуска, а также источник обновлений и политики устройства. Запустите штатный сценарий диагностики Windows Update, подходящий вашей версии; при корпоративном управлении проверьте WSUS/политики с администратором.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте службу Windows Update и события её запуска, а также источник обновлений и политики устройства.",
+            "• Запустите штатный сценарий диагностики Windows Update, подходящий вашей версии; при корпоративном управлении проверьте WSUS/политики с администратором."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте службу Windows Update и события её запуска, а также источник обновлений и политики устройства.\",\"• Запустите штатный сценарий диагностики Windows Update, подходящий вашей версии; при корпоративном управлении проверьте WSUS/политики с администратором.\"]"
     },
     {
         "errorCode": "0x8024A005",
-        "title": "Нет зарегистрированной службы (WU_E_AU_NO_REGISTERED_SERVICE)",
-        "description": "С автоматическим обновлением не зарегистрирована неуправляемая служба. Возникает при повреждении компонентов Windows Update.",
-        "officialSolution": "Восстановите системные файлы (sfc /scannow). Сбросьте компоненты обновления. Перезапустите службы. Запустите DISM. Обновите Windows вручную.",
+        "title": "Служба автообновления не зарегистрирована (WU_E_AU_NO_REGISTERED_SERVICE)",
+        "description": "Windows Update не обнаружил ожидаемую регистрацию службы обновления. Код не доказывает повреждение файлов или реестра и не оправдывает ручные правки.",
+        "officialSolution": "Проверьте источник обновлений и журналы Windows Update, особенно после изменения политик/средства управления обновлениями. Для WSUS/доменных устройств подтвердите регистрацию и политику у администратора; применяйте ремонт компонентов лишь по диагностике для данной версии.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Проверьте источник обновлений и журналы Windows Update, особенно после изменения политик/средства управления обновлениями.",
+            "• Для WSUS/доменных устройств подтвердите регистрацию и политику у администратора; применяйте ремонт компонентов лишь по диагностике для данной версии."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Проверьте источник обновлений и журналы Windows Update, особенно после изменения политик/средства управления обновлениями.\",\"• Для WSUS/доменных устройств подтвердите регистрацию и политику у администратора; применяйте ремонт компонентов лишь по диагностике для данной версии.\"]"
     },
     {
         "errorCode": "0x8024D009",
-        "title": "Пропуск обновления агента (WU_E_SETUP_SKIP_UPDATE)",
-        "description": "Самообновление агента Windows Update пропущено по директиве в файле Wuident.cab. Часто из-за WSUS, не отправляющего самообновление (KB920659).",
-        "officialSolution": "Проверьте настройки WSUS. Сбросьте компоненты обновления. Запустите sfc /scannow. Обновите агент вручную. Обратитесь к KB920659.",
+        "title": "Пропущено самообновление агента (WU_E_SETUP_SKIP_UPDATE)",
+        "description": "Самообновление агента пропущено по директиве в Wuident.cab; Microsoft указывает, что это может происходить, если WSUS не отправляет клиентам пакет самообновления.",
+        "officialSolution": "Если настроен WSUS, проверьте, что сервер синхронизировал и одобрил нужное обновление агента, и сверяйтесь с инструкцией Microsoft KB920659 для соответствующего старого поколения Windows. Не загружайте случайный пакет вручную.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Если настроен WSUS, проверьте, что сервер синхронизировал и одобрил нужное обновление агента, и сверяйтесь с инструкцией Microsoft KB920659 для соответствующего старого поколения Windows.",
+            "• Не загружайте случайный пакет вручную."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Если настроен WSUS, проверьте, что сервер синхронизировал и одобрил нужное обновление агента, и сверяйтесь с инструкцией Microsoft KB920659 для соответствующего старого поколения Windows.\",\"• Не загружайте случайный пакет вручную.\"]"
     },
     {
         "errorCode": "0x8024D00C",
-        "title": "Неверные данные реестра (WU_E_SETUP_INVALID_REGISTRY_DATA)",
-        "description": "Агент Windows Update не обновлён из-за недопустимых данных реестра. Часто из-за повреждения реестра.",
-        "officialSolution": "Восстановите реестр. Сбросьте компоненты обновления. Запустите sfc /scannow и DISM. Обновите агент вручную. При повторе — переустановите Windows.",
+        "title": "Недопустимые данные реестра конфигурации (WU_E_SETUP_INVALID_REGISTRY_DATA)",
+        "description": "Механизм установки/обновления агента Windows Update обнаружил недопустимые конфигурационные данные реестра. Код не указывает, какое значение повреждено, и не разрешает общий совет «восстановить реестр».",
+        "officialSolution": "Сохраните журналы обновления и выясните происхождение настроек (локальная политика, домен, WSUS или продукт управления). Не удаляйте/не меняйте ключи наугад; используйте документированную процедуру для конкретной версии Windows и откатывайте только известное ошибочное изменение.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.",
-            "• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).",
-            "• Переименуйте кэш: ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old & ren C:\\Windows\\System32\\catroot2 Catroot2.old."
+            "• Сохраните журналы обновления и выясните происхождение настроек (локальная политика, домен, WSUS или продукт управления).",
+            "• Не удаляйте/не меняйте ключи наугад; используйте документированную процедуру для конкретной версии Windows и откатывайте только известное ошибочное изменение."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Windows Update: Параметры → Система → Устранение неполадок → Другие → Центр обновления.\", \"• Сбросьте компоненты обновления: net stop wuauserv & net stop cryptsvc & net stop bits & net stop msiserver (от админа).\", \"• Переименуйте кэш: ren C:\\\\Windows\\\\SoftwareDistribution SoftwareDistribution.old & ren C:\\\\Windows\\\\System32\\\\catroot2 Catroot2.old.\", \"• Запустите службы: net start wuauserv & net start cryptsvc & net start bits & net start msiserver; перезагрузите ПК.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"• Временно отключите антивирус/VPN; проверьте дату/время и DNS (nslookup windowsupdate.microsoft.com).\", \"• При повторе — установите обновление вручную через каталог Microsoft Update Catalog (catalog.update.microsoft.com).\"]"
+        "stepByStep": "[\"• Сохраните журналы обновления и выясните происхождение настроек (локальная политика, домен, WSUS или продукт управления).\",\"• Не удаляйте/не меняйте ключи наугад; используйте документированную процедуру для конкретной версии Windows и откатывайте только известное ошибочное изменение.\"]"
     },
     {
         "errorCode": "0x800F0906",
-        "title": "Пакет неприменим (CBS_E_PACKAGE_NOT_APPLICABLE)",
-        "description": "Сбой загрузки компонента по требованию (Feature on Demand) или восстановления хранилища компонентов. Образ Windows повреждён или недоступен источник.",
-        "officialSolution": "Используйте DISM с альтернативным источником (ISO). Включите .NET 3.5 через PowerShell. Выполните обновление ядра из ISO. Запустите sfc /scannow.",
+        "title": "Не удалось загрузить содержимое функции или восстановления (CBS_E_DOWNLOAD_FAILURE)",
+        "description": "CBS не смог скачать файлы Feature on Demand или для восстановления повреждения компонентов. Ошибочное название «пакет неприменим» смешивает его с другим кодом.",
+        "officialSolution": "Проверьте сеть/прокси/брандмауэр и разрешённый источник содержимого. Для организаций проверьте политику optional component repair и WSUS; допустимо указать совместимый источник `sources\\sxs` с того же выпуска/сборки, если это соответствует Microsoft guidance. Сверьте журналы CBS/DISM.",
         "userSolutions": [
-            "• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.",
-            "• Запустите sfc /scannow от администратора.",
-            "• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\sources\\install.wim:1 (где X — буква USB-носителя Windows)."
+            "• Проверьте сеть/прокси/брандмауэр и разрешённый источник содержимого.",
+            "• Для организаций проверьте политику optional component repair и WSUS; допустимо указать совместимый источник `sources\\sxs` с того же выпуска/сборки, если это соответствует Microsoft guidance.",
+            "• Сверьте журналы CBS/DISM."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.\", \"• Запустите sfc /scannow от администратора.\", \"• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\\\sources\\\\install.wim:1 (где X — буква USB-носителя Windows).\", \"• Проверьте журнал DISM: C:\\\\Windows\\\\Logs\\\\DISM\\\\dism.log.\", \"• Временно отключите антивирус и VPN/прокси; проверьте подключение к интернету.\", \"• Очистите компонентный хранилище: DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase.\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через установочный ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте сеть/прокси/брандмауэр и разрешённый источник содержимого.\",\"• Для организаций проверьте политику optional component repair и WSUS; допустимо указать совместимый источник `sources\\\\sxs` с того же выпуска/сборки, если это соответствует Microsoft guidance.\",\"• Сверьте журналы CBS/DISM.\"]"
     },
     {
         "errorCode": "0x800F0907",
-        "title": "Неверный фильтр / Групповая политика (CBS_E_INVALID_FILTER)",
-        "description": "DISM не выполнен из-за сетевых политик — Windows не может подключиться к интернету для скачивания компонентов. Связано с WSUS/групповыми политиками.",
-        "officialSolution": "Подключитесь к Microsoft Update (не WSUS). Проверьте групповые политики и прокси. Запустите DISM и sfc /scannow. Включите компонент через PowerShell.",
+        "title": "Политика или альтернативный источник блокирует загрузку компонентов (CBS_E_INVALID_FILTER)",
+        "description": "При установке компонента источник задан неверно/не задан либо политика запрещает обращаться к Windows Update. Особенно документировано для установки .NET Framework 3.5.",
+        "officialSolution": "Проверьте политику Optional component installation and component repair и заданный альтернативный источник. В управляемой среде попросите администратора разрешить подходящий источник Windows Update или предоставить согласованный `sources\\sxs`; файл источника должен соответствовать выпуску.",
         "userSolutions": [
-            "• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.",
-            "• Запустите sfc /scannow от администратора.",
-            "• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\sources\\install.wim:1 (где X — буква USB-носителя Windows)."
+            "• Проверьте политику Optional component installation and component repair и заданный альтернативный источник.",
+            "• В управляемой среде попросите администратора разрешить подходящий источник Windows Update или предоставить согласованный `sources\\sxs`; файл источника должен соответствовать выпуску."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.\", \"• Запустите sfc /scannow от администратора.\", \"• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\\\sources\\\\install.wim:1 (где X — буква USB-носителя Windows).\", \"• Проверьте журнал DISM: C:\\\\Windows\\\\Logs\\\\DISM\\\\dism.log.\", \"• Временно отключите антивирус и VPN/прокси; проверьте подключение к интернету.\", \"• Очистите компонентный хранилище: DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase.\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через установочный ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте политику Optional component installation and component repair и заданный альтернативный источник.\",\"• В управляемой среде попросите администратора разрешить подходящий источник Windows Update или предоставить согласованный `sources\\\\sxs`; файл источника должен соответствовать выпуску.\"]"
     },
     {
         "errorCode": "0x800F0922",
-        "title": "Недопустимое обновление компонента (CBS_E_ILLEGAL_COMPONENT_UPDATE)",
-        "description": "Обновление не смогло записать в системный раздел или хранилище компонентов. На Windows 11 24H2/25H2 обычно переполнен EFI System Partition; также повреждение .NET.",
-        "officialSolution": "Увеличьте EFI-раздел. Запустите sfc /scannow и DISM. Отключите лишние функции. Очистите хранилище компонентов. Выполните in-place upgrade.",
+        "title": "Сбой обслуживания пакета (CBS_E_INSTALLERS_FAILED)",
+        "description": "Код CBS означает, что один или несколько установщиков пакета завершились с ошибкой. Возможные причины различны; нехватка места в EFI/System Reserved — только один сценарий, не универсальная причина.",
+        "officialSolution": "Изучите CBS.log и сведения о конкретном обновлении, чтобы увидеть завершившийся с ошибкой компонент. Проверьте свободное место на системном разделе и сетевое подключение только если журналы указывают на них. Не изменяйте EFI-раздел без резервной копии и подтверждения размера/проблемы.",
         "userSolutions": [
-            "• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.",
-            "• Запустите sfc /scannow от администратора.",
-            "• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\sources\\install.wim:1 (где X — буква USB-носителя Windows)."
+            "• Изучите CBS.log и сведения о конкретном обновлении, чтобы увидеть завершившийся с ошибкой компонент.",
+            "• Проверьте свободное место на системном разделе и сетевое подключение только если журналы указывают на них.",
+            "• Не изменяйте EFI-раздел без резервной копии и подтверждения размера/проблемы."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.\", \"• Запустите sfc /scannow от администратора.\", \"• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\\\sources\\\\install.wim:1 (где X — буква USB-носителя Windows).\", \"• Проверьте журнал DISM: C:\\\\Windows\\\\Logs\\\\DISM\\\\dism.log.\", \"• Временно отключите антивирус и VPN/прокси; проверьте подключение к интернету.\", \"• Очистите компонентный хранилище: DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase.\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через установочный ISO Windows.\"]"
+        "stepByStep": "[\"• Изучите CBS.log и сведения о конкретном обновлении, чтобы увидеть завершившийся с ошибкой компонент.\",\"• Проверьте свободное место на системном разделе и сетевое подключение только если журналы указывают на них.\",\"• Не изменяйте EFI-раздел без резервной копии и подтверждения размера/проблемы.\"]"
     },
     {
         "errorCode": "0x800F0954",
-        "title": "Неверный счётчик обновлений WSUS (CBS_E_INVALID_WINDOWS_UPDATE_COUNT_WSUS)",
-        "description": "Не удалось установить .NET Framework 3.5 или другие функции через DISM из-за блокировки WSUS или сетевых политик.",
-        "officialSolution": "Подключитесь к Microsoft Update. Включите .NET 3.5 через PowerShell: Enable-WindowsOptionalFeature -Online -FeatureName NetFx3. Запустите DISM/sfc.",
+        "title": "Установка необязательного компонента затруднена источником WSUS (CBS_E_INVALID_WINDOWS_UPDATE_COUNT_WSUS)",
+        "description": "Ошибка часто появляется при установке .NET Framework 3.5/FoD на устройстве, управляемом WSUS, когда требуемое содержимое недоступно из настроенного источника.",
+        "officialSolution": "Определите, что именно устанавливается, и проверьте WSUS/политику загрузки optional features. В доменной среде администратор может настроить разрешённый Microsoft Update или совместный источник компонентов. Не отключайте политику и не обходите корпоративное управление без согласования.",
         "userSolutions": [
-            "• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.",
-            "• Запустите sfc /scannow от администратора.",
-            "• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\sources\\install.wim:1 (где X — буква USB-носителя Windows)."
+            "• Определите, что именно устанавливается, и проверьте WSUS/политику загрузки optional features.",
+            "• В доменной среде администратор может настроить разрешённый Microsoft Update или совместный источник компонентов.",
+            "• Не отключайте политику и не обходите корпоративное управление без согласования."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите DISM от администратора: DISM /Online /Cleanup-Image /RestoreHealth.\", \"• Запустите sfc /scannow от администратора.\", \"• Укажите альтернативный источник: DISM /Online /Cleanup-Image /RestoreHealth /Source:WIM:X:\\\\sources\\\\install.wim:1 (где X — буква USB-носителя Windows).\", \"• Проверьте журнал DISM: C:\\\\Windows\\\\Logs\\\\DISM\\\\dism.log.\", \"• Временно отключите антивирус и VPN/прокси; проверьте подключение к интернету.\", \"• Очистите компонентный хранилище: DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase.\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через установочный ISO Windows.\"]"
+        "stepByStep": "[\"• Определите, что именно устанавливается, и проверьте WSUS/политику загрузки optional features.\",\"• В доменной среде администратор может настроить разрешённый Microsoft Update или совместный источник компонентов.\",\"• Не отключайте политику и не обходите корпоративное управление без согласования.\"]"
     },
     {
         "errorCode": "0xC004C003",
