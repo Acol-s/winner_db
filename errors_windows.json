@@ -55474,135 +55474,135 @@
   },
   {
     "errorCode": "0x80040201",
-    "title": "EVENT_E_ALL_SUBSCRIBERS_FAILED — An event was unable to invoke any of the subscribers",
-    "description": "Текст системного сообщения Microsoft WinError.h: “An event was unable to invoke any of the subscribers”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_ALL_SUBSCRIBERS_FAILED — An event was unable to invoke any of the subscribers / MPEG2_E_ALREADY_INITIALIZED",
+    "description": "Текст системного сообщения Microsoft WinError.h: “An event was unable to invoke any of the subscribers”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_ALREADY_INITIALIZED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Уже инициализировано. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x01), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040203",
-    "title": "EVENT_E_QUERYSYNTAX — A syntax error occurred trying to evaluate a query string",
-    "description": "Текст системного сообщения Microsoft WinError.h: “A syntax error occurred trying to evaluate a query string”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_QUERYSYNTAX — A syntax error occurred trying to evaluate a query string / MPEG2_E_MALFORMED_TABLE",
+    "description": "Текст системного сообщения Microsoft WinError.h: “A syntax error occurred trying to evaluate a query string”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_MALFORMED_TABLE как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Некорректная таблица. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x03), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040204",
-    "title": "EVENT_E_QUERYFIELD — An invalid field name was used in a query string",
-    "description": "Текст системного сообщения Microsoft WinError.h: “An invalid field name was used in a query string”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_QUERYFIELD — An invalid field name was used in a query string / MPEG2_E_UNDEFINED",
+    "description": "Текст системного сообщения Microsoft WinError.h: “An invalid field name was used in a query string”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_UNDEFINED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Не определено. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x04), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040205",
-    "title": "EVENT_E_INTERNALEXCEPTION — An unexpected exception was raised",
-    "description": "Текст системного сообщения Microsoft WinError.h: “An unexpected exception was raised”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_INTERNALEXCEPTION — An unexpected exception was raised / MPEG2_E_NOT_PRESENT",
+    "description": "Текст системного сообщения Microsoft WinError.h: “An unexpected exception was raised”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_NOT_PRESENT как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Отсутствует. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x05), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040206",
-    "title": "EVENT_E_INTERNALERROR — An unexpected internal error was detected",
-    "description": "Текст системного сообщения Microsoft WinError.h: “An unexpected internal error was detected”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_INTERNALERROR — An unexpected internal error was detected / MPEG2_E_SECTION_NOT_FOUND",
+    "description": "Текст системного сообщения Microsoft WinError.h: “An unexpected internal error was detected”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_SECTION_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Секция не найдена. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x06), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040207",
-    "title": "EVENT_E_INVALID_PER_USER_SID — The owner SID on a per-user subscription doesn't exist",
-    "description": "Текст системного сообщения Microsoft WinError.h: “The owner SID on a per-user subscription doesn't exist”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_INVALID_PER_USER_SID — The owner SID on a per-user subscription doesn't exist / MPEG2_E_TX_STREAM_UNAVAILABLE",
+    "description": "Текст системного сообщения Microsoft WinError.h: “The owner SID on a per-user subscription doesn't exist”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_TX_STREAM_UNAVAILABLE как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Транспортный поток недоступен. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x07), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040208",
-    "title": "EVENT_E_USER_EXCEPTION — A user-supplied component or subscriber raised an exception",
-    "description": "Текст системного сообщения Microsoft WinError.h: “A user-supplied component or subscriber raised an exception”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_USER_EXCEPTION — A user-supplied component or subscriber raised an exception / MPEG2_E_SERVICE_ID_NOT_FOUND",
+    "description": "Текст системного сообщения Microsoft WinError.h: “A user-supplied component or subscriber raised an exception”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_SERVICE_ID_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Идентификатор службы не найден. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x08), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040209",
-    "title": "EVENT_E_TOO_MANY_METHODS — An interface has too many methods to fire events from",
-    "description": "Текст системного сообщения Microsoft WinError.h: “An interface has too many methods to fire events from”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_TOO_MANY_METHODS — An interface has too many methods to fire events from / MPEG2_E_SERVICE_PMT_NOT_FOUND",
+    "description": "Текст системного сообщения Microsoft WinError.h: “An interface has too many methods to fire events from”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_SERVICE_PMT_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: PMT службы не найдена. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x09), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020A",
-    "title": "EVENT_E_MISSING_EVENTCLASS — A subscription cannot be stored unless its event class already exists",
-    "description": "Текст системного сообщения Microsoft WinError.h: “A subscription cannot be stored unless its event class already exists”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_MISSING_EVENTCLASS — A subscription cannot be stored unless its event class already exists / MPEG2_E_DSI_NOT_FOUND",
+    "description": "Текст системного сообщения Microsoft WinError.h: “A subscription cannot be stored unless its event class already exists”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_DSI_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: DSI не найдена. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0A), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020B",
-    "title": "EVENT_E_NOT_ALL_REMOVED — Not all the objects requested could be removed",
-    "description": "Текст системного сообщения Microsoft WinError.h: “Not all the objects requested could be removed”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_NOT_ALL_REMOVED — Not all the objects requested could be removed / MPEG2_E_SERVER_UNAVAILABLE / IMAPI_E_NOTOPENED",
+    "description": "Текст системного сообщения Microsoft WinError.h: “Not all the objects requested could be removed”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_SERVER_UNAVAILABLE как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Сервер недоступен. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0B), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_NOTOPENED как HRESULT IMAPI: Компонент не открыт. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 11); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020C",
-    "title": "EVENT_E_COMPLUS_NOT_INSTALLED — COM+ is required for this operation, but is not installed",
-    "description": "Текст системного сообщения Microsoft WinError.h: “COM+ is required for this operation, but is not installed”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_COMPLUS_NOT_INSTALLED — COM+ is required for this operation, but is not installed / MPEG2_E_INVALID_CAROUSEL_ID / IMAPI_E_NOTINITIALIZED",
+    "description": "Текст системного сообщения Microsoft WinError.h: “COM+ is required for this operation, but is not installed”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_INVALID_CAROUSEL_ID как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Недопустимый идентификатор карусели. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0C), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_NOTINITIALIZED как HRESULT IMAPI: Компонент не инициализирован. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 12); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020D",
-    "title": "EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT — Cannot modify or delete an object that was not added using the COM+ Admin SDK",
-    "description": "Текст системного сообщения Microsoft WinError.h: “Cannot modify or delete an object that was not added using the COM+ Admin SDK”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_CANT_MODIFY_OR_DELETE_UNCONFIGURED_OBJECT — Cannot modify or delete an object that was not added using the COM+ Admin SDK / MPEG2_E_MALFORMED_DSMCC_MESSAGE / IMAPI_E_USERABORT",
+    "description": "Текст системного сообщения Microsoft WinError.h: “Cannot modify or delete an object that was not added using the COM+ Admin SDK”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_MALFORMED_DSMCC_MESSAGE как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Некорректное сообщение DSM-CC. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0D), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_USERABORT как HRESULT IMAPI: Операция отменена пользователем. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 13); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020E",
-    "title": "EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT — Cannot modify or delete an object that was added using the COM+ Admin SDK",
-    "description": "Текст системного сообщения Microsoft WinError.h: “Cannot modify or delete an object that was added using the COM+ Admin SDK”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_CANT_MODIFY_OR_DELETE_CONFIGURED_OBJECT — Cannot modify or delete an object that was added using the COM+ Admin SDK / MPEG2_E_INVALID_SG_OBJECT_KIND / IMAPI_E_GENERIC",
+    "description": "Текст системного сообщения Microsoft WinError.h: “Cannot modify or delete an object that was added using the COM+ Admin SDK”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_INVALID_SG_OBJECT_KIND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Недопустимый тип SG-объекта. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0E), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_GENERIC как HRESULT IMAPI: Общая ошибка IMAPI. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 14); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004020F",
-    "title": "EVENT_E_INVALID_EVENT_CLASS_PARTITION — The event class for this subscription is in an invalid partition",
-    "description": "Текст системного сообщения Microsoft WinError.h: “The event class for this subscription is in an invalid partition”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_INVALID_EVENT_CLASS_PARTITION — The event class for this subscription is in an invalid partition / MPEG2_E_OBJECT_NOT_FOUND / IMAPI_E_MEDIUM_NOTPRESENT",
+    "description": "Текст системного сообщения Microsoft WinError.h: “The event class for this subscription is in an invalid partition”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_OBJECT_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Объект не найден. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x0F), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_MEDIUM_NOTPRESENT как HRESULT IMAPI: Носитель отсутствует. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 15); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040210",
-    "title": "EVENT_E_PER_USER_SID_NOT_LOGGED_ON — The owner of the PerUser subscription is not logged on to the system specified",
-    "description": "Текст системного сообщения Microsoft WinError.h: “The owner of the PerUser subscription is not logged on to the system specified”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "EVENT_E_PER_USER_SID_NOT_LOGGED_ON — The owner of the PerUser subscription is not logged on to the system specified / MPEG2_E_OBJECT_KIND_NOT_A_DIRECTORY / IMAPI_E_MEDIUM_INVALIDTYPE",
+    "description": "Текст системного сообщения Microsoft WinError.h: “The owner of the PerUser subscription is not logged on to the system specified”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_OBJECT_KIND_NOT_A_DIRECTORY как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Тип объекта не является каталогом. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x10), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_MEDIUM_INVALIDTYPE как HRESULT IMAPI: Недопустимый тип носителя. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 16); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
@@ -55618,45 +55618,45 @@
   },
   {
     "errorCode": "0x80040212",
-    "title": "TPC_E_NO_DEFAULT_TABLET — TabletPC inking error code. No default tablet",
-    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. No default tablet”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "TPC_E_NO_DEFAULT_TABLET — TabletPC inking error code. No default tablet / MPEG2_E_FILE_OFFSET_TOO_BIG / IMAPI_E_DEVICE_NOTACCESSIBLE",
+    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. No default tablet”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_FILE_OFFSET_TOO_BIG как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Смещение файла слишком велико. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x12), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_DEVICE_NOTACCESSIBLE как HRESULT IMAPI: Устройство недоступно. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 18); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x8004021B",
-    "title": "TPC_E_UNKNOWN_PROPERTY — TabletPC inking error code. Unknown property specified",
-    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. Unknown property specified”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "TPC_E_UNKNOWN_PROPERTY — TabletPC inking error code. Unknown property specified / MPEG2_E_TOO_MANY_SECTIONS / IMAPI_E_TRACKOPEN",
+    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. Unknown property specified”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_TOO_MANY_SECTIONS как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Слишком много секций. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x1B), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_TRACKOPEN как HRESULT IMAPI: Дорожка уже открыта. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 27); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040219",
-    "title": "TPC_E_INVALID_INPUT_RECT — TabletPC inking error code. An invalid input rectangle was specified",
-    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. An invalid input rectangle was specified”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "TPC_E_INVALID_INPUT_RECT — TabletPC inking error code. An invalid input rectangle was specified / MPEG2_E_BUFFER_TOO_SMALL / IMAPI_E_DISCINFO",
+    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. An invalid input rectangle was specified”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет MPEG2_E_BUFFER_TOO_SMALL как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Буфер слишком мал. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x19), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_DISCINFO как HRESULT IMAPI: Ошибка сведений о диске. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 25); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040222",
-    "title": "TPC_E_INVALID_STROKE — TabletPC inking error code. The stroke object was deleted",
-    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. The stroke object was deleted”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "TPC_E_INVALID_STROKE — TabletPC inking error code. The stroke object was deleted / IMAPI_E_ALREADYOPEN",
+    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. The stroke object was deleted”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет IMAPI_E_ALREADYOPEN как HRESULT IMAPI: Уже открыто. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 34); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
   },
   {
     "errorCode": "0x80040223",
-    "title": "TPC_E_INITIALIZE_FAIL — TabletPC inking error code. Initialization failure",
-    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. Initialization failure”. Точная причина зависит от API, приложения и операции, вернувших код.",
-    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
+    "title": "TPC_E_INITIALIZE_FAIL — TabletPC inking error code. Initialization failure / IMAPI_E_WRONGDISC",
+    "description": "Текст системного сообщения Microsoft WinError.h: “TabletPC inking error code. Initialization failure”. Точная причина зависит от API, приложения и операции, вернувших код. Microsoft SDK объявляет IMAPI_E_WRONGDISC как HRESULT IMAPI: Неверный диск. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 35); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте точный код, полное сообщение, приложение/компонент, действие и выпуск/сборку Windows.\",\"Если это HRESULT, определите API и компонент-источник; одинаковые HRESULT могут иметь контекстные значения в разных протоколах.\",\"Сохраните относящиеся к операции журналы и применяйте только рекомендации Microsoft для выявленного компонента; наличие имени кода в SDK само по себе не задаёт пользовательский ремонт.\"]"
@@ -119878,18 +119878,18 @@
   },
   {
     "errorCode": "0X80040200",
-    "title": "_MAPI_E_END_OF_SESSION",
-    "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “MAPI: The session has ended.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
-    "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
+    "title": "_MAPI_E_END_OF_SESSION / MPEG2_E_UNINITIALIZED",
+    "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “MAPI: The session has ended.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. Microsoft SDK объявляет MPEG2_E_UNINITIALIZED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Не инициализировано. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x00), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте полный код, программу и операцию (поиск, фильтрация, индексирование или обработка содержимого), сборку Windows и время.\",\"Проверьте журналы Windows Search и компонент/фильтр, который вернул код; сохраните полный текст события и имя обработчика.\",\"Сверьте код с источником Microsoft SDK и применимостью нужного API к выпуску Windows; диагностируйте фильтр/индекс только если журнал указывает на него.\",\"Не перестраивайте индекс, не сбрасывайте профиль и не меняйте разрешения наугад; используйте процедуру Microsoft для установленной версии и подтвержденного компонента.\"]"
   },
   {
     "errorCode": "0X80040202",
-    "title": "_MAPI_E_MISSING_REQUIRED_COLUMN",
-    "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “MAPI: A required column is missing.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок.",
-    "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows.",
+    "title": "_MAPI_E_MISSING_REQUIRED_COLUMN / MPEG2_E_OUT_OF_BOUNDS",
+    "description": "Код Windows Search, Content Indexing или Filter Host из Windows SDK. Сообщение SDK: “MAPI: A required column is missing.”. Некоторые соседние определения в этом заголовке являются Event Viewer Message ID и намеренно исключены из базы ошибок. Microsoft SDK объявляет MPEG2_E_OUT_OF_BOUNDS как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: За пределами допустимых границ. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x02), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт.",
+    "officialSolution": "Универсального исправления по числовому коду нет. Установите, какой API, индексатор или фильтр вернул его, изучите связанные события, затем применяйте документацию Microsoft именно этого компонента и выпуска Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
     "userSolutions": "Советы о переиндексации или удалении фильтров зависят от конкретного компонента; не применяйте их до подтверждения по журналу и документации установленной версии.",
     "category": "Windows",
     "stepByStep": "[\"Зафиксируйте полный код, программу и операцию (поиск, фильтрация, индексирование или обработка содержимого), сборку Windows и время.\",\"Проверьте журналы Windows Search и компонент/фильтр, который вернул код; сохраните полный текст события и имя обработчика.\",\"Сверьте код с источником Microsoft SDK и применимостью нужного API к выпуску Windows; диагностируйте фильтр/индекс только если журнал указывает на него.\",\"Не перестраивайте индекс, не сбрасывайте профиль и не меняйте разрешения наугад; используйте процедуру Microsoft для установленной версии и подтвержденного компонента.\"]"
@@ -143896,5 +143896,230 @@
     "userSolutions": "Не устанавливайте пакеты кодеков, не переустанавливайте Windows Media components и не меняйте системные настройки по одному HRESULT: SDK не подтверждает эти действия как универсальное решение.",
     "category": "Windows",
     "stepByStep": "[\"Запишите точный HRESULT 0x99000002, приложение/API, файл или поток, операцию и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал компонента и сведения о формате/источнике данных; определите, какой decoder, encoder, TOC parser или AEC object вернул код.\",\"Сверьте требования к формату и API с документацией Microsoft/OEM именно для обнаруженного компонента и версии Windows; не выводите неисправность ОС только из имени кода.\"]"
+  },
+  {
+    "errorCode": "0x80040211",
+    "title": "MPEG2_E_OBJECT_KIND_NOT_A_FILE / IMAPI_E_DEVICE_NOPROPERTIES",
+    "description": "Microsoft SDK объявляет MPEG2_E_OBJECT_KIND_NOT_A_FILE как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Тип объекта не является файлом. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x11), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_DEVICE_NOPROPERTIES как HRESULT IMAPI: Нет свойств устройства. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 17); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040213",
+    "title": "MPEG2_E_STREAM_STOPPED / IMAPI_E_DEVICE_NOTPRESENT",
+    "description": "Microsoft SDK объявляет MPEG2_E_STREAM_STOPPED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Поток остановлен. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x13), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_DEVICE_NOTPRESENT как HRESULT IMAPI: Устройство отсутствует. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 19); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040214",
+    "title": "MPEG2_E_REGISTRY_ACCESS_FAILED / IMAPI_E_DEVICE_INVALIDTYPE",
+    "description": "Microsoft SDK объявляет MPEG2_E_REGISTRY_ACCESS_FAILED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Сбой доступа к реестру. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x14), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_DEVICE_INVALIDTYPE как HRESULT IMAPI: Недопустимый тип устройства. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 20); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040215",
+    "title": "MPEG2_E_INVALID_UDP_PORT / IMAPI_E_INITIALIZE_WRITE",
+    "description": "Microsoft SDK объявляет MPEG2_E_INVALID_UDP_PORT как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Недопустимый UDP-порт. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x15), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_INITIALIZE_WRITE как HRESULT IMAPI: Ошибка инициализации записи. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 21); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040216",
+    "title": "MPEG2_E_DATA_SOURCE_FAILED / IMAPI_E_INITIALIZE_ENDWRITE",
+    "description": "Microsoft SDK объявляет MPEG2_E_DATA_SOURCE_FAILED как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Сбой источника данных. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x16), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_INITIALIZE_ENDWRITE как HRESULT IMAPI: Ошибка завершения записи. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 22); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040217",
+    "title": "MPEG2_E_DII_NOT_FOUND / IMAPI_E_FILESYSTEM",
+    "description": "Microsoft SDK объявляет MPEG2_E_DII_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: DII не найдена. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x17), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_FILESYSTEM как HRESULT IMAPI: Ошибка файловой системы. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 23); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040218",
+    "title": "MPEG2_E_DSHOW_PIN_NOT_FOUND / IMAPI_E_FILEACCESS",
+    "description": "Microsoft SDK объявляет MPEG2_E_DSHOW_PIN_NOT_FOUND как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Контакт DirectShow не найден. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x18), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_FILEACCESS как HRESULT IMAPI: Ошибка доступа к файлу. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 24); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004021A",
+    "title": "MPEG2_E_MISSING_SECTIONS / IMAPI_E_TRACKNOTOPEN",
+    "description": "Microsoft SDK объявляет MPEG2_E_MISSING_SECTIONS как HRESULT интерфейса MPEG-2 tables; имя символа указывает на условие: Отсутствуют секции. Источник задаёт формулу через MAKE_E_ITF_HRESULT(MPEG2_BASE + 0x1A), где MPEG2_BASE=0x200; заголовок не задаёт минимальную версию Windows или пользовательский ремонт. Microsoft SDK объявляет IMAPI_E_TRACKNOTOPEN как HRESULT IMAPI: Дорожка не открыта. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 26); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows. Дополнительные символы в заголовках SDK могут обозначать другой компонент при том же числе; рекомендации применяйте только после определения источника HRESULT.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004021C",
+    "title": "IMAPI_E_DISCFULL",
+    "description": "Microsoft SDK объявляет IMAPI_E_DISCFULL как HRESULT IMAPI: Диск заполнен. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 28); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004021D",
+    "title": "IMAPI_E_BADJOLIETNAME",
+    "description": "Microsoft SDK объявляет IMAPI_E_BADJOLIETNAME как HRESULT IMAPI: Недопустимое имя Joliet. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 29); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004021E",
+    "title": "IMAPI_E_INVALIDIMAGE",
+    "description": "Microsoft SDK объявляет IMAPI_E_INVALIDIMAGE как HRESULT IMAPI: Недопустимый образ. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 30); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004021F",
+    "title": "IMAPI_E_NOACTIVEFORMAT",
+    "description": "Microsoft SDK объявляет IMAPI_E_NOACTIVEFORMAT как HRESULT IMAPI: Нет активного формата. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 31); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040220",
+    "title": "IMAPI_E_NOACTIVERECORDER",
+    "description": "Microsoft SDK объявляет IMAPI_E_NOACTIVERECORDER как HRESULT IMAPI: Нет активного устройства записи. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 32); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040221",
+    "title": "IMAPI_E_WRONGFORMAT",
+    "description": "Microsoft SDK объявляет IMAPI_E_WRONGFORMAT как HRESULT IMAPI: Неверный формат. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 33); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040224",
+    "title": "IMAPI_E_FILEEXISTS",
+    "description": "Microsoft SDK объявляет IMAPI_E_FILEEXISTS как HRESULT IMAPI: Файл уже существует. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 36); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040225",
+    "title": "IMAPI_E_STASHINUSE",
+    "description": "Microsoft SDK объявляет IMAPI_E_STASHINUSE как HRESULT IMAPI: Промежуточное хранилище занято. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 37); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040226",
+    "title": "IMAPI_E_DEVICE_STILL_IN_USE",
+    "description": "Microsoft SDK объявляет IMAPI_E_DEVICE_STILL_IN_USE как HRESULT IMAPI: Устройство всё ещё используется. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 38); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040227",
+    "title": "IMAPI_E_LOSS_OF_STREAMING",
+    "description": "Microsoft SDK объявляет IMAPI_E_LOSS_OF_STREAMING как HRESULT IMAPI: Потеря потока данных. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 39); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040228",
+    "title": "IMAPI_E_COMPRESSEDSTASH",
+    "description": "Microsoft SDK объявляет IMAPI_E_COMPRESSEDSTASH как HRESULT IMAPI: Сжатое промежуточное хранилище. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 40); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x80040229",
+    "title": "IMAPI_E_ENCRYPTEDSTASH",
+    "description": "Microsoft SDK объявляет IMAPI_E_ENCRYPTEDSTASH как HRESULT IMAPI: Зашифрованное промежуточное хранилище. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 41); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004022A",
+    "title": "IMAPI_E_NOTENOUGHDISKFORSTASH",
+    "description": "Microsoft SDK объявляет IMAPI_E_NOTENOUGHDISKFORSTASH как HRESULT IMAPI: Недостаточно места для промежуточного хранилища. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 42); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004022B",
+    "title": "IMAPI_E_REMOVABLESTASH",
+    "description": "Microsoft SDK объявляет IMAPI_E_REMOVABLESTASH как HRESULT IMAPI: Промежуточное хранилище находится на съёмном носителе. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 43); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004022C",
+    "title": "IMAPI_E_CANNOT_WRITE_TO_MEDIA",
+    "description": "Microsoft SDK объявляет IMAPI_E_CANNOT_WRITE_TO_MEDIA как HRESULT IMAPI: Невозможно записать на носитель. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 44); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004022D",
+    "title": "IMAPI_E_TRACK_NOT_BIG_ENOUGH",
+    "description": "Microsoft SDK объявляет IMAPI_E_TRACK_NOT_BIG_ENOUGH как HRESULT IMAPI: Недостаточный размер дорожки. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 45); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
+  },
+  {
+    "errorCode": "0x8004022E",
+    "title": "IMAPI_E_BOOTIMAGE_AND_NONBLANK_DISC",
+    "description": "Microsoft SDK объявляет IMAPI_E_BOOTIMAGE_AND_NONBLANK_DISC как HRESULT IMAPI: Образ загрузки и незаписанный диск несовместимы. Источник задаёт MAKE_HRESULT(SEVERITY_ERROR, FACILITY_ITF, 0x200 + 46); заголовок не задаёт минимальную версию Windows или универсальную пользовательскую процедуру.",
+    "officialSolution": "Заголовок Microsoft SDK подтверждает символ и HRESULT, но не публикует универсальную процедуру исправления. Определите конкретный компонент и операцию; применяйте рекомендации Microsoft только для этого API и версии Windows.",
+    "userSolutions": "Не переустанавливайте компонент, не меняйте реестр и не выполняйте запись/переформатирование носителя по одному коду. Сначала зафиксируйте контекст и журналы.",
+    "category": "Windows",
+    "stepByStep": "[\"Запишите точный HRESULT, приложение/API, операцию, носитель или поток, устройство и выпуск/сборку Windows.\",\"Сохраните полное сообщение, журнал вызывающего компонента и относящиеся к операции события с отметками времени.\",\"Сопоставьте HRESULT с фактически вызвавшим его API/подсистемой; одинаковое числовое значение может обозначать разные ошибки в разных семействах.\",\"Для выявленной версии компонента используйте документацию Microsoft/OEM; не трактуйте имя кода как доказательство конкретной поломки или готового ремонта.\"]"
   }
 ]
