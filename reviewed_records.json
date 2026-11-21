@@ -2159,6 +2159,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x112---msrpc-state-violation"
                 ],
                 "note": "Meaning, parameters, platform/version scope, and safe diagnostic steps checked against Microsoft Learn; generic or risky unsupported remedies removed."
+            },
+            "0x0000011c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x11c--attempted-write-to-cm-protected-storage"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x00000126": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x126--netio-invalid-pool-caller"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x00000127": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x127---page-not-zero"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x0000012a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12a--mui-no-valid-system-language"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x0000012f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12f--vhd-boot-initialization-failed"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x00000138": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x138-gpio-controller-driver-error"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x0000018b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x18b--secure-kernel-error"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x00000189": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x189--bad-object-header"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x00000197": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x197--win32k-security-failure"
+                ],
+                "note": "Code-specific parameters/applicability and safe diagnostic steps checked against Microsoft Learn; unsupported diagnosis and risky changes removed."
+            },
+            "0x1000008e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1000008e--kernel-mode-exception-not-handled-m"
+                ],
+                "note": "Retained as a Microsoft-listed alias with the same meaning and parameters as 0x8E; duplicate remedy advice consolidated."
             }
         }
     },
