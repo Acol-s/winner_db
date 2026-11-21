@@ -2559,6 +2559,96 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13d--critical-initialization-failure"
                 ],
                 "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000143": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x143--processor-driver-internal",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x00000147": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x147--abnormal-reset-detected",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x00000150": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x150--tcpip-aoac-nic-active-reference-leak",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x00000151": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x151--unsupported-instruction-mode",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x00000152": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x152--invalid-push-lock-flags",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x0000014a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14a--kernel-wmi-internal",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x0000014b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14b--soc-subsystem-failure",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x0000014c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14c--fatal-abnormal-reset-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x0000014d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14d--exception-scope-invalid",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
+            },
+            "0x0000014e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x14e--soc-critical-device-removed",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по статье Microsoft: смысл/параметры уточнены; неподтверждённые универсальные действия удалены. Для старых ОС применять только совместимые диагностику, драйверы и средства анализа."
             }
         }
     },
