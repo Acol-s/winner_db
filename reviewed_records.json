@@ -126445,6 +126445,1462 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L140"
         ],
         "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0xaf46a35a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L66"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xcc9598c4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L67"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe55199d6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L68"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe74c6f2e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L69"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x95035bf7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L70"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8d7b897c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L72"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa2d25db8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L76"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc8dafefe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L78"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd4dd1362": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L80"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xee4cbb1f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L81"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdd37b12a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L83"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x95044eab": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L84"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf5be76cc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L89"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc1a7bf6c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L90"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x844be7f4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L95"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9d3ecd55": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L98"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfcbf57a3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L103"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x98332df8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L104"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7222374": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L106"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbfaa2f0c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L107"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9651eae4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L108"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd9c5c8db": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L111"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xccae7f49": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L112"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xea85e7c3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L115"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8c068bf4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L116"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa97e1240": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L120"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xde053668": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L123"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfefd7569": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L129"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbb0cec33": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L130"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa8e73a39": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L132"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfa561c6c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L133"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc24d783f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L134"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbe95907c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L135"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8c056111": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L136"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa9b90444": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L139"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x972835ed": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L143"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbede146d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L144"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdc1a99ce": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L147"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xafd5f567": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L149"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x810167c4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L150"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb4b10c15": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L152"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xee6cad62": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L154"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb0c8bf60": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L156"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbfe29ec2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L161"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xeb1084f5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L165"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x87d43767": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L166"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd3f40fdd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L167"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xaa70b610": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L168"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe9e782ef": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L169"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x92f51df3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L170"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8a6bc67f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L171"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x964829ed": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L172"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe5c0c10f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L173"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa4a0e93d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L175"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe42f4748": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L176"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd74f7f18": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L178"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8acb8fdd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L179"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb28a6e64": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L180"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfe7de4c4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L182"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x822363ff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L183"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd47db8b2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L184"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8f347dee": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L187"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9c668cfe": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L190"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x83bc5bdb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L191"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd8477dcb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L192"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd3af46b8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L193"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa3308307": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L194"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb668d582": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L195"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd2e8e399": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L196"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xcedd9e8f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L198"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbe747849": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L200"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd47f8d61": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L201"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfdaa9916": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L202"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x866e4b4d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L203"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x88c15f94": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L204"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x921295bb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L206"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b60": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L208"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b61": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L209"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b62": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L210"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b63": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L211"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b64": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L212"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b65": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L213"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b66": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L214"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b67": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L215"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b68": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L216"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b69": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L217"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L218"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L219"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L220"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L221"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L222"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xbc5d0b6f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L223"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdce7fd34": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L226"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x979272f8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L227"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xca6724db": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L229"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x995dc027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L230"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x95f31b26": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L232"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb1d5d4a6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L233"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8d390aac": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L234"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdabb534a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L235"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xacb5de96": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L237"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa823178f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L238"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x993410d4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L239"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xec770cf3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L240"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd5e78611": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L242"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc6412f84": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L245"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa0116151": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L248"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa2b83ff5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L250"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9bea04f3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L251"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x87f441d8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L252"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9eb9ecd4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L253"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9d377230": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L255"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb16ade03": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L256"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd2e1bec7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L257"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd7055acf": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L258"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe285072c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L259"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb0b7fe5f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L261"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdad7ad60": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L262"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8694f076": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L264"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x966ae800": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L265"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe024a2c2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L266"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9565239f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L267"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe197821d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L268"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd3b80f6f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L269"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xcfc2ff6d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L272"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x91607cee": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L274"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xdca128a2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L276"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe725cff6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L279"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe3d00f8a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L283"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf32c0dab": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L284"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd669d001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L286"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe976bef8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L288"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x89e69fc3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L289"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc834d038": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L292"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xab71347a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L294"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc8f4b0c1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L295"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe40bd720": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L297"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7164a41": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L298"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xee047c72": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L302"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf916053a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L303"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd862212a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L306"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xcefb987e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L307"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb8296408": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L309"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc7607ced": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L311"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa6ae762a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L313"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xafa505ce": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L316"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe5005239": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L322"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb0cf8245": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L334"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7db8a2e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L335"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7db8a2f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L336"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7db8a30": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L337"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf7db8a31": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L338"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf8226383": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L341"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9c27891a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L344"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xececace8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L345"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9d2bfe18": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L346"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf758f09e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L348"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfb5d2347": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L350"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x9561c3e8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L353"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x862e2f0a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L354"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf8749193": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L355"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xc95e8dcf": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L357"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8e4228a0": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L359"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xf2421da5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L361"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x91106f36": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L362"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x97df7828": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L363"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xa5106186": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L371"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x971d2723": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L375"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x99f2f386": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L377"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd6d6c6d1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L378"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xddc811a5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L379"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8afd1a15": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L384"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb98e1b31": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L389"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xd2b46a2a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L391"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8a47ab5a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L393"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xe836bb98": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L396"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xfbc650fc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L399"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xb4b31205": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L400"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8bfda3b8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L401"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x97038743": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L405"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0xef95a145": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L410"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
+      },
+      "0x8f2e1f91": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/codecapi.h#L414"
+        ],
+        "note": "Codec API HRESULT symbol/value verified against pinned Microsoft Windows SDK codecapi.h. Actual support depends on the transform, device and OS release; no universal repair claimed."
       }
     }
   },
