@@ -371,20 +371,200 @@
         "\"0x8024005d\" site:reddit.com"
       ],
       "note": "Author recalls formatting external drive may have fixed it, with no file system/procedure specified; another user reports it did not help. Do not turn into formatting instructions or universal fix."
+    },
+    "0x00000285": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "Windows RAS error 645 internal authentication error Microsoft",
+        "\"645\" \"internal authentication\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"error 645\" \"dial\" site:reddit.com",
+        "\"ERROR_AUTH_INTERNAL\" \"645\" \"solved\""
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 645,
+        "symbol": "ERROR_AUTH_INTERNAL",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      },
+      "sources_not_used": [
+        {
+          "url": "https://learn.microsoft.com/en-us/answers/questions/6036828/kb5127648-breaks-wired-802-1x-peap-authentication",
+          "reason": "Wired 802.1X/PEAP context and HRESULT 0x80070285; not established as the same RAS API scenario. No regression workaround transferred."
+        }
+      ]
+    },
+    "0x00000292": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"error 658\" \"modem\" Windows",
+        "\"658\" \"device name\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_DEVICENAME_TOO_LONG\" \"fix\""
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 658,
+        "symbol": "ERROR_DEVICENAME_TOO_LONG",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000293": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"error 659\" Windows modem",
+        "\"659\" \"media.ini\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_DEVICENAME_NOT_FOUND\" \"fix\""
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 659,
+        "symbol": "ERROR_DEVICENAME_NOT_FOUND",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000294": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"error 660\" Windows modem",
+        "\"660\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_NO_RESPONSES\" \"660\" solution"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 660,
+        "symbol": "ERROR_NO_RESPONSES",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000295": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"661\" \"device.INF\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_NO_COMMAND_FOUND\" \"661\" solution"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 661,
+        "symbol": "ERROR_NO_COMMAND_FOUND",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000296": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"662\" \"macro\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_WRONG_KEY_SPECIFIED\" \"662\" solution"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 662,
+        "symbol": "ERROR_WRONG_KEY_SPECIFIED",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000297": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"663\" \"media.INI\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_UNKNOWN_DEVICE_TYPE\" \"663\" solution"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 663,
+        "symbol": "ERROR_UNKNOWN_DEVICE_TYPE",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x00000298": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"664\" \"modem\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"ERROR_ALLOCATING_MEMORY\" \"664\" solution"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 664,
+        "symbol": "ERROR_ALLOCATING_MEMORY",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x0000029a": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"error 666\" \"modem\" site:learn.microsoft.com/answers",
+        "\"error 666\" \"modem\" site:reddit.com"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 666,
+        "symbol": "ERROR_DEVICE_NOT_READY",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
+    },
+    "0x0000029b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/Remote Access API only; decimal code and symbolic name matched to Microsoft table. No universal Windows 2004–2026 applicability claimed.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"667\" \"media.INI\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Primary source confirms code meaning, not a repair procedure. No deprecation annotation appears on this specific table entry; that absence does not prove support on every Windows release. Existing steps remain diagnostic collection, not a verified fix.",
+      "compatibility_evidence": {
+        "decimal_code": 667,
+        "symbol": "ERROR_READING_INI_FILE",
+        "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+        "version_mapping": "not established"
+      }
     }
   },
-  "pending_count": 6262,
+  "pending_count": 6252,
   "pending_codes": [
-    "0x00000285",
-    "0x00000292",
-    "0x00000293",
-    "0x00000294",
-    "0x00000295",
-    "0x00000296",
-    "0x00000297",
-    "0x00000298",
-    "0x0000029a",
-    "0x0000029b",
     "0x00000335",
     "0x00000336",
     "0x00000337",
@@ -6654,7 +6834,8 @@
       "list": 2212
     },
     "consumer_runtime_compatibility": "unverified: consumer application code is not available in this checkout; mixed string/array userSolutions values already existed in baseline",
-    "windows_versions": "Applicability must be determined per source and scenario; no blanket Windows 2004-2026 compatibility claimed."
+    "windows_versions": "Applicability must be determined per source and scenario; no blanket Windows 2004-2026 compatibility claimed.",
+    "ras_review_scope": "Ten added RAS entries (645,658–664,666–667) matched against Microsoft RAS and dial-up/VPN tables. Meanings confirmed; per-release support and actual fixes remain unproven. Similar HRESULTs in unrelated components are not merged."
   },
   "requires_further_solution_research": [
     "0x80240043",
@@ -6680,6 +6861,16 @@
     "0x80242023",
     "0x80242024",
     "0x8024005c",
-    "0x8024005d"
+    "0x8024005d",
+    "0x00000285",
+    "0x00000292",
+    "0x00000293",
+    "0x00000294",
+    "0x00000295",
+    "0x00000296",
+    "0x00000297",
+    "0x00000298",
+    "0x0000029a",
+    "0x0000029b"
   ]
 }
