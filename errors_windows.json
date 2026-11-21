@@ -173541,181 +173541,181 @@
     "errorCode": "0xc1210100",
     "title": "WDSMCS_E_SESSION_SHUTDOWN_IN_PROGRESS — The request for content was rejected because shutdown is in progress for the specified session.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_SESSION_SHUTDOWN_IN_PROGRESS: The request for content was rejected because shutdown is in progress for the specified session.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Дождитесь завершения остановки текущей multicast-сессии; затем повторите запрос для активной сессии или создайте новую.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Включите журналирование WDS Multicast и сохраните событие.\", \"Проверьте ID и состояние сессии на сервере.\", \"Дождитесь завершения shutdown и повторите запрос только для активной сессии.\"]"
   },
   {
     "errorCode": "0xc1210101",
     "title": "WDSMCS_E_REQCALLBACKS_NOT_REG — The Content Provider did not register required callbacks.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_REQCALLBACKS_NOT_REG: The Content Provider did not register required callbacks.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Зарегистрируйте обязательные callbacks клиента до вызова StartSession.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Инициализируйте multicast-клиент.\", \"До старта сессии зарегистрируйте Session Start, Receive Contents и Session Complete.\", \"Запускайте сессию после успешной регистрации.\"]"
   },
   {
     "errorCode": "0xc1210102",
     "title": "WDSMCS_E_INCOMPATIBLE_VERSION — The supported version reported by Content Provider is incompatible.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_INCOMPATIBLE_VERSION: The supported version reported by Content Provider is incompatible.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Согласуйте версию multicast API клиента с поддерживаемой версией сервера.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Запишите версии Windows и значение ulApiVersion.\", \"Проверьте WDS_TRANSPORTCLIENT_REQUEST и используйте поддерживаемую версию API.\", \"Согласуйте версии; не обходите ошибку отключением защиты.\"]"
   },
   {
     "errorCode": "0xc1210103",
     "title": "WDSMCS_E_CONTENT_NOT_FOUND — The specified content was not found.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_CONTENT_NOT_FOUND: The specified content was not found.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Проверьте имя объекта, namespace и доступность объекта через зарегистрированный content provider.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сверьте pwszNamespace и pwszObjectName с опубликованным содержимым.\", \"Убедитесь, что namespace зарегистрирован, а provider может открыть объект.\", \"Исправьте имя/привязку и повторите запрос.\"]"
   },
   {
     "errorCode": "0xc1210104",
     "title": "WDSMCS_E_CLIENT_NOT_FOUND — The specified client was not found.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_CLIENT_NOT_FOUND: The specified client was not found.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Проверьте ID клиента и его наличие в нужной multicast-сессии.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сохраните ID клиента и сессии.\", \"Проверьте подключённых клиентов средствами WDS и правильность сервера/сессии.\", \"Используйте действующий ID или присоедините клиента повторно.\"]"
   },
   {
     "errorCode": "0xc1210105",
     "title": "WDSMCS_E_NAMESPACE_NOT_FOUND — The specified namespace was not found.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_NOT_FOUND: The specified namespace was not found.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Укажите существующий зарегистрированный namespace.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте точное имя в списке namespace сервера.\", \"Убедитесь, что namespace зарегистрирован.\", \"Если его нет, создайте и зарегистрируйте namespace средствами WDS.\"]"
   },
   {
     "errorCode": "0xc1210106",
     "title": "WDSMCS_E_CONTENT_PROVIDER_NOT_FOUND — The specified content provider was not found.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_CONTENT_PROVIDER_NOT_FOUND: The specified content provider was not found.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Убедитесь, что указанный content provider зарегистрирован и доступен серверу WDS.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте provider, указанный для namespace.\", \"Проверьте регистрацию и доступность provider через интерфейсы WDS.\", \"Исправьте ссылку или зарегистрируйте корректный provider.\"]"
   },
   {
     "errorCode": "0xc1210107",
     "title": "WDSMCS_E_NAMESPACE_ALREADY_EXISTS — The specified namespace already exists.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_ALREADY_EXISTS: The specified namespace already exists.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Используйте существующий namespace либо задайте новому уникальное имя.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте список зарегистрированных namespace.\", \"Если нужен существующий, выберите его вместо повторного создания.\", \"Для нового namespace задайте уникальное имя и зарегистрируйте его.\"]"
   },
   {
     "errorCode": "0xc1210108",
     "title": "WDSMCS_E_NAMESPACE_SHUTDOWN_IN_PROGRESS — The namespace is pending closure due to inactivity.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_SHUTDOWN_IN_PROGRESS: The namespace is pending closure due to inactivity.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Дождитесь завершения закрытия namespace, затем используйте его или создайте новый.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте состояние namespace и активных сессий.\", \"Не регистрируйте повторно namespace с тем же именем, пока он закрывается.\", \"После закрытия повторите регистрацию или используйте уникальное имя.\"]"
   },
   {
     "errorCode": "0xc1210109",
     "title": "WDSMCS_E_NAMESPACE_ALREADY_STARTED — The namespace has already started.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_ALREADY_STARTED: The namespace has already started.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Если передача уже началась, присоединитесь к текущей сессии вместо повторного старта.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте TransmissionStarted и текущие сессии.\", \"При активной передаче не вызывайте StartTransmission повторно.\", \"После завершения создайте новую сессию соответствующего типа.\"]"
   },
   {
     "errorCode": "0xc121010a",
     "title": "WDSMCS_E_NS_START_FAILED_NO_CLIENTS — The namespace cannot be started because there are no clients in the namespace.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_NS_START_FAILED_NO_CLIENTS: The namespace cannot be started because there are no clients in the namespace.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Подключите требуемых клиентов и проверьте условие минимального числа клиентов перед запуском.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте политику минимального числа клиентов.\", \"Убедитесь, что клиенты присоединились к нужному namespace.\", \"Запускайте передачу после выполнения условия.\"]"
   },
   {
     "errorCode": "0xc121010b",
     "title": "WDSMCS_E_START_TIME_IN_PAST — The specified start time is in the past.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_START_TIME_IN_PAST: The specified start time is in the past.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Задайте время запуска в будущем (UTC) и проверьте часы сервера.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сверьте плановое время с текущим UTC.\", \"Установите будущее время либо выберите ручной запуск для соответствующего типа сессии.\", \"Обновите расписание передачи.\"]"
   },
   {
     "errorCode": "0xc121010c",
     "title": "WDSMCS_E_PACKET_NOT_HASHED — A packet was received without a hash.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_HASHED: A packet was received without a hash.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Проверьте формирование хэша пакета в соответствии с настройками безопасности multicast-протокола.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сохраните параметры протокола и режима безопасности обеих сторон.\", \"Проверьте формирование хэша отправителем/provider.\", \"Сверьте пакет с MS-WDSMA; не отключайте проверку безопасности вслепую.\"]"
   },
   {
     "errorCode": "0xc121010d",
     "title": "WDSMCS_E_PACKET_NOT_SIGNED — A packet was received without a signature.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_SIGNED: A packet was received without a signature.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Проверьте подпись пакета, если она требуется согласованным режимом безопасности.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Зафиксируйте режим безопасности клиента и сервера.\", \"Проверьте генерацию и проверку подписи отправителем/provider.\", \"Согласуйте настройки с MS-WDSMA; не обходите ошибку отключением проверки подписи.\"]"
   },
   {
     "errorCode": "0xc121010e",
     "title": "WDSMCS_E_PACKET_HAS_SECURITY — A signed or hashed packet was received.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_HAS_SECURITY: A signed or hashed packet was received.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Согласуйте наличие security-данных пакета с режимом, ожидаемым получателем.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Зафиксируйте фактические поля пакета и режим безопасности.\", \"Сверьте конфигурацию sender, клиента и WDS.\", \"Исправьте несоответствие по MS-WDSMA, не отключая защиту без обоснования.\"]"
   },
   {
     "errorCode": "0xc121010f",
     "title": "WDSMCS_E_PACKET_NOT_CHECKSUMED — A packet was received without a checksum.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_CHECKSUMED: A packet was received without a checksum.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Добавьте контрольную сумму, требуемую multicast-протоколом и режимом сессии.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сохраните параметры пакета и режима безопасности.\", \"Проверьте вычисление checksum отправителем/provider.\", \"Сверьте пакет с MS-WDSMA и повторите передачу.\"]"
   },
   {
     "errorCode": "0xc1210110",
     "title": "WDSMCS_E_CLIENT_DOESNOT_SUPPORT_SECURITY_MODE — The client does not support the required security mode.",
     "description": "Microsoft SDK HRESULT WDSMCS_E_CLIENT_DOESNOT_SUPPORT_SECURITY_MODE: The client does not support the required security mode.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Используйте совместимые клиент и серверный режим безопасности согласно политике WDS.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Уточните требуемый сервером режим и возможности клиента.\", \"Сверьте параметры аутентификации и режим WDS_TRANSPORTCLIENT_REQUEST.\", \"Выберите совместимый поддерживаемый режим; не снижайте защиту без разрешения администратора.\"]"
   },
   {
     "errorCode": "0xc1220300",
     "title": "WDSTPC_E_CALLBACKS_NOT_REG — The required callbacks were not registered.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_CALLBACKS_NOT_REG: The required callbacks were not registered.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Зарегистрируйте обязательные callbacks до запуска multicast-сессии.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Инициализируйте multicast-клиент.\", \"Зарегистрируйте три обязательных callback’а до StartSession.\", \"Повторите запуск сессии.\"]"
   },
   {
     "errorCode": "0xc1220301",
     "title": "WDSTPC_E_ALREADY_COMPLETED — The session has already completed the download.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_COMPLETED: The session has already completed the download.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Сессия завершена; проверьте результат и создайте новую сессию для повторной загрузки.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Запросите итоговый статус и сохраните его.\", \"Не запускайте завершённую сессию повторно.\", \"При необходимости инициализируйте новую сессию.\"]"
   },
   {
     "errorCode": "0xc1220302",
     "title": "WDSTPC_E_ALREADY_IN_PROGRESS — The download is already in progress.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_IN_PROGRESS: The download is already in progress.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Загрузка уже выполняется; используйте текущую сессию, не создавая параллельный старт.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте статус текущей сессии.\", \"Дождитесь завершения либо корректно отмените её.\", \"Создавайте новую сессию после освобождения ресурсов.\"]"
   },
   {
     "errorCode": "0xc1220303",
@@ -173730,91 +173730,91 @@
     "errorCode": "0xc1220304",
     "title": "WDSTPC_E_NOT_INITIALIZED — WDS Multicast Client not initialized.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_NOT_INITIALIZED: WDS Multicast Client not initialized.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Вызовите WdsTransportClientInitialize до остальных функций multicast-клиента.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте, что инициализация возвращает ERROR_SUCCESS.\", \"Создайте сессию через WdsTransportClientInitializeSession.\", \"Зарегистрируйте callbacks и запустите передачу.\"]"
   },
   {
     "errorCode": "0xc1220305",
     "title": "WDSTPC_E_KICKED_POLICY_NOT_MET — The client did not meet the policy requirements set by the administrator and was kicked from the session.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_POLICY_NOT_MET: The client did not meet the policy requirements set by the administrator and was kicked from the session.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Сравните требования политики multicast-сессии с состоянием и возможностями клиента.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Запишите ID клиента, namespace и время отказа.\", \"Проверьте политику и критерии допуска на сервере WDS.\", \"Устраните несоответствие либо попросите администратора скорректировать ошибочную политику.\"]"
   },
   {
     "errorCode": "0xc1220306",
     "title": "WDSTPC_E_KICKED_FALLBACK — The client was disconnected by the administrator. The server requested that the client use another method to obtain the contents.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_FALLBACK: The client was disconnected by the administrator. The server requested that the client use another method to obtain the contents.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Используйте fallback, запрошенный сервером; для штатного WDS deployment client это может быть unicast.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте уведомление и журнал сервера.\", \"Продолжите способом, выбранным сервером, включая unicast, если он запрошен.\", \"Если fallback неожиданный, проверьте политику и причину отключения.\"]"
   },
   {
     "errorCode": "0xc1220307",
     "title": "WDSTPC_E_KICKED_FAIL — The client was disconnected by the administrator.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_FAIL: The client was disconnected by the administrator.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Клиент отключён администратором WDS; проверьте журналы и причину у администратора.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сохраните ID клиента и время отключения.\", \"Проверьте события сервера и сведения администратора.\", \"Повторно присоединяйтесь после устранения причины и разрешения администратора.\"]"
   },
   {
     "errorCode": "0xc1220308",
     "title": "WDSTPC_E_KICKED_UNKNOWN — The client was disconnected by the administrator. An unknown reason was specified for disconnecting the client from the session.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_UNKNOWN: The client was disconnected by the administrator. An unknown reason was specified for disconnecting the client from the session.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Причина отключения не указана; включите диагностику WDS Multicast и сопоставьте события клиента и сервера.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Сохраните код, ID клиента/сессии и время.\", \"Включите канал Deployment-Services-Diagnostics и журналирование Multicast.\", \"Сопоставьте события перед повторным подключением.\"]"
   },
   {
     "errorCode": "0xc1220309",
     "title": "WDSTPC_E_MULTISTREAM_NOT_ENABLED — Multistream support is not enabled.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_MULTISTREAM_NOT_ENABLED: Multistream support is not enabled.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Проверьте настройку multistream на сервере; если она не поддерживается, используйте обычную multicast-сессию.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте multicast policy и конфигурацию потоков.\", \"Включайте multistream только при поддержке сервера и клиента.\", \"Иначе переключитесь на обычную сессию или обратитесь к администратору WDS.\"]"
   },
   {
     "errorCode": "0xc122030a",
     "title": "WDSTPC_E_ALREADY_IN_LOWEST_SESSION — The specified client is already in the lowest multistream session.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_IN_LOWEST_SESSION: The specified client is already in the lowest multistream session.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Клиент уже в нижнем потоке; проверьте назначение и не выполняйте повторное понижение.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Получите состояние клиента и его stream assignment.\", \"Сверьте назначение с доступными потоками и политикой сервера.\", \"Оставьте клиента в текущем потоке либо выберите допустимую сессию.\"]"
   },
   {
     "errorCode": "0xc122030b",
     "title": "WDSTPC_E_CLIENT_DEMOTE_NOT_SUPPORTED — The specified client does not support demotion.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_CLIENT_DEMOTE_NOT_SUPPORTED: The specified client does not support demotion.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Этот клиент не поддерживает demotion; используйте совместимую конфигурацию сессии.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте возможности клиента и multistream policy.\", \"Исключите режим, требующий demotion, либо примените поддерживаемый клиент.\", \"Повторите передачу с совместимой конфигурацией.\"]"
   },
   {
     "errorCode": "0xc122030c",
     "title": "WDSTPC_E_NO_IP4_INTERFACE — No IPv4 interface available on the server.",
     "description": "Microsoft SDK HRESULT WDSTPC_E_NO_IP4_INTERFACE: No IPv4 interface available on the server.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Восстановите доступный IPv4-интерфейс сервера и проверьте его привязку к сети multicast.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте активный IPv4-адрес и маршрут сервера.\", \"Проверьте сетевую привязку WDS и диапазон multicast.\", \"Повторите запрос после восстановления IPv4-интерфейса.\"]"
   },
   {
     "errorCode": "0xc122030d",
     "title": "WDSTPTC_E_WIM_APPLY_REQUIRES_REFERENCE_IMAGE — The specified WIM file requires a reference WIM such as res.rwm in order to be applied.",
     "description": "Microsoft SDK HRESULT WDSTPTC_E_WIM_APPLY_REQUIRES_REFERENCE_IMAGE: The specified WIM file requires a reference WIM such as res.rwm in order to be applied.",
-    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "officialSolution": "Добавьте reference image `res.rwm`, требуемый исходным WIM.",
     "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
     "category": "Windows",
-    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+    "stepByStep": "[\"Проверьте комплект файлов и наличие res.rwm.\", \"Получите правильный reference WIM из того же набора и сохраните структуру.\", \"Повторите применение; не подменяйте reference-файл произвольным образом.\"]"
   },
   {
     "errorCode": "0x8000211d",
