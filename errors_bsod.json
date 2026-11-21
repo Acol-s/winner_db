@@ -3427,5 +3427,14 @@
     "userSolutions": "Это отдельный informational/variant code, не доказательство аппаратной ошибки. Используйте debugger/символы для данной ОС; передайте разбор драйверу/OEM.",
     "category": "BSOD",
     "stepByStep": "[\"Запишите параметры и сохраните dump.\",\"WinDbg: !analyze -v; параметры 1–2 — поток-владелец и mutex; 3–4 зарезервированы.\",\"Исследуйте стек: driver, исключение и завершение потока. Если драйвер не виден, примените !pool или ln к адресу mutex по инструкции Microsoft.\",\"Передайте выявленный модуль разработчику/OEM.\"]"
+  },
+  {
+    "errorCode": "0x0000019e",
+    "title": "BUGCODE_NETADAPTER_DRIVER — Network adapter driver bug check.",
+    "description": "Microsoft Windows SDK defines bug check 0x19E as BUGCODE_NETADAPTER_DRIVER. A Microsoft Q&A report confirms that users encountered this stop-code name on Windows 10, but the current Bug Check Code Reference does not provide parameter-specific analysis for it. The code alone does not identify the failing adapter or driver.",
+    "officialSolution": "No code-specific Microsoft repair procedure was found. Preserve and analyze the dump with WinDbg (!analyze -v); update or roll back a network adapter driver only if the dump or device history identifies it as involved.",
+    "userSolutions": "Do not infer that every network adapter is faulty from this name alone. Record the Windows build, adapter model, recent driver/update changes, and dump analysis before changing drivers.",
+    "category": "BSOD",
+    "stepByStep": "[\"Record the exact stop code and parameters, Windows edition/build, adapter model, and driver version.\", \"Save the crash dump and analyze it with WinDbg using !analyze -v; retain the named modules and stack.\", \"If the dump points to a specific network driver, compare its version with the device maker and use the supported update or rollback path for that exact device.\"]"
   }
 ]
