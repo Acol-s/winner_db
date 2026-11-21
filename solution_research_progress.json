@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "715efc6aa888795c2a480b2d3e896f44354ef5222c391d2e0b58ed4284fc2730",
+  "current_windows_sha256": "a60286bc09ba41c4dfb1008166a9ef5aa2534c0fd8567cf4857bfc074040bec9",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -561,22 +561,142 @@
         "source": "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
         "version_mapping": "not established"
       }
+    },
+    "0x00000335": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Historical RAS/NAP deployment only. NAP unavailable from Windows 10 and Server 2016.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"821\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "SDK retry/admin escalation guidance retained; detailed scenario-specific repair and user success not established. RAS Vista-and-later note is qualified by component removal documentation."
+    },
+    "0x00000336": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Historical RAS/NAP deployment only. NAP unavailable from Windows 10 and Server 2016.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"822\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "SDK retry/admin escalation guidance retained; detailed scenario-specific repair and user success not established. RAS Vista-and-later note is qualified by component removal documentation."
+    },
+    "0x00000337": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"823\" \"Crypto-Binding\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x00000338": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"824\" \"Crypto-Binding\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x00000339": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"825\" \"IPv6\" \"PPTP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft explicitly recommends L2TP for PPTP/IPv6 incompatibility. No forum success established; deployment-specific server requirements retained."
+    },
+    "0x0000033a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"826\" \"EAPTLS\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Microsoft says discard cached credentials, but a validated client/profile-specific procedure was not found. No blanket credential or certificate deletion instructions added."
+    },
+    "0x0000033b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"VPN\" \"827\" \"Base Filtering\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "SDK explicitly requires both named services started before dialing; service-console steps implement that prerequisite. No separate forum success established."
+    },
+    "0x0000033c": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_workaround",
+      "scope": "P2S VPN forum discussion; workaround commenter did not state OS/client version.",
+      "forum_result": "user_reconnect_workaround_and_counterexample_to_timeout_setting",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"828\" \"idle timeout\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Auto-reconnect reported as workaround, not root-cause fix. A different participant explicitly reports never timeout setting does not help."
+    },
+    "0x0000033d": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"829\" \"link failure\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x0000033e": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"830\" \"user logged off\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x0000033f": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"831\" \"832\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
+    },
+    "0x00000340": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS code documented from Windows Vista; component availability must be checked separately.",
+      "forum_result": "no_usable_context_matched_success",
+      "reddit_result": "no_usable_context_matched_success",
+      "search_queries": [
+        "\"831\" \"832\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Code meaning and source version note verified. No forum success established; existing diagnostic steps are not a verified repair."
     }
   },
-  "pending_count": 6252,
+  "pending_count": 6240,
   "pending_codes": [
-    "0x00000335",
-    "0x00000336",
-    "0x00000337",
-    "0x00000338",
-    "0x00000339",
-    "0x0000033a",
-    "0x0000033b",
-    "0x0000033c",
-    "0x0000033d",
-    "0x0000033e",
-    "0x0000033f",
-    "0x00000340",
     "0x00000341",
     "0x00000342",
     "0x00000343",
@@ -6835,7 +6955,8 @@
     },
     "consumer_runtime_compatibility": "unverified: consumer application code is not available in this checkout; mixed string/array userSolutions values already existed in baseline",
     "windows_versions": "Applicability must be determined per source and scenario; no blanket Windows 2004-2026 compatibility claimed.",
-    "ras_review_scope": "Ten added RAS entries (645,658–664,666–667) matched against Microsoft RAS and dial-up/VPN tables. Meanings confirmed; per-release support and actual fixes remain unproven. Similar HRESULTs in unrelated components are not merged."
+    "ras_review_scope": "Ten added RAS entries (645,658–664,666–667) matched against Microsoft RAS and dial-up/VPN tables. Meanings confirmed; per-release support and actual fixes remain unproven. Similar HRESULTs in unrelated components are not merged.",
+    "nap_component_limit": "NAP unavailable starting Windows 10; NAP/HRA/HCAP unavailable starting Windows Server 2016. This overrides blanket later-Windows interpretation of old RAS source notes for NAP scenarios."
   },
   "requires_further_solution_research": [
     "0x80240043",
@@ -6871,6 +6992,16 @@
     "0x00000297",
     "0x00000298",
     "0x0000029a",
-    "0x0000029b"
+    "0x0000029b",
+    "0x00000335",
+    "0x00000336",
+    "0x00000337",
+    "0x00000338",
+    "0x0000033a",
+    "0x0000033c",
+    "0x0000033d",
+    "0x0000033e",
+    "0x0000033f",
+    "0x00000340"
   ]
 }
