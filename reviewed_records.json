@@ -120333,41 +120333,46 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L71"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L71",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/syncregistrationerrors.h#L53"
         ],
-        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent. Числовое значение также объявлено как SYNC_E_REGISTRATION_INTERNAL_ERROR в Sync Registration SDK. Одна JSON-строка сохранена для общего числового HRESULT; значения Windows Search и Sync Registration контекстны. An internal error occurred in the sync registration runtime."
       },
       "0x80041601": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L80"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L80",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/syncregistrationerrors.h#L62"
         ],
-        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent. Числовое значение также объявлено как SYNC_E_REGISTRATION_ALREADY_REGISTERED в Sync Registration SDK. Одна JSON-строка сохранена для общего числового HRESULT; значения Windows Search и Sync Registration контекстны. The requested item has already been registered."
       },
       "0x80041602": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L89"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L89",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/syncregistrationerrors.h#L71"
         ],
-        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent. Числовое значение также объявлено как SYNC_E_REGISTRATION_NOT_REGISTERED в Sync Registration SDK. Одна JSON-строка сохранена для общего числового HRESULT; значения Windows Search и Sync Registration контекстны. The requested item does not exist in the registration store."
       },
       "0x80041603": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L98"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L98",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/syncregistrationerrors.h#L80"
         ],
-        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent. Числовое значение также объявлено как SYNC_E_REGISTRATION_CORRUPT_DATA в Sync Registration SDK. Одна JSON-строка сохранена для общего числового HRESULT; значения Windows Search и Sync Registration контекстны. The data for this item is corrupted and cannot be read."
       },
       "0x80041604": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L107"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CiError.h#L107",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/syncregistrationerrors.h#L89"
         ],
-        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent."
+        "note": "Code symbol and numeric value verified against pinned Microsoft Windows SDK CiError.h. Header does not establish minimum supported OS for every API; remedies remain diagnostic and version-dependent. Числовое значение также объявлено как SYNC_E_REGISTRATION_ALREADY_COMMITTED в Sync Registration SDK. Одна JSON-строка сохранена для общего числового HRESULT; значения Windows Search и Sync Registration контекстны. The properties for this item have already been committed on another instance."
       },
       "0x80041605": {
         "status": "reviewed",
@@ -146734,6 +146739,94 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L305"
         ],
         "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0x8fd00001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L23"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L31"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L39"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L47"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L55"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L63"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L71"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x8fd00008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/functiondiscoveryerror.h#L79"
+        ],
+        "note": "Symbol, HRESULT и сообщение сверены с закреплённым заголовком Microsoft Windows SDK. Сам заголовок не устанавливает минимальную версию ОС и не задаёт универсальное исправление; действия ограничены диагностикой."
+      },
+      "0x87cc000a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wmcodecdsp.h#L3854"
+        ],
+        "note": "Символ и числовое значение сверены с закреплённым заголовком Microsoft Windows SDK. Заголовок не задаёт минимальную версию ОС или способ ремонта; диагноз/действие зависят от конкретного codec/TOC/AEC component."
+      },
+      "0x99000001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wmcodecdsp.h#L3945"
+        ],
+        "note": "Символ и числовое значение сверены с закреплённым заголовком Microsoft Windows SDK. Заголовок не задаёт минимальную версию ОС или способ ремонта; диагноз/действие зависят от конкретного codec/TOC/AEC component."
+      },
+      "0x99000002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wmcodecdsp.h#L3948"
+        ],
+        "note": "Символ и числовое значение сверены с закреплённым заголовком Microsoft Windows SDK. Заголовок не задаёт минимальную версию ОС или способ ремонта; диагноз/действие зависят от конкретного codec/TOC/AEC component."
       }
     }
   },
