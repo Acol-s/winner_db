@@ -149618,97 +149618,251 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1526"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1526",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SYSTEM_SUSPENDED=0x00000341 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SYSTEM_SUSPENDED=0x00000341 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific code; Microsoft documents from Windows Vista.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"833\" \"system\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Meaning and minimum source version note checked; no universal repair established."
+        }
       },
       "0x00000342": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1531"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1531",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASMAN_SERVICE_STOPPED=0x00000342 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_RASMAN_SERVICE_STOPPED=0x00000342 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific code; Microsoft documents from Windows Vista.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"834\" \"RasMan\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Meaning and minimum source version note checked; no universal repair established."
+        }
       },
       "0x00000343": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1536"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1536",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/answers/questions/61017/rras-trouble-with-certificate-based-l2tp-on-server"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SERVER_CERT=0x00000343 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_SERVER_CERT=0x00000343 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_temporary_workaround",
+          "scope": "L2TP certificate authentication, Server 2016 replacement for 2008 R2; Windows 7/10 clients.",
+          "forum_result": "temporary_success_reversed_by_GPO_reenrollment",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"835\" \"certificate\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Author says deleting a competing server certificate temporarily restores connection until GPO auto-enrollment. Root cause unresolved; no universal deletion or certificate-validation bypass instructions provided."
+        }
       },
       "0x00000344": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1541"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1541",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/nap/network-access-protection-start-page",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-top"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_NAP_CAPABLE=0x00000344 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_NAP_CAPABLE=0x00000344 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Historical NAP deployment; unavailable starting Windows 10 and Server 2016.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"836\" \"NAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "SDK directs administrator to check NAP enforcement client, NAP Agent service and PEAP NAP enforcement. Not a modern Windows NAP enablement guide; no user success established."
+        }
       },
       "0x00000345": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1550"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1550",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_TUNNELID=0x00000345 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_TUNNELID=0x00000345 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"837\" \"tunnel\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Meaning and minimum source version note checked; no universal repair established."
+        }
       },
       "0x00000346": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1555"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1555",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS=0x00000346 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS=0x00000346 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"838\" \"RAS\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft allows one Update Connection request at a time. Serializing requests follows that API constraint; no forum-confirmed outcome established."
+        }
       },
       "0x00000347": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1560"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1560",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_ENGINE_DISABLED=0x00000347 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_ENGINE_DISABLED=0x00000347 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"839\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft recommends another enabled negotiation protocol; no universal server configuration or user success found."
+        }
       },
       "0x00000348": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1565"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1565",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://community.cisco.com/t5/vpn/ikev2-flexvpn-with-windows-ikev2-native-client-ipv6-address/td-p/4629389"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERNAL_ADDRESS_FAILURE=0x00000348 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERNAL_ADDRESS_FAILURE=0x00000348 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Windows 10 native IKEv2 client / Cisco C891F / IPv6 assignment.",
+          "forum_result": "Cisco matching_case_without_complete_solution",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"840\" \"internal address\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Author later reports inability to get IPv4 and IPv6 simultaneously and retained L2TP/IPsec. Configuration shown in thread is not a verified dual-stack solution."
+        }
       },
       "0x00000349": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1570"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1570",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_FAILED_CP_REQUIRED=0x00000349 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_FAILED_CP_REQUIRED=0x00000349 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"841\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft requires a request for internal IPv4 or IPv6. No validated client/server-specific repair steps found."
+        }
       },
       "0x0000034a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1575"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1575",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_TS_UNACCEPTABLE=0x0000034A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_TS_UNACCEPTABLE=0x0000034A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"842\" \"Traffic Selectors\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Meaning and minimum source version note checked; no universal repair established.",
+          "sources_not_used": [
+            {
+              "url": "https://developer-docs.netscaler.com/us/en/adc-nitro-api/current-release/api-reference/error-messages.html",
+              "reason": "NetScaler NITRO uses the same number 842 for an invalid autoproxy URL; different namespace, not Windows RAS traffic-selector negotiation."
+            }
+          ]
+        }
       },
       "0x0000034b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1580"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1580",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MOBIKE_DISABLED=0x0000034B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_MOBIKE_DISABLED=0x0000034B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"843\" \"MOBIKE\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Meaning and minimum source version note checked; no universal repair established."
+        }
       },
       "0x0000034c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1585"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1585",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_CANNOT_INITIATE_MOBIKE_UPDATE=0x0000034C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_CANNOT_INITIATE_MOBIKE_UPDATE=0x0000034C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS-specific code; Microsoft documents from Windows 7.",
+          "forum_result": "no_usable_context_matched_success",
+          "reddit_result": "no_usable_context_matched_success",
+          "search_queries": [
+            "\"844\" \"MOBIKE\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Microsoft permits MOBIKE update only in Connected state. This is an API state constraint, not a confirmed general connection fix."
+        }
       },
       "0x0000034d": {
         "status": "reviewed",
