@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "de865ace81041e97143dd14b81898340daf6ffbfa048d61b89e6b286c467dcf9",
+  "current_windows_sha256": "43763a10f80464e86e8a7b8d4b21a5ae84e6abf76eb02866ab00dcb1394661b6",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -1488,42 +1488,365 @@
         "\"923\" \"VPN\" \"hours\" (site:learn.microsoft.com/answers OR site:reddit.com)"
       ],
       "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+    },
+    "0x0000039c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"924\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x0000039d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Conditional modern RRAS UI procedure for Server 2016/2019/2022/2025; not proof of UI compatibility with Server 2000/2003.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"925\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x0000039e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"926\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x0000039f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "MprAdmin/MPR_INTERFACE_0 server-side API, minimum Windows 2000 Server; level 0 chosen for historical diagnostics.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"927\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a0": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"928\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a1": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"929\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a2": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Exact-code Q&A: Windows 8, unresolved. Conditional official fix: NPS Server 2019 firewall/service SID. Related Reddit success: Server 2019 Azure VM, no numeric MPR code.",
+      "forum_result": "matching_code_without_confirmed_fix",
+      "reddit_result": "related_firewall_block_author_success_without_numeric_code",
+      "search_queries": [
+        "\"930\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "NPS shared secret fixed site:reddit.com/r/sysadmin",
+        "site:learn.microsoft.com \"NPS\" \"2019\" \"firewall\" \"IAS\""
+      ],
+      "note": "Microsoft SID command and Reddit manual-rule workaround are separate procedures. SERVICE_SID_INFO says change takes effect at next system start; no claim that a service-only restart is proven sufficient. No blanket firewall disablement copied."
+    },
+    "0x000003a3": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"931\" \"multilink\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a4": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"932\" \"VPN\" \"session\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a5": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"933\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"934\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a7": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"935\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a8": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"936\" \"BAP\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003a9": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Windows 7 Ultimate receiving a second incoming VPN connection, April 2011 Q&A; not all outgoing Windows VPN sessions.",
+      "forum_result": "accepted_explanation_of_limit_no_deployment_outcome",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"937\" \"VPN\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "Accepted answer is a contextual product-limit explanation, not proof of an implemented successful fix. No firmware flashing or arbitrary modern product recommendation copied."
+    },
+    "0x000003aa": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"938\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003ab": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Official case-sensitive RADIUS shared-secret consistency procedure. Related user case: UniFi wired 802.1X/NPS Server 2022, December 2025, NPS Event 18, not numeric MPR 939.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "related_message_authenticator_author_success_without_numeric_code",
+      "search_queries": [
+        "\"939\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "RADIUS invalid authenticator solved site:reddit.com"
+      ],
+      "note": "User key-length workaround is not generalized into an NPS 30-character limit. Two changes were reported; no controlled proof of each change or universal timeout value. Request-side NPS event is not equated to a response-side MPR error."
+    },
+    "0x000003ac": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"940\" \"VPN\" \"hours\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003ad": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"941\" \"VPN\" \"port\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003ae": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"942\" \"VPN\" \"authentication\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003af": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"943\" \"BAP\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b0": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"944\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b1": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"945\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b2": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"946\" \"MD5\" \"migration\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "Pinned SDK lines 266-269 and Learn both contain literal run XXXX. Preserve warning identity; do not invent a migration utility or treat placeholder as an executable."
+    },
+    "0x000003b4": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"948\" \"router\" \"protocol\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b5": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"949\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"950\" \"RADIUS\" \"signature\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b7": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"951\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "RFC 3579 EAP Message-Authenticator requirement dates to 2003. KB5043417 describes separate July 2024 compatibility changes for listed OSs. No exact-code success, guessed vendor patch version or authentication-integrity bypass promoted."
+    },
+    "0x000003b8": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"952\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003b9": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"953\" \"RADIUS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003ba": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"954\" \"RADIUS\" \"packet\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x000003bb": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "RRAS/MPR namespace including legacy deployments. Procedure-specific OS/product requirements are stated separately.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"955\" \"RADIUS\" \"authenticator\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "Response Authenticator and Message-Authenticator are different fields. NPS Event 14/18 reports from other directions of traffic do not prove a fix for MPR 955."
+    },
+    "0x000003bc": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Conditional modern RRAS UI procedure for Server 2016/2019/2022/2025; not proof of UI compatibility with Server 2000/2003.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"956\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
     }
   },
-  "pending_count": 6170,
+  "pending_count": 6138,
   "pending_codes": [
-    "0x0000039c",
-    "0x0000039d",
-    "0x0000039e",
-    "0x0000039f",
-    "0x000003a0",
-    "0x000003a1",
-    "0x000003a2",
-    "0x000003a3",
-    "0x000003a4",
-    "0x000003a5",
-    "0x000003a6",
-    "0x000003a7",
-    "0x000003a8",
-    "0x000003a9",
-    "0x000003aa",
-    "0x000003ab",
-    "0x000003ac",
-    "0x000003ad",
-    "0x000003ae",
-    "0x000003af",
-    "0x000003b0",
-    "0x000003b1",
-    "0x000003b2",
-    "0x000003b4",
-    "0x000003b5",
-    "0x000003b6",
-    "0x000003b7",
-    "0x000003b8",
-    "0x000003b9",
-    "0x000003ba",
-    "0x000003bb",
-    "0x000003bc",
     "0x00000836",
     "0x00000837",
     "0x00000838",
@@ -7770,6 +8093,21 @@
     "0x00000396",
     "0x00000397",
     "0x00000398",
-    "0x00000399"
+    "0x00000399",
+    "0x0000039c",
+    "0x0000039f",
+    "0x000003a8",
+    "0x000003aa",
+    "0x000003ae",
+    "0x000003af",
+    "0x000003b1",
+    "0x000003b2",
+    "0x000003b5",
+    "0x000003b6",
+    "0x000003b7",
+    "0x000003b8",
+    "0x000003b9",
+    "0x000003ba",
+    "0x000003bb"
   ]
 }
