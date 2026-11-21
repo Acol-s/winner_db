@@ -821,16 +821,15 @@
     },
     {
         "errorCode": "0x80073CF0",
-        "title": "Сбой разрешения зависимостей (ERROR_INSTALL_RESOLVE_DEPENDENCY_FAILED)",
-        "description": "Сбой установки/обновления приложения Store — не удалось разрешить зависимости пакета (ERROR_INSTALL_RESOLVE_DEPENDENCY_FAILED).",
-        "officialSolution": "Сбросьте Store (wsreset). Перерегистрируйте Store и приложения. Запустите sfc /scannow и DISM. Проверьте журналы Event Viewer.",
+        "title": "Не удалось открыть пакет (ERROR_INSTALL_OPEN_PACKAGE_FAILED)",
+        "description": "Пакет не удалось открыть. Возможные причины включают отсутствие/повреждение файла, неподходящую подпись или несоответствие издателя сертификату.",
+        "officialSolution": "Проверьте точный путь и целостность пакета, его подпись и соответствие имени издателя сертификату. В журналах AppXDeployment-Server и AppxPackagingOM найдите подробную причину; устанавливайте пакет только из доверенного источника.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Проверьте точный путь и целостность пакета, его подпись и соответствие имени издателя сертификату.",
+            "• В журналах AppXDeployment-Server и AppxPackagingOM найдите подробную причину; устанавливайте пакет только из доверенного источника."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Проверьте точный путь и целостность пакета, его подпись и соответствие имени издателя сертификату.\",\"• В журналах AppXDeployment-Server и AppxPackagingOM найдите подробную причину; устанавливайте пакет только из доверенного источника.\"]"
     },
     {
         "errorCode": "0x80073CF1",
@@ -847,133 +846,123 @@
     },
     {
         "errorCode": "0x80073D05",
-        "title": "Сбой разрешения зависимостей Store (ERROR_INSTALL_RESOLVE_DEPENDENCY_FAILED)",
-        "description": "Сбой установки/обновления пакета Microsoft Store (ERROR_INSTALL_RESOLVE_DEPENDENCY_FAILED). Часто из-за прав или кэша Store.",
-        "officialSolution": "Сбросьте Store (wsreset). Перерегистрируйте Store: Get-AppxPackage | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register ...}. Запустите sfc /scannow.",
+        "title": "Не удалось удалить прежние данные приложения (ERROR_DELETING_EXISTING_APPLICATIONDATA_STORE_FAILED)",
+        "description": "Развёртывание не смогло удалить сохранённые данные предыдущей версии приложения; открытые файлы данных или активная среда приложения могут блокировать операцию.",
+        "officialSolution": "Закройте приложение и связанные процессы, сохраните пользовательские данные и повторите установку. Проверьте AppXDeployment-Server operational log; удаляйте данные приложения только после резервирования и если журнал указывает на это.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Закройте приложение и связанные процессы, сохраните пользовательские данные и повторите установку.",
+            "• Проверьте AppXDeployment-Server operational log; удаляйте данные приложения только после резервирования и если журнал указывает на это."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Закройте приложение и связанные процессы, сохраните пользовательские данные и повторите установку.\",\"• Проверьте AppXDeployment-Server operational log; удаляйте данные приложения только после резервирования и если журнал указывает на это.\"]"
     },
     {
         "errorCode": "0x80073D10",
-        "title": "Неверная архитектура (ERROR_INSTALL_FAILED)",
-        "description": "Сбой развёртывания — пакет предназначен для другой архитектуры процессора (ERROR_INSTALL_FAILED). Часто при установке WSA/x86-пакета на x64.",
-        "officialSolution": "Скачайте пакет правильной архитектуры (x86/x64/ARM64). Сбросьте Store. Запустите sfc /scannow. Проверьте разрядность системы (winver).",
+        "title": "Неподходящая архитектура пакета (ERROR_INSTALL_WRONG_PROCESSOR_ARCHITECTURE)",
+        "description": "Пакет предназначен для другой процессорной архитектуры или архитектуры Windows.",
+        "officialSolution": "Сверьте архитектуру пакета с системой и требования издателя, затем возьмите правильную сборку. Для пакета с зависимостями проверьте каждую зависимость в журнале AppXDeployment; код не говорит сам по себе, что требуется конкретная архитектура x64.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Сверьте архитектуру пакета с системой и требования издателя, затем возьмите правильную сборку.",
+            "• Для пакета с зависимостями проверьте каждую зависимость в журнале AppXDeployment; код не говорит сам по себе, что требуется конкретная архитектура x64."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Сверьте архитектуру пакета с системой и требования издателя, затем возьмите правильную сборку.\",\"• Для пакета с зависимостями проверьте каждую зависимость в журнале AppXDeployment; код не говорит сам по себе, что требуется конкретная архитектура x64.\"]"
     },
     {
         "errorCode": "0x80073D20",
-        "title": "Сбой установки (ERROR_INSTALL_FAILURE)",
-        "description": "Сбой установки приложения Store (ERROR_INSTALL_FAILURE). Часто из-за повреждения компонентов или хранилища.",
-        "officialSolution": "Сбросьте Store (wsreset). Перерегистрируйте Store. Запустите sfc /scannow и DISM. Отключите периферию. Обновите Windows.",
+        "title": "Сбой установки пакета (код требует уточнения контекста)",
+        "description": "Официальная таблица распространённых AppX кодов не подтверждает приведённое в базе имя для 0x80073D20; код и имя нельзя считать совпадающими без проверки SDK/журнала для конкретной версии Windows.",
+        "officialSolution": "Сохраните полное сообщение и событие AppXDeployment-Server, включая вложенный код и имя пакета. Проверьте точное значение в соответствующем Windows SDK/API; не выполняйте общую переустановку компонентов Store по одной этой записи.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Сохраните полное сообщение и событие AppXDeployment-Server, включая вложенный код и имя пакета.",
+            "• Проверьте точное значение в соответствующем Windows SDK/API; не выполняйте общую переустановку компонентов Store по одной этой записи."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Сохраните полное сообщение и событие AppXDeployment-Server, включая вложенный код и имя пакета.\",\"• Проверьте точное значение в соответствующем Windows SDK/API; не выполняйте общую переустановку компонентов Store по одной этой записи.\"]"
     },
     {
         "errorCode": "0x80073D21",
-        "title": "Требуется основной пакет (ERROR_INSTALL_OPTIONAL_PACKAGE_REQUIRES_MAIN_PACKAGE)",
-        "description": "Опциональный пакет требует установки основного пакета на системный диск (ERROR_INSTALL_OPTIONAL_PACKAGE_REQUIRES_MAIN_PACKAGE).",
-        "officialSolution": "Установите на системный диск. Измените место сохранения: Параметры → Система → Память. Перерегистрируйте Store. Сбросьте Store (wsreset).",
+        "title": "Развёртывание на несистемный том запрещено политикой пакета",
+        "description": "Политика конкретного семейства пакета запрещает развёртывание на несистемный том. Это не означает, что пакет требует установки на системный диск из-за своего типа.",
+        "officialSolution": "Проверьте AppXDeployment-Server log и том назначения. Установите пакет на системный том либо обратитесь к администратору за проверкой политики семейства пакета; не изменяйте реестр политики вручную.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Проверьте AppXDeployment-Server log и том назначения.",
+            "• Установите пакет на системный том либо обратитесь к администратору за проверкой политики семейства пакета; не изменяйте реестр политики вручную."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Проверьте AppXDeployment-Server log и том назначения.\",\"• Установите пакет на системный том либо обратитесь к администратору за проверкой политики семейства пакета; не изменяйте реестр политики вручную.\"]"
     },
     {
         "errorCode": "0x80073D22",
-        "title": "Понижение версии (ERROR_INSTALL_PACKAGE_DOWNGRADE)",
-        "description": "Попытка установить пакет более старой версии (ERROR_INSTALL_PACKAGE_DOWNGRADE). Часто при установке не на системный диск.",
-        "officialSolution": "Удалите новую версию перед установкой старой. Установите на системный диск. Сбросьте Store. Запустите sfc /scannow. Переустановите приложение.",
+        "title": "Развёртывание на несистемный том запрещено политикой компьютера",
+        "description": "Общесистемная политика запрещает развёртывание пакета на несистемный том. Это не понижение версии пакета.",
+        "officialSolution": "Проверьте выбранный том и централизованную политику установки приложений. Если организация управляет устройством, обратитесь к администратору; используйте системный том, если это разрешено требованиями пакета.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Проверьте выбранный том и централизованную политику установки приложений.",
+            "• Если организация управляет устройством, обратитесь к администратору; используйте системный том, если это разрешено требованиями пакета."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Проверьте выбранный том и централизованную политику установки приложений.\",\"• Если организация управляет устройством, обратитесь к администратору; используйте системный том, если это разрешено требованиями пакета.\"]"
     },
     {
         "errorCode": "0x80073D23",
-        "title": "Развёртывание прекращено (ERROR_INSTALL_RETURNED_TERMINATED)",
-        "description": "Развёртывание заблокировано, т.к. не разрешено в специальном профиле (ERROR_INSTALL_RETURNED_TERMINATED). Часто при развёртывании AppxPackage.",
-        "officialSolution": "Войдите в учётную запись без специального профиля. Сбросьте Store. Запустите sfc /scannow и DISM. Перерегистрируйте Store.",
+        "title": "Развёртывание пакета завершилось принудительной остановкой",
+        "description": "Официальная статья Microsoft не перечисляет этот код среди распространённых случаев; текущий символический alias в базе не подтверждён ссылкой в записи. Не следует выводить причину только из общего названия.",
+        "officialSolution": "Сохраните полный HRESULT, имя пакета, команду и подробное событие AppXDeployment-Server; проверьте документацию для конкретной версии/сборки Windows или пакет SDK. Не применяйте универсальные команды переустановки до определения происхождения кода.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа).",
-            "• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \"$($_.InstallLocation)\\AppXManifest.xml\"}."
+            "• Сохраните полный HRESULT, имя пакета, команду и подробное событие AppXDeployment-Server; проверьте документацию для конкретной версии/сборки Windows или пакет SDK.",
+            "• Не применяйте универсальные команды переустановки до определения происхождения кода."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store: Параметры → Система → Устранение неполадок → Другие → Приложения из Store.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Перерегистрируйте Store (PowerShell от админа): Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте дату/время и регион; отключите VPN/прокси и антивирус временно.\", \"• Убедитесь, что выбран системный диск для приложений: Параметры → Система → Память → Изменить место сохранения.\", \"• При повторе — удалите и переустановите пакет через Get-AppxPackage | Remove-AppxPackage.\"]"
+        "stepByStep": "[\"• Сохраните полный HRESULT, имя пакета, команду и подробное событие AppXDeployment-Server; проверьте документацию для конкретной версии/сборки Windows или пакет SDK.\",\"• Не применяйте универсальные команды переустановки до определения происхождения кода.\"]"
     },
     {
         "errorCode": "0x80073D26",
-        "title": "Сбой Gaming Services (ERROR_INSTALL_FAIL)",
-        "description": "Сбой установки Microsoft Gaming Services (ERROR_INSTALL_FAIL / 0x8007139F). Часто из-за прав или повреждённых компонентов.",
-        "officialSolution": "Удалите Gaming Services (Get-AppxPackage Microsoft.GamingServices | Remove-AppxPackage -AllUsers). Переустановите через Store. Запустите sfc /scannow.",
+        "title": "Установлена другая версия упакованной службы (ERROR_DIFFERENT_VERSION_OF_PACKAGED_SERVICE_INSTALLED)",
+        "description": "Установка пакета не удалась, поскольку уже установлена другая версия этой службы. Для Windows 10 ошибка встречалась при установке/запуске Gaming Services, но не ограничена им.",
+        "officialSolution": "Сверьте версии пакета и службы и проверьте AppXDeployment-Server log. Если проблема именно с Gaming Services на Windows 10, примените подходящую статью Microsoft Support для этой версии и KB; не удаляйте системные службы вручную без указания конкретного документа.",
         "userSolutions": [
-            "• Удалите Gaming Services (PowerShell от админа): Get-AppxPackage Microsoft.GamingServices | Remove-AppxPackage -AllUsers.",
-            "• Переустановите Gaming Services: start ms-windows-store://pdp/?productid=9MWPM2CQNLHN.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа)."
+            "• Сверьте версии пакета и службы и проверьте AppXDeployment-Server log.",
+            "• Если проблема именно с Gaming Services на Windows 10, примените подходящую статью Microsoft Support для этой версии и KB; не удаляйте системные службы вручную без указания конкретного документа."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Удалите Gaming Services (PowerShell от админа): Get-AppxPackage Microsoft.GamingServices | Remove-AppxPackage -AllUsers.\", \"• Переустановите Gaming Services: start ms-windows-store://pdp/?productid=9MWPM2CQNLHN.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Убедитесь, что вход выполнен с правами администратора.\", \"• Временно отключите антивирус; проверьте дату/время.\", \"• При повторе — переустановите Xbox и Gaming Services через Параметры → Приложения.\"]"
+        "stepByStep": "[\"• Сверьте версии пакета и службы и проверьте AppXDeployment-Server log.\",\"• Если проблема именно с Gaming Services на Windows 10, примените подходящую статью Microsoft Support для этой версии и KB; не удаляйте системные службы вручную без указания конкретного документа.\"]"
     },
     {
         "errorCode": "0x80073D27",
-        "title": "Служба существует вне пакета (ERROR_INSTALL_PACKAGE_NOT_SUPPORTED)",
-        "description": "Установка пакета не удалась — версия службы существует вне пакета .msix/.appx (ERROR_SERVICE_EXISTS_AS_NON_PACKAGED_SERVICE).",
-        "officialSolution": "Удалите неупакованную версию службы. Переустановите Gaming Services. Сбросьте Store. Запустите sfc /scannow.",
+        "title": "Установлена непакетированная версия службы (ERROR_SERVICE_EXISTS_AS_NON_PACKAGED_SERVICE)",
+        "description": "Развёртыванию мешает версия службы, установленная вне .msix/.appx пакета.",
+        "officialSolution": "Установите по журналу имя конфликтующей службы и её поставщика. Следуйте процедуре поставщика по удалению/обновлению старой службы, предварительно проверив её назначение; не удаляйте службы через реестр наугад.",
         "userSolutions": [
-            "• Удалите неупакованную версию службы/приложения (Параметры → Приложения → Удалить).",
-            "• Переустановите Gaming Services: start ms-windows-store://pdp/?productid=9MWPM2CQNLHN.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа)."
+            "• Установите по журналу имя конфликтующей службы и её поставщика.",
+            "• Следуйте процедуре поставщика по удалению/обновлению старой службы, предварительно проверив её назначение; не удаляйте службы через реестр наугад."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Удалите неупакованную версию службы/приложения (Параметры → Приложения → Удалить).\", \"• Переустановите Gaming Services: start ms-windows-store://pdp/?productid=9MWPM2CQNLHN.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Убедитесь в правах администратора; отключите антивирус временно.\", \"• Проверьте журналы Event Viewer (Приложения и службы → Microsoft → Windows → AppXDeploymentServer).\", \"• При повторе — создайте новую учётную запись администратора и установите там.\"]"
+        "stepByStep": "[\"• Установите по журналу имя конфликтующей службы и её поставщика.\",\"• Следуйте процедуре поставщика по удалению/обновлению старой службы, предварительно проверив её назначение; не удаляйте службы через реестр наугад.\"]"
     },
     {
         "errorCode": "0x80073D11",
-        "title": "Недостаточно места (ERROR_INSTALL_OUT_OF_DISK_SPACE)",
-        "description": "Недостаточно места на диске для установки приложения (ERROR_INSTALL_OUT_OF_DISK_SPACE).",
-        "officialSolution": "Освободите место на системном диске. Включите Storage Sense. Сбросьте Store. Запустите sfc /scannow. Проверьте SMART.",
+        "title": "Превышен лимит пакетов для sideload-разработки (ERROR_DEV_SIDELOAD_LIMIT_EXCEEDED)",
+        "description": "Достигнуто максимальное число developer-sideloaded пакетов на устройстве. Это не сообщение о нехватке места.",
+        "officialSolution": "Удалите тестовый sideload-пакет, который больше не нужен, используя поддерживаемый способ управления приложением, затем повторите установку. В производственной среде проверьте правила развёртывания организации.",
         "userSolutions": [
-            "• Освободите место: Параметры → Система → Память → Временные файлы; включите Storage Sense.",
-            "• Удалите ненужные приложения и файлы; очистите корзину.",
-            "• Сбросьте кэш Store: wsreset.exe (от админа)."
+            "• Удалите тестовый sideload-пакет, который больше не нужен, используя поддерживаемый способ управления приложением, затем повторите установку.",
+            "• В производственной среде проверьте правила развёртывания организации."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Освободите место: Параметры → Система → Память → Временные файлы; включите Storage Sense.\", \"• Удалите ненужные приложения и файлы; очистите корзину.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Проверьте SMART дисков (CrystalDiskInfo) и свободное место на C:.\", \"• Проверьте ключ реестра PackageVolumes: HKLM\\\\SOFTWARE\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Appx.\", \"• При повторе — установите приложение на другой диск (Параметры → Память).\"]"
+        "stepByStep": "[\"• Удалите тестовый sideload-пакет, который больше не нужен, используя поддерживаемый способ управления приложением, затем повторите установку.\",\"• В производственной среде проверьте правила развёртывания организации.\"]"
     },
     {
         "errorCode": "0x80073D01",
-        "title": "Сбой пользовательского интерфейса установки (ERROR_INSTALL_UI_FAILURE)",
-        "description": "Сбой UI установки/удаления приложения UWP (ERROR_INSTALL_UI_FAILURE). Часто из-за политик AppLocker или реестра обновлений.",
-        "officialSolution": "Запустите средство устранения Store. Проверьте AppLocker и политики реестра. Сбросьте Store. Запустите sfc /scannow.",
+        "title": "Развёртывание пакета заблокировано политикой (ERROR_DEPLOYMENT_BLOCKED_BY_POLICY)",
+        "description": "Операцию блокирует политика развёртывания, например Application Control или ограничение для специального профиля. Это не ошибка пользовательского интерфейса.",
+        "officialSolution": "Проверьте AppXDeployment-Server log и применимые локальные/доменные политики. Если политика ожидаема, используйте разрешённый способ установки; при ошибочной блокировке обратитесь к администратору вместо обхода защиты.",
         "userSolutions": [
-            "• Запустите средство устранения неполадок Microsoft Store (Параметры → Устранение неполадок).",
-            "• Проверьте AppLocker: PowerShell от админа → Get-AppLockerPolicy -Effective -Xml.",
-            "• Проверьте политики реестра: HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate."
+            "• Проверьте AppXDeployment-Server log и применимые локальные/доменные политики.",
+            "• Если политика ожидаема, используйте разрешённый способ установки; при ошибочной блокировке обратитесь к администратору вместо обхода защиты."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Запустите средство устранения неполадок Microsoft Store (Параметры → Устранение неполадок).\", \"• Проверьте AppLocker: PowerShell от админа → Get-AppLockerPolicy -Effective -Xml.\", \"• Проверьте политики реестра: HKLM\\\\SOFTWARE\\\\Policies\\\\Microsoft\\\\Windows\\\\WindowsUpdate.\", \"• Сбросьте кэш Store: wsreset.exe (от админа).\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Перерегистрируйте Store: Get-AppxPackage -AllUsers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register \\\"$($_.InstallLocation)\\\\AppXManifest.xml\\\"}.\", \"• При повторе — создайте новую учётную запись администратора.\"]"
+        "stepByStep": "[\"• Проверьте AppXDeployment-Server log и применимые локальные/доменные политики.\",\"• Если политика ожидаема, используйте разрешённый способ установки; при ошибочной блокировке обратитесь к администратору вместо обхода защиты.\"]"
     },
     {
         "errorCode": "0xC004C008",
