@@ -172285,5 +172285,1553 @@
     "userSolutions": "Подтверждённое универсальное пользовательское исправление по одному HRESULT не установлено. Сначала соберите контекст вызова и журнал компонента.",
     "category": "Windows",
     "stepByStep": "[\"Запишите полный HRESULT, сообщение и действие, после которого возникла ошибка.\", \"Установите приложение, API или службу, вернувшие код; сохраните относящиеся к ним журналы и сборку Windows.\", \"Найдите документацию Microsoft для этого компонента и версии Windows; применяйте исправление только если оно соответствует зафиксированному сценарию.\"]"
+  },
+  {
+    "errorCode": "0x80040e00",
+    "title": "DB_E_BADACCESSORHANDLE — Accessor is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADACCESSORHANDLE: Accessor is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e01",
+    "title": "DB_E_ROWLIMITEXCEEDED — Row could not be inserted into the rowset without exceeding provider's maximum number of active rows.",
+    "description": "Microsoft SDK HRESULT DB_E_ROWLIMITEXCEEDED: Row could not be inserted into the rowset without exceeding provider's maximum number of active rows.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e02",
+    "title": "DB_E_READONLYACCESSOR — Accessor is read-only. Operation failed.",
+    "description": "Microsoft SDK HRESULT DB_E_READONLYACCESSOR: Accessor is read-only. Operation failed.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e03",
+    "title": "DB_E_SCHEMAVIOLATION — Values violate the database schema.",
+    "description": "Microsoft SDK HRESULT DB_E_SCHEMAVIOLATION: Values violate the database schema.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e04",
+    "title": "DB_E_BADROWHANDLE — Row handle is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADROWHANDLE: Row handle is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e05",
+    "title": "DB_E_OBJECTOPEN — Object was open.",
+    "description": "Microsoft SDK HRESULT DB_E_OBJECTOPEN: Object was open.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e06",
+    "title": "DB_E_BADCHAPTER — Chapter is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCHAPTER: Chapter is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e07",
+    "title": "DB_E_CANTCONVERTVALUE — Data or literal value could not be converted to the type of the column in the data source, and the provider was unable to determine which columns could not be converted.  Data overflow or sign mismatch was not the cause.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTCONVERTVALUE: Data or literal value could not be converted to the type of the column in the data source, and the provider was unable to determine which columns could not be converted.  Data overflow or sign mismatch was not the cause.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e08",
+    "title": "DB_E_BADBINDINFO — Binding information is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADBINDINFO: Binding information is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e09",
+    "title": "DB_SEC_E_PERMISSIONDENIED — Permission denied.",
+    "description": "Microsoft SDK HRESULT DB_SEC_E_PERMISSIONDENIED: Permission denied.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0a",
+    "title": "DB_E_NOTAREFERENCECOLUMN — Column does not contain bookmarks or chapters.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTAREFERENCECOLUMN: Column does not contain bookmarks or chapters.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0b",
+    "title": "DB_E_LIMITREJECTED — Cost limits were rejected.",
+    "description": "Microsoft SDK HRESULT DB_E_LIMITREJECTED: Cost limits were rejected.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0c",
+    "title": "DB_E_NOCOMMAND — Command text was not set for the command object.",
+    "description": "Microsoft SDK HRESULT DB_E_NOCOMMAND: Command text was not set for the command object.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0d",
+    "title": "DB_E_COSTLIMIT — Query plan within the cost limit cannot be found.",
+    "description": "Microsoft SDK HRESULT DB_E_COSTLIMIT: Query plan within the cost limit cannot be found.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0e",
+    "title": "DB_E_BADBOOKMARK — Bookmark is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADBOOKMARK: Bookmark is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e0f",
+    "title": "DB_E_BADLOCKMODE — Lock mode is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADLOCKMODE: Lock mode is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e10",
+    "title": "DB_E_PARAMNOTOPTIONAL — No value given for one or more required parameters.",
+    "description": "Microsoft SDK HRESULT DB_E_PARAMNOTOPTIONAL: No value given for one or more required parameters.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e11",
+    "title": "DB_E_BADCOLUMNID — Column ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCOLUMNID: Column ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e12",
+    "title": "DB_E_BADRATIO — Numerator was greater than denominator. Values must express ratio between zero and 1.",
+    "description": "Microsoft SDK HRESULT DB_E_BADRATIO: Numerator was greater than denominator. Values must express ratio between zero and 1.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e13",
+    "title": "DB_E_BADVALUES — Value is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADVALUES: Value is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e14",
+    "title": "DB_E_ERRORSINCOMMAND — One or more errors occurred during processing of command.",
+    "description": "Microsoft SDK HRESULT DB_E_ERRORSINCOMMAND: One or more errors occurred during processing of command.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e15",
+    "title": "DB_E_CANTCANCEL — Command cannot be canceled.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTCANCEL: Command cannot be canceled.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e16",
+    "title": "DB_E_DIALECTNOTSUPPORTED — Command dialect is not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_DIALECTNOTSUPPORTED: Command dialect is not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e17",
+    "title": "DB_E_DUPLICATEDATASOURCE — Data source object could not be created because the named data source already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATEDATASOURCE: Data source object could not be created because the named data source already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e18",
+    "title": "DB_E_CANNOTRESTART — Rowset position cannot be restarted.",
+    "description": "Microsoft SDK HRESULT DB_E_CANNOTRESTART: Rowset position cannot be restarted.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e19",
+    "title": "DB_E_NOTFOUND — Object or data matching the name, range, or selection criteria was not found within the scope of this operation.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTFOUND: Object or data matching the name, range, or selection criteria was not found within the scope of this operation.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1b",
+    "title": "DB_E_NEWLYINSERTED — Identity cannot be determined for newly inserted rows.",
+    "description": "Microsoft SDK HRESULT DB_E_NEWLYINSERTED: Identity cannot be determined for newly inserted rows.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1a",
+    "title": "DB_E_CANNOTFREE — Provider has ownership of this tree.",
+    "description": "Microsoft SDK HRESULT DB_E_CANNOTFREE: Provider has ownership of this tree.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1c",
+    "title": "DB_E_GOALREJECTED — Goal was rejected because no nonzero weights were specified for any goals supported. Current goal was not changed.",
+    "description": "Microsoft SDK HRESULT DB_E_GOALREJECTED: Goal was rejected because no nonzero weights were specified for any goals supported. Current goal was not changed.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1d",
+    "title": "DB_E_UNSUPPORTEDCONVERSION — Requested conversion is not supported.",
+    "description": "Microsoft SDK HRESULT DB_E_UNSUPPORTEDCONVERSION: Requested conversion is not supported.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1e",
+    "title": "DB_E_BADSTARTPOSITION — No rows were returned because the offset value moves the position before the beginning or after the end of the rowset.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSTARTPOSITION: No rows were returned because the offset value moves the position before the beginning or after the end of the rowset.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e1f",
+    "title": "DB_E_NOQUERY — Information was requested for a query and the query was not set.",
+    "description": "Microsoft SDK HRESULT DB_E_NOQUERY: Information was requested for a query and the query was not set.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e20",
+    "title": "DB_E_NOTREENTRANT — Consumer's event handler called a non-reentrant method in the provider.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTREENTRANT: Consumer's event handler called a non-reentrant method in the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e21",
+    "title": "DB_E_ERRORSOCCURRED — Multiple-step OLE DB operation generated errors. Check each OLE DB status value, if available. No work was done.",
+    "description": "Microsoft SDK HRESULT DB_E_ERRORSOCCURRED: Multiple-step OLE DB operation generated errors. Check each OLE DB status value, if available. No work was done.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e22",
+    "title": "DB_E_NOAGGREGATION — Non-NULL controlling IUnknown was specified, and either the requested interface was not IUnknown, or the provider does not support COM aggregation.",
+    "description": "Microsoft SDK HRESULT DB_E_NOAGGREGATION: Non-NULL controlling IUnknown was specified, and either the requested interface was not IUnknown, or the provider does not support COM aggregation.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e23",
+    "title": "DB_E_DELETEDROW — Row handle referred to a deleted row or a row marked for deletion.",
+    "description": "Microsoft SDK HRESULT DB_E_DELETEDROW: Row handle referred to a deleted row or a row marked for deletion.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e24",
+    "title": "DB_E_CANTFETCHBACKWARDS — Rowset does not support fetching backward.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTFETCHBACKWARDS: Rowset does not support fetching backward.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e25",
+    "title": "DB_E_ROWSNOTRELEASED — Row handles must all be released before new ones can be obtained.",
+    "description": "Microsoft SDK HRESULT DB_E_ROWSNOTRELEASED: Row handles must all be released before new ones can be obtained.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e26",
+    "title": "DB_E_BADSTORAGEFLAG — One or more storage flags are not supported.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSTORAGEFLAG: One or more storage flags are not supported.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e27",
+    "title": "DB_E_BADCOMPAREOP — Comparison operator is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCOMPAREOP: Comparison operator is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e28",
+    "title": "DB_E_BADSTATUSVALUE — Status flag was neither DBCOLUMNSTATUS_OK nor DBCOLUMNSTATUS_ISNULL.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSTATUSVALUE: Status flag was neither DBCOLUMNSTATUS_OK nor DBCOLUMNSTATUS_ISNULL.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e29",
+    "title": "DB_E_CANTSCROLLBACKWARDS — Rowset does not support scrolling backward.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTSCROLLBACKWARDS: Rowset does not support scrolling backward.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2a",
+    "title": "DB_E_BADREGIONHANDLE — Region handle is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADREGIONHANDLE: Region handle is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2b",
+    "title": "DB_E_NONCONTIGUOUSRANGE — Set of rows is not contiguous to, or does not overlap, the rows in the watch region.",
+    "description": "Microsoft SDK HRESULT DB_E_NONCONTIGUOUSRANGE: Set of rows is not contiguous to, or does not overlap, the rows in the watch region.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2c",
+    "title": "DB_E_INVALIDTRANSITION — Transition from ALL* to MOVE* or EXTEND* was specified.",
+    "description": "Microsoft SDK HRESULT DB_E_INVALIDTRANSITION: Transition from ALL* to MOVE* or EXTEND* was specified.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2d",
+    "title": "DB_E_NOTASUBREGION — Region is not a proper subregion of the region identified by the watch region handle.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTASUBREGION: Region is not a proper subregion of the region identified by the watch region handle.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2e",
+    "title": "DB_E_MULTIPLESTATEMENTS — Multiple-statement commands are not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_MULTIPLESTATEMENTS: Multiple-statement commands are not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e2f",
+    "title": "DB_E_INTEGRITYVIOLATION — Value violated the integrity constraints for a column or table.",
+    "description": "Microsoft SDK HRESULT DB_E_INTEGRITYVIOLATION: Value violated the integrity constraints for a column or table.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e30",
+    "title": "DB_E_BADTYPENAME — Type name is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADTYPENAME: Type name is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e31",
+    "title": "DB_E_ABORTLIMITREACHED — Execution stopped because a resource limit was reached. No results were returned.",
+    "description": "Microsoft SDK HRESULT DB_E_ABORTLIMITREACHED: Execution stopped because a resource limit was reached. No results were returned.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e32",
+    "title": "DB_E_ROWSETINCOMMAND — Command object whose command tree contains a rowset or rowsets cannot be cloned.",
+    "description": "Microsoft SDK HRESULT DB_E_ROWSETINCOMMAND: Command object whose command tree contains a rowset or rowsets cannot be cloned.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e33",
+    "title": "DB_E_CANTTRANSLATE — Current tree cannot be represented as text.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTTRANSLATE: Current tree cannot be represented as text.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e34",
+    "title": "DB_E_DUPLICATEINDEXID — Index already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATEINDEXID: Index already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e35",
+    "title": "DB_E_NOINDEX — Index does not exist.",
+    "description": "Microsoft SDK HRESULT DB_E_NOINDEX: Index does not exist.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e36",
+    "title": "DB_E_INDEXINUSE — Index is in use.",
+    "description": "Microsoft SDK HRESULT DB_E_INDEXINUSE: Index is in use.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e37",
+    "title": "DB_E_NOTABLE — Table does not exist.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTABLE: Table does not exist.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e38",
+    "title": "DB_E_CONCURRENCYVIOLATION — Rowset used optimistic concurrency and the value of a column has changed since it was last read.",
+    "description": "Microsoft SDK HRESULT DB_E_CONCURRENCYVIOLATION: Rowset used optimistic concurrency and the value of a column has changed since it was last read.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e39",
+    "title": "DB_E_BADCOPY — Errors detected during the copy.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCOPY: Errors detected during the copy.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3a",
+    "title": "DB_E_BADPRECISION — Precision is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADPRECISION: Precision is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3b",
+    "title": "DB_E_BADSCALE — Scale is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSCALE: Scale is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3c",
+    "title": "DB_E_BADTABLEID — Table ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADTABLEID: Table ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3d",
+    "title": "DB_E_BADTYPE — Type is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADTYPE: Type is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3e",
+    "title": "DB_E_DUPLICATECOLUMNID — Column ID already exists or occurred more than once in the array of columns.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATECOLUMNID: Column ID already exists or occurred more than once in the array of columns.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e3f",
+    "title": "DB_E_DUPLICATETABLEID — Table already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATETABLEID: Table already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e40",
+    "title": "DB_E_TABLEINUSE — Table is in use.",
+    "description": "Microsoft SDK HRESULT DB_E_TABLEINUSE: Table is in use.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e41",
+    "title": "DB_E_NOLOCALE — Locale ID is not supported.",
+    "description": "Microsoft SDK HRESULT DB_E_NOLOCALE: Locale ID is not supported.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e42",
+    "title": "DB_E_BADRECORDNUM — Record number is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADRECORDNUM: Record number is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e43",
+    "title": "DB_E_BOOKMARKSKIPPED — Form of bookmark is valid, but no row was found to match it.",
+    "description": "Microsoft SDK HRESULT DB_E_BOOKMARKSKIPPED: Form of bookmark is valid, but no row was found to match it.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e44",
+    "title": "DB_E_BADPROPERTYVALUE — Property value is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADPROPERTYVALUE: Property value is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e45",
+    "title": "DB_E_INVALID — Rowset is not chaptered.",
+    "description": "Microsoft SDK HRESULT DB_E_INVALID: Rowset is not chaptered.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e46",
+    "title": "DB_E_BADACCESSORFLAGS — One or more accessor flags were invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADACCESSORFLAGS: One or more accessor flags were invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e47",
+    "title": "DB_E_BADSTORAGEFLAGS — One or more storage flags are invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSTORAGEFLAGS: One or more storage flags are invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e48",
+    "title": "DB_E_BYREFACCESSORNOTSUPPORTED — Reference accessors are not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_BYREFACCESSORNOTSUPPORTED: Reference accessors are not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e49",
+    "title": "DB_E_NULLACCESSORNOTSUPPORTED — Null accessors are not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_NULLACCESSORNOTSUPPORTED: Null accessors are not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4a",
+    "title": "DB_E_NOTPREPARED — Command was not prepared.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTPREPARED: Command was not prepared.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4b",
+    "title": "DB_E_BADACCESSORTYPE — Accessor is not a parameter accessor.",
+    "description": "Microsoft SDK HRESULT DB_E_BADACCESSORTYPE: Accessor is not a parameter accessor.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4c",
+    "title": "DB_E_WRITEONLYACCESSOR — Accessor is write-only.",
+    "description": "Microsoft SDK HRESULT DB_E_WRITEONLYACCESSOR: Accessor is write-only.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4d",
+    "title": "DB_SEC_E_AUTH_FAILED — Authentication failed.",
+    "description": "Microsoft SDK HRESULT DB_SEC_E_AUTH_FAILED: Authentication failed.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4e",
+    "title": "DB_E_CANCELED — Operation was canceled.",
+    "description": "Microsoft SDK HRESULT DB_E_CANCELED: Operation was canceled.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e4f",
+    "title": "DB_E_CHAPTERNOTRELEASED — Rowset is single-chaptered. The chapter was not released.",
+    "description": "Microsoft SDK HRESULT DB_E_CHAPTERNOTRELEASED: Rowset is single-chaptered. The chapter was not released.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e50",
+    "title": "DB_E_BADSOURCEHANDLE — Source handle is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADSOURCEHANDLE: Source handle is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e51",
+    "title": "DB_E_PARAMUNAVAILABLE — Provider cannot derive parameter information and SetParameterInfo has not been called.",
+    "description": "Microsoft SDK HRESULT DB_E_PARAMUNAVAILABLE: Provider cannot derive parameter information and SetParameterInfo has not been called.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e52",
+    "title": "DB_E_ALREADYINITIALIZED — Data source object is already initialized.",
+    "description": "Microsoft SDK HRESULT DB_E_ALREADYINITIALIZED: Data source object is already initialized.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e53",
+    "title": "DB_E_NOTSUPPORTED — Method is not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTSUPPORTED: Method is not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e54",
+    "title": "DB_E_MAXPENDCHANGESEXCEEDED — Number of rows with pending changes exceeded the limit.",
+    "description": "Microsoft SDK HRESULT DB_E_MAXPENDCHANGESEXCEEDED: Number of rows with pending changes exceeded the limit.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e55",
+    "title": "DB_E_BADORDINAL — Column does not exist.",
+    "description": "Microsoft SDK HRESULT DB_E_BADORDINAL: Column does not exist.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e56",
+    "title": "DB_E_PENDINGCHANGES — Pending changes exist on a row with a reference count of zero.",
+    "description": "Microsoft SDK HRESULT DB_E_PENDINGCHANGES: Pending changes exist on a row with a reference count of zero.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e57",
+    "title": "DB_E_DATAOVERFLOW — Literal value in the command exceeded the range of the type of the associated column.",
+    "description": "Microsoft SDK HRESULT DB_E_DATAOVERFLOW: Literal value in the command exceeded the range of the type of the associated column.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e58",
+    "title": "DB_E_BADHRESULT — HRESULT is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADHRESULT: HRESULT is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e59",
+    "title": "DB_E_BADLOOKUPID — Lookup ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADLOOKUPID: Lookup ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5a",
+    "title": "DB_E_BADDYNAMICERRORID — DynamicError ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADDYNAMICERRORID: DynamicError ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5b",
+    "title": "DB_E_PENDINGINSERT — Most recent data for a newly inserted row could not be retrieved because the insert is pending.",
+    "description": "Microsoft SDK HRESULT DB_E_PENDINGINSERT: Most recent data for a newly inserted row could not be retrieved because the insert is pending.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5c",
+    "title": "DB_E_BADCONVERTFLAG — Conversion flag is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCONVERTFLAG: Conversion flag is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5d",
+    "title": "DB_E_BADPARAMETERNAME — Parameter name is unrecognized.",
+    "description": "Microsoft SDK HRESULT DB_E_BADPARAMETERNAME: Parameter name is unrecognized.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5e",
+    "title": "DB_E_MULTIPLESTORAGE — Multiple storage objects cannot be open simultaneously.",
+    "description": "Microsoft SDK HRESULT DB_E_MULTIPLESTORAGE: Multiple storage objects cannot be open simultaneously.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e5f",
+    "title": "DB_E_CANTFILTER — Filter cannot be opened.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTFILTER: Filter cannot be opened.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e60",
+    "title": "DB_E_CANTORDER — Order cannot be opened.",
+    "description": "Microsoft SDK HRESULT DB_E_CANTORDER: Order cannot be opened.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e61",
+    "title": "MD_E_BADTUPLE — Tuple is invalid.",
+    "description": "Microsoft SDK HRESULT MD_E_BADTUPLE: Tuple is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e62",
+    "title": "MD_E_BADCOORDINATE — Coordinate is invalid.",
+    "description": "Microsoft SDK HRESULT MD_E_BADCOORDINATE: Coordinate is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e63",
+    "title": "MD_E_INVALIDAXIS — Axis is invalid.",
+    "description": "Microsoft SDK HRESULT MD_E_INVALIDAXIS: Axis is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e64",
+    "title": "MD_E_INVALIDCELLRANGE — One or more cell ordinals is invalid.",
+    "description": "Microsoft SDK HRESULT MD_E_INVALIDCELLRANGE: One or more cell ordinals is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e65",
+    "title": "DB_E_NOCOLUMN — Column ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_NOCOLUMN: Column ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e67",
+    "title": "DB_E_COMMANDNOTPERSISTED — Command does not have a DBID.",
+    "description": "Microsoft SDK HRESULT DB_E_COMMANDNOTPERSISTED: Command does not have a DBID.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e68",
+    "title": "DB_E_DUPLICATEID — DBID already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATEID: DBID already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e69",
+    "title": "DB_E_OBJECTCREATIONLIMITREACHED — Session cannot be created because maximum number of active sessions was already reached. Consumer must release one or more sessions before creating a new session object.",
+    "description": "Microsoft SDK HRESULT DB_E_OBJECTCREATIONLIMITREACHED: Session cannot be created because maximum number of active sessions was already reached. Consumer must release one or more sessions before creating a new session object.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e72",
+    "title": "DB_E_BADINDEXID — Index ID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADINDEXID: Index ID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e73",
+    "title": "DB_E_BADINITSTRING — Format of the initialization string does not conform to the OLE DB specification.",
+    "description": "Microsoft SDK HRESULT DB_E_BADINITSTRING: Format of the initialization string does not conform to the OLE DB specification.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e74",
+    "title": "DB_E_NOPROVIDERSREGISTERED — No OLE DB providers of this source type are registered.",
+    "description": "Microsoft SDK HRESULT DB_E_NOPROVIDERSREGISTERED: No OLE DB providers of this source type are registered.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e75",
+    "title": "DB_E_MISMATCHEDPROVIDER — Initialization string specifies a provider that does not match the active provider.",
+    "description": "Microsoft SDK HRESULT DB_E_MISMATCHEDPROVIDER: Initialization string specifies a provider that does not match the active provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e76",
+    "title": "DB_E_BADCOMMANDID — DBID is invalid.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCOMMANDID: DBID is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6a",
+    "title": "SEC_E_BADTRUSTEEID — Trustee is invalid.",
+    "description": "Microsoft SDK HRESULT SEC_E_BADTRUSTEEID: Trustee is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6b",
+    "title": "SEC_E_NOTRUSTEEID — Trustee was not recognized for this data source.",
+    "description": "Microsoft SDK HRESULT SEC_E_NOTRUSTEEID: Trustee was not recognized for this data source.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6c",
+    "title": "SEC_E_NOMEMBERSHIPSUPPORT — Trustee does not support memberships or collections.",
+    "description": "Microsoft SDK HRESULT SEC_E_NOMEMBERSHIPSUPPORT: Trustee does not support memberships or collections.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6d",
+    "title": "SEC_E_INVALIDOBJECT — Object is invalid or unknown to the provider.",
+    "description": "Microsoft SDK HRESULT SEC_E_INVALIDOBJECT: Object is invalid or unknown to the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6e",
+    "title": "SEC_E_NOOWNER — Object does not have an owner.",
+    "description": "Microsoft SDK HRESULT SEC_E_NOOWNER: Object does not have an owner.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e6f",
+    "title": "SEC_E_INVALIDACCESSENTRYLIST — Access entry list is invalid.",
+    "description": "Microsoft SDK HRESULT SEC_E_INVALIDACCESSENTRYLIST: Access entry list is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e70",
+    "title": "SEC_E_INVALIDOWNER — Trustee supplied as owner is invalid or unknown to the provider.",
+    "description": "Microsoft SDK HRESULT SEC_E_INVALIDOWNER: Trustee supplied as owner is invalid or unknown to the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e71",
+    "title": "SEC_E_INVALIDACCESSENTRY — Permission in the access entry list is invalid.",
+    "description": "Microsoft SDK HRESULT SEC_E_INVALIDACCESSENTRY: Permission in the access entry list is invalid.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e77",
+    "title": "DB_E_BADCONSTRAINTTYPE — ConstraintType is invalid or not supported by the provider.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCONSTRAINTTYPE: ConstraintType is invalid or not supported by the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e78",
+    "title": "DB_E_BADCONSTRAINTFORM — ConstraintType is not DBCONSTRAINTTYPE_FOREIGNKEY and cForeignKeyColumns is not zero.",
+    "description": "Microsoft SDK HRESULT DB_E_BADCONSTRAINTFORM: ConstraintType is not DBCONSTRAINTTYPE_FOREIGNKEY and cForeignKeyColumns is not zero.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e79",
+    "title": "DB_E_BADDEFERRABILITY — Specified deferrability flag is invalid or not supported by the provider.",
+    "description": "Microsoft SDK HRESULT DB_E_BADDEFERRABILITY: Specified deferrability flag is invalid or not supported by the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e91",
+    "title": "DB_E_NOSOURCEOBJECT — Source row does not exist.",
+    "description": "Microsoft SDK HRESULT DB_E_NOSOURCEOBJECT: Source row does not exist.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e92",
+    "title": "DB_E_RESOURCELOCKED — OLE DB object represented by this URL is locked by one or more other processes.",
+    "description": "Microsoft SDK HRESULT DB_E_RESOURCELOCKED: OLE DB object represented by this URL is locked by one or more other processes.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e93",
+    "title": "DB_E_NOTCOLLECTION — Client requested an object type that is valid only for a collection.",
+    "description": "Microsoft SDK HRESULT DB_E_NOTCOLLECTION: Client requested an object type that is valid only for a collection.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e94",
+    "title": "DB_E_READONLY — Caller requested write access to a read-only object.",
+    "description": "Microsoft SDK HRESULT DB_E_READONLY: Caller requested write access to a read-only object.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e95",
+    "title": "DB_E_ASYNCNOTSUPPORTED — Asynchronous binding is not supported by this provider.",
+    "description": "Microsoft SDK HRESULT DB_E_ASYNCNOTSUPPORTED: Asynchronous binding is not supported by this provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e96",
+    "title": "DB_E_CANNOTCONNECT — Connection to the server for this URL cannot be established.",
+    "description": "Microsoft SDK HRESULT DB_E_CANNOTCONNECT: Connection to the server for this URL cannot be established.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e97",
+    "title": "DB_E_TIMEOUT — Timeout occurred when attempting to bind to the object.",
+    "description": "Microsoft SDK HRESULT DB_E_TIMEOUT: Timeout occurred when attempting to bind to the object.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e98",
+    "title": "DB_E_RESOURCEEXISTS — Object cannot be created at this URL because an object named by this URL already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_RESOURCEEXISTS: Object cannot be created at this URL because an object named by this URL already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e8e",
+    "title": "DB_E_RESOURCEOUTOFSCOPE — URL is outside of scope.",
+    "description": "Microsoft SDK HRESULT DB_E_RESOURCEOUTOFSCOPE: URL is outside of scope.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e90",
+    "title": "DB_E_DROPRESTRICTED — Column or constraint could not be dropped because it is referenced by a dependent view or constraint.",
+    "description": "Microsoft SDK HRESULT DB_E_DROPRESTRICTED: Column or constraint could not be dropped because it is referenced by a dependent view or constraint.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e99",
+    "title": "DB_E_DUPLICATECONSTRAINTID — Constraint already exists.",
+    "description": "Microsoft SDK HRESULT DB_E_DUPLICATECONSTRAINTID: Constraint already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9a",
+    "title": "DB_E_OUTOFSPACE — Object cannot be created at this URL because the server is out of physical storage.",
+    "description": "Microsoft SDK HRESULT DB_E_OUTOFSPACE: Object cannot be created at this URL because the server is out of physical storage.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9b",
+    "title": "DB_SEC_E_SAFEMODE_DENIED — Safety settings on this computer prohibit accessing a data source on another domain.",
+    "description": "Microsoft SDK HRESULT DB_SEC_E_SAFEMODE_DENIED: Safety settings on this computer prohibit accessing a data source on another domain.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9c",
+    "title": "DB_E_NOSTATISTIC — The specified statistic does not exist in the current data source or did not apply to the specified table or it does not support a histogram.",
+    "description": "Microsoft SDK HRESULT DB_E_NOSTATISTIC: The specified statistic does not exist in the current data source or did not apply to the specified table or it does not support a histogram.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9d",
+    "title": "DB_E_ALTERRESTRICTED — Column or table could not be altered because it is referenced by a constraint.",
+    "description": "Microsoft SDK HRESULT DB_E_ALTERRESTRICTED: Column or table could not be altered because it is referenced by a constraint.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9e",
+    "title": "DB_E_RESOURCENOTSUPPORTED — Requested object type is not supported by the provider.",
+    "description": "Microsoft SDK HRESULT DB_E_RESOURCENOTSUPPORTED: Requested object type is not supported by the provider.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040e9f",
+    "title": "DB_E_NOCONSTRAINT — Constraint does not exist.",
+    "description": "Microsoft SDK HRESULT DB_E_NOCONSTRAINT: Constraint does not exist.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80040ea0",
+    "title": "DB_E_COLUMNUNAVAILABLE — Requested column is valid, but could not be retrieved. This could be due to a forward only cursor attempting to go backwards in a row.",
+    "description": "Microsoft SDK HRESULT DB_E_COLUMNUNAVAILABLE: Requested column is valid, but could not be retrieved. This could be due to a forward only cursor attempting to go backwards in a row.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210100",
+    "title": "WDSMCS_E_SESSION_SHUTDOWN_IN_PROGRESS — The request for content was rejected because shutdown is in progress for the specified session.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_SESSION_SHUTDOWN_IN_PROGRESS: The request for content was rejected because shutdown is in progress for the specified session.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210101",
+    "title": "WDSMCS_E_REQCALLBACKS_NOT_REG — The Content Provider did not register required callbacks.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_REQCALLBACKS_NOT_REG: The Content Provider did not register required callbacks.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210102",
+    "title": "WDSMCS_E_INCOMPATIBLE_VERSION — The supported version reported by Content Provider is incompatible.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_INCOMPATIBLE_VERSION: The supported version reported by Content Provider is incompatible.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210103",
+    "title": "WDSMCS_E_CONTENT_NOT_FOUND — The specified content was not found.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_CONTENT_NOT_FOUND: The specified content was not found.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210104",
+    "title": "WDSMCS_E_CLIENT_NOT_FOUND — The specified client was not found.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_CLIENT_NOT_FOUND: The specified client was not found.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210105",
+    "title": "WDSMCS_E_NAMESPACE_NOT_FOUND — The specified namespace was not found.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_NOT_FOUND: The specified namespace was not found.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210106",
+    "title": "WDSMCS_E_CONTENT_PROVIDER_NOT_FOUND — The specified content provider was not found.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_CONTENT_PROVIDER_NOT_FOUND: The specified content provider was not found.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210107",
+    "title": "WDSMCS_E_NAMESPACE_ALREADY_EXISTS — The specified namespace already exists.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_ALREADY_EXISTS: The specified namespace already exists.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210108",
+    "title": "WDSMCS_E_NAMESPACE_SHUTDOWN_IN_PROGRESS — The namespace is pending closure due to inactivity.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_SHUTDOWN_IN_PROGRESS: The namespace is pending closure due to inactivity.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210109",
+    "title": "WDSMCS_E_NAMESPACE_ALREADY_STARTED — The namespace has already started.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_NAMESPACE_ALREADY_STARTED: The namespace has already started.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010a",
+    "title": "WDSMCS_E_NS_START_FAILED_NO_CLIENTS — The namespace cannot be started because there are no clients in the namespace.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_NS_START_FAILED_NO_CLIENTS: The namespace cannot be started because there are no clients in the namespace.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010b",
+    "title": "WDSMCS_E_START_TIME_IN_PAST — The specified start time is in the past.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_START_TIME_IN_PAST: The specified start time is in the past.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010c",
+    "title": "WDSMCS_E_PACKET_NOT_HASHED — A packet was received without a hash.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_HASHED: A packet was received without a hash.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010d",
+    "title": "WDSMCS_E_PACKET_NOT_SIGNED — A packet was received without a signature.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_SIGNED: A packet was received without a signature.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010e",
+    "title": "WDSMCS_E_PACKET_HAS_SECURITY — A signed or hashed packet was received.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_HAS_SECURITY: A signed or hashed packet was received.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc121010f",
+    "title": "WDSMCS_E_PACKET_NOT_CHECKSUMED — A packet was received without a checksum.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_PACKET_NOT_CHECKSUMED: A packet was received without a checksum.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1210110",
+    "title": "WDSMCS_E_CLIENT_DOESNOT_SUPPORT_SECURITY_MODE — The client does not support the required security mode.",
+    "description": "Microsoft SDK HRESULT WDSMCS_E_CLIENT_DOESNOT_SUPPORT_SECURITY_MODE: The client does not support the required security mode.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220300",
+    "title": "WDSTPC_E_CALLBACKS_NOT_REG — The required callbacks were not registered.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_CALLBACKS_NOT_REG: The required callbacks were not registered.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220301",
+    "title": "WDSTPC_E_ALREADY_COMPLETED — The session has already completed the download.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_COMPLETED: The session has already completed the download.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220302",
+    "title": "WDSTPC_E_ALREADY_IN_PROGRESS — The download is already in progress.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_IN_PROGRESS: The download is already in progress.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220303",
+    "title": "WDSTPC_E_UNKNOWN_ERROR — An unknown error occurred.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_UNKNOWN_ERROR: An unknown error occurred.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220304",
+    "title": "WDSTPC_E_NOT_INITIALIZED — WDS Multicast Client not initialized.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_NOT_INITIALIZED: WDS Multicast Client not initialized.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220305",
+    "title": "WDSTPC_E_KICKED_POLICY_NOT_MET — The client did not meet the policy requirements set by the administrator and was kicked from the session.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_POLICY_NOT_MET: The client did not meet the policy requirements set by the administrator and was kicked from the session.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220306",
+    "title": "WDSTPC_E_KICKED_FALLBACK — The client was disconnected by the administrator. The server requested that the client use another method to obtain the contents.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_FALLBACK: The client was disconnected by the administrator. The server requested that the client use another method to obtain the contents.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220307",
+    "title": "WDSTPC_E_KICKED_FAIL — The client was disconnected by the administrator.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_FAIL: The client was disconnected by the administrator.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220308",
+    "title": "WDSTPC_E_KICKED_UNKNOWN — The client was disconnected by the administrator. An unknown reason was specified for disconnecting the client from the session.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_KICKED_UNKNOWN: The client was disconnected by the administrator. An unknown reason was specified for disconnecting the client from the session.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc1220309",
+    "title": "WDSTPC_E_MULTISTREAM_NOT_ENABLED — Multistream support is not enabled.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_MULTISTREAM_NOT_ENABLED: Multistream support is not enabled.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc122030a",
+    "title": "WDSTPC_E_ALREADY_IN_LOWEST_SESSION — The specified client is already in the lowest multistream session.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_ALREADY_IN_LOWEST_SESSION: The specified client is already in the lowest multistream session.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc122030b",
+    "title": "WDSTPC_E_CLIENT_DEMOTE_NOT_SUPPORTED — The specified client does not support demotion.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_CLIENT_DEMOTE_NOT_SUPPORTED: The specified client does not support demotion.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc122030c",
+    "title": "WDSTPC_E_NO_IP4_INTERFACE — No IPv4 interface available on the server.",
+    "description": "Microsoft SDK HRESULT WDSTPC_E_NO_IP4_INTERFACE: No IPv4 interface available on the server.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0xc122030d",
+    "title": "WDSTPTC_E_WIM_APPLY_REQUIRES_REFERENCE_IMAGE — The specified WIM file requires a reference WIM such as res.rwm in order to be applied.",
+    "description": "Microsoft SDK HRESULT WDSTPTC_E_WIM_APPLY_REQUIRES_REFERENCE_IMAGE: The specified WIM file requires a reference WIM such as res.rwm in order to be applied.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x8000211d",
+    "title": "COR_E_AMBIGUOUSMATCH — Multiple members match a reflection query.",
+    "description": "Microsoft SDK HRESULT COR_E_AMBIGUOUSMATCH: Multiple members match the reflection query. Microsoft documents this HRESULT for AmbiguousMatchException.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
+  },
+  {
+    "errorCode": "0x80042469",
+    "title": "VDS_S_GPT_BOOT_MIRRORED_TO_MBR — You have mirrored your boot volume on a GPT disk, to an MBR disk. You will not be able to boot your machine from the secondary plex.",
+    "description": "Microsoft SDK HRESULT VDS_S_GPT_BOOT_MIRRORED_TO_MBR: You have mirrored your boot volume on a GPT disk, to an MBR disk. You will not be able to boot your machine from the secondary plex.",
+    "officialSolution": "Microsoft documents the code and condition but does not define a universal repair in the cited reference. Identify the calling API/provider and operation, then follow documentation for that component and Windows release.",
+    "userSolutions": "No universal user fix is verified for this HRESULT alone. Preserve the provider/API context and logs before changing system settings or reinstalling components.",
+    "category": "Windows",
+    "stepByStep": "[\"Record the full HRESULT, message, application/API, and operation that returned it.\", \"Capture the provider/service, relevant diagnostic log, and exact Windows version/build.\", \"Use Microsoft documentation for that specific API/provider and apply only a remedy that matches the captured context.\"]"
   }
 ]
