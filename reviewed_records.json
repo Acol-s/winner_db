@@ -1198,6 +1198,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x5e--object-initialization-failed"
                 ],
                 "note": "Code identity and published Microsoft semantics checked; unsupported generic fixes removed. Historical/version-specific applicability stated where relevant."
+            },
+            "0x00000063": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x63--security1-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000064": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x64--symbolic-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000065": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x65--memory1-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000066": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x66--cache-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000067": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x67--config-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x00000068": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x68--file-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x0000006a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6a--lpc-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x0000006c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6c--refmon-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x0000006d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6d--session1-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
+            },
+            "0x0000006e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x6e--session2-initialization-failed"
+                ],
+                "note": "Microsoft Learn checked for exact identity and documented meaning. For rare codes with limited published detail, troubleshooting remains evidence-led; historical OS tooling is version-qualified."
             }
         }
     },
