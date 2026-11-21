@@ -2319,6 +2319,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf6--pci-verifier-detected-violation"
                 ],
                 "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000f8": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf8--ramdisk-boot-initialization-failed"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x000000f9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf9--driver-returned-status-reparse-for-volume-open"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x00000100": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x100---loader-block-mismatch"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x00000104": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x104---agp-invalid-access"
+                ],
+                "note": "Retained for historical AGP systems; current PCIe/GPU users are told this legacy scope explicitly."
+            },
+            "0x00000105": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x105---agp-gart-corruption"
+                ],
+                "note": "Retained for historical AGP systems; current PCIe/GPU users are told this legacy scope explicitly."
+            },
+            "0x00000106": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x106---agp-illegally-reprogrammed"
+                ],
+                "note": "Retained for historical AGP systems; current PCIe/GPU users are told this legacy scope explicitly."
+            },
+            "0x0000010a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x10a---app-tagging-initialization-failed"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x00000111": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x111---recursive-nmi"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x00000114": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x114---video-shadow-driver-fatal-error"
+                ],
+                "note": "Code meaning/parameters and applicable diagnostics checked against Microsoft Learn; generic unsupported repair steps removed."
+            },
+            "0x00000115": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x115---agp-internal"
+                ],
+                "note": "Retained for historical AGP systems; current PCIe/GPU users are told this legacy scope explicitly."
             }
         }
     },
