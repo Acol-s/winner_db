@@ -1999,6 +1999,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Retained because Microsoft code reference lists MANUALLY_INITIATED_CRASH1; trigger details are not asserted without a supporting Microsoft article."
+            },
+            "0x0000012c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12c---exfat-file-system"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x00000135": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x135--registry-filter-driver-exception"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x00000140": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x140--storage-device-abnormality-detected"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x00000178": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x178--elam-driver-detected-fatal-error"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x0000017e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x17e--microcode-revision-mismatch"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x0000018c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x18c--hyperguard-violation"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x0000019c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x19c--win32k-power-watchdog-timeout"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x000001ca": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1ca--synthetic-watchdog-timeout"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x000001d8": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d8--ucmucsi-failure"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
+            },
+            "0x000001dd": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1dd--bugcode-mbbadapter-driver"
+                ],
+                "note": "Meaning, parameters, OS/driver applicability, and safe diagnostic steps checked against Microsoft Learn; unsupported causes and risky firmware/policy actions removed."
             }
         }
     },
