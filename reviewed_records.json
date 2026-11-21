@@ -173213,6 +173213,30 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L60"
         ],
         "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: CCERR_CHOOSECOLORCODES."
+      },
+      "0xc0001009": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L8324"
+        ],
+        "note": "MSG_CI_MASTER_MERGE_CANT_START is a Windows Search message-table identifier (MessageId/MessageText), not an API return error code; excluded from errors_windows.json."
+      },
+      "0xc000100a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L8333"
+        ],
+        "note": "MSG_CI_MASTER_MERGE_CANT_RESTART is a Windows Search message-table identifier (MessageId/MessageText), not an API return error code; excluded from errors_windows.json."
+      },
+      "0x80001048": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L8417"
+        ],
+        "note": "MSG_CI_CREATE_SEVER_ITEM_FAILED is a Windows Search message-table identifier (MessageId/MessageText), not an API return error code; excluded from errors_windows.json."
       }
     }
   },
