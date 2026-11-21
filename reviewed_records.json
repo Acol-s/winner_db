@@ -1519,6 +1519,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Removed from BSOD records: 0xA9 BOOTING_IN_SAFEMODE_NETWORK is not listed as a documented bug check in Microsoft's current code reference; existing row described a boot mode, not a system error."
+            },
+            "0x0000001c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1c--pfn-reference-count"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x0000001f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1f--shared-resource-conv-error"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x00000048": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x48--cancel-state-in-completed-irp"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x0000004a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4a--irql-gt-zero-at-system-service"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x00000053": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x53--no-boot-device"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x0000005f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x5f--security-initialization-failed"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x00000082": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x000000a1": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xa1--pci-bus-driver-internal"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x000000b9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xb9--chipset-detected-error"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x000000bd": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbd--invalid-hibernated-state"
+                ],
+                "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
             }
         }
     },
