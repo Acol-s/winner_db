@@ -5434,6 +5434,342 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Код, символ MS-ERREF и сценарий сверены с официальной таблицей HRESULT Microsoft; руководство ограничено опубликованными сообщениями и безопасной диагностикой."
+      },
+      "0xc004f211": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F211 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f213": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F213 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x803f7001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x803F7001 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x800704cf": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x800704CF указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c060": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C060 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c4a2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C4A2 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x803fa067": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x803FA067 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C001 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C004 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F004 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C007 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F005 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c00f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C00F не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C010 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c00e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C00E не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c4a4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C4A4 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c4a5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C4A5 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004b001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004B001 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F010 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f050": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F050 не выделено — статья группирует его с другими кодами. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004e016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004E016 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004fc03": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004FC03 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004e028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004E028 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x8007267c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x8007267C указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xd0000272": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xD0000272 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc0000272": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC0000272 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C012 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C013 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C014 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c770": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C770 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x803fa071": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x803FA071 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f00f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F00F указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004c020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004C020 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x8007232b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x8007232B указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f074": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F074 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004f038": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004F038 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x8007007b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x8007007B указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x80072f8f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80072F8F указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0xc004e003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0xC004E003 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x80004005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80004005 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x87e10bc6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x87E10BC6 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
+      },
+      "0x80070652": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
+        ],
+        "note": "Код приведён в таблице Microsoft для активации Windows 10/11; отдельное значение для кода 0x80070652 указано в соответствующем разделе статьи. Шаги ограничены соответствующей рекомендацией Microsoft; интерфейс для старых выпусков Windows отличается."
       }
     }
   },
