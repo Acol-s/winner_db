@@ -150209,145 +150209,395 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1669"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1669",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap",
+          "https://learn.microsoft.com/en-us/windows-server/identity/ad-cs/distribute-certificates-group-policy"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_NOT_FOUND=0x0000035D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_NOT_FOUND=0x0000035D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional AD-domain certificate deployment using Microsoft instructions for Server 2016/2019/2022/2025; requires identifying the intended root and target validating machines.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"861\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Combines the RAS missing-root cause with the documented GPO distribution mechanism. No exact-code successful forum report found; not a universal repair or proof of old-OS UI compatibility."
+        }
       },
       "0x0000035e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1674"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1674",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-manage-certificates",
+          "https://www.reddit.com/r/sysadmin/comments/1i6i5sn/"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_INVALID=0x0000035E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_INVALID=0x0000035E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_workaround",
+          "scope": "NPS policy certificate misassignment; January 2025 Reddit author reports matching error text, no numeric code or OS version. Current Microsoft UI procedure lists Server 2016/2019/2022/2025.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "message_matched_author_reported_success_without_numeric_code",
+          "search_queries": [
+            "\"862\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "site:reddit.com/r/sysadmin/comments/1i6i5sn NPS certificate policies fixed"
+          ],
+          "note": "Restoring intended policy certificate is supported by the reported outcome. Why selection changed remains unresolved; do not infer that removing root certificates or disabling renewal is a proven remedy."
+        }
       },
       "0x0000035f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1679"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1679",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_EXPIRED=0x0000035F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_USER_ROOT_CERT_EXPIRED=0x0000035F сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"863\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000360": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1684"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1684",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap",
+          "https://learn.microsoft.com/en-us/windows-server/identity/ad-cs/distribute-certificates-group-policy"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_NOT_FOUND=0x00000360 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_NOT_FOUND=0x00000360 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional AD-domain certificate deployment using Microsoft instructions for Server 2016/2019/2022/2025; requires identifying the intended root and target validating machines.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"864\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Combines the RAS missing-root cause with the documented GPO distribution mechanism. No exact-code successful forum report found; not a universal repair or proof of old-OS UI compatibility."
+        }
       },
       "0x00000361": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1689"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1689",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/certificate-requirements-eap-tls-peap"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_INVALID=0x00000361 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_INVALID=0x00000361 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"865\" \"root certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000362": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1694"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1694",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-manage-cert-requirements",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-manage-certificates",
+          "https://www.reddit.com/r/sysadmin/comments/bwq0k8/"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_NAME_REQUIRED=0x00000362 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAP_SERVER_ROOT_CERT_NAME_REQUIRED=0x00000362 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Own AD CS PKI and NPS. Current template instructions list Server 2016/2019/2022/2025; related author report concerns Windows 10 after 1709 16299.194.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "related_name_configuration_success_without_numeric_code",
+          "search_queries": [
+            "\"866\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "site:reddit.com/r/sysadmin/comments/bwq0k8 \"subject\" \"1903\""
+          ],
+          "note": "Official nonempty Subject/template requirements distinguished from a user-specific DNS Subject outcome. Existing certificates need separate issuance/assignment; no universal template value inferred."
+        }
       },
       "0x00000363": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1699"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1699",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_IDENTITY_MISMATCH=0x00000363 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEAP_IDENTITY_MISMATCH=0x00000363 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"867\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000364": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1704"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1704",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/answers/questions/2414987/vpn-error-868-the-name-of-the-remote-access-server",
+          "https://learn.microsoft.com/en-us/answers/questions/2194373/vpn-error-868-even-when-using-fixed-ip",
+          "https://learn.microsoft.com/en-us/answers/questions/77751/aovpn-client-disconnection-issue",
+          "https://www.reddit.com/r/Intune/comments/1l8q0tp/",
+          "https://learn.microsoft.com/en-us/windows/client-management/mdm/vpnv2-csp"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DNSNAME_NOT_RESOLVABLE=0x00000364 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DNSNAME_NOT_RESOLVABLE=0x00000364 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Separate cases: Windows 7/Check Point 2010, intermittent VPN 2024, Intune AOVPN/Windows 11 2025. Resolve-DnsName advice limited to modern VPNv2/NRPT diagnostics.",
+          "forum_result": "multiple_matching_cases_without_confirmed_fix",
+          "reddit_result": "matching_case_reports_failed_resets",
+          "search_queries": [
+            "\"868\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "site:reddit.com \"error 868\" VPN",
+            "site:learn.microsoft.com \"nslookup\" \"VPN server\""
+          ],
+          "note": "Accepted answer is referral, not a fix. Helpful votes are not success evidence. Static-IP cases prevent assuming every 868 is a simple DNS-setting fault. NRPT must not be tested solely with nslookup."
+        }
       },
       "0x00000365": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1709"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1709",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_PASSWD_INVALID=0x00000365 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_EAPTLS_PASSWD_INVALID=0x00000365 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"869\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000366": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1714"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1714",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IKEV2_PSK_INTERFACE_ALREADY_EXISTS=0x00000366 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_IKEV2_PSK_INTERFACE_ALREADY_EXISTS=0x00000366 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"870\" \"IKEv2\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000367": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1719"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1719",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_DESTINATION_IP=0x00000367 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_DESTINATION_IP=0x00000367 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"871\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000368": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1728"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1728",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_INTERFACE_CONFIG=0x00000368 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INVALID_INTERFACE_CONFIG=0x00000368 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"872\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00000369": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1735"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1735",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_VPN_PLUGIN_GENERIC=0x00000369 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_VPN_PLUGIN_GENERIC=0x00000369 сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"873\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x0000036a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1740"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1740",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h",
+          "https://serverfault.com/questions/1152253/reissuing-ad-certificate-breaks-always-on-vpn"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SSO_CERT_MISSING=0x0000036A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_SSO_CERT_MISSING=0x0000036A сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "ServerFault_matching_message_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"874\" \"certificate\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"VPN\" \"certificate for single sign-on\" missing"
+          ],
+          "note": "Manual PBK thumbprint edit produced another error; network reset failed. Suggested server SSL binding check is unconfirmed. No OS version inferred."
+        }
       },
       "0x0000036b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1745"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1745",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICE_COMPLIANCE=0x0000036B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DEVICE_COMPLIANCE=0x0000036B сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"875\" \"compliance\" VPN (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x0000036c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1750"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1750",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PLUGIN_NOT_INSTALLED=0x0000036C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PLUGIN_NOT_INSTALLED=0x0000036C сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"876\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x0000036d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1755"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1755",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ACTION_REQUIRED=0x0000036D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ACTION_REQUIRED=0x0000036D сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"877\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x0000036e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1760"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/RasError.h#L1760",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/raserror.h"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_WINHTTP_AUTO_PROXY_SERVICE=0x0000036E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_WINHTTP_AUTO_PROXY_SERVICE=0x0000036E сверено с RasError.h (Microsoft SDK). Контекст: RAS/Remote Access. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RAS-specific namespace. SDK compile guards and procedure-specific OS applicability are distinguished from runtime compatibility.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"878\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"ERROR_WINHTTP_AUTO_PROXY_SERVICE\" VPN solution",
+            "\"VPN\" \"WinHTTP Auto Proxy\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First research pass; remaining evidence gaps are explicit. No general VPN reset or certificate-validation bypass claimed as verified."
+        }
       },
       "0x00001d4d": {
         "status": "reviewed",
