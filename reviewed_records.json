@@ -1759,6 +1759,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000e0": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe0--acpi-bios-fatal-error"
+                ],
+                "note": "Microsoft says BIOS supplies/interprets parameters; diagnosis belongs to hardware vendor."
+            },
+            "0x000000e2": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe2--manually-initiated-crash"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000e3": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe3--resource-not-owned"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000e4": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe4--worker-invalid"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000e7": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe7--invalid-floating-point-state"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000e9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe9--active-ex-worker-thread-termination"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000ea": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xea--thread-stuck-in-device-driver"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000eb": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xeb--dirty-mapped-pages-congestion"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000f0": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf0--storage-miniport-error"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000f5": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf5--fltmgr-file-system"
+                ],
+                "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
             }
         }
     },
