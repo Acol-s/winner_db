@@ -2399,6 +2399,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x115---agp-internal"
                 ],
                 "note": "Retained for historical AGP systems; current PCIe/GPU users are told this legacy scope explicitly."
+            },
+            "0x0000011a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Microsoft reference confirms name; available documentation does not support a specific cause or generic repair."
+            },
+            "0x0000011b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x11b---driver-returned-holding-cancel-lock"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x0000011d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x11d---event-tracing-fatal-error"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x0000011e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Microsoft reference confirms name; available documentation does not support a specific cause or generic repair."
+            },
+            "0x0000011f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x11f--invalid-driver-handle"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x00000121": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x121---driver-violation"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x00000125": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x125--nmr-invalid-state"
+                ],
+                "note": "Microsoft name is confirmed, but public parameter table appears to mix NMR and WHEA terminology; retained with explicit uncertainty and no speculative network fix."
+            },
+            "0x00000128": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x128--worker-thread-returned-with-bad-io-priority"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x00000129": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x129--worker-thread-returned-with-bad-paging-io-priority"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x0000012d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12d--volsnap-overlapped-table-access"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
             }
         }
     },
