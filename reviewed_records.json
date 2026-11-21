@@ -3086,6 +3086,89 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Официальный справочник подтверждает имя кода, но подробная статья с параметрами/решением не найдена; смысл не дополнялся догадками."
+            },
+            "0x00000356": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x356--xbox-eractrl-cs-timeout"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x000001ea": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1ea--secure-pci-config-space-access-violation"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x000001eb": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1eb--dam-watchdog-timeout"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x000001ed": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1ed--handle-error-on-critical-thread"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x000001f1": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1f1--kasan-enlightement-violation",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/kasan"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x000001f2": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1f2--kasan-illegal-access",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/kasan"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x00000bfe": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbfe--bc-bluetooth-verifier-fault",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/bluetooth/debugging-bluetooth-profile-drivers"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x00000bff": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbff--bc-bthmini-verifier-fault"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x100000ea": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x100000ea--thread-stuck-in-device-driver-m"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+            },
+            "0x4000008a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4000008a--thread-terminate-held-mutex"
+                ],
+                "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
             }
         }
     },
