@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "dfebecfee7acf03c470990c4f43c8ecc6faccf2ad482bca3df8cbb7ff47ba55e",
+  "current_windows_sha256": "715efc6aa888795c2a480b2d3e896f44354ef5222c391d2e0b58ed4284fc2730",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -280,9 +280,100 @@
         "\"0x80240069\" site:reddit.com"
       ],
       "note": "Microsoft KB5058502 documents service-crash fix. KB5062170 includes it and requires restart. Reddit user reports success after removing old KIR policy, installing KB5062170 and rebooting. No universal cure for all service exits; later-version cases unresolved. Raw registry-feature override and unrelated LongPathTool promotion excluded."
+    },
+    "0x8024201e": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x8024201e\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+    },
+    "0x80242020": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_success",
+      "scope": "Windows 10-era Xbox PC app installation to a secondary drive; old UI paths, no blanket modern Xbox applicability.",
+      "forum_result": "Minecraft Q&A contains suggestions without success confirmation",
+      "reddit_result": "multiple_success_reports_and_some_failures",
+      "search_queries": [
+        "\"0x80242020\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "Match Windows New apps storage drive and Xbox default install drive. Microsoft documents Windows setting, not this exact-code fix. One user also reports success after switching the Windows drive away and back. No guarantee for all cases."
+    },
+    "0x80242021": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80242021\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"0x80242021\" site:reddit.com"
+      ],
+      "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+    },
+    "0x80242022": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Windows 10 Home 1709 build 16299.309 / Forza Motorsport 7 / removed SATA SSD.",
+      "forum_result": "matching_case_without_confirmed_fix",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80242022\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"0x80242022\" site:reddit.com"
+      ],
+      "note": "Author says old SSD was formatted and repurposed; Store reset/cache reset failed. Another user says SFC/account advice did not help. No verified recovery procedure in this thread."
+    },
+    "0x80242023": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80242023\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+    },
+    "0x80242024": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80242024\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+    },
+    "0x8024005c": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x8024005c\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+    },
+    "0x8024005d": {
+      "reviewed_at": "2026-11-22",
+      "status": "low_confidence_anecdote",
+      "scope": "Reddit Xbox PC/ARK external drive case and separate Windows 10 1803 feature-update case.",
+      "forum_result": "1803_case_without_confirmed_fix",
+      "reddit_result": "uncertain_retrospective_success_and_counterexample",
+      "search_queries": [
+        "\"0x8024005d\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"0x8024005d\" site:reddit.com"
+      ],
+      "note": "Author recalls formatting external drive may have fixed it, with no file system/procedure specified; another user reports it did not help. Do not turn into formatting instructions or universal fix."
     }
   },
-  "pending_count": 6270,
+  "pending_count": 6262,
   "pending_codes": [
     "0x00000285",
     "0x00000292",
@@ -4389,8 +4480,6 @@
     "0x80240058",
     "0x8024005a",
     "0x8024005b",
-    "0x8024005c",
-    "0x8024005d",
     "0x8024005e",
     "0x8024005f",
     "0x80240060",
@@ -4426,12 +4515,6 @@
     "0x8024201a",
     "0x8024201b",
     "0x8024201c",
-    "0x8024201e",
-    "0x80242020",
-    "0x80242021",
-    "0x80242022",
-    "0x80242023",
-    "0x80242024",
     "0x80242025",
     "0x80242026",
     "0x80242027",
@@ -6590,6 +6673,13 @@
     "0x80240014",
     "0x80240062",
     "0x80240064",
-    "0x80240065"
+    "0x80240065",
+    "0x8024201e",
+    "0x80242021",
+    "0x80242022",
+    "0x80242023",
+    "0x80242024",
+    "0x8024005c",
+    "0x8024005d"
   ]
 }
