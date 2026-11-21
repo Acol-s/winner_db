@@ -99,6 +99,96 @@
           "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
         ],
         "note": "Code name, meaning, and actionable steps checked against Microsoft documentation; unsupported diagnosis and risky generic remedies removed."
+      },
+      "0x000000ef": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xef--critical-process-died",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x0000007b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x7b--inaccessible-boot-device",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-inaccessible-boot-device"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x0000009f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x9f--driver-power-state-failure",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x00000019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x19--bad-pool-header",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x00000101": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x101---clock-watchdog-timeout",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x00000116": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x116---video-tdr-failure",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x000000be": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbe--attempted-write-to-readonly-memory",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x000000c2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc2--bad-pool-caller",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x000000f4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf4--critical-object-termination",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
+      },
+      "0x00000124": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x124---whea-uncorrectable-error",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "Meaning, diagnostics, and steps checked against Microsoft documentation; unsupported one-size-fits-all remedies removed."
       }
     }
   },
