@@ -683,6 +683,86 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
         ],
         "note": "Code identity and documented meaning checked against Microsoft Learn; speculative causes and unsupported generic remedies removed."
+      },
+      "0x00000061": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x61--hal1-initialization-failed"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x00000076": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x76--process-has-locked-pages"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x00000099": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x99--invalid-region-or-segment"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x0000009a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x9a--system-license-violation"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x000000a2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xa2--memory-image-corrupt"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x000000a4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xa4--cnss-file-system-filter"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x000000ac": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xac--hal-memory-allocation"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x000000ad": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xad--video-driver-debug-report-request"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x00000002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x2--device-queue-not-busy"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
+      },
+      "0x00000003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3--invalid-affinity-set"
+        ],
+        "note": "Code identity, documented meaning, and diagnostic steps checked against Microsoft Learn; unsupported causes and generic remedies removed."
       }
     }
   },
