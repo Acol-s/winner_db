@@ -1038,6 +1038,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x2d--scsi-disk-driver-internal"
                 ],
                 "note": "Code identity and documented meaning checked against Microsoft Learn; unrelated generic fixes removed and steps qualified to evidence/Windows-version context."
+            },
+            "0x00000040": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x40--target-mdl-too-small"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x00000041": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x41--must-succeed-pool-empty"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x00000042": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x42--atdisk-driver-internal"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x00000047": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x47--ref-unknown-logon-session"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x00000049": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x49--page-fault-with-interrupts-off"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x0000003a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3a--system-unwind-previous-user"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x0000003c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3c--interrupt-unwind-attempted"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x0000003e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x3e--multiprocessor-configuration-not-supported"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x0000004b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4b--streams-internal-error"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
+            },
+            "0x0000004c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4c--fatal-unhandled-hard-error"
+                ],
+                "note": "Identity and documented semantics checked against Microsoft Learn; unsupported remedies removed; advice qualified by evidence and Windows generation."
             }
         }
     },
