@@ -4989,6 +4989,95 @@
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
         ],
         "note": "E_UNEXPECTED трактуется как общий HRESULT неожиданного состояния объекта; удалены утверждения о типичных неисправностях Store/Windows Update."
+      },
+      "0xc004c003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Значение и применимый канал лицензирования сверены с Microsoft activation error reference; инструкции ограничены лицензией KMS/MAK и не подменяют официальный способ активации."
+      },
+      "0xc004c008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Значение и применимый канал лицензирования сверены с Microsoft activation error reference; инструкции ограничены лицензией KMS/MAK и не подменяют официальный способ активации."
+      },
+      "0xc004f014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Значение и применимый канал лицензирования сверены с Microsoft activation error reference; инструкции ограничены лицензией KMS/MAK и не подменяют официальный способ активации."
+      },
+      "0xc004f039": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Значение и применимый канал лицензирования сверены с Microsoft activation error reference; инструкции ограничены лицензией KMS/MAK и не подменяют официальный способ активации."
+      },
+      "0xc004f061": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/api/slpublic/nf-slpublic-slinstallproofofpurchase",
+          "https://learn.microsoft.com/en-us/windows/win32/api/slpublic/nf-slpublic-slinstallproofofpurchaseex"
+        ],
+        "note": "Microsoft документирует: product key только для upgrade, не для clean install; учтена применимость API к Windows 8/Server 2012+."
+      },
+      "0xc004f063": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/0xc004f063-when-activating-oem-version"
+        ],
+        "note": "Привязка к отсутствующим BIOS OEM license/SLIC подтверждена для OEM_SLP сценария Windows 8/Server 2012; не обобщать на retail/digital activation."
+      },
+      "0xc004f012": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc004f034": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc004f210": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc004f212": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc004c4ce": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+        ],
+        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
       }
     }
   },
