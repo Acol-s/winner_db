@@ -55708,9 +55708,10 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/ntstatus.h#L1948",
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values"
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L22"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CALL_REJECTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Сверено также с NTSTATUS в Microsoft ntstatus.h и MS-ERREF; при совпадающих числах интерпретация зависит от типа результата."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CALL_REJECTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Сверено также с NTSTATUS в Microsoft ntstatus.h и MS-ERREF; при совпадающих числах интерпретация зависит от типа результата. Additional component mapping verified against pinned Windows SDK headers; shared values are context-dependent."
       },
       "0x80010002": {
         "status": "reviewed",
@@ -55728,9 +55729,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L35588",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L23"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CANTPOST_INSENDCALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CANTPOST_INSENDCALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Additional component mapping verified against pinned Windows SDK headers; shared values are context-dependent."
       },
       "0x80010004": {
         "status": "reviewed",
@@ -55738,9 +55740,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L35597",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L24"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CANTCALLOUT_INASYNCCALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (RPC_E_CANTCALLOUT_INASYNCCALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Additional component mapping verified against pinned Windows SDK headers; shared values are context-dependent."
       },
       "0x80010005": {
         "status": "reviewed",
@@ -102367,9 +102370,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/ntstatus.h#L13172",
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values"
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L28"
         ],
-        "note": "Код, имя, сообщение и severity сверены с Microsoft ntstatus.h и MS-ERREF. Возможность получить его в конкретном приложении зависит от версии/компонента; универсальный ремонт не заявлен."
+        "note": "Код, имя, сообщение и severity сверены с Microsoft ntstatus.h и MS-ERREF. Возможность получить его в конкретном приложении зависит от версии/компонента; универсальный ремонт не заявлен. Additional component mapping verified against pinned Windows SDK headers; shared values are context-dependent."
       },
       "0xc0020001": {
         "status": "reviewed",
@@ -146338,6 +146342,398 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L195"
         ],
         "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0xc0010004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L29"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L30"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L31"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L32"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L33"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L34"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L35"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L36"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L37"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L38"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L39"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001000f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L41"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L42"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L43"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L44"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L45"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L46"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L47"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L48"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L49"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L50"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc0010019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L51"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L52"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L53"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L54"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L55"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L56"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc001001f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/ndis/status.h#L57"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc350": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L118"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc351": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L127"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc352": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L136"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc353": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L145"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc354": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L154"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc355": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L163"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc356": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L172"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc357": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L181"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc358": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L190"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc359": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L199"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L208"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L217"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L226"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L235"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L244"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc35f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L253"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc360": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L262"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc3b4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L278"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc3b5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L287"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc3b6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L296"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
+      },
+      "0xc00dc3b7": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/winrt/dlnaerror.h#L305"
+        ],
+        "note": "Symbol/value verified against pinned Microsoft SDK NDIS or DLNA header. Applicability and remedy depend on driver/API and OS/device version."
       }
     }
   },
