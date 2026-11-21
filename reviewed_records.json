@@ -143025,6 +143025,910 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CorError.h#L1227"
         ],
         "note": "Computed with EMAKEHR = MAKE_HRESULT(ERROR,FACILITY_URT=0x13,value); exact applicability depends on CLR/.NET version."
+      },
+      "0x80045001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L31"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L36"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L41"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L46"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L56"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L61"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L66"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L71"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004500a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L76"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004500c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L86"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004500d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L91"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004500e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L96"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004500f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L101"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L113"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L118"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L123"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L129"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L144"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L154"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004501b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L164"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004501c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L169"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004501d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L174"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004501e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L179"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004501f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L184"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L189"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L194"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L199"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L204"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L209"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L214"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L226"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L235"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L240"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004502a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L246"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004502b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L251"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004502d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L261"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004502e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L266"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004502f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L272"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045030": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L278"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045031": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L284"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045032": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L290"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045033": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L295"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045035": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L305"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045036": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L311"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045038": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L321"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045039": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L328"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L333"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L338"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L343"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L348"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L353"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004503f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L358"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045040": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L363"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045041": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L368"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045042": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L373"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045043": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L378"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045044": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L383"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045045": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L388"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045046": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L393"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045047": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L398"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045048": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L403"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045049": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L408"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004504a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L413"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004504b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L418"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004504c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L423"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004504d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L428"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004504f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L439"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045050": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L444"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045051": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L449"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045052": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L454"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045054": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L464"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045056": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L474"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045059": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L489"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L494"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L500"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L506"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L512"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L519"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004505f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L525"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045060": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L530"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045061": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L535"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045062": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L540"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045063": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L545"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045064": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L553"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045066": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L565"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045067": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L571"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045068": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L577"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045069": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L583"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045070": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L588"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045071": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L593"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045072": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L598"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045073": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L603"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045075": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L613"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045076": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L619"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045077": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L624"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045078": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L629"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045079": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L634"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004507a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L639"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004507d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L655"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x8004507e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L660"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045081": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L676"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045082": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L681"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045083": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L687"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045084": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L692"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045085": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L697"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045086": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L702"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045087": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L707"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045088": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L712"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045089": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L717"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045090": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L722"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045091": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L727"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045092": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L732"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x80045093": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L738"
+        ],
+        "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
       }
     }
   },
