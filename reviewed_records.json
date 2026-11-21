@@ -3379,6 +3379,142 @@
           "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
         ],
         "note": "Сверены точный Win32 код/название и смысл с Microsoft Learn; неподтверждённые причины и универсальные ремонты удалены. Рекомендации оставлены применимыми к старым и современным версиям Windows."
+      },
+      "0x80244016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80244019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80244022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80244023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-networking-error-codes"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80242004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80242005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80242008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x80246008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x8024600e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x8024a004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x8024a005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x8024d009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x8024d00c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x800f0906": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x800f0907": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x800f0922": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0x800f0954": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
+        ],
+        "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
       }
     }
   },
