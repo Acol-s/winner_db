@@ -115911,7 +115911,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_RELATIONSHIP; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_RELATIONSHIP; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240011\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240011\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240012": {
         "status": "reviewed",
@@ -115921,7 +115933,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_REG_VALUE_INVALID; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_REG_VALUE_INVALID; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240012\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240012\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240013": {
         "status": "reviewed",
@@ -115929,9 +115953,23 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L404",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/answers/questions/2665235/windows-update-error-0x80240013-with-serbian-bosni",
+          "https://learn.microsoft.com/en-us/answers/questions/2786116/error-0x80240013-in-windows-store-when-updating-an"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_DUPLICATE_ITEM; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_DUPLICATE_ITEM; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Older WUA language-list/self-update cases and Windows 10 Store cases differ.",
+          "forum_result": "multiple_matching_cases_need_followup",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240013\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240013\" site:reddit.com"
+          ],
+          "note": "Found 2015 Serbian/Bosnian language-pack case and 2017 Store thread with multiple pages. Migrated tags can incorrectly label an old 2011 question Windows 11. No remedy or OS applicability inferred from those tags; further answers need review."
+        }
       },
       "0x80240014": {
         "status": "reviewed",
@@ -115941,7 +115979,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_INSTALL_REQUESTED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_INSTALL_REQUESTED; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240014\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240014\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240019": {
         "status": "reviewed",
@@ -116404,7 +116454,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UPDATE_NOT_APPROVED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UPDATE_NOT_APPROVED; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240062\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240063": {
         "status": "reviewed",
@@ -116424,7 +116486,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INSTALL_JOB_RESUME_NOT_ALLOWED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INSTALL_JOB_RESUME_NOT_ALLOWED; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240064\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240065": {
         "status": "reviewed",
@@ -116434,7 +116508,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INSTALL_JOB_NOT_SUSPENDED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INSTALL_JOB_NOT_SUSPENDED; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "First research pass only; remedies and version compatibility remain unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80240065\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240062\" OR \"0x80240064\" OR \"0x80240065\" site:reddit.com"
+          ],
+          "note": "No suitable exact-code success report found in returned results. Keep open for follow-up; diagnostic checklists are not verified fixes."
+        }
       },
       "0x80240066": {
         "status": "reviewed",
@@ -116485,9 +116571,25 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L1112",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://www.reddit.com/r/SCCM/comments/1k1a6zb/issue_with_feature_update_failing_via_software/",
+          "https://support.microsoft.com/en-gb/servicing/os/windows-11/2025/05/may-27-2025-kb5058502-os-builds-22621-5413-and-22631-5413-preview",
+          "https://support.microsoft.com/en-us/servicing/os/windows-11/2025/05/may-31-2025-kb5062170-os-builds-22621-5415-and-22631-5415-out-of-band",
+          "https://learn.microsoft.com/en-us/answers/questions/2285016/windows-11-24h2-upgrade-failed-with-0x80240069-err"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_SERVICE_UNEXPECTED_EXIT; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_SERVICE_UNEXPECTED_EXIT; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_fix_and_user_report",
+          "scope": "Windows 11 22H2/23H2 downloading 24H2 through WSUS/ConfigMgr in spring 2025.",
+          "forum_result": "Q&A has scenario-specific workarounds; Reddit contains direct success report",
+          "reddit_result": "user_reported_success",
+          "search_queries": [
+            "\"0x80240069\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"0x80240069\" site:reddit.com"
+          ],
+          "note": "Microsoft KB5058502 documents service-crash fix. KB5062170 includes it and requires restart. Reddit user reports success after removing old KIR policy, installing KB5062170 and rebooting. No universal cure for all service exits; later-version cases unresolved. Raw registry-feature override and unrelated LongPathTool promotion excluded."
+        }
       },
       "0x8024006a": {
         "status": "reviewed",
