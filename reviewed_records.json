@@ -170455,164 +170455,208 @@
         "note": "Microsoft OLE DB return-code documentation and Windows SDK header confirm that this is an HRESULT error and define its meaning. Provider/context-specific remediation was not verified; record remains needs_source."
       },
       "0xc1210100": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L185"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L185",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210101": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L194"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L194",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitialize",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientregistercallback"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210102": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L203"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L203",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/ns-wdstci-wds_transportclient_request",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210103": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L212"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L212",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/ns-wdstci-wds_transportclient_request",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210104": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L221"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L221",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210105": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L230"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L230",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210106": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L239"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L239",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsma/2935e4e9-da47-4660-890f-aeab03768156"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210107": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L248"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L248",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210108": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L257"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L257",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210109": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L266"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L266",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacescheduledcast-starttransmission",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010a": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L275"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L275",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010b": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L284"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L284",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespacescheduledcast-starttransmission"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010c": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L293"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L293",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsma/2935e4e9-da47-4660-890f-aeab03768156",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010d": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L302"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L302",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsma/2935e4e9-da47-4660-890f-aeab03768156",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/ns-wdstci-wds_transportclient_request",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010e": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L311"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L311",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsma/2935e4e9-da47-4660-890f-aeab03768156",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/ns-wdstci-wds_transportclient_request"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc121010f": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L320"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L320",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsma/2935e4e9-da47-4660-890f-aeab03768156",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1210110": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L329"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L329",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/ns-wdstci-wds_transportclient_request",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220300": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L582"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L582",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitialize",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientregistercallback"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220301": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L591"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L591",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitializesession",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220302": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L600"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L600",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitializesession",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220303": {
         "status": "needs_source",
@@ -170623,84 +170667,108 @@
         "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
       },
       "0xc1220304": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L618"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L618",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitialize",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstci/nf-wdstci-wdstransportclientinitializesession"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220305": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L628"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L628",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220306": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L638"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L638",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/disconnect-wdsmulticastclient?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220307": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L647"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L647",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/disconnect-wdsmulticastclient?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220308": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L657"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L657",
+          "https://learn.microsoft.com/en-us/windows-server/troubleshoot/windows-server/setup-upgrade-and-drivers/enable-logging-windows-deployment-service",
+          "https://learn.microsoft.com/en-us/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_diagnostics_component_flags",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc1220309": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L666"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L666",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc122030a": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L675"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L675",
+          "https://learn.microsoft.com/en-us/powershell/module/wds/?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc122030b": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L684"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L684",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc122030c": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L693"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L693",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0xc122030d": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L703"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L703",
+          "https://learn.microsoft.com/en-us/windows/win32/api/_wds/",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-wdsmt/6ea67036-acfb-47dc-81fe-9c0334c9e78d"
         ],
-        "note": "Microsoft Windows SDK confirms the HRESULT symbol and message. No code-specific user remediation has been verified; only neutral diagnostics are included, so the record remains needs_source."
+        "note": "The pinned Windows SDK confirms the code and symbol. Microsoft WDS protocol/API references support these context-specific actions for WDS multicast. Applicability is limited to systems that implement the cited WDS interfaces (the client/server minimums are stated on each API page); verify the version-specific WDS configuration. Community claims were not used as primary evidence."
       },
       "0x8000211d": {
         "status": "needs_source",
