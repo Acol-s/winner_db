@@ -5094,6 +5094,120 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Добавлен отсутствовавший код из публичного MS-ERREF; сохранены точное legacy-значение и ограниченная совместимой Windows Media Player применимость."
+      },
+      "0x80073b06": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0x80073b09": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0x80073b0a": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d0ffc": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d0ffb": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d36c4": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d36fa": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d36f2": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d124a": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d124c": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Публичные проверенные таблицы Microsoft не подтвердили указанный числовой HRESULT с заявленным именем; нужен точный SDK/header или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+      },
+      "0xc00d1209": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставлены официальный DRM код и смысл; шаги ограничены статусом прав у источника контента и legacy-поддержкой."
+      },
+      "0xc00d120a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Сопоставлены официальный DRM код и смысл; шаги ограничены статусом прав у источника контента и legacy-поддержкой."
+      },
+      "0x803d0000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "WS_E_INVALID_FORMAT и номер 0x803D0000 подтверждены Microsoft; убраны неподтверждённые причины CES/CEP."
       }
     }
   },
