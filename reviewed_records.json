@@ -2819,6 +2819,96 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/kernel-live-dump-code-reference"
                 ],
                 "note": "Исключено из BSOD-аудита: Microsoft определяет 0x187 как live dump, который не может быть реальным bugcheck."
+            },
+            "0x00000191": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x191--pf-detected-corruption",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x00000192": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x192--kernel-auto-boost-lock-acquisition-with-raised-irql",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x00000196": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x196--loader-rollback-detected",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x00000199": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x199--kernel-storage-slot-in-use",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x0000018e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x18e--kernel-partition-reference-violation",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x0000019a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x19a--worker-thread-returned-while-attached-to-silo",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x0000019b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x19b--ttm-fatal-error",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x000001a0": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a0--ttm-watchdog-timeout",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x000001a2": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1a2--win32k-callout-watchdog-bugcheck",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x000001aa": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1aa--exception-on-invalid-stack",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
             }
         }
     },
