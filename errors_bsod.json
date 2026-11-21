@@ -3264,132 +3264,92 @@
     {
         "errorCode": "0x000001D3",
         "title": "WFP_INVALID_OPERATION",
-        "description": "Обратный вызов Windows Filtering Platform (WFP) выполнил недопустимую операцию. Нарушение целостности сетевого фильтра в драйвере.",
-        "officialSolution": "Обновите драйверы сетевого фильтра/антивирус/брандмауэр. Удалите сторонние сетевые фильтры. Проанализируйте стек через WinDbg.",
-        "userSolutions": [
-            "• Удалите или обновите сторонние брандмауэры, антивирусы и VPN-клиенты (через autoruns/Sysinternals).",
-            "• Сбросьте сетевой стек: netsh winsock reset, netsh int ip reset (от админа).",
-            "• Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v)."
-        ],
+        "description": "0x1D3 означает, что Windows Filtering Platform callout выполнил недопустимую операцию. Параметр 1 — subtype; для 1 callout внедрил inbound NBL с несколькими NET_BUFFER, параметр 3 — NBL, остальные указаны как reserved.",
+        "officialSolution": "Сохраните dump и выполните !analyze -v; проверьте subtype/указатель NBL и callout-драйвер. Передайте детали автору WFP callout/OEM.",
+        "userSolutions": "Не сбрасывайте сеть и не удаляйте VPN как доказанное решение; проблема в invalid callout operation. Изменяйте только драйвер, определённый стеком.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите или обновите сторонние брандмауэры, антивирусы и VPN-клиенты (через autoruns/Sysinternals).\", \"Шаг 2: Сбросьте сетевой стек: netsh winsock reset, netsh int ip reset (от админа).\", \"Шаг 3: Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 4: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 5: Проверьте память MemTest86 (4+ прохода).\", \"Шаг 6: Обновите BIOS/UEFI и драйверы сетевого адаптера/чипсета.\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Запишите параметры и сохраните дамп.\",\"WinDbg: !analyze -v; параметр 1 — subtype, для 1 параметр 3 — NBL; 2 и 4 зарезервированы.\",\"Определите WFP callout по стеку и проверьте операцию/NET_BUFFER согласно subtype.\",\"Передайте дамп разработчику callout/OEM.\"]"
     },
     {
         "errorCode": "0x000001D6",
         "title": "WORKER_THREAD_RETURNED_WITH_NON_DEFAULT_WORKLOAD_CLASS",
-        "description": "Рабочий поток изменил свой класс нагрузки (workload class) и не вернул его перед возвратом. Нарушение целостности ядра в драйвере.",
-        "officialSolution": "Проверьте драйверы через Driver Verifier. Обновите драйверы. Проанализируйте стек через WinDbg.",
-        "userSolutions": [
-            "• Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).",
-            "• Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора."
-        ],
+        "description": "0x1D6 означает, что worker thread изменил workload class и не восстановил её перед возвратом. Параметры: 1 — адрес worker routine, 2 — текущий workload class, 3 — WorkItem parameter, 4 — WorkItem address. ln по параметру 1 помогает определить драйвер.",
+        "officialSolution": "Сохраните дамп, выполните !analyze -v и ln <параметр_1>; исследуйте драйвер и worker routine. Передайте разработчику/OEM.",
+        "userSolutions": "Не меняйте приоритеты задач и службы вручную; это ошибка kernel worker routine. Проверяйте поддержку механизма в версии Windows.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).\", \"Шаг 2: Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 4: Проверьте память MemTest86 (4+ прохода) — ошибки RAM частая причина.\", \"Шаг 5: Обновите BIOS/UEFI (микрокод CPU) и драйверы чипсета с сайта производителя материнской платы.\", \"Шаг 6: Отключите разгон, верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Сохраните параметры/дамп.\",\"WinDbg: !analyze -v; выполните ln <адрес из параметра 1>.\",\"Изучите routine, workload class и work item по параметрам 2–4.\",\"Передайте результат разработчику драйвера/OEM.\"]"
     },
     {
         "errorCode": "0x000001D7",
         "title": "EFS_FATAL_ERROR",
-        "description": "Возникла ошибка EFS (Encrypting File System), которую нельзя обработать без потери или повреждения данных. Связано с подсистемой шифрования файлов.",
-        "officialSolution": "Запустите синий экран Troubleshooter. Проверьте целостность системы и реестра. Обновите Windows. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Запустите средство устранения синих экранов (Параметры → Система → Устранение неполадок → Синий экран).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.",
-            "• Проверьте реестр: regsvr32 fsutil, проверка EFS-ключей (reagentc /info)."
-        ],
+        "description": "0x1D7 EFS_FATAL_ERROR указан в справочнике Microsoft, однако найденная общедоступная статья Microsoft для кода с подробным смыслом/параметрами не обнаружена. Не выводите точную причину только из аббревиатуры EFS.",
+        "officialSolution": "Сохраните параметры, dump и сборку; выполните !analyze -v и передайте данные Microsoft/OEM. При проблемах с шифрованием файлов отдельно сохраните recovery key и не удаляйте зашифрованные данные.",
+        "userSolutions": "Не применяйте DISM/SFC или расшифровку как специфическое решение этого кода без официального диагноза. Уточняйте значение по версии Windows и символам.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Запустите средство устранения синих экранов (Параметры → Система → Устранение неполадок → Синий экран).\", \"Шаг 2: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 3: Проверьте реестр: regsvr32 fsutil, проверка EFS-ключей (reagentc /info).\", \"Шаг 4: Обновите Windows через Параметры → Windows Update.\", \"Шаг 5: Проверьте SMART дисков (CrystalDiskInfo) и целостность: chkdsk C: /f.\", \"Шаг 6: Проверьте память MemTest86 (4+ прохода).\", \"Шаг 7: При систематическом повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь в Microsoft Support.\"]"
+        "stepByStep": "[\"Запишите параметры, сборку и сохраните dump.\",\"WinDbg: !analyze -v; сверяйте с символами конкретной Windows; доступный общий Microsoft code reference подтверждает имя, но не раскрывает параметры/решение.\",\"Сохраните recovery key до любых операций с EFS; не расшифровывайте и не перемещайте данные вслепую.\",\"Передайте dump OEM/Microsoft или администратору шифрования.\"]"
     },
     {
         "errorCode": "0x000001D9",
         "title": "HAL_IOMMU_INTERNAL_ERROR",
-        "description": "Во внутренней библиотеке HAL IOMMU обнаружена ошибка. Причины: повреждённые/устаревшие драйверы, заражение вредоносным ПО, повреждение системных файлов.",
-        "officialSolution": "Обновите BIOS/UEFI (поддержка IOMMU/VT-d). Обновите Windows и драйверы. Проверьте на вредоносное ПО. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1D9 — внутренняя ошибка HAL IOMMU library. Параметр 1: 0 — удалить IOMMU domain не удалось; 1 — unmap pages не удался; 2 — выйти из domain не удалось. Параметр 2 — status, 3 — domain object, для типа 1 параметр 4 — logical address.",
+        "officialSolution": "Сохраните dump; выполните !analyze -v и сохраните status/domain/logical address. Передайте OEM/разработчику драйвера IOMMU. Не отключайте IOMMU без инструкции.",
+        "userSolutions": "Не считайте это поломкой накопителя; ошибка касается HAL IOMMU. Меняйте firmware/драйвер только для модели и версии Windows.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Сохраните параметры и dump.\",\"WinDbg: !analyze -v; расшифруйте операцию по параметру 1 (0–2).\",\"Сохраните status/domain object и logical address для типа 1.\",\"Передайте OEM/драйверу платформы; IOMMU не отключайте без указания.\"]"
     },
     {
         "errorCode": "0x000001DA",
         "title": "HAL_BLOCKED_PROCESSOR_INTERNAL_ERROR",
-        "description": "Во внутренней библиотеке заблокированного процессора (blocked processor library) обнаружена ошибка. Связано с аппаратной целостностью процессора.",
-        "officialSolution": "Обновите BIOS/UEFI (микрокод). Обновите Windows и драйверы. Проверьте совместимость CPU. Отключите разгон. Обратитесь к производителю CPU при повторе.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1DA означает внутреннюю ошибку blocked processor library. Параметр 1 — тип: 1 инициализация библиотеки; 2 запуск процессора; 3 запрос PPM package ID; 4 операция PPM; 5 исключение blocked processor; 6 timeout PPM. Остальные параметры зависят от типа (NTSTATUS, processor/APIC ID, операция, mailbox/trap frame).",
+        "officialSolution": "Сохраните dump, выполните !analyze -v и расшифруйте параметры по типу из параметра 1. Передайте OEM/производителю CPU/платформы; не делайте вывод о CPU из одного кода.",
+        "userSolutions": "Не прошивайте BIOS и не меняйте частоты/напряжения как универсальное исправление. Это низкоуровневый HAL/PPM сбой; используйте только платформенные средства для конкретной ОС.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Запишите все параметры и сохраните dump.\",\"WinDbg: !analyze -v; интерпретируйте параметр 1 и соответствующие NTSTATUS, processor/APIC ID, PPM operation/mailbox или trap frame.\",\"Сверьте аппаратную платформу и прошивку с OEM.\",\"Передайте dump OEM; не меняйте частоты и напряжение вручную.\"]"
     },
     {
         "errorCode": "0x000001DB",
         "title": "IPI_WATCHDOG_TIMEOUT",
-        "description": "Процессор застрял в цикле IPI (Inter-Processor Interrupt) дольше разрешённого времени. Причины: повреждённый/устаревший драйвер графики, несовместимое оборудование.",
-        "officialSolution": "Обновите драйверы (особенно графики). Проверьте оборудование. Обновите BIOS/UEFI. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1DB означает, что процессор застрял в IPI loop дольше разрешённого времени. Параметры 1–3 — QPC frequency, текущий и базовый QPC; 4 зарезервирован.",
+        "officialSolution": "Сохраните kernel dump, выполните !analyze -v и передайте processor/thread контекст OEM/Microsoft. Не приписывайте проблему охлаждению без дополнительных данных.",
+        "userSolutions": "Не меняйте напряжения, affinity или BIOS по одному watchdog-коду. Для старых ОС проверьте наличие IPI watchdog и совместимость отладчика.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Запишите параметры/QPC и сборку Windows; сохраните dump.\",\"WinDbg: !analyze -v; параметры 1–3 — частота/текущий/базовый QPC; 4 зарезервирован.\",\"Исследуйте процессорный контекст и стеки по дампу.\",\"Передайте повторяющийся сбой OEM/Microsoft; не меняйте CPU-настройки вслепую.\"]"
     },
     {
         "errorCode": "0x000001DC",
         "title": "DMA_COMMON_BUFFER_VECTOR_ERROR",
-        "description": "Драйвер неправильно использовал векторные API общего буфера DMA (vectored common buffer APIs). Нарушение целостности подсистемы DMA в драйвере.",
-        "officialSolution": "Обновите драйверы (особенно PCIe/DMA-устройств). Проверьте совместимость оборудования с IOMMU. Проанализируйте стек через WinDbg.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1DC означает неправильное использование драйвером vector DMA common-buffer APIs. Параметр 1 — тип: неверный IRQL, непустой vector, выход за границы, уже освобождённый index либо утечка buffer; параметры 2–4 имеют типозависимый смысл.",
+        "officialSolution": "Сохраните дамп; выполните !analyze -v и интерпретируйте параметры по типу отказа. Определите драйвер/устройство и передайте производителю.",
+        "userSolutions": "Не меняйте настройки диска/памяти и не отключайте DMA. Это ошибка драйверного API; не запускать Driver Verifier как пользовательский первый шаг.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Сохраните dump и параметры.\",\"WinDbg: !analyze -v; расшифруйте тип из параметра 1 (0x1–0x5) и соответствующие IRQL/index/адреса.\",\"Найдите драйвер DMA по стеку и устройству.\",\"Передайте дамп разработчику/OEM; используйте исправление для поддерживаемой ОС.\"]"
     },
     {
         "errorCode": "0x000001DF",
         "title": "PROCESSOR_START_TIMEOUT",
-        "description": "Процессор не запустился за отведённое время. Запуск процессора происходит очень рано при инициализации ОС. Связано с аппаратной проблемой CPU.",
-        "officialSolution": "Обновите BIOS/UEFI (микрокод). Проверьте совместимость и установку CPU. Проверьте питание и охлаждение. Обратитесь к производителю CPU.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1DF означает, что процессор не запустился в разрешённый срок на раннем этапе инициализации ОС. Параметры: 1 — адрес processor state, 2 зарезервирован, 3 — NT processor number, 4 — local unit ID.",
+        "officialSolution": "Сохраните параметры/дамп и выполните !analyze -v; передайте OEM. Это происходит очень рано, поэтому особенно важны сведения о модели, сборке, изменениях CPU/прошивки и установке.",
+        "userSolutions": "Не извлекайте CPU и не прошивайте BIOS без OEM инструкции. Для старых Windows используйте носитель и средства восстановления соответствующего выпуска.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Запишите модель и версию Windows, параметры и обстоятельства запуска.\",\"WinDbg: !analyze -v; параметры 1, 3 и 4 описывают processor state/number/local unit ID.\",\"Сохраните сведения о недавнем обновлении ОС/прошивки и аппаратных изменениях.\",\"Передайте дамп OEM; не меняйте firmware без модельной процедуры производителя.\"]"
     },
     {
         "errorCode": "0x000001E4",
         "title": "VIDEO_DXGKRNL_SYSMM_FATAL_ERROR",
-        "description": "Диспетчер памяти системы ядра графики Microsoft DirectX обнаружил неустранимую ошибку. Связано с видеоподсистемой и GPU.",
-        "officialSolution": "Обновите видеодрайвер. Сбросьте кэш шейдеров DirectX. Проверьте GPU и питание. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Сбросьте кэш шейдеров DirectX: Параметры → Система → Память → Временные файлы → отметить «Кэш шейдеров DirectX».",
-            "• Обновите видеодрайвер (NVIDIA/AMD/Intel); удалите старый через DDU в безопасном режиме.",
-            "• Проверьте температуры GPU (HWiNFO) и стабильность БП (OCCT/FurMark)."
-        ],
+        "description": "0x1E4 означает, что DirectX graphics kernel system memory manager обнаружил нарушение. Параметр 1 — subtype 0x1–0xA: invalid physical object, ошибка IOMMU, операции ADL, утечки adapter/ADL/logical block pool или failed domain reattach; 2–4 зарезервированы.",
+        "officialSolution": "Сохраните dump и subtype; выполните !analyze -v, передайте вывод graphics driver/OEM. Сверьте версию графического драйвера и Windows; действия зависят от subtype.",
+        "userSolutions": "Не считайте GPU физически неисправным автоматически. Не переустанавливайте драйвер/BIOS без анализа subtype и совместимости ОС.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Сбросьте кэш шейдеров DirectX: Параметры → Система → Память → Временные файлы → отметить «Кэш шейдеров DirectX».\", \"Шаг 2: Обновите видеодрайвер (NVIDIA/AMD/Intel); удалите старый через DDU в безопасном режиме.\", \"Шаг 3: Проверьте температуры GPU (HWiNFO) и стабильность БП (OCCT/FurMark).\", \"Шаг 4: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 5: Проверьте память MemTest86 (4+ прохода).\", \"Шаг 6: Отключите разгон GPU; верните заводские настройки.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю GPU.\"]"
+        "stepByStep": "[\"Запишите параметр 1 и сохраните dump.\",\"WinDbg: !analyze -v; сопоставьте subtype 1–0xA с нарушением DirectX graphics memory manager.\",\"Сохраните сведения об адаптере, графическом драйвере и сборке ОС.\",\"Передайте dump OEM/разработчику графики; обновление допустимо при совместимости и связи с причиной.\"]"
     },
     {
         "errorCode": "0x000001E9",
         "title": "ILLEGAL_ATS_INITIALIZATION",
-        "description": "Драйвер попытался незаконно включить Address Translation Service (ATS) на устройстве, на котором ATS уже включён. Нарушение целостности PCI в драйвере.",
-        "officialSolution": "Обновите драйверы (особенно PCIe-устройств). Проверьте совместимость оборудования с ATS/IOMMU. Проанализируйте стек через WinDbg.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1E9 ILLEGAL_ATS_INITIALIZATION числится в справочнике Microsoft, но подробная официальная статья с параметрами/причиной в доступной документации не обнаружена. Не расширяйте смысл аббревиатуры и не выдумывайте remedy.",
+        "officialSolution": "Сохраните dump и параметры, выполните !analyze -v и передайте OEM/Microsoft для интерпретации по сборке/платформе.",
+        "userSolutions": "Не отключайте PCIe ATS/IOMMU и не меняйте BIOS без диагноза. Уточняйте применимость по версии ОС и документации платформы.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Запишите все параметры, платформу и сборку; сохраните dump.\",\"WinDbg: !analyze -v; сверяйте расшифровку с символами установленной версии.\",\"Не изменяйте настройки PCIe ATS/IOMMU без подтверждения производителя.\",\"Передайте dump OEM/Microsoft; публичный справочник подтверждает имя кода, но не даёт универсального пользовательского решения.\"]"
     },
     {
         "errorCode": "0x000001EA",
