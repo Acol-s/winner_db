@@ -121362,33 +121362,33 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1758"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L50"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040303": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1767"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L68"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040308": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1776"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L98"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040309": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1785"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L104"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80041403": {
         "status": "reviewed",
@@ -121786,41 +121786,41 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2251"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L165"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040602": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2260"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L171"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040603": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2269"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L177"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040604": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2278"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L183"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040605": {
         "status": "reviewed",
         "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L2288"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L189"
         ],
-        "note": "HRESULT symbol and value verified against pinned Microsoft SDK WindowsSearchErrors.h. Event Viewer message IDs were excluded; applicability and remediation depend on the Windows Search/filter component version."
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       },
       "0x80040606": {
         "status": "reviewed",
@@ -144801,6 +144801,78 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L856"
         ],
         "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x80040301": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L56"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040302": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L62"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040304": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L74"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040305": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L80"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040306": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L86"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040307": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L92"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x8004030a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L110"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040310": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L116"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80040600": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L159"
+        ],
+        "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
       }
     }
   },
