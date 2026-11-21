@@ -2225,55 +2225,55 @@
     },
     {
         "errorCode": "0xC00D11EA",
-        "title": "Атрибут не сохранён (NS_E_WMP_ATTRIBUTE_NOT_STORED)",
-        "description": "Атрибут не сохранён в файле.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11EA публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11EB",
-        "title": "Поток не использован (NS_E_WMP_STREAM_NOT_CONSUMED)",
-        "description": "Поток не был использован Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11EB публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11EC",
-        "title": "Не медиафайл (NS_E_WMP_NOT_MEDIA_FILE)",
-        "description": "Файл не является медиафайлом или не поддерживается.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11EC публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11ED",
-        "title": "Неверный тип файла для плейлиста (NS_E_WMP_INVALID_FILETYPE_FOR_PLAYLIST)",
-        "description": "Тип файла недопустим для списка воспроизведения.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11ED публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11EE",
@@ -2289,315 +2289,300 @@
     },
     {
         "errorCode": "0xC00D11EF",
-        "title": "Неподдерживаемый файл (NS_E_WMP_UNSUPPORTED_FILE)",
-        "description": "Формат файла не поддерживается Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11EF публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F0",
-        "title": "Требуется лицензия (NS_E_WMP_LICENSE_REQUIRED)",
-        "description": "Для воспроизведения требуется лицензия DRM.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F0 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F1",
-        "title": "Аудиокодек не установлен (NS_E_WMP_AUDIO_CODEC_NOT_INSTALLED)",
-        "description": "Требуемый аудиокодек не установлен на компьютере.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F1 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F2",
-        "title": "Неверный файл (NS_E_WMP_INVALID_FILE)",
-        "description": "Файл недопустим или повреждён для Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F2 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F3",
-        "title": "Неверный EntryRef ASX (NS_E_WMP_ASX_INVALIDENTRYREF)",
-        "description": "Недопустимый EntryRef в файле ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F3 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F4",
-        "title": "Не удалось создать объект лицензии (NS_E_WMP_DRM_UNABLE_TO_CREATE_LICENSE_OBJECT)",
-        "description": "Не удалось создать объект лицензии DRM.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F4 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F5",
-        "title": "Слишком много элементов ASX (NS_E_WMP_ERROR_TOO_MANY_ASX_ELEMENTS)",
-        "description": "Слишком много элементов в файле ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F5 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F6",
-        "title": "Автозапуск не включён (NS_E_WMP_AUTOPLAY_NOT_ENABLED)",
-        "description": "Автозапуск не включён в Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F6 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F7",
-        "title": "Неверная родительская папка (NS_E_WMP_INVALID_FOLDER_PARENT)",
-        "description": "Недопустимая родительская папка для библиотеки WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D11F7 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D11F8",
-        "title": "Лицензия транскода истекла (NS_E_WMP_DRM_TRANSCODE_LICENSE_EXPIRED)",
-        "description": "Лицензия DRM для транскодирования истекла.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "CD не удалось читать в цифровом режиме (NS_E_CD_NO_BUFFERS_READ)",
+        "description": "WMP не смог читать аудио CD в digital mode и автоматически переключился на analog mode.",
+        "officialSolution": "Проверьте, воспроизводится ли диск после автоматического перехода в analog. Если чтение нестабильно, осмотрите/очистите диск и проверьте привод; не меняйте режим многократно, если он ухудшает звук.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте, воспроизводится ли диск после автоматического перехода в analog.",
+            "• Если чтение нестабильно, осмотрите/очистите диск и проверьте привод; не меняйте режим многократно, если он ухудшает звук."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте, воспроизводится ли диск после автоматического перехода в analog.\",\"• Если чтение нестабильно, осмотрите/очистите диск и проверьте привод; не меняйте режим многократно, если он ухудшает звук.\"]"
     },
     {
         "errorCode": "0xC00D11F9",
-        "title": "Тип лицензии транскода (NS_E_WMP_DRM_TRANSCODE_LICENSE_TYPE)",
-        "description": "Недопустимый тип лицензии DRM для транскодирования.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "В очередь воспроизведения не добавлена дорожка CD (NS_E_CD_EMPTY_TRACK_QUEUE)",
+        "description": "Для воспроизведения не указана дорожка CD. Это не тип DRM-лицензии.",
+        "officialSolution": "Выберите существующую дорожку CD и повторите. Если диск не определяется, проверьте его и привод отдельно.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Выберите существующую дорожку CD и повторите.",
+            "• Если диск не определяется, проверьте его и привод отдельно."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Выберите существующую дорожку CD и повторите.\",\"• Если диск не определяется, проверьте его и привод отдельно.\"]"
     },
     {
         "errorCode": "0xC00D11FB",
-        "title": "WMDM не обнаружен (NS_E_WMP_WMDM_NOTDETECTED)",
-        "description": "Windows Media Device Manager не обнаружен.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Недопустимый ISRC код CD (NS_E_CD_ISRC_INVALID)",
+        "description": "Player обнаружил недопустимый International Standard Recording Code для дорожки.",
+        "officialSolution": "Если вы слушаете диск, проверьте, доступно ли воспроизведение без чтения этого метаданного. При создании/архивировании диска проверьте исходные метаданные/программу авторинга.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Если вы слушаете диск, проверьте, доступно ли воспроизведение без чтения этого метаданного.",
+            "• При создании/архивировании диска проверьте исходные метаданные/программу авторинга."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Если вы слушаете диск, проверьте, доступно ли воспроизведение без чтения этого метаданного.\",\"• При создании/архивировании диска проверьте исходные метаданные/программу авторинга.\"]"
     },
     {
         "errorCode": "0xC00D11FC",
-        "title": "Странная ошибка CD/DVD (NS_E_WMP_CDDVD_STRANGE_ERROR)",
-        "description": "Незапланированная ошибка при работе с CD/DVD в WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Недопустимый номер каталога медиадиска (NS_E_CD_MEDIA_CATALOG_NUMBER_INVALID)",
+        "description": "Код Media Catalog Number на CD недопустим. Это не ошибка случайной работы привода.",
+        "officialSolution": "При воспроизведении пропустите некорректное поле, если Player позволяет; при создании диска исправьте исходные метаданные/настройки авторинга.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• При воспроизведении пропустите некорректное поле, если Player позволяет; при создании диска исправьте исходные метаданные/настройки авторинга."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• При воспроизведении пропустите некорректное поле, если Player позволяет; при создании диска исправьте исходные метаданные/настройки авторинга.\"]"
     },
     {
         "errorCode": "0xC00D11FD",
-        "title": "Нехватка памяти при копировании (NS_E_WMP_OUTOFMEMORY_COPIEDSTREAMS)",
-        "description": "Недостаточно памяти при копировании потоков WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Медленное цифровое чтение CD с коррекцией ошибок (NS_E_SLOW_READ_DIGITAL_WITH_ERRORCORRECTION)",
+        "description": "Привод медленно читает аудио-CD при включённой коррекции ошибок, из-за чего WMP не может корректно воспроизводить диск.",
+        "officialSolution": "Проверьте другой диск и чтение привода. Можно отключить исправление ошибок чтения только если качество звука остаётся приемлемым; при повторении проверьте документацию конкретного привода.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте другой диск и чтение привода.",
+            "• Можно отключить исправление ошибок чтения только если качество звука остаётся приемлемым; при повторении проверьте документацию конкретного привода."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте другой диск и чтение привода.\",\"• Можно отключить исправление ошибок чтения только если качество звука остаётся приемлемым; при повторении проверьте документацию конкретного привода.\"]"
     },
     {
         "errorCode": "0xC00D11FE",
-        "title": "Диск слишком длинный для стерео (NS_E_WMP_BURN_DISC_TOO_LONG_FOR_STEREO)",
-        "description": "Длительность записи превышает лимит стерео-диска.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Недостаточно данных для оценки скорости CD-привода (NS_E_CD_SPEEDDETECT_NOT_ENOUGH_READS)",
+        "description": "Дорожка слишком короткая, чтобы Player оценил скорость воспроизведения привода.",
+        "officialSolution": "Используйте более длинную дорожку/диск или продолжите операцию без оценки скорости, если WMP это позволяет. Это ограничение измерения, не обязательно неисправность устройства.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Используйте более длинную дорожку/диск или продолжите операцию без оценки скорости, если WMP это позволяет.",
+            "• Это ограничение измерения, не обязательно неисправность устройства."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Используйте более длинную дорожку/диск или продолжите операцию без оценки скорости, если WMP это позволяет.\",\"• Это ограничение измерения, не обязательно неисправность устройства.\"]"
     },
     {
         "errorCode": "0xC00D11FF",
-        "title": "Окно не на переднем плане (NS_E_WMP_HWND_NOT_IN_FOREGROUND)",
-        "description": "Окно Windows Media Player не на переднем плане.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Постановка дорожек CD в очередь отключена (NS_E_CD_QUEUEING_DISABLED)",
+        "description": "WMP не может добавить дорожку CD в очередь, потому что очередь отключена.",
+        "officialSolution": "Включите очередь только если это требуется вашим сценарием; иначе воспроизводите выбранную дорожку напрямую.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Включите очередь только если это требуется вашим сценарием; иначе воспроизводите выбранную дорожку напрямую."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Включите очередь только если это требуется вашим сценарием; иначе воспроизводите выбранную дорожку напрямую.\"]"
     },
     {
         "errorCode": "0xC00D1200",
-        "title": "Дескриптор окна пуст (NS_E_WMP_HWND_IS_NULL)",
-        "description": "Дескриптор окна Windows Media Player равен нулю.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D1200 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1201",
-        "title": "Недостаточно параметров ASX (NS_E_WMP_ASX_NOT_ENOUGH_PARAMS)",
-        "description": "В файле ASX недостаточно параметров.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D1201 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1202",
-        "title": "Сбой разбора ASX (NS_E_WMP_ASX_INVALID_PARSE)",
-        "description": "Не удалось разобрать файл ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Загрузка прав DRM уже выполняется (NS_E_WMP_DRM_ACQUIRING_LICENSE)",
+        "description": "WMP не начинает дополнительную загрузку прав, пока не завершена текущая.",
+        "officialSolution": "Дождитесь текущей загрузки прав и проверьте её результат/сетевое соединение. Если операция зависла, изучите журнал Player и доступность провайдера; повторное удаление лицензий не обосновано.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Дождитесь текущей загрузки прав и проверьте её результат/сетевое соединение.",
+            "• Если операция зависла, изучите журнал Player и доступность провайдера; повторное удаление лицензий не обосновано."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Дождитесь текущей загрузки прав и проверьте её результат/сетевое соединение.\",\"• Если операция зависла, изучите журнал Player и доступность провайдера; повторное удаление лицензий не обосновано.\"]"
     },
     {
         "errorCode": "0xC00D1203",
-        "title": "Дубликат ссылки ASX (NS_E_WMP_ASX_DUPLICATE_REF)",
-        "description": "Дублирующая ссылка в файле ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Права на медиафайл истекли или недействительны (NS_E_WMP_DRM_LICENSE_EXPIRED)",
+        "description": "Срок действия/валидность прав на защищённый файл истекли.",
+        "officialSolution": "Проверьте срок и источник лицензии. Если магазин/служба прав ещё работает, используйте её штатный вход/обновление; при прекращённой поддержке провайдера нельзя обещать локальное восстановление.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте срок и источник лицензии.",
+            "• Если магазин/служба прав ещё работает, используйте её штатный вход/обновление; при прекращённой поддержке провайдера нельзя обещать локальное восстановление."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте срок и источник лицензии.\",\"• Если магазин/служба прав ещё работает, используйте её штатный вход/обновление; при прекращённой поддержке провайдера нельзя обещать локальное восстановление.\"]"
     },
     {
         "errorCode": "0xC00D1204",
-        "title": "Нехватка памяти (UI) (NS_E_WMP_OUTOFMEMORY_GETCUSTOMUIMARKUP)",
-        "description": "Недостаточно памяти при получении разметки UI.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Не удалось получить права на медиафайл (NS_E_WMP_DRM_LICENSE_NOTACQUIRED)",
+        "description": "WMP не смог получить права использования файла.",
+        "officialSolution": "Проверьте подключение к поставщику контента и его доступность, затем используйте штатную процедуру получения прав. Не обходите DRM и не загружайте сертификаты сторонними утилитами.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте подключение к поставщику контента и его доступность, затем используйте штатную процедуру получения прав.",
+            "• Не обходите DRM и не загружайте сертификаты сторонними утилитами."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте подключение к поставщику контента и его доступность, затем используйте штатную процедуру получения прав.\",\"• Не обходите DRM и не загружайте сертификаты сторонними утилитами.\"]"
     },
     {
         "errorCode": "0xC00D1206",
-        "title": "Нехватка памяти (прогресс) (NS_E_WMP_OUTOFMEMORY_GETPERCENTCOMPLETE)",
-        "description": "Недостаточно памяти при получении прогресса.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Права DRM непригодны (NS_E_WMP_DRM_LICENSE_UNUSABLE)",
+        "description": "Права на этот файл не подходят для операции/устройства; провайдер должен подтвердить применимость лицензии.",
+        "officialSolution": "Проверьте источник, устройство и разрешённый способ использования контента. Обратитесь к поставщику за рабочей лицензией; системное восстановление Windows не меняет условия лицензии.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте источник, устройство и разрешённый способ использования контента.",
+            "• Обратитесь к поставщику за рабочей лицензией; системное восстановление Windows не меняет условия лицензии."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте источник, устройство и разрешённый способ использования контента.\",\"• Обратитесь к поставщику за рабочей лицензией; системное восстановление Windows не меняет условия лицензии.\"]"
     },
     {
         "errorCode": "0xC00D1207",
-        "title": "Повреждённое содержимое (NS_E_WMP_DAMAGED_FILE_CONTENT)",
-        "description": "Содержимое файла повреждено.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Права на содержимое отозваны поставщиком (NS_E_WMP_DRM_LICENSE_CONTENT_REVOKED)",
+        "description": "Поставщик отозвал права на этот файл; ошибочно было названо просто повреждённое содержимое.",
+        "officialSolution": "Проверьте у поставщика, есть ли разрешённая новая версия/лицензия. Не пытайтесь восстановить файл сторонними DRM-инструментами.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте у поставщика, есть ли разрешённая новая версия/лицензия.",
+            "• Не пытайтесь восстановить файл сторонними DRM-инструментами."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте у поставщика, есть ли разрешённая новая версия/лицензия.\",\"• Не пытайтесь восстановить файл сторонними DRM-инструментами.\"]"
     },
     {
         "errorCode": "0xC00D1208",
-        "title": "Нехватка памяти (CD) (NS_E_WMP_OUTOFMEMORY_GETCDPROP)",
-        "description": "Недостаточно памяти при получении свойств CD.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Лицензии требуется функция, не поддерживаемая этой версией (NS_E_WMP_DRM_LICENSE_NOSAP)",
+        "description": "Права на медиа требуют функции, которой нет в текущем Player или выпуске Windows.",
+        "officialSolution": "Проверьте требования поставщика и совместимый Player/Windows. Для старых выпусков доступность подходящего Player может быть ограничена; убедитесь, что источник ещё поддерживает обновление прав.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Проверьте требования поставщика и совместимый Player/Windows.",
+            "• Для старых выпусков доступность подходящего Player может быть ограничена; убедитесь, что источник ещё поддерживает обновление прав."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Проверьте требования поставщика и совместимый Player/Windows.\",\"• Для старых выпусков доступность подходящего Player может быть ограничена; убедитесь, что источник ещё поддерживает обновление прав.\"]"
     },
     {
         "errorCode": "0xC00D1209",
@@ -2627,94 +2612,94 @@
     },
     {
         "errorCode": "0xC00D120C",
-        "title": "Неверный протокол ASX (NS_E_WMP_ASX_INVALIDPROTOCOL)",
-        "description": "Недопустимый протокол в файле ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D120C публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D120D",
-        "title": "Нехватка памяти (без поиска) (NS_E_WMP_OUTOFMEMORY_NO_SEEK)",
-        "description": "Недостаточно памяти — поиск невозможен.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D120D публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D120E",
-        "title": "Сбой разбора ASX (NS_E_WMP_ASX_PARSING_FAILED)",
-        "description": "Ошибка разбора файла ASX.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D120E публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D120F",
-        "title": "Сбой выделения BSTR (NS_E_WMP_BSTR_ALLOC)",
-        "description": "Не удалось выделить память (BSTR) в WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D120F публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1210",
-        "title": "Нехватка памяти (GB) (NS_E_WMP_OUTOFMEMORY_GB)",
-        "description": "Недостаточно памяти при операции в WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D1210 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1211",
-        "title": "Нехватка памяти (элемент) (NS_E_WMP_OUTOFMEMORY_ITEM)",
-        "description": "Недостаточно памяти для элемента WMP.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D1211 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1212",
-        "title": "Установка компонента DRM (NS_E_WMP_DRM_COMPONENT_INSTALLATION)",
-        "description": "Ошибка установки компонента DRM Windows Media Player.",
-        "officialSolution": "Установите кодеки (K-Lite). Восстановите Windows Media Player. Запустите sfc /scannow. Обновите Windows и видеодрайвер.",
+        "title": "Код не подтверждён в публичном справочнике Microsoft",
+        "description": "Для 0xC00D1212 публичная таблица MS-ERREF не подтвердила указанное в записи имя/назначение. Это не позволяет считать код действительным Windows Media Player HRESULT только по похожему alias.",
+        "officialSolution": "Сохраните полное событие, приложение и версию Windows; проверьте используемый Windows SDK/header и документацию источника кода. До установления точного значения не выполняйте системные или лицензионные ремонты.",
         "userSolutions": [
-            "• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.",
-            "• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.",
-            "• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework."
+            "• Сохраните полное событие, приложение и версию Windows.",
+            "• Проверьте используемый Windows SDK/header и документацию источника кода.",
+            "• Не применяйте ремонт, пока значение не подтверждено."
         ],
         "category": "Windows",
-        "stepByStep": "[\"• Установите кодеки: K-Lite Codec Pack (Basic) или HEVC Video Extensions из Microsoft Store.\", \"• Восстановите Windows Media Player: Параметры → Приложения → Дополнительные компоненты → Windows Media Player → переустановить.\", \"• Переустановите Microsoft Visual C++ Redistributable (aka.ms/vs/17/release/vc_redist.x64.exe) и .NET Framework.\", \"• Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от админа.\", \"• Обновите видеодрайвер (DDU + чистая установка NVIDIA/AMD/Intel) и Windows.\", \"• Проверьте целостность медиафайла (MediaInfo); конвертируйте в поддерживаемый формат (VLC/HandBrake).\", \"• При повторе — выполните восстановление на месте (in-place upgrade) через ISO Windows.\"]"
+        "stepByStep": "[\"• Сохраните полное событие, приложение и версию Windows.\",\"• Проверьте используемый Windows SDK/header и документацию источника кода.\",\"• Не применяйте ремонт, пока значение не подтверждено.\"]"
     },
     {
         "errorCode": "0xC00D1055",
