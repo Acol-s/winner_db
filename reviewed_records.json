@@ -4685,6 +4685,254 @@
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
         "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+      },
+      "0xc00d1055": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d11b4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d11d1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d11d3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d11d5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d11d6": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d122a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и официальное имя сверены с MS-ERREF; исправлено несовпадающее имя и дана диагностика для конкретного legacy-сценария."
+      },
+      "0xc00d1060": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1213": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1214": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1215": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1216": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1217": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1218": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1219": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121a": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121b": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121c": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121d": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121e": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d121f": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1220": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1221": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1222": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1223": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1224": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1225": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1226": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1227": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1228": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
+      },
+      "0xc00d1229": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Не найдено подтверждение заявленного числового значения/имени в MS-ERREF. Требуется первичная документация SDK/header или полный источник ошибки; оставить в очереди повторной проверки."
       }
     }
   },
