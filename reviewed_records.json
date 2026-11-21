@@ -3432,10 +3432,14 @@
         "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
       },
       "0x8024600e": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
-        "sources": [],
-        "note": "Первичный Microsoft code reference не содержит этот код; доступные Microsoft Q&A записи относятся к разным старым Store-сценариям и не устанавливают точное значение. Требуется источник SDK/официальный компонентный каталог."
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L3410",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
+          "https://learn.microsoft.com/en-us/powershell/module/windowsupdate/get-windowsupdatelog?view=windowsserver2022-ps"
+        ],
+        "note": "Имя и код сверены с официальным SDK wuerror.h. Не смешивать с 0x80246017/WU_E_DM_UNAUTHORIZED_LOCAL_USER из таблицы Common Windows Update errors; применимость способа просмотра логов зависит от версии Windows."
       },
       "0x8024a004": {
         "status": "reviewed",
@@ -5340,12 +5344,15 @@
         "note": "Привязка к отсутствующим BIOS OEM license/SLIC подтверждена для OEM_SLP сценария Windows 8/Server 2012; не обобщать на retail/digital activation."
       },
       "0xc004f012": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/slerror.h#L1657",
+          "https://learn.microsoft.com/en-us/windows/win32/api/slpublic/nf-slpublic-slgetinstalledproductkeyids",
+          "https://support.microsoft.com/en-us/windows/activation/using-the-windows-activation-troubleshooter",
+          "https://support.microsoft.com/en-us/windows/activation/get-help-with-windows-activation-errors"
         ],
-        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "SDK slerror.h подтверждает SL_E_VALUE_NOT_FOUND; функция SLGetInstalledProductKeyIds документирует минимальный client OS Windows 8/server OS Windows Server 2012. Не трактовать как универсальное доказательство повреждения license store."
       },
       "0xc004f034": {
         "status": "reviewed",
@@ -5375,9 +5382,10 @@
         "status": "needs_source",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/licensing-and-activation/troubleshoot-activation-error-codes"
+          "https://learn.microsoft.com/en-us/answers/questions/3280765/i-cant-activate-windows-error-code-0xc004c003",
+          "https://support.microsoft.com/en-us/help/931276/error-message-when-you-try-to-activate-windows-7-or-windows-vista-an-e"
         ],
-        "note": "Точное имя/значение этого HRESULT не подтверждено найденной официальной activation таблицей; требуется SDK/header/API или отдельная статья Microsoft. Оставить в очереди повторной проверки."
+        "note": "Код приведён в таблице активации Windows Vista/7, процитированной в Microsoft Q&A со ссылкой на старую статью Microsoft KB 931276. Прямая ссылка на исходную статью сейчас отвечает 404, SDK/API-определение и подробное описание не найдены. Оставить needs_source; не приписывать код современным версиям или конкретную причину."
       },
       "0xc00d11fa": {
         "status": "reviewed",
