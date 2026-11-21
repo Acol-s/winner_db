@@ -3538,10 +3538,9 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
         ],
-        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+        "note": "Исправлено ошибочное имя на STATUS_REGISTRY_CORRUPT; рекомендации ограничены резервным копированием и восстановлением, соответствующим конкретному сценарию/версии."
       },
       "0xc0000409": {
         "status": "reviewed",
@@ -3619,19 +3618,17 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
         ],
-        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+        "note": "Исправлено ошибочное имя на STATUS_REMOTE_DISCONNECT; удалены неподтверждённые причины."
       },
       "0xc0000144": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
-          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
         ],
-        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
       },
       "0x80073cf0": {
         "status": "reviewed",
@@ -3720,6 +3717,262 @@
           "https://learn.microsoft.com/en-us/windows/win32/appxpkg/troubleshooting"
         ],
         "note": "Имя/значение для кода не подтверждено доступной официальной таблицей; требуется точная запись события, Windows SDK/header или документация версии. Не считать запись окончательно проверенной и повторно исследовать."
+      },
+      "0xc0000005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0xc000000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0xc0000035": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0xc000009a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0xc0000420": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80004009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-7"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80072efd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-errors"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80072eff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-errors"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80070424": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x8007043c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x8007007d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x80070015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d000a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d000b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d000c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d0016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d000e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x803d000f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0x887a0006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/dxgi-error"
+        ],
+        "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
       }
     }
   },
