@@ -6392,7 +6392,7 @@
   {
     "errorCode": "0x00000341",
     "title": "ERROR_SYSTEM_SUSPENDED",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_SYSTEM_SUSPENDED. Сообщение Microsoft SDK: “The connection was terminated because the system got suspended.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_SYSTEM_SUSPENDED. Сообщение Microsoft SDK: “The connection was terminated because the system got suspended.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows Vista; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_SYSTEM_SUSPENDED и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
@@ -6401,7 +6401,7 @@
   {
     "errorCode": "0x00000342",
     "title": "ERROR_RASMAN_SERVICE_STOPPED",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_RASMAN_SERVICE_STOPPED. Сообщение Microsoft SDK: “The connection was terminated because Remote Access Connection manager stopped.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_RASMAN_SERVICE_STOPPED. Сообщение Microsoft SDK: “The connection was terminated because Remote Access Connection manager stopped.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows Vista; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_RASMAN_SERVICE_STOPPED и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
@@ -6410,25 +6410,25 @@
   {
     "errorCode": "0x00000343",
     "title": "ERROR_INVALID_SERVER_CERT",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INVALID_SERVER_CERT. Сообщение Microsoft SDK: “The L2TP connection attempt failed because the security layer could not authenticate the remote computer. This could be because one or more fields of the certificate presented by the remote server could not be validated as belonging to the target destination.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_INVALID_SERVER_CERT и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
-    "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INVALID_SERVER_CERT. Сообщение Microsoft SDK: “The L2TP connection attempt failed because the security layer could not authenticate the remote computer. This could be because one or more fields of the certificate presented by the remote server could not be validated as belonging to the target destination.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows Vista; применимость конкретного компонента и решения проверяется отдельно.",
+    "officialSolution": "Microsoft связывает код с невозможностью подтвердить принадлежность полей серверного сертификата целевому узлу L2TP. Универсальной процедуры выбора правильного сертификата для всех RRAS-развёртываний найденные источники не дают.",
+    "userSolutions": "Microsoft Q&A: при переходе на Server 2016 с клиентами Windows 7/10 автор наблюдал временный успех после удаления сертификата с внутренним именем сервера; ошибка возвращалась после автозачисления через GPO. Причина не установлена. Обсуждённое отключение проверки имени и назначения сертификата не является устранением проблемы выбора сертификата.",
     "category": "Windows",
-    "stepByStep": "[\"Запишите код 0x00000343 в hex и десятичном виде (835), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
+    "stepByStep": "[\"Сохраните код 835, имя VPN-сервера, версию клиента и сведения о сертификате, фактически предъявляемом L2TP/IPsec-сервером.\",\"Администратору PKI/RRAS нужно сопоставить предъявленный сертификат, имя назначения и политику автоматической выдачи. Это диагностический вывод из описания ошибки и случая Q&A.\",\"В найденном случае удаление конкурирующего сертификата давало только временный эффект до повторной выдачи GPO. Подтверждённой постоянной процедуры исправления в этой теме нет.\"]"
   },
   {
     "errorCode": "0x00000344",
     "title": "ERROR_NOT_NAP_CAPABLE",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_NOT_NAP_CAPABLE. Сообщение Microsoft SDK: “The Network Access Protection (NAP) health state of the computer cannot be determined. Contact your administrator to verify that the NAP enforcement client is enabled, the NAP Agent service is running, and NAP is enforced in the Protected Extensible Authentication Protocol (PEAP) properties of the remote access connection.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_NOT_NAP_CAPABLE и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
-    "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_NOT_NAP_CAPABLE. Сообщение Microsoft SDK: “The Network Access Protection (NAP) health state of the computer cannot be determined. Contact your administrator to verify that the NAP enforcement client is enabled, the NAP Agent service is running, and NAP is enforced in the Protected Extensible Authentication Protocol (PEAP) properties of the remote access connection.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows Vista; применимость конкретного компонента и решения проверяется отдельно. Платформа NAP отсутствует начиная с Windows 10 и Windows Server 2016.",
+    "officialSolution": "Для существующего исторического NAP-развёртывания SDK рекомендует администратору проверить клиент принудительного применения NAP, службу NAP Agent и включение NAP в свойствах PEAP подключения. NAP недоступна начиная с Windows 10 и Windows Server 2016.",
+    "userSolutions": "Подходящего подтверждённого пользовательского исправления для этого RAS/NAP-кода в выполненном поиске не найдено. Рекомендации SDK требуют существующей NAP-инфраструктуры и администратора.",
     "category": "Windows",
-    "stepByStep": "[\"Запишите код 0x00000344 в hex и десятичном виде (836), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
+    "stepByStep": "[\"Уточните версию Windows и наличие реального NAP-развёртывания. Инструкции старого NAP-компонента неприменимы к Windows 10/11 и Server 2016 или новее.\",\"На поддерживающем NAP старом развёртывании передайте код администратору: SDK требует проверить включение enforcement client, работу NAP Agent и применение NAP в PEAP-свойствах подключения. Успешная процедура конкретного случая пока не подтверждена.\"]"
   },
   {
     "errorCode": "0x00000345",
     "title": "ERROR_INVALID_TUNNELID",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INVALID_TUNNELID. Сообщение Microsoft SDK: “Invalid Tunnel ID.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INVALID_TUNNELID. Сообщение Microsoft SDK: “Invalid Tunnel ID.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_INVALID_TUNNELID и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
@@ -6437,35 +6437,35 @@
   {
     "errorCode": "0x00000346",
     "title": "ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS. Сообщение Microsoft SDK: “Another Update connection request is in progress. RAS allows only one Update Connection request at a time.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS. Сообщение Microsoft SDK: “Another Update connection request is in progress. RAS allows only one Update Connection request at a time.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
+    "officialSolution": "Microsoft указывает, что RAS допускает только один запрос Update Connection одновременно. Из ограничения следует, что вызывающее приложение должно дождаться завершения текущего запроса перед следующим; это рекомендация для разработчика API-клиента, а не универсальный сброс VPN.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
-    "stepByStep": "[\"Запишите код 0x00000346 в hex и десятичном виде (838), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
+    "stepByStep": "[\"В приложении, вызвавшем Update Connection, проверьте наличие незавершённого предыдущего запроса.\",\"Разработчику нужно сериализовать запросы и дождаться результата предыдущего, затем повторить нужное обновление подключения. Это вывод из ограничения API; отдельный успешный форумный случай не найден.\"]"
   },
   {
     "errorCode": "0x00000347",
     "title": "ERROR_PROTOCOL_ENGINE_DISABLED",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_PROTOCOL_ENGINE_DISABLED. Сообщение Microsoft SDK: “Negotiating using configured protocol is disable. Edit connection properties and select different protocol for negotiation and try again.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_PROTOCOL_ENGINE_DISABLED и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_PROTOCOL_ENGINE_DISABLED. Сообщение Microsoft SDK: “Negotiating using configured protocol is disable. Edit connection properties and select different protocol for negotiation and try again.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
+    "officialSolution": "Microsoft рекомендует изменить свойства подключения, выбрать другой протокол согласования и повторить попытку. Конкретный протокол должен поддерживаться и быть разрешён сервером; универсальных параметров источник не задаёт.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
-    "stepByStep": "[\"Запишите код 0x00000347 в hex и десятичном виде (839), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
+    "stepByStep": "[\"Уточните протокол, отключение которого вызвало код 839, и разрешённые сервером варианты.\",\"В свойствах подключения выберите согласованный с администратором поддерживаемый протокол и повторите попытку — это рекомендация Microsoft. Если подходящего протокола нет, конкретное исправление пока не установлено.\"]"
   },
   {
     "errorCode": "0x00000348",
     "title": "ERROR_INTERNAL_ADDRESS_FAILURE",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INTERNAL_ADDRESS_FAILURE. Сообщение Microsoft SDK: “Internal address negotiation failed.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_INTERNAL_ADDRESS_FAILURE. Сообщение Microsoft SDK: “Internal address negotiation failed.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_INTERNAL_ADDRESS_FAILURE и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
-    "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
+    "userSolutions": "В Cisco Community описан код 840 на встроенном IKEv2-клиенте Windows 10 и Cisco C891F при выдаче IPv6. Позднее автор сообщил, что не добился одновременной работы IPv4 и IPv6 и оставил L2TP/IPsec. Показанная конфигурация не является подтверждённым решением dual-stack-сценария.",
     "category": "Windows",
     "stepByStep": "[\"Запишите код 0x00000348 в hex и десятичном виде (840), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
   },
   {
     "errorCode": "0x00000349",
     "title": "ERROR_FAILED_CP_REQUIRED",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_FAILED_CP_REQUIRED. Сообщение Microsoft SDK: “Client has to request a Internal IPv4 or IPv6 address.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_FAILED_CP_REQUIRED и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_FAILED_CP_REQUIRED. Сообщение Microsoft SDK: “Client has to request a Internal IPv4 or IPv6 address.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
+    "officialSolution": "Microsoft указывает, что клиент должен запрашивать внутренний IPv4- или IPv6-адрес. Источник не задаёт универсальную процедуру настройки любого VPN-клиента и сервера; конкретные подтверждённые шаги пока не найдены.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
     "stepByStep": "[\"Запишите код 0x00000349 в hex и десятичном виде (841), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
@@ -6473,7 +6473,7 @@
   {
     "errorCode": "0x0000034A",
     "title": "ERROR_TS_UNACCEPTABLE",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_TS_UNACCEPTABLE. Сообщение Microsoft SDK: “Traffic Selectors negotiation failed.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_TS_UNACCEPTABLE. Сообщение Microsoft SDK: “Traffic Selectors negotiation failed.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_TS_UNACCEPTABLE и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
@@ -6482,7 +6482,7 @@
   {
     "errorCode": "0x0000034B",
     "title": "ERROR_MOBIKE_DISABLED",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_MOBIKE_DISABLED. Сообщение Microsoft SDK: “Mobility is disabled for this connection.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_MOBIKE_DISABLED. Сообщение Microsoft SDK: “Mobility is disabled for this connection.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
     "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_MOBIKE_DISABLED и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
@@ -6491,11 +6491,11 @@
   {
     "errorCode": "0x0000034C",
     "title": "ERROR_CANNOT_INITIATE_MOBIKE_UPDATE",
-    "description": "В контексте RAS/Remote Access API этот код называется ERROR_CANNOT_INITIATE_MOBIKE_UPDATE. Сообщение Microsoft SDK: “The VPN Connection is still connecting or reauthenticating because of Quarantine state change. Initiate mobike update only when connection state is 'Connected'.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков.",
-    "officialSolution": "Заголовок Microsoft SDK подтверждает код ERROR_CANNOT_INITIATE_MOBIKE_UPDATE и его сообщение/контекст, но не задаёт универсальную пользовательскую процедуру. Сначала установите API и операцию, которые вернули код; применяйте документацию для соответствующей версии Windows.",
+    "description": "В контексте RAS/Remote Access API этот код называется ERROR_CANNOT_INITIATE_MOBIKE_UPDATE. Сообщение Microsoft SDK: “The VPN Connection is still connecting or reauthenticating because of Quarantine state change. Initiate mobike update only when connection state is 'Connected'.”. Заголовок SDK не задаёт минимальную версию Windows для остальных выпусков. Справочник Microsoft помечает этот RAS-код как доступный начиная с Windows 7; применимость конкретного компонента и решения проверяется отдельно.",
+    "officialSolution": "Microsoft разрешает инициировать MOBIKE update только в состоянии Connected. Пока VPN подключается или повторно аутентифицируется из-за смены состояния карантина, обновление инициировать нельзя.",
     "userSolutions": "Не меняйте сетевые настройки, учётные данные, маршруты или системные службы только по коду. Зафиксируйте источник ошибки и сначала проверьте документацию для именно этого API.",
     "category": "Windows",
-    "stepByStep": "[\"Запишите код 0x0000034C в hex и десятичном виде (844), точный API, действие, приложение и версию Windows.\",\"Проверьте, относится ли код к RAS/Remote Access; числовое значение может иметь другой смысл в подсистеме, которая использует тот же номер.\",\"Сохраните полное сообщение и журнал соответствующего компонента с отметками времени; сверяйте шаги решения с документацией конкретного выпуска ОС.\",\"Для RAS-кода, помеченного Microsoft как устаревший начиная с Vista, рассматривайте его как исторический результат старого приложения/API и не переносите его рекомендации на современные интерфейсы без отдельного подтверждения.\"]"
+    "stepByStep": "[\"В вызывающем приложении проверьте состояние VPN перед MOBIKE update.\",\"Дождитесь состояния Connected и только после этого инициируйте обновление согласно ограничению Microsoft. Если соединение не достигает Connected, причина подключения требует отдельного исследования.\"]"
   },
   {
     "errorCode": "0x0000034D",
