@@ -3973,6 +3973,198 @@
           "https://learn.microsoft.com/en-us/windows/win32/direct3ddxgi/dxgi-error"
         ],
         "note": "Сверены числовой код, официальное имя/смысл и условия применимости по документации Microsoft; общие неподтверждённые причины и ремонты удалены."
+      },
+      "0xc00d11b0": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0fc8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d1058": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0fcc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d11bb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d10bc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d1169": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d1168": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d11c2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d11d0": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d11d4": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0fdb": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0fcf": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d105a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d105b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d105e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0ff3": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0ff2": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0fcd": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код и legacy-функция Windows Media Player сверены по MS-ERREF; исправлено неверное сопоставление и убраны общие советы, не вытекающие из кода."
+      },
+      "0xc00d0090": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
+      },
+      "0xc00d13e0": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
+      },
+      "0xc00d105f": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
+      },
+      "0xc00d1045": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
+      },
+      "0xc00d1048": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Код не найден в проверенной публичной таблице Microsoft, поэтому alias и шаги не считать установленными; получить точную запись SDK/header/поставщика и повторить проверку."
       }
     }
   },
