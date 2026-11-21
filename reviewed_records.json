@@ -115955,23 +115955,42 @@
       },
       "0x80240043": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L764",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-success-and-error-codes-"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_NO_UI_SUPPORT; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_NO_UI_SUPPORT; existing row preserved. Solution research performed separately; see solution_review for evidence limits.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "WUA UI support limitation; no universal remediation established.",
+          "forum_result": "no_usable_exact_code_result",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Steps are data collection, not a claimed fix."
+        }
       },
       "0x80240044": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L773",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-success-and-error-codes-",
+          "https://learn.microsoft.com/en-us/answers/questions/2818991/unable-to-download-the-windows-update-using-script"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_PER_MACHINE_UPDATE_ACCESS_DENIED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_PER_MACHINE_UPDATE_ACCESS_DENIED; existing row preserved. Solution research performed separately; see solution_review for evidence limits.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "WUA per-machine operation; Q&A case on Windows 10 1803 does not establish identical behavior on older Windows.",
+          "forum_result": "matching_case_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Administrative-context action is explicitly an inference from the documented permission requirement, not a forum-confirmed success."
+        }
       },
       "0x80240045": {
         "status": "reviewed",
@@ -116025,13 +116044,22 @@
       },
       "0x8024004a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L833",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-success-and-error-codes-"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_SETUP_IN_PROGRESS; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_SETUP_IN_PROGRESS; existing row preserved. Solution research performed separately; see solution_review for evidence limits.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "WUA blocked during OS setup. Retry after completed setup is an inference, not a confirmed forum success.",
+          "forum_result": "no_usable_exact_code_result",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "No setup-state registry edits or generic cache reset recommended."
+        }
       },
       "0x8024004b": {
         "status": "reviewed",
@@ -116045,13 +116073,23 @@
       },
       "0x8024004c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L851",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://support.microsoft.com/en-gb/surface/drivers-firmware/trouble-installing-surface-updates",
+          "https://learn.microsoft.com/en-us/answers/questions/2339822/new-surace-pro-8-is-not-getting-powered-on-without"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_LOW_BATTERY; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_LOW_BATTERY; existing row preserved. Solution research performed separately; see solution_review for evidence limits.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Surface devices with a battery; exact code documented by Microsoft Support. Q&A case: Surface Pro 8 / Windows 11 Home, unresolved.",
+          "forum_result": "matching_case_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Battery-driver procedure is limited to Surface; no battery-threshold bypass or forced firmware flashing suggested."
+        }
       },
       "0x8024004d": {
         "status": "reviewed",
