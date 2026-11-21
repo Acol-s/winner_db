@@ -123952,5 +123952,653 @@
         "userSolutions": "Не форматируйте и не стирайте носитель повторно, пока не сохранены данные; не прошивайте привод без официального пакета для точной модели.",
         "category": "Windows",
         "stepByStep": "[\"Запишите HRESULT, тип диска/файловой системы, операцию и устройство записи; сохраните журнал приложения.\",\"Проверьте состояние носителя, совместимость формата/файловой системы и сообщения IMAPI2; используйте носитель и привод, поддерживаемые данной Windows.\",\"Не повторяйте запись на единственный носитель и не изменяйте финализацию/формат наугад; сначала сохраните исходные данные и текст ошибки.\",\"Обновление драйвера/прошивки выполняйте только по инструкции изготовителя именно для модели привода и версии Windows.\"]"
+    },
+    {
+        "errorCode": "0X80042301",
+        "title": "VSS_E_BAD_STATE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042302",
+        "title": "VSS_E_UNEXPECTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042303",
+        "title": "VSS_E_PROVIDER_ALREADY_REGISTERED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042304",
+        "title": "VSS_E_PROVIDER_NOT_REGISTERED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042306",
+        "title": "VSS_E_PROVIDER_VETO",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042307",
+        "title": "VSS_E_PROVIDER_IN_USE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042308",
+        "title": "VSS_E_OBJECT_NOT_FOUND",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004230C",
+        "title": "VSS_E_VOLUME_NOT_SUPPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004230E",
+        "title": "VSS_E_VOLUME_NOT_SUPPORTED_BY_PROVIDER",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004230D",
+        "title": "VSS_E_OBJECT_ALREADY_EXISTS",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004230F",
+        "title": "VSS_E_UNEXPECTED_PROVIDER_ERROR",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042310",
+        "title": "VSS_E_CORRUPT_XML_DOCUMENT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042311",
+        "title": "VSS_E_INVALID_XML_DOCUMENT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042312",
+        "title": "VSS_E_MAXIMUM_NUMBER_OF_VOLUMES_REACHED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042313",
+        "title": "VSS_E_FLUSH_WRITES_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042314",
+        "title": "VSS_E_HOLD_WRITES_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042315",
+        "title": "VSS_E_UNEXPECTED_WRITER_ERROR",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042316",
+        "title": "VSS_E_SNAPSHOT_SET_IN_PROGRESS",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042317",
+        "title": "VSS_E_MAXIMUM_NUMBER_OF_SNAPSHOTS_REACHED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042318",
+        "title": "VSS_E_WRITER_INFRASTRUCTURE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042319",
+        "title": "VSS_E_WRITER_NOT_RESPONDING",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004231A",
+        "title": "VSS_E_WRITER_ALREADY_SUBSCRIBED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004231B",
+        "title": "VSS_E_UNSUPPORTED_CONTEXT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004231D",
+        "title": "VSS_E_VOLUME_IN_USE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004231E",
+        "title": "VSS_E_MAXIMUM_DIFFAREA_ASSOCIATIONS_REACHED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004231F",
+        "title": "VSS_E_INSUFFICIENT_STORAGE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042320",
+        "title": "VSS_E_NO_SNAPSHOTS_IMPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042321",
+        "title": "VSS_E_SOME_SNAPSHOTS_NOT_IMPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042322",
+        "title": "VSS_E_MAXIMUM_NUMBER_OF_REMOTE_MACHINES_REACHED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042323",
+        "title": "VSS_E_REMOTE_SERVER_UNAVAILABLE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042324",
+        "title": "VSS_E_REMOTE_SERVER_UNSUPPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042325",
+        "title": "VSS_E_REVERT_IN_PROGRESS",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042326",
+        "title": "VSS_E_REVERT_VOLUME_LOST",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042327",
+        "title": "VSS_E_REBOOT_REQUIRED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042328",
+        "title": "VSS_E_TRANSACTION_FREEZE_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042329",
+        "title": "VSS_E_TRANSACTION_THAW_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232D",
+        "title": "VSS_E_VOLUME_NOT_LOCAL",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232E",
+        "title": "VSS_E_CLUSTER_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F0",
+        "title": "VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F1",
+        "title": "VSS_E_WRITERERROR_OUTOFRESOURCES",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F2",
+        "title": "VSS_E_WRITERERROR_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F3",
+        "title": "VSS_E_WRITERERROR_RETRYABLE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F4",
+        "title": "VSS_E_WRITERERROR_NONRETRYABLE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F5",
+        "title": "VSS_E_WRITERERROR_RECOVERY_FAILED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F6",
+        "title": "VSS_E_BREAK_REVERT_ID_FAILED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F7",
+        "title": "VSS_E_LEGACY_PROVIDER",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F8",
+        "title": "VSS_E_MISSING_DISK",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423F9",
+        "title": "VSS_E_MISSING_HIDDEN_VOLUME",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FA",
+        "title": "VSS_E_MISSING_VOLUME",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FB",
+        "title": "VSS_E_AUTORECOVERY_FAILED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FC",
+        "title": "VSS_E_DYNAMIC_DISK_ERROR",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FD",
+        "title": "VSS_E_NONTRANSPORTABLE_BCD",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FE",
+        "title": "VSS_E_CANNOT_REVERT_DISKID",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X800423FF",
+        "title": "VSS_E_RESYNC_IN_PROGRESS",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042400",
+        "title": "VSS_E_CLUSTER_ERROR",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232A",
+        "title": "VSS_E_UNSELECTED_VOLUME",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232B",
+        "title": "VSS_E_SNAPSHOT_NOT_IN_SET",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232C",
+        "title": "VSS_E_NESTED_VOLUME_LIMIT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004232F",
+        "title": "VSS_E_NOT_SUPPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042336",
+        "title": "VSS_E_WRITERERROR_PARTIAL_FAILURE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042403",
+        "title": "VSS_E_ASRERROR_NO_ARCPATH",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042407",
+        "title": "VSS_E_ASRERROR_RDISK0_TOOSMALL",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042408",
+        "title": "VSS_E_ASRERROR_CRITICAL_DISKS_TOO_SMALL",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042409",
+        "title": "VSS_E_WRITER_STATUS_NOT_AVAILABLE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X8004240A",
+        "title": "VSS_E_ASRERROR_DYNAMIC_VHD_NOT_SUPPORTED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042411",
+        "title": "VSS_E_CRITICAL_VOLUME_ON_INVALID_DISK",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042412",
+        "title": "VSS_E_ASRERROR_RDISK_FOR_SYSTEM_DISK_NOT_FOUND",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042413",
+        "title": "VSS_E_ASRERROR_NO_PHYSICAL_DISK_AVAILABLE",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042414",
+        "title": "VSS_E_ASRERROR_FIXED_PHYSICAL_DISK_AVAILABLE_AFTER_DISK_EXCLUSION",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042415",
+        "title": "VSS_E_ASRERROR_CRITICAL_DISK_CANNOT_BE_EXCLUDED",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042416",
+        "title": "VSS_E_ASRERROR_SYSTEM_PARTITION_HIDDEN",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
+    },
+    {
+        "errorCode": "0X80042417",
+        "title": "VSS_E_FSS_TIMEOUT",
+        "description": "HRESULT Volume Shadow Copy Service из Windows SDK.  Причина зависит от writer/provider, операции и вызывающего ПО.",
+        "officialSolution": "Универсального исправления по числовому коду нет. Определите фазу VSS и конкретный writer/provider по журналам; затем применяйте процедуру Microsoft и изготовителя ПО для этой версии Windows.",
+        "userSolutions": "Не удаляйте теневые копии, не меняйте VSS storage и не перезапускайте массово writers до сохранения журналов и проверки влияния на резервные копии.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию VSS, участвовавшие компоненты/поставщика и сборку Windows.\",\"Сохраните события Application/System и журналы вызывавшего средства резервного копирования; зафиксируйте результат операций writers/providers.\",\"Сопоставьте код с конкретной фазой (snapshot, writer, provider, backup/restore); один HRESULT не доказывает отказ диска или необходимость удалить snapshots.\",\"Перед изменением VSS storage, writers или служб используйте документацию Microsoft/OEM для установленного выпуска и программного обеспечения резервного копирования.\"]"
     }
 ]
