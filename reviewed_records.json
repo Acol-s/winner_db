@@ -66008,9 +66008,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45467",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L39"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_INVALID_PACKET). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_INVALID_PACKET). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270002": {
         "status": "reviewed",
@@ -66018,9 +66019,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45476",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L40"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_MISSING_SOH). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_MISSING_SOH). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270003": {
         "status": "reviewed",
@@ -66028,9 +66030,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45485",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L42"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_CONFLICTING_ID). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_CONFLICTING_ID). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270004": {
         "status": "reviewed",
@@ -66038,9 +66041,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45494",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L43"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NO_CACHED_SOH). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NO_CACHED_SOH). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270005": {
         "status": "reviewed",
@@ -66048,9 +66052,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45503",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L44"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_STILL_BOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_STILL_BOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270006": {
         "status": "reviewed",
@@ -66088,9 +66093,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45539",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L46"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NOT_PENDING). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NOT_PENDING). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x8027000a": {
         "status": "reviewed",
@@ -66098,9 +66104,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45548",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L47"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_ID_NOT_FOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_ID_NOT_FOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x8027000b": {
         "status": "reviewed",
@@ -66108,9 +66115,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45557",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L49"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_MAXSIZE_TOO_SMALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_MAXSIZE_TOO_SMALL). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x8027000c": {
         "status": "reviewed",
@@ -66118,9 +66126,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45566",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L50"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SERVICE_NOT_RUNNING). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SERVICE_NOT_RUNNING). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x8027000e": {
         "status": "reviewed",
@@ -66128,9 +66137,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45584",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L53"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_ENTITY_DISABLED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_ENTITY_DISABLED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x8027000f": {
         "status": "reviewed",
@@ -66138,9 +66148,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45593",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L55"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NETSH_GROUPPOLICY_ERROR). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_NETSH_GROUPPOLICY_ERROR). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270010": {
         "status": "reviewed",
@@ -66148,9 +66159,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45602",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L56"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_TOO_MANY_CALLS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_TOO_MANY_CALLS). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270011": {
         "status": "reviewed",
@@ -66158,9 +66170,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45611",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L57"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_CONFIG_EXISTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_CONFIG_EXISTED). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270012": {
         "status": "reviewed",
@@ -66168,9 +66181,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45620",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L59"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_CONFIG_NOT_FOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_CONFIG_NOT_FOUND). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80270013": {
         "status": "reviewed",
@@ -66178,9 +66192,10 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L45629",
           "https://learn.microsoft.com/en-us/windows/win32/com/com-error-codes-1",
-          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L60"
         ],
-        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_TIMEOUT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows."
+        "note": "Точное значение, символ и системный текст сверены с Microsoft Windows SDK WinError.h (NAP_E_SHV_TIMEOUT). Шаги являются диагностикой контекста, а не неподтверждённым универсальным ремонтом; доступность соответствующего API может отличаться между выпусками Windows. Shell HRESULT/context definition verified against pinned Microsoft SDK sherrors.h."
       },
       "0x80280000": {
         "status": "reviewed",
@@ -145594,6 +145609,735 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L440"
         ],
         "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80270000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L38"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L52"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L61"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L63"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L64"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L65"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L67"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L68"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L69"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L71"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L72"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L73"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L74"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027001f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L75"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L76"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L77"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L78"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L79"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L80"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L81"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L82"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L83"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L84"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L86"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L87"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L88"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L89"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L90"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L91"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027002f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L92"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270030": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L93"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270031": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L94"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270032": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L95"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270033": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L96"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270034": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L97"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270035": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L98",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L100"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270036": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L101"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270037": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L102"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270038": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L103"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L104"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L105"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L106"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L107"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L108"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027003f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L109"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270040": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L111"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270041": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L112"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270042": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L114"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270043": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L116"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270044": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L118"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270045": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L120"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270046": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L121"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270047": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L123"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270048": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L124"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270049": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L125"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L126"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L127"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L128"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L130"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L131"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x8027004f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L132"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270050": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L134"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270100": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L137"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270101": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L138"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270102": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L139"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270103": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L140"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270104": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L141"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270110": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L144"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270111": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L145"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270112": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L146"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270113": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L147"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270120": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L150"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270130": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L155"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270131": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L157"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270132": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L159"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270133": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L161"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270134": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L163"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270200": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L166"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L167"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270210": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L171"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270211": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L174"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270212": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L175"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270213": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L176"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270214": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L177"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270230": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L181"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270231": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L182"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270233": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L185"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270234": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L188"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270249": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L191"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270301": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L193"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
+      },
+      "0x80270310": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sherrors.h#L195"
+        ],
+        "note": "Windows Shell HRESULT symbol/value verified against pinned Microsoft SDK sherrors.h. Component-specific meaning and supported versions must be checked for the caller."
       }
     }
   },
