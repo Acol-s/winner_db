@@ -67183,8 +67183,8 @@
     },
     {
         "errorCode": "0x80270001",
-        "title": "NAP_E_INVALID_PACKET — The NAP SoH packet is invalid.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The NAP SoH packet is invalid.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_INVALID_PACKET — The NAP SoH packet is invalid. / COPYENGINE_E_CANCELLED (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The NAP SoH packet is invalid.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_CANCELLED; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67192,8 +67192,8 @@
     },
     {
         "errorCode": "0x80270002",
-        "title": "NAP_E_MISSING_SOH — An SoH was missing from the NAP packet.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “An SoH was missing from the NAP packet.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_MISSING_SOH — An SoH was missing from the NAP packet. / COPYENGINE_E_REQUIRES_ELEVATION (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “An SoH was missing from the NAP packet.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_REQUIRES_ELEVATION; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67201,8 +67201,8 @@
     },
     {
         "errorCode": "0x80270003",
-        "title": "NAP_E_CONFLICTING_ID — The entity ID conflicts with an already registered id.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The entity ID conflicts with an already registered id.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_CONFLICTING_ID — The entity ID conflicts with an already registered id. / COPYENGINE_E_SAME_FILE (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The entity ID conflicts with an already registered id.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_SAME_FILE; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67210,8 +67210,8 @@
     },
     {
         "errorCode": "0x80270004",
-        "title": "NAP_E_NO_CACHED_SOH — No cached SoH is present.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “No cached SoH is present.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_NO_CACHED_SOH — No cached SoH is present. / COPYENGINE_E_DIFF_DIR (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “No cached SoH is present.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DIFF_DIR; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67219,8 +67219,8 @@
     },
     {
         "errorCode": "0x80270005",
-        "title": "NAP_E_STILL_BOUND — The entity is still bound to the NAP system.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The entity is still bound to the NAP system.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_STILL_BOUND — The entity is still bound to the NAP system. / COPYENGINE_E_MANY_SRC_1_DEST (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The entity is still bound to the NAP system.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_MANY_SRC_1_DEST; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67255,8 +67255,8 @@
     },
     {
         "errorCode": "0x80270009",
-        "title": "NAP_E_NOT_PENDING — Completion was indicated on a request that is not currently pending.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “Completion was indicated on a request that is not currently pending.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_NOT_PENDING — Completion was indicated on a request that is not currently pending. / COPYENGINE_E_DEST_SUBTREE (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “Completion was indicated on a request that is not currently pending.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_SUBTREE; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67264,8 +67264,8 @@
     },
     {
         "errorCode": "0x8027000A",
-        "title": "NAP_E_ID_NOT_FOUND — The NAP component's id was not found.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The NAP component's id was not found.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_ID_NOT_FOUND — The NAP component's id was not found. / COPYENGINE_E_DEST_SAME_TREE (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The NAP component's id was not found.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_SAME_TREE; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67273,8 +67273,8 @@
     },
     {
         "errorCode": "0x8027000B",
-        "title": "NAP_E_MAXSIZE_TOO_SMALL — The maximum size of the connection is too small for an SoH packet.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The maximum size of the connection is too small for an SoH packet.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_MAXSIZE_TOO_SMALL — The maximum size of the connection is too small for an SoH packet. / COPYENGINE_E_FLD_IS_FILE_DEST (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The maximum size of the connection is too small for an SoH packet.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_FLD_IS_FILE_DEST; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67282,8 +67282,8 @@
     },
     {
         "errorCode": "0x8027000C",
-        "title": "NAP_E_SERVICE_NOT_RUNNING — The NapAgent service is not running.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The NapAgent service is not running.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_SERVICE_NOT_RUNNING — The NapAgent service is not running. / COPYENGINE_E_FILE_IS_FLD_DEST (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The NapAgent service is not running.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_FILE_IS_FLD_DEST; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67291,8 +67291,8 @@
     },
     {
         "errorCode": "0x8027000E",
-        "title": "NAP_E_ENTITY_DISABLED — The entity is disabled with the NapAgent service.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “The entity is disabled with the NapAgent service.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_ENTITY_DISABLED — The entity is disabled with the NapAgent service. / COPYENGINE_E_REMOVABLE_FULL (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “The entity is disabled with the NapAgent service.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_REMOVABLE_FULL; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67300,8 +67300,8 @@
     },
     {
         "errorCode": "0x8027000F",
-        "title": "NAP_E_NETSH_GROUPPOLICY_ERROR — Group Policy is not configured.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “Group Policy is not configured.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_NETSH_GROUPPOLICY_ERROR — Group Policy is not configured. / COPYENGINE_E_DEST_IS_RO_CD (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “Group Policy is not configured.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_IS_RO_CD; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67309,8 +67309,8 @@
     },
     {
         "errorCode": "0x80270010",
-        "title": "NAP_E_TOO_MANY_CALLS — Too many simultaneous calls.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “Too many simultaneous calls.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_TOO_MANY_CALLS — Too many simultaneous calls. / COPYENGINE_E_DEST_IS_RW_CD (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “Too many simultaneous calls.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_IS_RW_CD; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67318,8 +67318,8 @@
     },
     {
         "errorCode": "0x80270011",
-        "title": "NAP_E_SHV_CONFIG_EXISTED — SHV configuration already existed.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “SHV configuration already existed.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_SHV_CONFIG_EXISTED — SHV configuration already existed. / COPYENGINE_E_DEST_IS_R_CD (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “SHV configuration already existed.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_IS_R_CD; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67327,8 +67327,8 @@
     },
     {
         "errorCode": "0x80270012",
-        "title": "NAP_E_SHV_CONFIG_NOT_FOUND — SHV configuration is not found.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “SHV configuration is not found.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_SHV_CONFIG_NOT_FOUND — SHV configuration is not found. / COPYENGINE_E_DEST_IS_RO_DVD (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “SHV configuration is not found.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_IS_RO_DVD; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -67336,8 +67336,8 @@
     },
     {
         "errorCode": "0x80270013",
-        "title": "NAP_E_SHV_TIMEOUT — SHV timed out on the request.",
-        "description": "Текст системного сообщения Microsoft WinError.h: “SHV timed out on the request.”. Точная причина зависит от API, приложения и операции, вернувших код.",
+        "title": "NAP_E_SHV_TIMEOUT — SHV timed out on the request. / COPYENGINE_E_DEST_IS_RW_DVD (Shell context)",
+        "description": "Текст системного сообщения Microsoft WinError.h: “SHV timed out on the request.”. Точная причина зависит от API, приложения и операции, вернувших код. Windows Shell also uses this value as COPYENGINE_E_DEST_IS_RW_DVD; meaning depends on the caller/component.",
         "officialSolution": "Универсальное исправление по одному коду не определено. Сначала установите компонент и операцию, вернувшие ошибку, затем используйте документацию Microsoft именно для этого компонента и версии Windows.",
         "userSolutions": "Не применяйте сброс Windows, правку реестра, отключение защиты или переустановку по одному коду. Без контекста компонента это не подтверждённое решение.",
         "category": "Windows",
@@ -142537,5 +142537,824 @@
         "userSolutions": "Не завершайте фоновые процессы и не отключайте службы наугад: тайм-аут или отмена может быть ожидаемым исходом конкретной операции.",
         "category": "Windows",
         "stepByStep": "[\"Запишите HRESULT, приложение/API синхронизации, операцию и версию Windows.\",\"Сохраните полное сообщение и журнал вызывающего компонента; уточните, относится ли код к ожиданию, тайм-ауту, синхронному объекту или завершению операции.\",\"Сверьте код с конкретным API и его контрактом: отмена, тайм-аут и состояние объекта могут быть штатными результатами, а не повреждением системы.\",\"Не завершайте процессы и не сбрасывайте настройки питания/синхронизации до подтверждения источника по журналу и документации.\"]"
+    },
+    {
+        "errorCode": "0X80270000",
+        "title": "COPYENGINE_E_USER_CANCELLED",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “User wants to canceled entire job”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027000D",
+        "title": "COPYENGINE_E_FILE_TOO_LARGE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “File too large for destination file system”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270014",
+        "title": "COPYENGINE_E_DEST_IS_R_DVD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination is a Recordable (AudioL) DVD, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270015",
+        "title": "COPYENGINE_E_SRC_IS_RO_CD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Read-Only CDRom, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270016",
+        "title": "COPYENGINE_E_SRC_IS_RW_CD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Read/Write CDRom, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270017",
+        "title": "COPYENGINE_E_SRC_IS_R_CD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Recordable (AudioL) CDRom, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270018",
+        "title": "COPYENGINE_E_SRC_IS_RO_DVD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Read-Only DVD, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270019",
+        "title": "COPYENGINE_E_SRC_IS_RW_DVD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Read/Wrote DVD, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001A",
+        "title": "COPYENGINE_E_SRC_IS_R_DVD",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a Recordable (AudioL) DVD, possibly unformatted”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001B",
+        "title": "COPYENGINE_E_INVALID_FILES_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Invalid source path”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001C",
+        "title": "COPYENGINE_E_INVALID_FILES_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Invalid destination path”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001D",
+        "title": "COPYENGINE_E_PATH_TOO_DEEP_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source Files within folders where the overall path is longer than MAX_PATH”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001E",
+        "title": "COPYENGINE_E_PATH_TOO_DEEP_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination files would be within folders where the overall path is longer than MAX_PATH”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027001F",
+        "title": "COPYENGINE_E_ROOT_DIR_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source is a root directory, cannot be moved or renamed”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270020",
+        "title": "COPYENGINE_E_ROOT_DIR_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination is a root directory, cannot be renamed”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270021",
+        "title": "COPYENGINE_E_ACCESS_DENIED_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Security problem on source”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270022",
+        "title": "COPYENGINE_E_ACCESS_DENIED_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Security problem on destination”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270023",
+        "title": "COPYENGINE_E_PATH_NOT_FOUND_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source file does not exist, or is unavailable”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270024",
+        "title": "COPYENGINE_E_PATH_NOT_FOUND_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination file does not exist, or is unavailable”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270025",
+        "title": "COPYENGINE_E_NET_DISCONNECT_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Source file is on a disconnected network location”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270026",
+        "title": "COPYENGINE_E_NET_DISCONNECT_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination file is on a disconnected network location”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270027",
+        "title": "COPYENGINE_E_SHARING_VIOLATION_SRC",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Sharing Violation on source”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270028",
+        "title": "COPYENGINE_E_SHARING_VIOLATION_DEST",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Sharing Violation on destination”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270029",
+        "title": "COPYENGINE_E_ALREADY_EXISTS_NORMAL",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination exists, cannot replace”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002A",
+        "title": "COPYENGINE_E_ALREADY_EXISTS_READONLY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination with read-only attribute exists, cannot replace”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002B",
+        "title": "COPYENGINE_E_ALREADY_EXISTS_SYSTEM",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination with system attribute exists, cannot replace”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002C",
+        "title": "COPYENGINE_E_ALREADY_EXISTS_FOLDER",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Destination folder exists, cannot replace”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002D",
+        "title": "COPYENGINE_E_STREAM_LOSS",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Secondary Stream information would be lost”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002E",
+        "title": "COPYENGINE_E_EA_LOSS",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Extended Attributes would be lost”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027002F",
+        "title": "COPYENGINE_E_PROPERTY_LOSS",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Property would be lost”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270030",
+        "title": "COPYENGINE_E_PROPERTIES_LOSS",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Properties would be lost”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270031",
+        "title": "COPYENGINE_E_ENCRYPTION_LOSS",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Encryption would be lost”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270032",
+        "title": "COPYENGINE_E_DISK_FULL",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Entire operation likely won't fit”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270033",
+        "title": "COPYENGINE_E_DISK_FULL_CLEAN",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Entire operation likely won't fit, clean-up wizard available”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270034",
+        "title": "COPYENGINE_E_EA_NOT_SUPPORTED",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Volume does not support Extended Attributes”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270035",
+        "title": "COPYENGINE_E_CANT_REACH_SOURCE",
+        "description": "HRESULT Windows Shell из Windows SDK. Алиасы: COPYENGINE_E_RECYCLE_UNKNOWN_ERROR. Сообщение SDK: “Can't reach source folder”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270036",
+        "title": "COPYENGINE_E_RECYCLE_FORCE_NUKE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Recycling not available (usually turned offL)”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270037",
+        "title": "COPYENGINE_E_RECYCLE_SIZE_TOO_BIG",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Item is too large for the recycle-bin”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270038",
+        "title": "COPYENGINE_E_RECYCLE_PATH_TOO_LONG",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Folder is too deep to fit in the recycle-bin”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003A",
+        "title": "COPYENGINE_E_RECYCLE_BIN_NOT_FOUND",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Recycle bin could not be found or is unavailable”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003B",
+        "title": "COPYENGINE_E_NEWFILE_NAME_TOO_LONG",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Name of the new file being created is too long”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003C",
+        "title": "COPYENGINE_E_NEWFOLDER_NAME_TOO_LONG",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Name of the new folder being created is too long”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003D",
+        "title": "COPYENGINE_E_DIR_NOT_EMPTY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The directory being processed is not empty”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003E",
+        "title": "COPYENGINE_E_FAT_MAX_IN_ROOT",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “A Fat drive cannot only store and rename a limited number of items on the root.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027003F",
+        "title": "COPYENGINE_E_ACCESSDENIED_READONLY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item cannot be modified because it is set to readonly.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270040",
+        "title": "COPYENGINE_E_REDIRECTED_TO_WEBPAGE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The server redirected the download request to a web page.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270041",
+        "title": "COPYENGINE_E_SERVER_BAD_FILE_TYPE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The server returned data with an unexpected MIME type or extension.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270042",
+        "title": "COPYENGINE_E_INTERNET_ITEM_UNAVAILABLE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item is unavailable currently due to no internet connectivity”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270043",
+        "title": "COPYENGINE_E_CANNOT_MOVE_FROM_RECYCLE_BIN",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item cannot be moved out of the recycle bin, can perform other operations like restored/delete”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270044",
+        "title": "COPYENGINE_E_CANNOT_MOVE_SHARED_FOLDER",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item cannot be moved from a grouped folder to another shared folder”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270045",
+        "title": "COPYENGINE_E_INTERNET_ITEM_STORAGE_PROVIDER_ERROR",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item is unavailable currently due to storage provider being in error state”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270046",
+        "title": "COPYENGINE_E_INTERNET_ITEM_STORAGE_PROVIDER_PAUSED",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item is unavailable currently due to storage provider being paused”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270047",
+        "title": "COPYENGINE_E_REQUIRES_EDP_CONSENT",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file can only be copied if the user consents to override the EDP block”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270048",
+        "title": "COPYENGINE_E_BLOCKED_BY_EDP_POLICY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file cannot be copied per EDP policy”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270049",
+        "title": "COPYENGINE_E_REQUIRES_EDP_CONSENT_FOR_REMOVABLE_DRIVE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file can be copied as personal if the user consents to override the EDP block”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004A",
+        "title": "COPYENGINE_E_BLOCKED_BY_EDP_FOR_REMOVABLE_DRIVE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file can only be copied as work protected per EDP policy”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004B",
+        "title": "COPYENGINE_E_RMS_REQUIRES_EDP_CONSENT_FOR_REMOVABLE_DRIVE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file can be copied as personal if the user consents to override the EDP block”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004C",
+        "title": "COPYENGINE_E_RMS_BLOCKED_BY_EDP_FOR_REMOVABLE_DRIVE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file can only be copied as work protected per EDP policy”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004D",
+        "title": "COPYENGINE_E_WARNED_BY_DLP_POLICY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file is warned against being copied per DLP policy”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004E",
+        "title": "COPYENGINE_E_BLOCKED_BY_DLP_POLICY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file cannot be copied per DLP policy”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X8027004F",
+        "title": "COPYENGINE_E_SILENT_FAIL_BY_DLP_POLICY",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The file cannot be copied per DLP policy, and the caller is requested to silently fail”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270050",
+        "title": "COPYENGINE_E_SUPPRESS_DIALOG",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “Returned by copy engine to indicate that the shell dialog should not be shown in favor to the cloud provider's or the app's dialog”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270100",
+        "title": "NETCACHE_E_NEGATIVE_CACHE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The item requested is in the negative net parsing cache”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270101",
+        "title": "EXECUTE_E_LAUNCH_APPLICATION",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “for returned by command delegates to indicate that they did no work”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270102",
+        "title": "SHELL_E_WRONG_BITDEPTH",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “returned when trying to create a thumbnail extractor at too low a bitdepth for high fidelity”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270103",
+        "title": "LINK_E_DELETE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “returned from IShellLink::Resolve when SLR_OFFER_DELETE_WITHOUT_FILE is passed and the user requested to delete the item”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270104",
+        "title": "STORE_E_NEWER_VERSION_AVAILABLE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “returned from IAppItemsStateModify to indicate a commit failed because there is newer version already available”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270110",
+        "title": "E_FILE_PLACEHOLDER_NOT_INITIALIZED",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The placeholder file or property store isn't initialized.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270111",
+        "title": "E_FILE_PLACEHOLDER_VERSION_MISMATCH",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The sync engine detected that the local placeholder file's version doesn't match the latest version.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270112",
+        "title": "E_FILE_PLACEHOLDER_SERVER_TIMED_OUT",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The placeholder platform timed out waiting for a stream resolver call that didn't complete in time.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270113",
+        "title": "E_FILE_PLACEHOLDER_STORAGEPROVIDER_NOT_FOUND",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The placeholder platform cannot find the storage provider for the placeholder.”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270120",
+        "title": "CAMERAROLL_E_NO_DOWNSAMPLING_REQUIRED",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “The provided image didn't require downsampling because it was small enough already”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270130",
+        "title": "E_ACTIVATIONDENIED_USERCLOSE",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270131",
+        "title": "E_ACTIVATIONDENIED_SHELLERROR",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270132",
+        "title": "E_ACTIVATIONDENIED_SHELLRESTART",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270133",
+        "title": "E_ACTIVATIONDENIED_UNEXPECTED",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270134",
+        "title": "E_ACTIVATIONDENIED_SHELLNOTREADY",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270200",
+        "title": "LIBRARY_E_NO_SAVE_LOCATION",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270201",
+        "title": "LIBRARY_E_NO_ACCESSIBLE_LOCATION",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270210",
+        "title": "E_USERTILE_UNSUPPORTEDFILETYPE",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270211",
+        "title": "E_USERTILE_CHANGEDISABLED",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270212",
+        "title": "E_USERTILE_LARGEORDYNAMIC",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270213",
+        "title": "E_USERTILE_VIDEOFRAMESIZE",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270214",
+        "title": "E_USERTILE_FILESIZE",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270230",
+        "title": "IMM_ACC_DOCKING_E_INSUFFICIENTHEIGHT",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270231",
+        "title": "IMM_ACC_DOCKING_E_DOCKOCCUPIED",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270233",
+        "title": "IMSC_E_SHELL_COMPONENT_STARTUP_FAILURE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “An immersive shell component failed to start correctly”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270234",
+        "title": "SHC_E_SHELL_COMPONENT_STARTUP_FAILURE",
+        "description": "HRESULT Windows Shell из Windows SDK. Сообщение SDK: “A shell service host component failed to start correctly”. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270249",
+        "title": "E_TILE_NOTIFICATIONS_PLATFORM_FAILURE",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270301",
+        "title": "E_SHELL_EXTENSION_BLOCKED",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
+    },
+    {
+        "errorCode": "0X80270310",
+        "title": "E_IMAGEFEED_CHANGEDISABLED",
+        "description": "HRESULT Windows Shell из Windows SDK. Действие и доступность зависят от Shell API и версии Windows.",
+        "officialSolution": "Универсального исправления по коду нет. Определите вызывающий Shell API и этап операции по сообщению/журналам; используйте документацию Microsoft для конкретного компонента и выпуска Windows.",
+        "userSolutions": "Не удаляйте пользовательские файлы, профиль или кэш как универсальную меру; сначала исключите ошибки пути и доступа на конкретной операции.",
+        "category": "Windows",
+        "stepByStep": "[\"Запишите HRESULT, операцию Shell/файловую операцию, приложение, путь без личных данных и сборку Windows.\",\"Сохраните полное сообщение приложения и связанные события; уточните, относится ли ошибка к копированию, диалогу выбора файла, ассоциации, namespace extension или другому Shell API.\",\"Проверьте код в контексте вызвавшего API и доступность функции в данной версии Windows; одинаковое число может иметь другое значение в ином компоненте.\",\"Не удаляйте профиль, кэш и файлы наугад; выполните действие только после проверки журнала, резервной копии и инструкции для конкретной версии.\"]"
     }
 ]
