@@ -143929,6 +143929,878 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/sperror.h#L738"
         ],
         "note": "SAPI HRESULT computed from MAKE_SAPI_ERROR using FACILITY_SAPI and SAPI_ERROR_BASE in pinned SDK; applicability depends on speech API/runtime version."
+      },
+      "0x88781101": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L146"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781102": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L153"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781103": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L160"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781104": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L166"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781105": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L172"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781106": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L178"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781108": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L184"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781109": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L190"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781111": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L196"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781113": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L202"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781114": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L208"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781115": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L214"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781116": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L220"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781117": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L226"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781119": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L232"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781120": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L238"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781121": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L244"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781122": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L250"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781123": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L256"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781124": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L262"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781125": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L268"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781126": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L274"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781127": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L280"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781128": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L286"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781129": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L292"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L298"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L304"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L310"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L316"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L323"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878112f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L331"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781130": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L339"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781131": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L347"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781132": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L353"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781133": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L359"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781134": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L367"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781135": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L373"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781136": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L379"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781137": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L386"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781138": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L393"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781139": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L401"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L407"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L413"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L419"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L425"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L432"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878113f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L440"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781150": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L446"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781151": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L452"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781152": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L458"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781155": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L465"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781156": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L472"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781157": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L479"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781158": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L486"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781159": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L494"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781160": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L502"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781161": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L508"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781162": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L514"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781163": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L521"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781164": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L527"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781165": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L533"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781166": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L539"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781167": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L547"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781170": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L556"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781180": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L562"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781181": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L568"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781182": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L574"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781183": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L580"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781184": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L586"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781185": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L592"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781186": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L598"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781200": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L604"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L610"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L617"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L623"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781204": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L630"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781205": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L638"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781206": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L644"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781207": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L652"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781210": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L661"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781211": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L671"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781213": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L679"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781214": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L686"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781215": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L693"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781216": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L701"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781217": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L708"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781218": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L714"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781219": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L720"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878121a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L726"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878121b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L732"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878121c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L738"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878121d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L745"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878121e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L752"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781220": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L758"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781221": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L764"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781222": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L770"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781223": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L777"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781224": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L785"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781225": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L792"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781226": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L799"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781227": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L807"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781228": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L814"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x88781229": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L820"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L826"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L832"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L838"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L844"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L850"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
+      },
+      "0x8878122f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/dmerror.h#L856"
+        ],
+        "note": "DirectMusic HRESULT computed using the pinned SDK MAKE_DMHRESULTERROR macro. Component/API availability varies by Windows generation; no universal remedy asserted."
       }
     }
   },
