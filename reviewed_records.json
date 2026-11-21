@@ -144882,6 +144882,366 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/FhErrors.h#L159"
         ],
         "note": "File History HRESULT computed from MAKE_HRESULT(ERROR,FACILITY_ITF,code) in pinned SDK FhErrors.h. Remediation is version- and target-state-dependent."
+      },
+      "0x80220000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L57"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L66"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L75"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L84"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L93"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L102"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L111"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L120"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L129"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L138"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L147"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L156"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L165"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L174"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L183"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022000f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L192"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L201"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L210"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L219"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L228"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L237"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L246"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L255"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L264"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L273"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L282"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L291"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L300"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L309"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L318"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L327"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022001f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L336"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L345"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L354"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L363"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L372"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L381"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L390"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L399"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L408"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L417"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80220029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L426"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022002a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L435"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x8022002b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L444"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80221003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L526"
+        ],
+        "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
       }
     }
   },
