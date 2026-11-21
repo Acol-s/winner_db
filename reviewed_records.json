@@ -1679,6 +1679,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd0--driver-corrupted-mmpool"
                 ],
                 "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000d2": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd2--bugcode-id-driver"
+                ],
+                "note": "Retained with lifecycle: Microsoft says 0xD2 is Windows 2000/XP only; Server 2003+ uses related 0x7C."
+            },
+            "0x000000d3": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd3--driver-portion-must-be-nonpaged"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000d4": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd4--system-scan-at-raised-irql-caught-improper-driver-unload"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000d6": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd6--driver-page-fault-beyond-end-of-allocation"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000d7": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd7--driver-unmapping-invalid-view"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000d9": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd9--locked-pages-tracker-corruption"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000da": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xda--system-pte-misuse"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000db": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xdb--driver-corrupted-sysptes"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000dc": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
+            },
+            "0x000000de": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Code identity, applicable parameters, and evidence-based diagnostic guidance checked against Microsoft Learn; unsupported generic fixes and risky registry/hardware steps removed."
             }
         }
     },
