@@ -1839,6 +1839,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf5--fltmgr-file-system"
                 ],
                 "note": "Code-specific meaning/parameters and diagnostic guidance checked against Microsoft Learn; unsupported universal fixes and risky steps removed."
+            },
+            "0x000000fd": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xfd---dirty-nowrite-pages-congestion"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x000000fe": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xfe--bugcode-usb-driver"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000102": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x102--dpc-watchdog-timeout"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x0000010c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x10c---fsrtl-extra-create-parameter-violation"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000120": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x120--bitlocker-fatal-error-"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000122": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x122---whea-internal-error"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000123": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x123--crypto-self-test-failure-"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x0000013a": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13a--kernel-mode-heap-corruption"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000144": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x144--bugcode-usb3-driver"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
+            },
+            "0x00000145": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x145--secure-boot-violation-"
+                ],
+                "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported firmware, registry, hardware, and universal driver remedies removed."
             }
         }
     },
