@@ -116376,7 +116376,18 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_VOLUMEID; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_INVALID_VOLUMEID; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x8024005c\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+        }
       },
       "0x8024005d": {
         "status": "reviewed",
@@ -116384,9 +116395,23 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L1004",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://www.reddit.com/r/xbox/comments/m31n6h/what_is_wrong_with_the_pc_xbox_app/",
+          "https://learn.microsoft.com/ru-ru/answers/questions/2831336/question-2831336"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UNRECOGNIZED_VOLUMEID; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UNRECOGNIZED_VOLUMEID; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "low_confidence_anecdote",
+          "scope": "Reddit Xbox PC/ARK external drive case and separate Windows 10 1803 feature-update case.",
+          "forum_result": "1803_case_without_confirmed_fix",
+          "reddit_result": "uncertain_retrospective_success_and_counterexample",
+          "search_queries": [
+            "\"0x8024005d\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"0x8024005d\" site:reddit.com"
+          ],
+          "note": "Author recalls formatting external drive may have fixed it, with no file system/procedure specified; another user reports it did not help. Do not turn into formatting instructions or universal fix."
+        }
       },
       "0x8024005e": {
         "status": "reviewed",
@@ -117464,7 +117489,18 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_NOT_PRESENT; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_NOT_PRESENT; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x8024201e\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+        }
       },
       "0x8024201f": {
         "status": "reviewed",
@@ -117494,9 +117530,23 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L3200",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://www.reddit.com/r/XboxGamePass/comments/j86yms/pc_solving_0x80242020/",
+          "https://support.microsoft.com/en-us/windows/experience/storage-filemanagement/free-up-drive-space-in-windows",
+          "https://learn.microsoft.com/en-us/answers/questions/3836060/i-get-error-code-0x80242020-every-time-i-try-to-in"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_INVALID_PACKAGE_VOLUME; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_INVALID_PACKAGE_VOLUME; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_success",
+          "scope": "Windows 10-era Xbox PC app installation to a secondary drive; old UI paths, no blanket modern Xbox applicability.",
+          "forum_result": "Minecraft Q&A contains suggestions without success confirmation",
+          "reddit_result": "multiple_success_reports_and_some_failures",
+          "search_queries": [
+            "\"0x80242020\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "Match Windows New apps storage drive and Xbox default install drive. Microsoft documents Windows setting, not this exact-code fix. One user also reports success after switching the Windows drive away and back. No guarantee for all cases."
+        }
       },
       "0x80242021": {
         "status": "reviewed",
@@ -117506,7 +117556,19 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_DEFAULT_PACKAGE_VOLUME_UNAVAILABLE; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_DEFAULT_PACKAGE_VOLUME_UNAVAILABLE; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80242021\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"0x80242021\" site:reddit.com"
+          ],
+          "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+        }
       },
       "0x80242022": {
         "status": "reviewed",
@@ -117514,9 +117576,22 @@
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L3218",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/answers/questions/2786879/can-not-install-an-app-again-once-the-storage-driv"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_INSTALLED_PACKAGE_VOLUME_UNAVAILABLE; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_INSTALLED_PACKAGE_VOLUME_UNAVAILABLE; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows 10 Home 1709 build 16299.309 / Forza Motorsport 7 / removed SATA SSD.",
+          "forum_result": "matching_case_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80242022\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+            "\"0x80242022\" site:reddit.com"
+          ],
+          "note": "Author says old SSD was formatted and repurposed; Store reset/cache reset failed. Another user says SFC/account advice did not help. No verified recovery procedure in this thread."
+        }
       },
       "0x80242023": {
         "status": "reviewed",
@@ -117526,7 +117601,18 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_PACKAGE_FAMILY_NOT_FOUND; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_PACKAGE_FAMILY_NOT_FOUND; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80242023\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+        }
       },
       "0x80242024": {
         "status": "reviewed",
@@ -117536,7 +117622,18 @@
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_SYSTEM_VOLUME_NOT_FOUND; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_UH_APPX_SYSTEM_VOLUME_NOT_FOUND; existing row preserved.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "AppX/WUA code; OS-wide fix and applicability unproven.",
+          "forum_result": "no_usable_exact_code_solution",
+          "reddit_result": "no_usable_exact_code_result",
+          "search_queries": [
+            "\"0x80242024\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+          ],
+          "note": "First search pass; no suitable exact-code success found. Existing diagnostic checklist is not a verified solution."
+        }
       },
       "0x80242025": {
         "status": "reviewed",
