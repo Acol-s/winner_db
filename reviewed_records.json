@@ -4527,12 +4527,12 @@
         "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
       },
       "0xc00d11f0": {
-        "status": "needs_source",
+        "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
         ],
-        "note": "Числовое значение и заявленное имя не удалось подтвердить публичной таблицей MS-ERREF. Требуется точный источник из SDK/header или события; не считать проверенным и повторно исследовать."
+        "note": "Код и название NS_E_TRANSCODE_DELETECACHEERROR подтверждены строкой 0xC00D11F0 в таблице HRESULT Microsoft; шаги ограничены текстом источника."
       },
       "0xc00d11f1": {
         "status": "needs_source",
