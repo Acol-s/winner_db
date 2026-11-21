@@ -3515,6 +3515,123 @@
           "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
         ],
         "note": "Сверены код, официальное имя и применимые условия/диагностика по документации Microsoft; причины не обобщаются за пределы опубликованных условий."
+      },
+      "0xc0000135": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0xc0000139": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0xc000014c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0xc0000409": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x8007006f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800700f1": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800f0826": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800f081d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800f0821": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800f0801": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0x800f0823": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0xc000013c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
+      },
+      "0xc0000144": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/596a1078-e883-4972-9bbc-49e60bebca55",
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Сверены точное значение статуса/Win32-кода и безопасная диагностика с Microsoft Learn; несоответствующие причины и недоказанные общие ремонты удалены."
       }
     }
   },
