@@ -2479,6 +2479,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12d--volsnap-overlapped-table-access"
                 ],
                 "note": "Code-specific meaning/parameters and safe diagnostic steps checked against Microsoft Learn; unsupported generic remedies removed."
+            },
+            "0x0000012e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x12e--invalid-mdl-range"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000130": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x130--dynamic-add-processor-mismatch"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000131": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x131--invalid-extended-processor-state"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000132": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x132--resource-owner-pointer-invalid"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000134": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x134--drive-extender"
+                ],
+                "note": "Retained as a Drive Extender-specific/historical code; not generalized to ordinary disks."
+            },
+            "0x00000136": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x136--vhd-boot-host-volume-not-enough-space"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x00000137": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x137--win32k-handle-manager"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x0000013b": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13b--passive-interrupt-error"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x0000013c": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13c--invalid-io-boost-state"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
+            },
+            "0x0000013d": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x13d--critical-initialization-failure"
+                ],
+                "note": "Meaning, parameter mapping, and safe diagnostic steps checked against Microsoft Learn; unsupported RAM/disk/driver claims removed."
             }
         }
     },
