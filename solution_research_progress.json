@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "64a84505a701ee394164079af2961b5edefb276c1eeb59febb9473729b447614",
+  "current_windows_sha256": "abcd10cb6192e72518329534ed16122291a2045320cc2465b01665fa72dbca1b",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -831,26 +831,196 @@
         "\"844\" \"MOBIKE\" (site:reddit.com OR site:learn.microsoft.com/answers)"
       ],
       "note": "Microsoft permits MOBIKE update only in Connected state. This is an API state constraint, not a confirmed general connection fix."
+    },
+    "0x0000034d": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"845\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x0000034e": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"846\" \"VPN\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x0000034f": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft explicitly documents this RAS code from Windows 7 onward.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"847\" \"smart card\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000350": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"848\" \"SSTP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000351": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"849\" \"PEAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000352": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"850\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000353": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"851\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000354": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "RAS/EAP namespace; no blanket compatibility with every Windows release asserted.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"852\" \"EAP\" (site:reddit.com OR site:learn.microsoft.com/answers)"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000355": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:reddit.com \"853\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000356": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"854\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000357": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:reddit.com \"855\" \"revoked\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000358": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"856\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x00000359": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:reddit.com \"857\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x0000035a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Official NPS policy-certificate replacement: Server 2016/2019/2022/2025. Related Reddit report: Server 2012 R2, PEAP/802.1X; no numeric RAS code.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "related_certificate_expiration_success_without_exact_code",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"858\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal",
+        "site:reddit.com/r/sysadmin NPS expired certificate \"fixed\"",
+        "https://www.reddit.com/r/sysadmin/comments/f2ey5n/ 802.1X Certificates Expired"
+      ],
+      "note": "NPS-specific documented procedure, including policy binding and IAS restart. Reddit report remains contextual; parent-certificate renewal is not generalized into CA-renewal instructions."
+    },
+    "0x0000035b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:reddit.com \"859\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "First research pass. Documented requirements, diagnostics and constraints are not counted as a user-confirmed repair."
+    },
+    "0x0000035c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "EAP/PEAP certificate diagnostics: the current requirements article lists Windows 10/11. Older OS applicability requires separate evidence.",
+      "forum_result": "matching_case_without_confirmed_fix",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"860\" \"certificate\" VPN",
+        "site:learn.microsoft.com NPS certificate requirements EAP TLS PEAP client server certificate renewal"
+      ],
+      "note": "Rejected unconfirmed adapter/IPv6/gateway changes. Changing error 860 to 812 was not a successful connection."
     }
   },
-  "pending_count": 6228,
+  "pending_count": 6212,
   "pending_codes": [
-    "0x0000034d",
-    "0x0000034e",
-    "0x0000034f",
-    "0x00000350",
-    "0x00000351",
-    "0x00000352",
-    "0x00000353",
-    "0x00000354",
-    "0x00000355",
-    "0x00000356",
-    "0x00000357",
-    "0x00000358",
-    "0x00000359",
-    "0x0000035a",
-    "0x0000035b",
-    "0x0000035c",
     "0x0000035d",
     "0x0000035e",
     "0x0000035f",
@@ -7138,6 +7308,18 @@
     "0x00000348",
     "0x00000349",
     "0x0000034a",
-    "0x0000034b"
+    "0x0000034b",
+    "0x0000034d",
+    "0x0000034e",
+    "0x0000034f",
+    "0x00000350",
+    "0x00000351",
+    "0x00000355",
+    "0x00000356",
+    "0x00000357",
+    "0x00000358",
+    "0x00000359",
+    "0x0000035b",
+    "0x0000035c"
   ]
 }
