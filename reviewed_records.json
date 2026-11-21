@@ -5208,6 +5208,102 @@
           "https://learn.microsoft.com/en-us/windows/win32/wsw/windows-web-services-return-values"
         ],
         "note": "WS_E_INVALID_FORMAT и номер 0x803D0000 подтверждены Microsoft; убраны неподтверждённые причины CES/CEP."
+      },
+      "0x80070002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x80070005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x8007000d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x80070020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x80070057": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x80070422": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x80073701": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/common-windows-update-errors"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x800f081f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/dotnet-framework-35-installation-error"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0x8007000e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes--0-499"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0xc00d11d8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0xc00d11db": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
+      },
+      "0xc00d11dc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/705fb797-2175-4a90-b5a3-3918024b10b8"
+        ],
+        "note": "Отсутствовавший в каталоге код добавлен/проверен по официальной таблице Microsoft; шаги ограничены документированным значением и соответствующим legacy/current сценарием."
       }
     }
   },
