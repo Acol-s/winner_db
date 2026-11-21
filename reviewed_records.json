@@ -7464,6 +7464,655 @@
           "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
         ],
         "note": "Код и рекомендации для Windows Update сверены с соответствующей секцией Microsoft Learn; инструкции ограничены описанным сценарием и поддерживаемой версией. Дополнительно проверена по статье типичных ошибок Windows Update; применимость указана только для этого контекста."
+      },
+      "0x80240016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INSTALL_NOT_ALLOWED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NOT_APPLICABLE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NO_USERTOKEN подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024001a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_POLICY_NOT_SET подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024001b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SELFUPDATE_IN_PROGRESS подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024001d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_UPDATE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024001e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SERVICE_STOP подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024001f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NO_CONNECTION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_TIME_OUT подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_EULAS_DECLINED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NO_UPDATE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_USER_ACCESS_DISABLED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_UPDATE_TYPE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_URL_TOO_LONG подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_UNINSTALL_NOT_ALLOWED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_PRODUCT_LICENSE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MISSING_HANDLER подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_LEGACYSERVER подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_BIN_SOURCE_ABSENT подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SOURCE_ABSENT подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_WU_DISABLED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024002f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_CALL_CANCELLED_BY_POLICY подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240030": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_PROXY_SERVER подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240031": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_FILE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240032": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_CRITERIA подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240033": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_EULA_UNAVAILABLE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240034": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_DOWNLOAD_FAILED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240035": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_UPDATE_NOT_PROCESSED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240036": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_INVALID_OPERATION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240037": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NOT_SUPPORTED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240038": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_WINHTTP_INVALID_FILE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240039": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_TOO_MANY_RESYNC подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240040": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_NO_SERVER_CORE_SUPPORT подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240041": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SYSPREP_IN_PROGRESS подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240042": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_UNKNOWN_SERVICE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80240fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_UNEXPECTED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80241001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MSI_WRONG_VERSION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80241002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MSI_NOT_CONFIGURED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80241003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MSP_DISABLED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80241004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MSI_WRONG_APP_CONTEXT подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x80241fff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_MSP_UNEXPECTED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_INVALID_INFDATA подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_INVALID_IDENTDATA подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_ALREADY_INITIALIZED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_NOT_INITIALIZED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_SOURCE_VERSION_MISMATCH подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_TARGET_VERSION_GREATER подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_REGISTRATION_FAILED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SELFUPDATE_SKIP_ON_FAILURE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d00a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_UNSUPPORTED_CONFIGURATION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d00b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_BLOCKED_CONFIGURATION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d00d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_ALREADYRUNNING подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d00e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_REBOOTREQUIRED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d00f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_HANDLER_EXEC_FAILURE подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_INVALID_REGISTRY_DATA подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SELFUPDATE_REQUIRED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SELFUPDATE_REQUIRED_ADMIN подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024d013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_WRONG_SERVER_VERSION подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
+      },
+      "0x8024dfff": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/de-de/security-updates/windowsupdateservices/21669481",
+          "https://learn.microsoft.com/es-es/security-updates/windowsupdateservices/appendixgwindowsupdateagentresultcodes",
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/installing-updates-features-roles/troubleshoot-windows-update-issues"
+        ],
+        "note": "Код и символ WU_E_SETUP_UNEXPECTED подтверждены архивным официальным каталогом Windows Update Agent Microsoft. Каталог определяет сообщение, но не даёт универсального исправления; шаги ограничены безопасной диагностикой и контекстом версии/источника."
       }
     }
   },
