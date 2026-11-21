@@ -359,6 +359,86 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf7--driver-overran-stack-buffer"
         ],
         "note": "Meaning and diagnostic steps checked against Microsoft documentation; speculative generic fixes removed."
+      },
+      "0x000000d5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd5--driver-page-fault-in-freed-special-pool"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x000000a5": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xa5--acpi-bios-error"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x00000001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1--apc-index-mismatch"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x00000011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x00000051": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x51--registry-error"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x000000fc": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xfc---attempted-execute-of-noexecute-memory"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x00000027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x27--rdr-file-system"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x000000d8": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd8--driver-used-excessive-ptes"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x00000020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x20--kernel-apc-pending-during-exit"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
+      },
+      "0x0000008e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x8e--kernel-mode-exception-not-handled"
+        ],
+        "note": "Code and diagnostics reviewed against Microsoft Learn; unsupported one-size-fits-all fixes removed."
       }
     }
   },
