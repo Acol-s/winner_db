@@ -1451,13 +1451,13 @@
         "note": "Code meaning/applicability and diagnostic steps checked against Microsoft documentation; unsupported causes and risky generic remedies removed. Historical/live-dump status is explicit where relevant."
       },
       "0x000000ab": {
-        "status": "reviewed",
+        "status": "excluded",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xab--session-has-valid-pool-on-exit",
           "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L1622"
         ],
-        "note": "Microsoft Learn подтверждает код и параметры как live dump; явно указывает, что 0xAB не может быть реальным bug check. Запись оставлена как диагностический код, чтобы не смешивать его с BSOD."
+        "note": "Microsoft Learn identifies 0xAB as a kernel live-dump code and explicitly states it can never be used for a real bug check. Excluded from errors_bsod.json; retain in the review ledger for traceability."
       },
       "0x000000b1": {
         "status": "reviewed",
