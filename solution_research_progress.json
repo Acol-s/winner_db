@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "6a16c0482999a72dcd1032024b70a9ae3c88138acae882faef88b5514090d697",
+  "current_windows_sha256": "2af94319d0c1112a7145fc835ea44e5021d9b98d90cc10d091f25369bcea5668",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -88,9 +88,105 @@
         "site:reddit.com (\"80240045\" OR \"80240046\" OR \"80240047\" OR \"80240048\")",
         "\"WU_E_REVERT_NOT_ALLOWED\" \"WU_E_NOTSUPPORTED\""
       ]
+    },
+    "0x80240045": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "WUA SearchScope enum; installed WUA must support the requested scope.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240045\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"80240045\" \"fixed\""
+      ],
+      "note": "Microsoft documents scopes 3, 4, 5 as unsupported. Choosing a supported scope with the intended semantics is an inference from that constraint; no exact-code forum success established."
+    },
+    "0x80240046": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240046\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"80240046\" \"fixed\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x80240048": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240048\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"80240048\" \"fixed\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x80240049": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240049\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"80240049\" \"fixed\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x8024201d": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x8024201d\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"8024201d\" \"fixed\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x80240066": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Windows 11 Microsoft Store: Gaming Services and Minecraft Launcher, June 2024.",
+      "forum_result": "matching_case_without_confirmed_fix",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x80240066\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"80240066\" site:reddit.com"
+      ],
+      "note": "Author reports restart and Store cache reset/repair did not help. Advisor proposals have no success confirmation. No generic AV removal, region change, AppX re-registration, SFC or DISM promoted as verified fixes."
+    },
+    "0x8024601e": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x8024601e\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"8024601E\" \"Delivery Optimization\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
+    },
+    "0x8024201f": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Search pass only; no OS-wide remediation or version compatibility established.",
+      "forum_result": "no_usable_exact_code_solution",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"0x8024201f\" (site:reddit.com OR site:learn.microsoft.com/answers)",
+        "\"8024201f\" \"fixed\""
+      ],
+      "note": "No suitable success report found in returned results. Absence from this search is not proof that no solution exists. Existing diagnostic checklist has not been promoted to a verified fix."
     }
   },
-  "pending_count": 6286,
+  "pending_count": 6278,
   "pending_codes": [
     "0x00000285",
     "0x00000292",
@@ -4186,10 +4282,6 @@
     "0x80240012",
     "0x80240013",
     "0x80240014",
-    "0x80240045",
-    "0x80240046",
-    "0x80240048",
-    "0x80240049",
     "0x8024004b",
     "0x8024004d",
     "0x8024004e",
@@ -4214,7 +4306,6 @@
     "0x80240063",
     "0x80240064",
     "0x80240065",
-    "0x80240066",
     "0x80240067",
     "0x80240068",
     "0x80240069",
@@ -4247,9 +4338,7 @@
     "0x8024201a",
     "0x8024201b",
     "0x8024201c",
-    "0x8024201d",
     "0x8024201e",
-    "0x8024201f",
     "0x80242020",
     "0x80242021",
     "0x80242022",
@@ -4309,7 +4398,6 @@
     "0x8024601b",
     "0x8024601c",
     "0x8024601d",
-    "0x8024601e",
     "0x8024601f",
     "0x80247003",
     "0x80247004",
@@ -6400,6 +6488,13 @@
   "requires_further_solution_research": [
     "0x80240043",
     "0x80240059",
-    "0x80240047"
+    "0x80240047",
+    "0x80240046",
+    "0x80240048",
+    "0x80240049",
+    "0x8024201d",
+    "0x80240066",
+    "0x8024601e",
+    "0x8024201f"
   ]
 }
