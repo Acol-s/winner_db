@@ -125781,6 +125781,670 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L172"
         ],
         "note": "EAPHost code symbol/value verified against pinned Microsoft SDK EapHostError.h. Remediation depends on EAP method, network client and Windows version; generic/security-weakening fixes were not asserted."
+      },
+      "0x80d01001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L40"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L45"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L46"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L47"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0200b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L48"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0200c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L49"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0200d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L50"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L51"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L52"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L53"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L54"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L55"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L56"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L57"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L58"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L59"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L60"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0201a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L61"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0201b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L62"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0201c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L63"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0201d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L64"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0201e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L65"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02200": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L69"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02201": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L70"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02202": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L71"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02203": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L72"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d02204": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L73"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L75"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L76"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03801": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L80"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03802": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L81"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03803": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L82"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03804": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L83"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03805": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L84"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03806": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L85"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03807": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L86"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03808": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L87"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d03809": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L88"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0380a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L89"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0380b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L90"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0380c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L91"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0380d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L92"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d05001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L96"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d05002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L97"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d05010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L98"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d05011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L99"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d05012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L100"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06800": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L104"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06802": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L105"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06803": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L106"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06804": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L107"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06805": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L108"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06806": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L109"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06807": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L110"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06808": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L111"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06809": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L112"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L113"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L114"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L115"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L116"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L117"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0680f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L118"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06810": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L119"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06811": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L120"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06812": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L121"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06813": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L122"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06814": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L123"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06815": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L124"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06816": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L125"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06817": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L126"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06818": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L127"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06819": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L128"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L130"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L131"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L132"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L133"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L134"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d0681f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L135"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06820": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L136"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06821": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L137"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06822": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L138"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06823": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L139"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
+      },
+      "0x80d06824": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/deliveryoptimizationerrors.h#L140"
+        ],
+        "note": "Delivery Optimization symbol/value/message verified against pinned Microsoft SDK. Applicability and repair depend on DO service version and managed policy; steps remain diagnostic."
       }
     }
   },
