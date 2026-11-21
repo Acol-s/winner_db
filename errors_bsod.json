@@ -3354,131 +3354,91 @@
     {
         "errorCode": "0x000001EA",
         "title": "SECURE_PCI_CONFIG_SPACE_ACCESS_VIOLATION",
-        "description": "Прямое отображение диапазона PCI MCFG из VTL0 (режим пользователя/незащищённый) запрещено. Связано с защитой PCI config space и VBS.",
-        "officialSolution": "Обновите BIOS/UEFI и Windows. Проверьте совместимость драйверов с защитой PCI/VBS. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).",
-            "• Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).",
-            "• Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS."
-        ],
+        "description": "0x1EA означает, что при включённой Secure PCI запрещён прямой доступ VTL0 к PCI config space через отображение PCI MCFG. Параметры: opcode, RID устройства, offset, адрес инструкции.",
+        "officialSolution": "Сохраните dump; выполните !analyze -v и сопоставьте параметры/инструкцию с драйвером и устройством. Передайте OEM/Microsoft; не отключайте Secure PCI как обход.",
+        "userSolutions": "Не меняйте Secure Boot/VBS/PCIe настройки вслепую. Это относится к системам с Secure PCI; в старых Windows функция может отсутствовать.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите BIOS/UEFI до последней версии (микрокод CPU, поддержка IOMMU/VT-d).\", \"Шаг 2: Обновите Windows и драйверы устройств (особенно PCIe/DMA/видео).\", \"Шаг 3: Включите/проверьте VT-x, VT-d (Intel) или AMD-V, AMD-Vi в BIOS.\", \"Шаг 4: Проверьте Memory Integrity (HVCI) в Безопасности Windows.\", \"Шаг 5: Отключите разгон и верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Сохраните параметры и dump.\",\"WinDbg: !analyze -v; параметры 1–4 — opcode, RID устройства, config offset и instruction address.\",\"По стеку найдите компонент, напрямую обращавшийся к PCI MCFG из VTL0.\",\"Передайте OEM/Microsoft; не отключайте Secure PCI без адресной инструкции.\"]"
     },
     {
         "errorCode": "0x000001EB",
         "title": "DAM_WATCHDOG_TIMEOUT",
-        "description": "Desktop Activity Moderator (DAM) не смог разморозить неосвобождённые пользовательские процессы в отведённое время после выхода из гибернации.",
-        "officialSolution": "Обновите Windows. Проверьте энергосбережение и гибернацию. Отключите быструю загрузку. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите Windows через Параметры → Windows Update.",
-            "• Отключите быструю загрузку (fast startup) в параметрах электропитания.",
-            "• Отключите гибернацию временно: powercfg /hibernate off (от админа)."
-        ],
+        "description": "0x1EB означает, что Desktop Activity Moderator не смог разморозить неизъятые из исключений процессы пользовательской сессии за заданное время после возврата из Modern Standby. Параметр 1 — контекст задержки сессии DAM; 2–4 зарезервированы.",
+        "officialSolution": "Сохраните дамп, сборку и сведения о Modern Standby/resume; выполните !analyze -v и передайте OEM. Проверьте поддержку Modern Standby данной моделью.",
+        "userSolutions": "Не относится к системам без Modern Standby; не завершайте процессы и не отключайте питание/гибернацию как универсальное решение.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите Windows через Параметры → Windows Update.\", \"Шаг 2: Отключите быструю загрузку (fast startup) в параметрах электропитания.\", \"Шаг 3: Отключите гибернацию временно: powercfg /hibernate off (от админа).\", \"Шаг 4: Обновите BIOS/UEFI и драйверы чипсета/питания.\", \"Шаг 5: Проверьте память MemTest86 (4+ прохода).\", \"Шаг 6: Запустите sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю оборудования.\"]"
+        "stepByStep": "[\"Запишите момент выхода из Modern Standby, параметры и сборку; сохраните dump.\",\"WinDbg: !analyze -v; параметр 1 — DAM user-session delay context, 2–4 зарезервированы.\",\"Сохраните события питания/resume и данные производителя.\",\"Передайте OEM; не применяйте советы для старых систем, не поддерживающих Modern Standby.\"]"
     },
     {
         "errorCode": "0x000001ED",
         "title": "HANDLE_ERROR_ON_CRITICAL_THREAD",
-        "description": "В режиме ядра на системно-критическом потоке обнаружена проблема недопустимого доступа к дескриптору (handle). Нарушение целостности ядра.",
-        "officialSolution": "Обновите систему и драйверы. Удалите несовместимое ПО. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).",
-            "• Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора."
-        ],
+        "description": "0x1ED означает недопустимый доступ к handle в kernel mode на системно-критическом потоке. Все четыре параметра зарезервированы.",
+        "officialSolution": "Сохраните dump и выполните !analyze -v; исследуйте стек и передайте OEM/Microsoft. Параметры сами по себе не расшифровывают причину.",
+        "userSolutions": "Не удаляйте профили или приложения по одному названию кода; меняйте компонент только при подтверждении стека.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).\", \"Шаг 2: Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 4: Проверьте память MemTest86 (4+ прохода) — ошибки RAM частая причина.\", \"Шаг 5: Обновите BIOS/UEFI (микрокод CPU) и драйверы чипсета с сайта производителя материнской платы.\", \"Шаг 6: Отключите разгон, верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Сохраните dump, параметры и сборку.\",\"WinDbg: !analyze -v; параметры 1–4 зарезервированы.\",\"Исследуйте kernel stack и модули вокруг invalid handle access.\",\"Передайте анализ OEM/Microsoft; не удаляйте приложения наугад.\"]"
     },
     {
         "errorCode": "0x000001F1",
         "title": "KASAN_ENLIGHTENMENT_VIOLATION",
-        "description": "Kernel Address Sanitizer (KASAN) обнаружил внутреннюю ошибку. Этот bug check используется для проверки внутренней работы KASAN в Windows.",
-        "officialSolution": "KASAN включается через реестр/флаг компилятора. Отключите KASAN, если включён. Обновите Windows. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).",
-            "• Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора."
-        ],
+        "description": "0x1F1 означает внутреннюю ошибку KASAN (Kernel Address Sanitizer); параметры: тип операции, тип внутренней ошибки и дополнительная информация. Это служебный bugcheck проверки работы KASAN, а не обычная ошибка пользователя.",
+        "officialSolution": "Сохраните параметры и kernel dump, выполните !analyze -v, передайте результат разработчику драйвера/Microsoft. KASAN предназначен для диагностики драйверов.",
+        "userSolutions": "KASAN официально требует Windows 11 24H2+ или Windows Server 2025+ и специально скомпилированный драйвер; применять шаги к Windows 2004–11 23H2 нельзя.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).\", \"Шаг 2: Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 4: Проверьте память MemTest86 (4+ прохода) — ошибки RAM частая причина.\", \"Шаг 5: Обновите BIOS/UEFI (микрокод CPU) и драйверы чипсета с сайта производителя материнской платы.\", \"Шаг 6: Отключите разгон, верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Проверьте, поддерживает ли система KASAN (Windows 11 24H2+ или Server 2025+) и тестовый ли это драйвер.\",\"Сохраните параметры и kernel dump; WinDbg: !analyze -v.\",\"Параметры 1–4 задают тип операции, внутреннюю ошибку и дополнительные данные.\",\"Передайте дамп разработчику KASAN-драйвера; не применяйте обычные советы по BSOD.\"]"
     },
     {
         "errorCode": "0x000001F2",
         "title": "KASAN_ILLEGAL_ACCESS",
-        "description": "Kernel Address Sanitizer (KASAN) обнаружил недопустимый доступ к памяти. KASAN включается через реестр и требует перекомпиляции драйвера со специальным флагом MSVC.",
-        "officialSolution": "Отключите KASAN, если включён. Обновите драйверы и Windows. Проанализируйте дамп через WinDbg для поиска виновного драйвера.",
-        "userSolutions": [
-            "• Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).",
-            "• Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора."
-        ],
+        "description": "0x1F2 означает, что KASAN обнаружил незаконный доступ памяти. Параметры: адрес доступа, размер, адрес caller, теневая информация (включая read/write и shadow code). KASAN требует включения и специально собранного драйвера.",
+        "officialSolution": "Сохраните kernel dump; используйте подключённый debugger и !analyze -v, чтобы исследовать адрес, caller и shadow code; передайте разработчику драйвера.",
+        "userSolutions": "Microsoft указывает требования KASAN: Windows 11 24H2+ или Server 2025+, Visual Studio 17.11+, драйвер с KASAN. Для старых Windows этот код неприменим.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).\", \"Шаг 2: Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 4: Проверьте память MemTest86 (4+ прохода) — ошибки RAM частая причина.\", \"Шаг 5: Обновите BIOS/UEFI (микрокод CPU) и драйверы чипсета с сайта производителя материнской платы.\", \"Шаг 6: Отключите разгон, верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Подтвердите, что ОС соответствует требованиям KASAN и драйвер скомпилирован с KASAN.\",\"Сохраните kernel dump; по возможности подключите debugger и выполните !analyze -v.\",\"Параметры 1–4 — адрес, размер, caller, shadow code/тип read-write.\",\"Передайте дамп разработчику драйвера; не выполняйте пользовательские RAM-тесты как замену анализу.\"]"
     },
     {
         "errorCode": "0x00000356",
         "title": "XBOX_ERACTRL_CS_TIMEOUT",
-        "description": "Драйвер eractrl.sys не смог перевести консоль Xbox в режим connected standby или выйти из него за отведённое время. Связано с Xbox console.",
-        "officialSolution": "Перезагрузите консоль Xbox. Обновите прошивку консоли. Обратитесь в поддержку Xbox при аппаратной проблеме.",
-        "userSolutions": [
-            "• Перезагрузите консоль Xbox (полное отключение от сети на 30 секунд).",
-            "• Обновите прошивку консоли Xbox (system update) через настройки.",
-            "• Проверьте подключение к сети и электропитание консоли."
-        ],
+        "description": "0x356 — тайм-аут eractrl.sys при переводе Xbox console в/из Connected Standby; драйвер управляет сроком жизни поддерживающей VM. Параметр 1 — CS exit; 2–4 зарезервированы. Это специализированный Xbox-код, не типичная ошибка ПК.",
+        "officialSolution": "Для Xbox сохраните dump и передайте Microsoft/Xbox support; не переносите на ПК рекомендации для графики/BIOS. Параметры используйте в kernel debugger.",
+        "userSolutions": "Запись релевантна системе Xbox с eractrl.sys и Connected Standby; обычным Windows 2004–2026 ПК этот код обычно не адресован.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Перезагрузите консоль Xbox (полное отключение от сети на 30 секунд).\", \"Шаг 2: Обновите прошивку консоли Xbox (system update) через настройки.\", \"Шаг 3: Проверьте подключение к сети и электропитание консоли.\", \"Шаг 4: Сбросьте настройки энергосбережения консоли до заводских.\", \"Шаг 5: Проверьте наличие обновлений игр/приложений.\", \"Шаг 6: Выполните сброс консоли с сохранением игр (reset keeping games).\", \"Шаг 7: При аппаратной проблеме — обратитесь в поддержку Xbox.\"]"
+        "stepByStep": "[\"Проверьте, действительно ли сбой на Xbox/системе с eractrl.sys.\",\"Сохраните параметр 1 и dump; параметры 2–4 зарезервированы.\",\"Не применяйте советы для настольного ПК к Xbox subsystem.\",\"Передайте диагностику Xbox/Microsoft support.\"]"
     },
     {
         "errorCode": "0x00000BFE",
         "title": "BC_BLUETOOTH_VERIFIER_FAULT",
-        "description": "Драйвер вызвал нарушение, обнаруженное верификатором Bluetooth. Нарушение целостности драйвера Bluetooth.",
-        "officialSolution": "Обновите драйвер Bluetooth. Запустите Driver Verifier. Удалите проблемный драйвер через DDU. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите драйвер Bluetooth с сайта производителя (Intel, Realtek, MediaTek).",
-            "• Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Снимите галку «Разрешить отключение этого устройства для экономии энергии» в Bluetooth-устройствах (Диспетчер устройств)."
-        ],
+        "description": "0xBFE — Bluetooth Verifier обнаружил нарушение драйвера. Параметр 1 — subtype: например, повторная отправка/освобождение занятого BRB, неверный тип/размер BRB или handle; параметры 2–4 зависят от subtype.",
+        "officialSolution": "Это диагностический verifier stop code. Сохраните параметры/dump, выполните !analyze -v; по стеку определите некорректный Bluetooth driver. Driver Verifier включайте только в контролируемой разработческой среде.",
+        "userSolutions": "Не включайте Driver Verifier на обычном ПК ради поиска причины: Microsoft описывает эти проверки для разработки профиля Bluetooth. Если verifier уже включён, зафиксируйте это и обратитесь к разработчику/OEM.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите драйвер Bluetooth с сайта производителя (Intel, Realtek, MediaTek).\", \"Шаг 2: Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Снимите галку «Разрешить отключение этого устройства для экономии энергии» в Bluetooth-устройствах (Диспетчер устройств).\", \"Шаг 4: Удалите проблемный драйвер Bluetooth через DDU и установите чистую версию.\", \"Шаг 5: Перезапустите службу Bluetooth (Restart-Service bthserv).\", \"Шаг 6: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Уточните, был ли включён Bluetooth Driver Verifier; сохраните параметры/dump.\",\"WinDbg: !analyze -v; параметр 1 — subtype, дополнительные параметры указывают на BRB/handle/size.\",\"По call stack найдите нарушивший драйвер.\",\"Передайте дамп разработчику Bluetooth-профиля/OEM; verifier используйте только в контролируемой тестовой среде.\"]"
     },
     {
         "errorCode": "0x00000BFF",
         "title": "BC_BTHMINI_VERIFIER_FAULT",
-        "description": "Bluetooth miniport extensible driver verifier обнаружил нарушение в драйвере Bluetooth. Нарушение целостности минипорта Bluetooth.",
-        "officialSolution": "Обновите Windows и драйвер Bluetooth. Запустите Driver Verifier. Проанализируйте дамп через WinDbg.",
-        "userSolutions": [
-            "• Обновите Windows через Параметры → Windows Update → Проверка обновлений.",
-            "• Обновите драйвер Bluetooth с сайта производителя (Intel, Realtek, MediaTek).",
-            "• Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v)."
-        ],
+        "description": "0xBFF означает, что Bluetooth miniport extensible driver verifier обнаружил нарушение. Параметр 1 — subtype; дополнительные параметры сравнивают тип/status/размер возвращённого пакета с ожидаемым.",
+        "officialSolution": "Сохраните dump и выполните !analyze -v; исследуйте call stack Bluetooth miniport и передайте разработчику/OEM.",
+        "userSolutions": "Это проверка драйверного miniport, не общее решение сбоев Bluetooth пользователя. Не включайте Driver Verifier вне контролируемой разработки.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Обновите Windows через Параметры → Windows Update → Проверка обновлений.\", \"Шаг 2: Обновите драйвер Bluetooth с сайта производителя (Intel, Realtek, MediaTek).\", \"Шаг 3: Запустите Driver Verifier (безопасный режим): verifier /standard /all; при BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 4: Снимите галку «Разрешить отключение этого устройства для экономии энергии» в Bluetooth-устройствах (Диспетчер устройств).\", \"Шаг 5: Перезапустите службу Bluetooth (Restart-Service bthserv).\", \"Шаг 6: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth.\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Проверьте, запускался ли Bluetooth miniport verifier; сохраните параметры/dump.\",\"WinDbg: !analyze -v; прочитайте subtype и поля returned/expected packet согласно типу.\",\"Определите miniport по стеку.\",\"Передайте дамп разработчику/OEM; не включайте verifier как обычную процедуру устранения.\"]"
     },
     {
         "errorCode": "0x100000EA",
         "title": "THREAD_STUCK_IN_DEVICE_DRIVER_M",
-        "description": "Поток в драйвере устройства бесконечно крутится. Имеет то же значение и параметры, что и 0x000000EA. Связано с зависанием GPU.",
-        "officialSolution": "Обновите видеодрайвер (DDU + чистая установка). Снизьте разгон GPU. Увеличьте TdrDelay. Проверьте охлаждение и питание GPU.",
-        "userSolutions": [
-            "• Удалите видеодрайвер через DDU в безопасном режиме, установите последнюю версию (NVIDIA/AMD/Intel).",
-            "• Снизьте частоты/разгон GPU; верните заводские настройки в MSI Afterburner.",
-            "• Увеличьте TdrDelay: reg add HKLM\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers /v TdrDelay /t REG_DWORD /d 8 (от админа)."
-        ],
+        "description": "0x100000EA (THREAD_STUCK_IN_DEVICE_DRIVER_M) имеет тот же смысл и параметры, что 0xEA: поток драйвера бесконечно выполняется в цикле, часто ожидая оборудование. Часто связан с драйвером/устройством, включая дисплей, но конкретную причину устанавливает дамп.",
+        "officialSolution": "Сохраните dump и выполните !analyze -v; изучите поток из параметра 1 и stack trace (например, .thread и kb согласно статье Microsoft). Обновляйте/откатывайте драйвер только после идентификации.",
+        "userSolutions": "Суффикс _M — вариант кодирования с тем же значением, а не отдельное решение. Для старых систем используйте совместимую версию WinDbg; не заменяйте GPU по одному коду.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите видеодрайвер через DDU в безопасном режиме, установите последнюю версию (NVIDIA/AMD/Intel).\", \"Шаг 2: Снизьте частоты/разгон GPU; верните заводские настройки в MSI Afterburner.\", \"Шаг 3: Увеличьте TdrDelay: reg add HKLM\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\GraphicsDrivers /v TdrDelay /t REG_DWORD /d 8 (от админа).\", \"Шаг 4: Проверьте температуры GPU (HWiNFO) и стабильность БП (OCCT/FurMark).\", \"Шаг 5: Проверьте память MemTest86 (4+ прохода).\", \"Шаг 6: Отключите энергосберегающие функции GPU в BIOS и электропитании.\", \"Шаг 7: При повторе — проанализируйте дамп через WinDbg (!analyze -v); обратитесь к производителю GPU.\"]"
+        "stepByStep": "[\"Запишите параметры и сохраните dump.\",\"WinDbg: !analyze -v; исследуйте thread object из параметра 1 и стек зависшего потока.\",\"Если стек указывает на конкретный драйвер, сверьте совместимость/обновление с производителем; аппаратную проверку проводите при подтверждении.\",\"Передайте дамп OEM; не считайте ntoskrnl.exe автоматически виновником.\"]"
     },
     {
         "errorCode": "0x4000008A",
         "title": "THREAD_TERMINATE_HELD_MUTEX",
-        "description": "Драйвер захватил мьютекс в потоке, который завершился до освобождения мьютекса. Может быть вызвано ошибкой драйвера при завершении потока.",
-        "officialSolution": "Обновите драйверы. Запустите Driver Verifier. Проанализируйте стек через WinDbg. Проверьте целостность системы.",
-        "userSolutions": [
-            "• Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).",
-            "• Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).",
-            "• Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора."
-        ],
+        "description": "0x4000008A означает, что драйвер захватил KMUTEX, а поток завершился до освобождения mutex. Параметры 1–2 — KTHREAD и удерживаемый KMUTEX; 3–4 зарезервированы.",
+        "officialSolution": "Сохраните dump; выполните !analyze -v и исследуйте call stack. Microsoft рекомендует установить драйвер по цепочке stack/termination; если драйвера нет, исследуйте владельца mutex через !pool или ln по параметру 2.",
+        "userSolutions": "Это отдельный informational/variant code, не доказательство аппаратной ошибки. Используйте debugger/символы для данной ОС; передайте разбор драйверу/OEM.",
         "category": "BSOD",
-        "stepByStep": "[\"Шаг 1: Удалите/обновите недавно установленные драйверы и фильтры (антивирусы, защитники, VPN) через Диспетчер устройств и autoruns (Sysinternals).\", \"Шаг 2: Запустите Driver Verifier в безопасном режиме (verifier /standard /all); при повторе BSOD проанализируйте дамп через WinDbg (!analyze -v).\", \"Шаг 3: Выполните sfc /scannow и DISM /Online /Cleanup-Image /RestoreHealth от администратора.\", \"Шаг 4: Проверьте память MemTest86 (4+ прохода) — ошибки RAM частая причина.\", \"Шаг 5: Обновите BIOS/UEFI (микрокод CPU) и драйверы чипсета с сайта производителя материнской платы.\", \"Шаг 6: Отключите разгон, верните BIOS в заводские настройки (Load Optimized Defaults).\", \"Шаг 7: При систематическом повторе — сбросьте Windows с сохранением файлов (Параметры → Восстановление → Сброс).\"]"
+        "stepByStep": "[\"Запишите параметры и сохраните dump.\",\"WinDbg: !analyze -v; параметры 1–2 — поток-владелец и mutex; 3–4 зарезервированы.\",\"Исследуйте стек: driver, исключение и завершение потока. Если драйвер не виден, примените !pool или ln к адресу mutex по инструкции Microsoft.\",\"Передайте выявленный модуль разработчику/OEM.\"]"
     }
 ]
