@@ -2239,6 +2239,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1000008e--kernel-mode-exception-not-handled-m"
                 ],
                 "note": "Retained as a Microsoft-listed alias with the same meaning and parameters as 0x8E; duplicate remedy advice consolidated."
+            },
+            "0x1000007f": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1000007f--unexpected-kernel-mode-trap-m"
+                ],
+                "note": "Retained as Microsoft-listed alias with same meaning/parameters as the corresponding unsuffixed code; duplicate guidance consolidated."
+            },
+            "0x1000007e": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1000007e--system-thread-exception-not-handled-m"
+                ],
+                "note": "Retained as Microsoft-listed alias with same meaning/parameters as the corresponding unsuffixed code; duplicate guidance consolidated."
+            },
+            "0x00000039": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x39--system-exit-owned-mutex"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x00000057": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x57--xns-internal-error"
+                ],
+                "note": "Microsoft page confirms only the rare code/name; no cause or general remedy is asserted."
+            },
+            "0x000000bc": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbc--network-boot-duplicate-address"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000cf": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xcf--terminal-server-driver-made-incorrect-memory-reference"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000e8": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xe8--invalid-cancel-of-file-open"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000ec": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xec--session-has-valid-special-pool-on-exit"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000f1": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf1--scsi-verifier-detected-violation"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
+            },
+            "0x000000f6": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xf6--pci-verifier-detected-violation"
+                ],
+                "note": "Code meaning/parameters and evidence-based diagnostic steps checked against Microsoft Learn; unsupported and risky general remedies removed."
             }
         }
     },
