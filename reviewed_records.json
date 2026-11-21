@@ -2909,6 +2909,95 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
                 ],
                 "note": "Сверено с описанием и параметрами Microsoft; удалены неподтверждённые универсальные советы. Совместимость проверки зависит от выпуска Windows."
+            },
+            "0x000001ab": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1ab--unwind-on-invalid-stack",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001c6": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1c6--fast-eresource-precondition-violation",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001c7": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1c7--store-data-structure-corruption",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001c8": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1c8--manually-initiated-power-button-hold",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001cb": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1cb--invalid-silo-detach",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001cd": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001ce": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1ce--invalid-kernel-stack-address",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001cf": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1cf--hardware-watchdog-timeout",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
+            },
+            "0x000001d0": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d0--acpi-firmware-watchdog-timeout",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Название 0x1D0 расходится между общей таблицей CPI_FIRMWARE_WATCHDOG_TIMEOUT и отдельной статьёй ACPI_FIRMWARE_WATCHDOG_TIMEOUT; в записи сохранено замечание и не скрыто несоответствие."
+            },
+            "0x000001d2": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x1d2--worker-thread-invalid-state",
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-code-reference2"
+                ],
+                "note": "Проверено по документации Microsoft; неподтверждённые универсальные действия убраны. Для старых Windows необходима проверка применимости и совместимые средства анализа."
             }
         }
     },
