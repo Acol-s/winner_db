@@ -2796,7 +2796,7 @@
         "sources": [
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x187--video-dwminit-timeout-fallback-bdd",
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/kernel-live-dump-code-reference",
-          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L2322"
+          "https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L3865"
         ],
         "note": "Microsoft Learn подтверждает 0x187 как live dump, не реальный bug check, и определяет параметр 1=0x1 как сбой инициализации DWM с переходом на BDD. Удалены несвязанные DDU/разгон/стресс-тесты/общий системный ремонт."
       },
