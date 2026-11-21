@@ -1599,6 +1599,86 @@
                     "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbd--invalid-hibernated-state"
                 ],
                 "note": "Code identity/applicability and supported diagnostic steps checked against Microsoft Learn. Unsupported causes and risky generic remedies removed; rare/historical scope is stated where relevant."
+            },
+            "0x000000bf": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xbf--mutex-already-owned"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000c1": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc1--special-pool-detected-memory-corruption"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000c6": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc6--driver-caught-modifying-freed-pool"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000c7": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc7--timer-or-dpc-invalid"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000c8": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xc8--irql-unexpected-value"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000ca": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xca--pnp-detected-fatal-error"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000cb": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xcb--driver-left-locked-pages-in-process"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000cc": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xcc--page-fault-in-freed-special-pool"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000cd": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xcd--page-fault-beyond-end-of-allocation"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
+            },
+            "0x000000d0": {
+                "status": "reviewed",
+                "reviewed_at": "2026-11-21",
+                "sources": [
+                    "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0xd0--driver-corrupted-mmpool"
+                ],
+                "note": "Code parameters, cause, and diagnostic steps checked against Microsoft Learn; unsupported blanket driver/RAM fixes removed and diagnostic risks narrowed."
             }
         }
     },
