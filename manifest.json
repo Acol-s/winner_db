@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "app_version": "1.0.0",
-  "last_updated": "2026-11-21T22:40:28Z",
+  "last_updated": "2026-11-21T22:50:55Z",
   "categories": {
     "bsod": {
       "display_name": "БИОС / BSOD",
@@ -16,8 +16,8 @@
       "file": "errors_windows.json",
       "version": 1,
       "record_count": 17742,
-      "size_bytes": 36069582,
-      "sha256": "DE865ACE81041E97143DD14B81898340DAF6FFBFA048D61B89E6B286C467DCF9"
+      "size_bytes": 36059862,
+      "sha256": "43763A10F80464E86E8A7B8D4B21A5AE84E6ABF76EB02866AB00DCB1394661B6"
     },
     "games": {
       "display_name": "Игровые ошибки",
