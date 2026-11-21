@@ -115945,13 +115945,13 @@
       },
       "0x80240019": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L449",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/win32/api/wuapi/ne-wuapi-installationimpact",
+          "https://learn.microsoft.com/en-us/answers/questions/299935/windows-update-error-0x80240019"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_EXCLUSIVE_INSTALL_CONFLICT; existing row preserved."
+        "note": "Microsoft SDK verifies the symbol/value/message. Microsoft API documentation confirms the exact conflict condition and the remedy for API callers: an exclusively handled update must be installed in a separate Install/BeginInstall call. Microsoft Q&A staff recommended one-by-one installation in a Windows 10 2004 managed-patching case, but the thread has no confirmed successful outcome; cache reset was not promoted as a verified fix. Exact-code Reddit search returned no usable result."
       },
       "0x80240043": {
         "status": "reviewed",
