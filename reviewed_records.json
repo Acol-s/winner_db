@@ -116014,13 +116014,27 @@
       },
       "0x80240047": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L800",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/windows/win32/wua_sdk/wua-success-and-error-codes-"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_REVERT_NOT_ALLOWED; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_REVERT_NOT_ALLOWED; existing row preserved. Solution evidence is scoped separately in solution_review.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "source_conflict_needs_followup",
+          "scope": "Pinned SDK symbol and Learn symbol differ for the same numeric HRESULT; version split unproven.",
+          "forum_result": "no_usable_exact_code_result",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Original SDK title preserved; conflicting Learn interpretation disclosed in description. No invented version mapping.",
+          "search_queries": [
+            "\"0x80240047\" site:learn.microsoft.com/answers OR site:reddit.com",
+            "site:reddit.com (\"80240045\" OR \"80240046\" OR \"80240047\" OR \"80240048\")",
+            "\"WU_E_REVERT_NOT_ALLOWED\" \"WU_E_NOTSUPPORTED\""
+          ]
+        }
       },
       "0x80240048": {
         "status": "reviewed",
@@ -116213,13 +116227,27 @@
       },
       "0x80240059": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L968",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/ja-jp/answers/questions/5658446/window11-25h2-0-80240059"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_NETWORK_COST_EXCEEDS_POLICY; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_NETWORK_COST_EXCEEDS_POLICY; existing row preserved. Solution evidence is scoped separately in solution_review.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Microsoft Q&A case: Windows 11 25H2 / KB5072033, December 2025.",
+          "forum_result": "matching_case_without_confirmed_fix",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Alternative connection is only an unconfirmed diagnostic suggestion. Generic antivirus removal and clean-boot recommendations not promoted to proven remedies.",
+          "search_queries": [
+            "\"0x80240059\" site:learn.microsoft.com/answers OR site:reddit.com",
+            "\"80240059\" domain:reddit.com",
+            "\"WU_E_NETWORK_COST_EXCEEDS_POLICY\""
+          ]
+        }
       },
       "0x8024005a": {
         "status": "reviewed",
@@ -116293,13 +116321,31 @@
       },
       "0x80240061": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wuerror.h#L1040",
           "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-logs",
-          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference"
+          "https://learn.microsoft.com/en-us/windows/deployment/update/windows-update-error-reference",
+          "https://learn.microsoft.com/en-us/answers/questions/2843268/driver-update-fails-hp-psc-1200-series-error-0x802",
+          "https://learn.microsoft.com/en-us/answers/questions/2814942/microsoft-driver-update-for-hp-laserjet-1320-pcl-5",
+          "https://learn.microsoft.com/en-us/answers/questions/2826222/intel-corporation-driver-update-for-intel-r-manage?page=2",
+          "https://www.catalog.update.microsoft.com/Search.aspx?q=HP%20PSC%201200"
         ],
-        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_FILETRUST_SHA2SIGNATURE_MISSING; existing row preserved."
+        "note": "Symbol, numeric value and message verified against pinned Microsoft SDK wuerror.h; remedies and applicability depend on Windows Update Agent version. Microsoft SDK symbol checked: WU_E_FILETRUST_SHA2SIGNATURE_MISSING; existing row preserved. Solution evidence is scoped separately in solution_review.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_success",
+          "scope": "Three separate Windows 10 device scenarios from 2018; no universal OS/device compatibility established.",
+          "forum_result": "PSC1200 manual Catalog installation has two success reports; LaserJet1320 USB and Dell960 OEM-driver cases have author-reported outcomes.",
+          "reddit_result": "no_usable_exact_code_result",
+          "note": "Distinct devices/procedures kept separate. No signature-check bypass. Dell case reports disappearance of the offer, not retroactive successful installation.",
+          "search_queries": [
+            "\"0x80240061\" site:reddit.com",
+            "\"80240061\" \"fixed\" reddit",
+            "\"80240061\" domain:reddit.com",
+            "\"0x80240061\" \"solved\""
+          ]
+        }
       },
       "0x80240062": {
         "status": "reviewed",
