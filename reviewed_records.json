@@ -145242,6 +145242,358 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wcmerrors.h#L526"
         ],
         "note": "WCM HRESULT symbol/value verified against pinned Microsoft SDK wcmerrors.h. Applicability depends on network policy and Windows release."
+      },
+      "0x80041000": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L53"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041001": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L62"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041002": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L71"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041003": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L80"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041004": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L89"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041005": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L98"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041006": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L107"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041007": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L116"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041008": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L125"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041009": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L134"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L143"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L152"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L161"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L170"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L179"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004100f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L188"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041010": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L197"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041011": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L206"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041012": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L215"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041013": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L224"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041014": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L233"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041015": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L242"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041016": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L251"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041017": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L260"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041018": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L269"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041019": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L278"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L287"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L296"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101c": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L305"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101d": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L314"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L323"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004101f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L332"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041020": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L341"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041021": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L350"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041022": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L359"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041023": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L368"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041024": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L377"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041025": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L386"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041026": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L395"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041027": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L404"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041028": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L413"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x80041029": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L422"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004102a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L431"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
+      },
+      "0x8004102b": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/synchronizationerrors.h#L440"
+        ],
+        "note": "Synchronization HRESULT symbol/value verified against pinned Microsoft SDK synchronizationerrors.h; meaning depends on the calling API and OS release."
       }
     }
   },
