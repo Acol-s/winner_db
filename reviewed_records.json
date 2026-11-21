@@ -3149,6 +3149,35 @@
           "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x4000008a--thread-terminate-held-mutex"
         ],
         "note": "Проверено по документации Microsoft; указаны параметры и границы применимости. Удалены универсальные или неподтверждённые исправления."
+      },
+      "0x0000019e": {
+        "status": "needs_source",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L4063",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L4069",
+          "https://learn.microsoft.com/en-us/answers/questions/3720850/windows-10-crashing-while-updating-windows-10-show",
+          "https://learn.microsoft.com/en-us/windows/client-management/troubleshoot-stop-errors"
+        ],
+        "note": "The Windows SDK defines 0x19E as BUGCODE_NETADAPTER_DRIVER and Microsoft Q&A reports this stop-code name on Windows 10. No parameter-specific Microsoft debugger page or code-specific fix was found; remediation remains needs_source."
+      },
+      "0x0000015e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/bug-check-0x15e-bugcode-ndis-driver-live-dump",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L3514",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L3520"
+        ],
+        "note": "Microsoft Learn states NDIS captures a live kernel dump for 0x15E and does not generate a bug check. Excluded from the BSOD list."
+      },
+      "0x80000000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/bugcodes.h#L5000"
+        ],
+        "note": "BUGCHECK_CONTEXT_MODIFIER is a context modifier flag, not an independent bug-check code; excluded from the BSOD list."
       }
     },
     "errors_windows.json": {
@@ -170878,6 +170907,2312 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/wdsmcerr.h#L84"
         ],
         "note": "The Windows SDK naming convention identifies EVT_ entries as event-log message identifiers, not API return error codes; excluded from the Windows error database."
+      },
+      "0x400003eb": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L90"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_STARTED."
+      },
+      "0x400003ec": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L99"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_STARTING_SETUP."
+      },
+      "0x400003ed": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L108"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_SETUP_SUCCEEDED."
+      },
+      "0xc00003ee": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L117"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_SETUP_FAILED."
+      },
+      "0xc00003ef": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L126"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_OUTOFMEMORY."
+      },
+      "0x800003f0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L135"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_SETUP_CLEANUP_STARTED."
+      },
+      "0xc00003f1": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L144"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_EXCEPTION."
+      },
+      "0x400003f2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L153"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_SETUP_CLEANUP_SUCCEEDED."
+      },
+      "0xc00003f3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L162"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_SETUP_CLEANUP_FAILED."
+      },
+      "0x400003f5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L171"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_STOPPED."
+      },
+      "0x800003f6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L182"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_CREATE_PATH_RULES_FAILED."
+      },
+      "0x800003f7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L191"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_DROPPED_EVENTS."
+      },
+      "0xc00003f8": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L200"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_DATAFILES_MOVE_FAILED."
+      },
+      "0x400003f9": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L209"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_DATAFILES_MOVE_SUCCEEDED."
+      },
+      "0x800003fa": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L218"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_DATAFILES_MOVE_ROLLBACK_ERRORS."
+      },
+      "0xc00003fb": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L227"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SSSEARCH_CSM_SAVE_FAILED."
+      },
+      "0x80000414": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L236"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_CONFIG_SYNTAX."
+      },
+      "0x8000041c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L248"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_UNPRIVILEGED_SERVICE_ACCOUNT."
+      },
+      "0x8000041d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L258"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_SYSTEM_EXCEPTION."
+      },
+      "0xc0000bbb": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L267"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_CONFIG_ERROR."
+      },
+      "0xc0000bbe": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L276"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHERSVC_PERFMON."
+      },
+      "0xc0000bbf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L285"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHERER_PERFMON."
+      },
+      "0xc0000bc0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L294"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_HASHMAP_INSERT."
+      },
+      "0xc0000bc1": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L303"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_TRANSLOG_CREATE_TRX."
+      },
+      "0xc0000bc2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L312"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_TRANSLOG_APPEND."
+      },
+      "0xc0000bc3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L321"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_TRANSLOG_UPDATE."
+      },
+      "0xc0000bc5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L330"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_HASHMAP_UPDATE."
+      },
+      "0xc0000bc6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L339"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_EXCEPTION."
+      },
+      "0xc0000bc7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L348"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_TRANSACTION_READ."
+      },
+      "0x40000bca": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L357"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_END_CRAWL."
+      },
+      "0x40000bcb": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L366"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_START_CRAWL."
+      },
+      "0xc0000bcc": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L375"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_INTERNAL."
+      },
+      "0x80000bcf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L384"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRAWL_NOT_STARTED."
+      },
+      "0x80000bd0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L393"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRAWL_SEED_ERROR."
+      },
+      "0xc0000bd1": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L402"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRITICAL_ERROR."
+      },
+      "0xc0000bd2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L411"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_ADVISE_FAILED."
+      },
+      "0xc0000bd3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L420"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_TRANSACTION_FAIL."
+      },
+      "0xc0000bd4": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L429"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_OBJ_INIT_FAILED."
+      },
+      "0xc0000bd5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L438"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_PLUGIN_INIT_FAILED."
+      },
+      "0xc0000bd6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L447"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_SERVICE_INIT."
+      },
+      "0xc0000bd7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L456"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CANT_CREATE_DOCID."
+      },
+      "0xc0000bd8": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L465"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CANT_DELETE_DOCID."
+      },
+      "0xc0000bd9": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L474"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_TRANSLOG_CREATE."
+      },
+      "0xc0000bda": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L483"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_REG_VERSION."
+      },
+      "0x80000bdc": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L492"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRAWL_SEED_FAILED."
+      },
+      "0x80000bdd": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L501"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRAWL_SEED_FAILED_INIT."
+      },
+      "0x80000bde": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L510"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_REG_MISSING."
+      },
+      "0x80000bdf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L519"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CRAWL_IN_PROGRESS."
+      },
+      "0xc0000be0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L528"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_LOCK_FAILED."
+      },
+      "0x40000be1": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L537"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESET_START."
+      },
+      "0x80000be2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L546"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_START_PAUSE."
+      },
+      "0x40000be3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L555"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_THROTTLE."
+      },
+      "0x40000be4": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L564"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESUME."
+      },
+      "0x80000be5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L573"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_AUTODESCLEN_ADJUSTED."
+      },
+      "0x80000be6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L582"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_NO_CRAWL_SEEDS."
+      },
+      "0x40000be7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L591"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_END_INCREMENTAL."
+      },
+      "0xc0000be8": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L600"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_FROM_NOT_SET."
+      },
+      "0xc0000bea": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L609"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_DELETING_HISTORY_ITEMS."
+      },
+      "0x40000bec": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L618"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_STOP_START."
+      },
+      "0x80000bed": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L627"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_START_CRAWL_IF_RESET."
+      },
+      "0x80000bee": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L636"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_DISK_FULL."
+      },
+      "0x80000bef": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L645"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_NO_SCHEMA."
+      },
+      "0x80000bf0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L654"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_AUTODESCENCODE_INVALID."
+      },
+      "0xc0000bf1": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L663"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_PLUGINMGR_INIT_FAILED."
+      },
+      "0xc0000bf2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L672"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_APP_INIT_FAILED."
+      },
+      "0xc0000bf3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L681"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FAILED_INITIALIZE_CRAWL."
+      },
+      "0x40000bf4": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L690"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_CRAWL_SCHEDULED."
+      },
+      "0x80000bf5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L699"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FAILED_CREATE_GATHERER_LOG."
+      },
+      "0x80000bf6": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L708"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_WBREAKER_NOT_LOADED."
+      },
+      "0x80000bf7": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L717"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LEARN_PROPAGATION_COPY_FAILED."
+      },
+      "0x80000bf8": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L726"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LEARN_CREATE_DB_FAILED."
+      },
+      "0x80000bf9": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L735"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LEARN_COMPILE_FAILED."
+      },
+      "0x80000bfa": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L744"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LEARN_PROPAGATION_FAILED."
+      },
+      "0x40000bfb": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L753"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_END_ADAPTIVE."
+      },
+      "0x80000bfc": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L762"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_USING_DIFFERENT_WORD_BREAKER."
+      },
+      "0xc0000bfe": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L782"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESTORE_ERROR."
+      },
+      "0xc0000bff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L792"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_AUTOCAT_PERFMON."
+      },
+      "0x80000c00": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L802"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_DIRTY_STARTUP."
+      },
+      "0x80000c01": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L812"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_HISTORY_CORRUPTION_DETECTED."
+      },
+      "0xc0000c02": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L822"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESTOREAPP_ERROR."
+      },
+      "0x00000c03": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L832"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESTOREAPP_COMPLETE."
+      },
+      "0xc0000c04": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L842"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_BACKUPAPP_ERROR."
+      },
+      "0x00000c05": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L852"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_BACKUPAPP_COMPLETE."
+      },
+      "0x80000c06": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L862"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_DAEMON_TERMINATED."
+      },
+      "0xc0000c07": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L872"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_NOTIFICATION_FAILURE."
+      },
+      "0x80000c08": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L882"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_NOTIFICATION_FAILURE_SCOPE_EXCEEDED_LOGGING."
+      },
+      "0x40000c09": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L892"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_NOTIFICATION_RESTORED."
+      },
+      "0x80000c0a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L902"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_NOTIFICATION_RESTORED_SCOPE_EXCEEDED_LOGGING."
+      },
+      "0x80000c0e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L938"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_SYSTEM_LCID_CHANGED."
+      },
+      "0xc0000c11": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L965"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_SAVE_FAILED."
+      },
+      "0xc0000c12": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L974"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RESTORE_CHECKPOINT_FAILED."
+      },
+      "0xc0000c13": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L983"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_READ_CHECKPOINT_FAILED."
+      },
+      "0xc0000c14": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L992"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CHECKPOINT_CORRUPT."
+      },
+      "0xc0000c15": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1001"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_CHECKPOINT_FILE_MISSING."
+      },
+      "0x80000c16": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1010"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_STS_INIT_SECURITY_FAILED."
+      },
+      "0x40000c17": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1019"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LOCAL_GROUP_NOT_EXPANDED."
+      },
+      "0x40000c18": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1028"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_LOCAL_GROUPS_CACHE_FLUSHED."
+      },
+      "0xc0000c19": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1037"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHERER_DATASOURCE."
+      },
+      "0xc0000c1a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1046"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_AUTOCAT_CANT_CREATE_FILE_SHARE."
+      },
+      "0xc0000c1b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1055"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_NOTIFICATION_THREAD_EXIT_FAILED."
+      },
+      "0xc0000c1c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1064"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FILTER_HOST_NOT_INITIALIZED."
+      },
+      "0xc0000c1d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1073"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FILTER_HOST_NOT_TERMINATED."
+      },
+      "0xc0000c1e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1082"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FILTERPOOL_ADD_FAILED."
+      },
+      "0xc0000c1f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1091"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FILTERPOOL_DELETE_FAILED."
+      },
+      "0xc0000c20": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1100"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_ENUMERATE_SESSIONS_FAILED."
+      },
+      "0xc0000c21": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1109"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_DETAILED_FILTERPOOL_ADD_FAILED."
+      },
+      "0xc0000e11": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1118"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_AUDIENCECOMPUTATION_CANNOTSTART."
+      },
+      "0xc0000e12": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1127"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_RECOVERY_FAILURE."
+      },
+      "0x40000e13": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1136"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_GATHER_INPLACE_INDEX_REBUILD."
+      },
+      "0x40001b58": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1145"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_STARTED."
+      },
+      "0xc0001b59": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1154"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_SCHEMA_COPY_ERROR."
+      },
+      "0xc0001b62": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1163"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_INIT_ERROR."
+      },
+      "0xc0001b63": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1172"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_INVALID_DIRECTORY."
+      },
+      "0xc0001b64": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1181"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_ERROR."
+      },
+      "0xc0001b65": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1190"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PAUSED_FOR_DISKFULL."
+      },
+      "0x80001b67": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1199"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_STOPPED."
+      },
+      "0x40001b69": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1217"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_STARTED."
+      },
+      "0x80001b6a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1226"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_NO_SEARCH_SERVERS."
+      },
+      "0x00001b6b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1235"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_ADD_DSS_SUCCEEDED."
+      },
+      "0x00001b6c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1244"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_REMOVE_DSS_SUCCEEDED."
+      },
+      "0x80001b6d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1253"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_ADD_DSS_FAILED."
+      },
+      "0xc0001b6f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1262"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_REMOVE_DSS_FAILED."
+      },
+      "0xc0001b70": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1271"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_DSS_CONTACT_FAILED."
+      },
+      "0xc0001b73": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1280"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_BUILD_FAILED."
+      },
+      "0xc0001b74": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1289"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_REG_MISSING."
+      },
+      "0xc0001b7d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1298"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROPSTORE_INIT_FAILED."
+      },
+      "0xc0001b7f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1307"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_CI_LOAD_ERROR."
+      },
+      "0xc0001b80": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1316"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_RESET_FOR_CORRUPTION."
+      },
+      "0x40001b82": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1325"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_SHUTDOWN."
+      },
+      "0xc0001b83": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1334"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_LOAD_FAIL."
+      },
+      "0xc0001b84": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1343"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_STATE_CORRUPT."
+      },
+      "0x40001b86": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1352"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_DSS_ALREADY_ADDED."
+      },
+      "0x40001b88": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1361"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_BUILD_START."
+      },
+      "0x40001b89": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1370"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_BUILD_ENDED."
+      },
+      "0xc0001b90": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1379"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_VERIFY_PROP_ACCOUNT."
+      },
+      "0x80001b97": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1388"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_ADD_DSS_DISCONNECT."
+      },
+      "0xc0001b98": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1397"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PERFMON."
+      },
+      "0xc0001b9a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1406"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_MISSING_APP_DIRECTORY."
+      },
+      "0xc0001b9c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1415"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_REG_ERROR."
+      },
+      "0xc0001b9d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1424"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_DSS_UNABLE_TO_REMOVE."
+      },
+      "0xc0001b9e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1434"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_NEW_PROJECT."
+      },
+      "0xc0001b9f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1444"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_REMOVED_PROJECT."
+      },
+      "0x40001ba2": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1453"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_COMMITTED."
+      },
+      "0x40001ba3": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1462"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_ABORTED."
+      },
+      "0x80001ba4": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1471"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_DSS_NOT_ENABLED."
+      },
+      "0xc0001ba5": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1480"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_PROP_COMMIT_FAILED."
+      },
+      "0x8000271d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1526"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_WARNING_CANNOT_UPGRADE_NOISE_FILES."
+      },
+      "0x8000271e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1536"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_WARNING_CANNOT_UPGRADE_NOISE_FILE."
+      },
+      "0x8000271f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1547"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_WIN32_ERROR."
+      },
+      "0x80002724": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1557"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_PERF_COUNTERS_NOT_LOADED."
+      },
+      "0x80002725": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1567"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_PERF_COUNTERS_REGISTRY_TROUBLE."
+      },
+      "0x80002726": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1577"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_PERF_COUNTERS_ALREADY_EXISTS."
+      },
+      "0x80002727": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1586"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_PROTOCOL_HOST_FORCE_TERMINATE."
+      },
+      "0x80002728": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1595"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_FILTER_HOST_FORCE_TERMINATE."
+      },
+      "0xc0002729": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1604"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_OUT_OF_DATABASE_INSTANCE."
+      },
+      "0xc000272a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1613"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_FAIL_TO_SET_MAX_JETINSTANCE."
+      },
+      "0xc000272b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1622"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_FAIL_TO_CREATE_PER_USER_CATALOG."
+      },
+      "0xc000272c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L1631"
+        ],
+        "note": "Windows Search header defines EVENT_* values as event-log message identifiers, not API return error codes. Symbols: EVENT_INDEXER_FAIL_TO_UNLOAD_PER_USER_CATALOG."
+      },
+      "0x00032000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1715"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMethodCalled."
+      },
+      "0x00032001": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1725"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMethodReturning."
+      },
+      "0xc0032002": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1735"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtIsAborting."
+      },
+      "0x00032003": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1745"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionInitialized."
+      },
+      "0x00032004": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1755"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionUnInitialized."
+      },
+      "0xc0032005": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1765"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionInitializeFailed."
+      },
+      "0xc0032006": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1775"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionRegisterFailed."
+      },
+      "0xc0032007": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1785"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionMessageSaveChangesFailed."
+      },
+      "0xc0032008": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1795"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionMessageDeleteFailed."
+      },
+      "0xc0032009": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1805"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionFolderSaveChangesFailed."
+      },
+      "0x8003200a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1815"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionTooManyInstancesPerDay."
+      },
+      "0xc003200b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1825"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMailboxCreateTotalFailure."
+      },
+      "0xc003200c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1835"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMailboxCreatePartialFailure."
+      },
+      "0xc003200d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1845"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUninitImplRestFailed."
+      },
+      "0xc003200e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1855"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandSavingAppt."
+      },
+      "0xc003200f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1865"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandDeletingAppt."
+      },
+      "0xc0032010": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1875"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandQuery."
+      },
+      "0xc0032011": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1885"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandFolderSetProps."
+      },
+      "0xc0032012": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1895"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtRegistryFailure."
+      },
+      "0xc0032013": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1905"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpStat."
+      },
+      "0xc0032014": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1915"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtDumpFcn."
+      },
+      "0xc0032015": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1925"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtSaveDeleteFailFBUpdate."
+      },
+      "0xc0032016": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1935"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtProcessingQueryCallback."
+      },
+      "0xc0032017": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1945"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMailboxLocalizeTotalFailure."
+      },
+      "0xc0032018": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1955"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMailboxLocalizePartialFailure."
+      },
+      "0xc0032019": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1965"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandMaster."
+      },
+      "0xc003201a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1975"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionInit."
+      },
+      "0xc003201b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1987"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtFBGenerateMsg."
+      },
+      "0x8003201c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L1998"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpansionInstExpiryInPublicMDB."
+      },
+      "0xc003201d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2008"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionInitialization."
+      },
+      "0xc003201e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2018"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionShutdown."
+      },
+      "0xc003201f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2028"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionInitializationMDB."
+      },
+      "0xc0032020": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2038"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionShutdownMDB."
+      },
+      "0xc0032021": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2048"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionMsgSaveChanges."
+      },
+      "0xc0032022": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2058"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionDelete."
+      },
+      "0xc0032023": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2068"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionQuery."
+      },
+      "0xc0032024": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2078"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtUnhandledExceptionFolderSaveChanges."
+      },
+      "0xc0032025": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2088"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtCorruptedCalendar."
+      },
+      "0x80032026": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2098"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtRebuildCalendar."
+      },
+      "0x80032027": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2108"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtCheckPrimaryCalendar."
+      },
+      "0xc0032028": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2118"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtExpandMasterPF."
+      },
+      "0xc0032029": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2128"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtCorruptedPFCalendar."
+      },
+      "0x8003202a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2138"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtRebuildPFCalendar."
+      },
+      "0x8003202b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2148"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtMovingMailboxCallbackFailed."
+      },
+      "0x8003202c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2159"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtGetMsgClassFromMaster."
+      },
+      "0x8003202d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2171"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtOpenURL."
+      },
+      "0x4003202e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2181"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtStatusMsgSent."
+      },
+      "0xc003202f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2191"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtSaveInvalidStartAppt."
+      },
+      "0x80032030": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2201"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtSaveInvalidEndAppt."
+      },
+      "0x80032031": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2211"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtModifyInvalidAppt."
+      },
+      "0x80032032": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2221"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtDeleteInvalidAppt."
+      },
+      "0xc0032033": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2231"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBindToInvalidStartAppt."
+      },
+      "0x80032034": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2241"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBindToInvalidEndAppt."
+      },
+      "0x40032035": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2251"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtReloadLogType."
+      },
+      "0x40032036": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2261"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundStarted."
+      },
+      "0x80032037": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2272"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundStartFailed."
+      },
+      "0x40032038": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2282"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundProcessing."
+      },
+      "0x40032039": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2292"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundProcessingNoCals."
+      },
+      "0x4003203a": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2302"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundProcessingFinished."
+      },
+      "0x4003203b": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2312"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundAwakeDueToShutdown."
+      },
+      "0x4003203c": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2322"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundAwake."
+      },
+      "0x4003203d": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2332"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundTerminating."
+      },
+      "0xc003203e": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2343"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundRegisterTaskFailed."
+      },
+      "0xc003203f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2355"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundLogonFailed."
+      },
+      "0xc0032040": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2367"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundGetMachineToken."
+      },
+      "0x40032041": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2377"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundSleepUntilNewCal."
+      },
+      "0x40032042": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2387"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBackgroundQueued."
+      },
+      "0xc0032043": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2397"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtBkExpDumpFcn."
+      },
+      "0x80032044": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2407"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtSaveDurationTooLong."
+      },
+      "0x80032045": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2417"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtModifyDurationTooLong."
+      },
+      "0x80032046": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2427"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtDeleteDurationTooLong."
+      },
+      "0x80032047": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2437"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtTooManyIterationsForQuery."
+      },
+      "0x80032048": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/CDOSysErr.h#L2447"
+        ],
+        "note": "CDOSysErr.h is a CDO message file; this symbol is an event/message identifier, not an API return error code. Symbols: evtTooManyIterationsForFreebusy."
+      },
+      "0x80420000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L49",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L51"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_EAPHOST_FIRST, EAP_I_EAPHOST_FIRST."
+      },
+      "0x804200ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L50",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L52"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_EAPHOST_LAST, EAP_I_EAPHOST_LAST."
+      },
+      "0x804201ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L92"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_USER_LAST."
+      },
+      "0x40420100": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L93"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_I_USER_FIRST."
+      },
+      "0x404201ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L94"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_I_USER_LAST."
+      },
+      "0x804202ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L128"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_SERVER_LAST."
+      },
+      "0x804203ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L147"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_USER_ROOT_CERT_LAST."
+      },
+      "0x804204ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/EapHostError.h#L160"
+        ],
+        "note": "EAP FIRST/LAST constant marks a reserved HRESULT range boundary, not an individual error. Symbols: EAP_E_SERVER_ROOT_CERT_LAST."
+      },
+      "0xc004c600": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/slerror.h#L918"
+        ],
+        "note": "FIRST/LAST constant marks the end of a licensing error-code range, not an individual error. Symbols: SL_E_NON_GENUINE_STATUS_LAST."
+      },
+      "0x800400ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31289"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: OLE_E_LAST."
+      },
+      "0x000400ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31291"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: OLE_S_LAST."
+      },
+      "0x0004010f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31560"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: DRAGDROP_S_LAST."
+      },
+      "0x00040110": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31599"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLASSFACTORY_S_FIRST."
+      },
+      "0x0004011f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31600"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLASSFACTORY_S_LAST."
+      },
+      "0x8004012f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31629"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: MARSHAL_E_LAST."
+      },
+      "0x00040120": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31630"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: MARSHAL_S_FIRST."
+      },
+      "0x0004012f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31631"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: MARSHAL_S_LAST."
+      },
+      "0x80040130": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31632"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: DATA_E_FIRST."
+      },
+      "0x8004013f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31633"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: DATA_E_LAST."
+      },
+      "0x0004013f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31635"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: DATA_S_LAST."
+      },
+      "0x8004014f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31637"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: VIEW_E_LAST."
+      },
+      "0x0004014f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31639"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: VIEW_S_LAST."
+      },
+      "0x8004015f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31650"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: REGDB_E_LAST."
+      },
+      "0x00040150": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31651"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: REGDB_S_FIRST."
+      },
+      "0x0004015f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31652"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: REGDB_S_LAST."
+      },
+      "0x8004017f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31861"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CACHE_E_LAST."
+      },
+      "0x0004017f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31863"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CACHE_S_LAST."
+      },
+      "0x8004018f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31874"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: OLEOBJ_E_LAST."
+      },
+      "0x0004018f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31876"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: OLEOBJ_S_LAST."
+      },
+      "0x80040190": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31895"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIENTSITE_E_FIRST."
+      },
+      "0x8004019f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31896"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIENTSITE_E_LAST."
+      },
+      "0x00040190": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31897"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIENTSITE_S_FIRST."
+      },
+      "0x0004019f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31898"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIENTSITE_S_LAST."
+      },
+      "0x800401af": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31918"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: INPLACE_E_LAST."
+      },
+      "0x000401af": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31920"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: INPLACE_S_LAST."
+      },
+      "0x800401b0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31921"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: ENUM_E_FIRST."
+      },
+      "0x800401bf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31922"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: ENUM_E_LAST."
+      },
+      "0x000401b0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31923"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: ENUM_S_FIRST."
+      },
+      "0x000401bf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31924"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: ENUM_S_LAST."
+      },
+      "0x800401cf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31926"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CONVERT10_E_LAST."
+      },
+      "0x000401cf": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L31928"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CONVERT10_S_LAST."
+      },
+      "0x800401df": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32002"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIPBRD_E_LAST."
+      },
+      "0x000401d0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32003"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIPBRD_S_FIRST."
+      },
+      "0x000401df": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32004"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CLIPBRD_S_LAST."
+      },
+      "0x000401e0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32052"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: MK_S_FIRST."
+      },
+      "0x000401ef": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32053"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: MK_S_LAST."
+      },
+      "0x000401f0": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32200"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CO_S_FIRST."
+      },
+      "0x000401ff": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32201"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CO_S_LAST."
+      },
+      "0x0004021f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L32349"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: EVENT_S_LAST."
+      },
+      "0x8004e000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33416"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CONTEXT_E_FIRST."
+      },
+      "0x0004e000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33418"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CONTEXT_S_FIRST."
+      },
+      "0x0004e02f": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/winerror.h#L33419"
+        ],
+        "note": "HRESULT FIRST/LAST constant is a range boundary, not an individual error code. Symbols: CONTEXT_S_LAST."
+      },
+      "0x00001000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L34"
+        ],
+        "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: PDERR_PRINTERCODES."
+      },
+      "0x00002000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L48"
+        ],
+        "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: CFERR_CHOOSEFONTCODES."
+      },
+      "0x00003000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L52"
+        ],
+        "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: FNERR_FILENAMECODES."
+      },
+      "0x00004000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L57"
+        ],
+        "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: FRERR_FINDREPLACECODES."
+      },
+      "0x00005000": {
+        "status": "excluded",
+        "reviewed_at": "2026-11-21",
+        "sources": [
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/cderr.h#L60"
+        ],
+        "note": "Common-dialog CODES constant marks a range of extended-error values; it is not an individual error. Symbols: CCERR_CHOOSECOLORCODES."
       }
     }
   },
