@@ -148635,193 +148635,515 @@
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L35"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L35",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/understanding-router-management-functions"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ROUTER_STOPPED=0x00000384 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ROUTER_STOPPED=0x00000384 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"900\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000385": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L40"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L40",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/ns-mprapi-mpr_interface_0"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALREADY_CONNECTED=0x00000385 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALREADY_CONNECTED=0x00000385 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"901\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000386": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L45"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L45",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UNKNOWN_PROTOCOL_ID=0x00000386 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UNKNOWN_PROTOCOL_ID=0x00000386 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"902\" \"router\" \"Windows\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000387": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L50"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L50",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacecreate",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradminportenum"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DDM_NOT_RUNNING=0x00000387 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_DDM_NOT_RUNNING=0x00000387 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"903\" \"Demand\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Microsoft documents both DDM stopped and DIM LAN-only/type mismatch depending on API. No invented standalone DDM Windows service or universal startup recipe."
+        }
       },
       "0x00000388": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L55"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L55",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacecreate",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegethandle"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_ALREADY_EXISTS=0x00000388 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_ALREADY_EXISTS=0x00000388 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"904\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000389": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L60"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L60",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegethandle",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_SUCH_INTERFACE=0x00000389 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_SUCH_INTERFACE=0x00000389 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"905\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "GetHandle name/client-interface filtering and UpdateRoutes transport-not-running meanings are kept separate; same numeric code does not imply identical repair."
+        }
       },
       "0x0000038a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L65"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L65",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/ns-mprapi-mpr_interface_0"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_NOT_CONNECTED=0x0000038A сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_NOT_CONNECTED=0x0000038A сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"906\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000038b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L70"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L70",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_STOP_PENDING=0x0000038B сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PROTOCOL_STOP_PENDING=0x0000038B сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"907\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000038c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L75"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L75",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_CONNECTED=0x0000038C сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_CONNECTED=0x0000038C сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"908\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000038d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L80"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L80",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacesetcredentials",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_INTERFACE_CREDENTIALS_SET=0x0000038D сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_INTERFACE_CREDENTIALS_SET=0x0000038D сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"909\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000038e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L85"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L85",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALREADY_CONNECTING=0x0000038E сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_ALREADY_CONNECTING=0x0000038E сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"910\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000038f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L90"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L90",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceupdateroutes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UPDATE_IN_PROGRESS=0x0000038F сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_UPDATE_IN_PROGRESS=0x0000038F сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"911\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000390": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L95"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L95",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_CONFIGURATION=0x00000390 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_CONFIGURATION=0x00000390 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"912\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000391": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L100"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L100",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/remote/remote-access/get-started-install-ras-as-vpn"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_CLIENT_PORT=0x00000391 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_CLIENT_PORT=0x00000391 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional port-role procedure from the modern RRAS setup guide, limited to Server 2016/2019/2022/2025; no UI compatibility proof for Server 2000/2003.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"913\" \"VPN\" \"port\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Port role check is derived from the exact-code cause and documented RRAS controls. No exact-code forum success found. Does not turn the IKEv2-only tutorial into a recommendation to disable all other protocols."
+        }
       },
       "0x00000392": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L105"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L105",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/remote/remote-access/get-started-install-ras-as-vpn"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_ROUTER_PORT=0x00000392 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NOT_ROUTER_PORT=0x00000392 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Conditional port-role procedure from the modern RRAS setup guide, limited to Server 2016/2019/2022/2025; no UI compatibility proof for Server 2000/2003.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"914\" \"demand dial\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Port role check is derived from the exact-code cause and documented RRAS controls. No exact-code forum success found. Does not turn the IKEv2-only tutorial into a recommendation to disable all other protocols."
+        }
       },
       "0x00000393": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L110"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L110",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegethandle"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_CLIENT_INTERFACE_ALREADY_EXISTS=0x00000393 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_CLIENT_INTERFACE_ALREADY_EXISTS=0x00000393 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"915\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000394": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L115"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L115",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfaceconnect",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacegetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/ns-mprapi-mpr_interface_0",
+          "https://learn.microsoft.com/en-us/windows/win32/api/mprapi/nf-mprapi-mpradmininterfacesetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/understanding-router-management-functions"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_DISABLED=0x00000394 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_INTERFACE_DISABLED=0x00000394 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Server-side MprAdmin API documentation lists Windows 2000 Server minimum and no supported client. This does not imply that a desktop VPN client cannot display the server error. Structure level 0 used for legacy diagnostics; level 3 requires Server 2008+.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"916\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000395": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L120"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L120",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_PROTOCOL_REJECTED=0x00000395 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_AUTH_PROTOCOL_REJECTED=0x00000395 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"917\" \"authentication\" \"VPN\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000396": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L125"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L125",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_AUTH_PROTOCOL_AVAILABLE=0x00000396 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_NO_AUTH_PROTOCOL_AVAILABLE=0x00000396 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"918\" \"authentication\" \"VPN\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000397": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L130"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L130",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://community.cisco.com/t5/protecting-applications/bd-p/disc-duo-applications/page/86"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEER_REFUSED_AUTH=0x00000397 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_PEER_REFUSED_AUTH=0x00000397 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "Cisco_thread_indexed_full_thread_and_outcome_unverified",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"919\" \"authentication\" \"VPN\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"Error 919\" \"duo\" \"RRAS\"",
+            "\"Error 919 whe usig duo proxy with RRAS\""
+          ],
+          "note": "Search index matches Server 2012 R2 RRAS/NPS/Duo with exact 919, but current paginated index differs. No reply contents, protocol downgrade, or success inferred from that index."
+        }
       },
       "0x00000398": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L135"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L135",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/networking/technologies/nps/nps-np-access"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_NO_DIALIN_PERMISSION=0x00000398 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_NO_DIALIN_PERMISSION=0x00000398 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"920\" \"VPN\" \"permission\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x00000399": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L140"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L140",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_PASSWD_EXPIRED=0x00000399 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_PASSWD_EXPIRED=0x00000399 сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"921\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Pinned SDK and Microsoft error table use remote account expired despite PASSWD in symbol. No unsupported universal password-reset recommendation; exact authentication cause requires follow-up."
+        }
       },
       "0x0000039a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L145"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L145",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_ACCT_DISABLED=0x0000039A сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_ACCT_DISABLED=0x0000039A сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"922\" \"VPN\" \"account\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000039b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L150"
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/MprError.h#L150",
+          "https://learn.microsoft.com/en-us/windows/win32/rras/routing-and-remote-access-error-codes"
         ],
-        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_RESTRICTED_LOGON_HOURS=0x0000039B сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан."
+        "note": "Код проверен по закреплённому Microsoft Windows SDK. ERROR_REMOTE_RESTRICTED_LOGON_HOURS=0x0000039B сверено с MprError.h (Microsoft SDK). Контекст: MPR/router. Минимальный выпуск Windows этим заголовком не указан.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "RRAS/MPR-specific condition, including legacy server use. Administrative APIs and modern RRAS UI procedures have separate applicability.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"923\" \"VPN\" \"hours\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass. Documented causes and API constraints are not represented as forum-confirmed repairs. No generic Windows/network reset introduced."
+        }
       },
       "0x0000039c": {
         "status": "reviewed",
