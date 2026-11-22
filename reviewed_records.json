@@ -167886,322 +167886,812 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L126",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_LineTooLong\" OR \"0x00000865\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "unresolved_context": "Microsoft message does not identify the exact config filename, grammar, path, or maximum length/name; no such value invented."
+        }
       },
       "0x00000866": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L132",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L133",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/enumjobs",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/addprinter"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "user_reported_workaround",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "exact_code_case_and_suggested_workaround_found; no documented successful outcome",
+          "reddit_result": "No exact-symbol Reddit repair found; exact-code Microsoft Q&A thread has an unconfirmed/unsuccessful LPT1 workaround.",
+          "search_queries": [
+            "\"NERR_QNotFound\" OR \"0x00000866\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "sources_not_used": [
+            {
+              "url": "https://learn.microsoft.com/en-us/answers/questions/2467846/windows-cannot-connect-to-printer-operation-failed",
+              "reason": "Accepted answer concerns Windows printer troubleshooting and links a separate Vista error 0x0000000D; it does not document a confirmed fix for NERR_QNotFound 0x00000866."
+            }
+          ],
+          "forum_case": {
+            "url": "https://learn.microsoft.com/en-us/answers/questions/2655709/from-win-7-pro-trying-to-print-via-a-networked-pri",
+            "os": "Windows 7 Professional client to Windows 98 printer host",
+            "reported_workaround": "Local printer on LPT1, then elevated net use LPT1: \\\\computername\\printersharename /persistent:yes",
+            "reported_outcome": "The thread author reported System error 66 and subsequent loss of network visibility after the shown attempt; no successful corrected retry is documented."
+          }
+        }
       },
       "0x00000867": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L134",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/enumjobs",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/setjob"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_JobNotFound\" OR \"0x00000867\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000868": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L135",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestNotFound\" OR \"0x00000868\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000869": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L136",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestExists\" OR \"0x00000869\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L137",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/addprinter"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_QExists\" OR \"0x0000086A\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L138",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_QNoRoom\" OR \"0x0000086B\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L139",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/enumjobs"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_JobNoRoom\" OR \"0x0000086C\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L140",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestNoRoom\" OR \"0x0000086D\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L141",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestIdle\" OR \"0x0000086E\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x0000086f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L142",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestInvalidOp\" OR \"0x0000086F\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000870": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L143",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/print-processor",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/printing/print-spooler-service-not-running"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ProcNoRespond\" OR \"0x00000870\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000871": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L144",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/printing/print-spooler-service-not-running",
+          "https://support.microsoft.com/en-us/windows/hardware/printer/fix-print-job-stuck-in-queue-errors-in-windows"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_community_success; Microsoft procedure for stopped Print Spooler found",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_SpoolerNotLoaded\" OR \"0x00000871\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "procedure_scope": "Windows 10/11 and supported Windows Server in cited Microsoft guidance; verify the stopped service on the print-hosting node. Older releases require their own supported procedure."
+        }
       },
       "0x00000872": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L145",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DestInvalidState\" OR \"0x00000872\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000873": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L146",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_QInvalidState\" OR \"0x00000873\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000874": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L147",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/enumjobs",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/setjob"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_JobInvalidState\" OR \"0x00000874\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000875": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L148",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/printing/print-spooler-service-not-running"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_SpoolNoMemory\" OR \"0x00000875\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000876": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L149",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://support.microsoft.com/en-us/windows/hardware/printer/fix-printer-connection-and-printing-problems-in-windows",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printer-driver-installation-reference"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DriverNotFound\" OR \"0x00000876\" Microsoft Q&A Reddit printer; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "procedure_scope": "The cited Microsoft Support steps cover Windows 10/11; for older Windows, use only the printer maker package published for that exact OS and architecture."
+        }
       },
       "0x00000877": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L150",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/print-processor",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printing-and-spooler-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_DataTypeInvalid\" OR \"0x00000877\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "procedure_scope": "Developer/print-server diagnostics based on Microsoft Print Spooler APIs; functions list Windows 2000 Professional/Server desktop apps as minimum where specified."
+        }
       },
       "0x00000878": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L151",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/print-processor",
+          "https://learn.microsoft.com/en-us/windows/win32/printdocs/printer-driver-installation-reference"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ProcNotFound\" OR \"0x00000878\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "procedure_scope": "Developer/print-server diagnostics based on Microsoft Print Spooler APIs; functions list Windows 2000 Professional/Server desktop apps as minimum where specified."
+        }
       },
       "0x00000884": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L157",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L158",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceTableLocked\" OR \"0x00000884\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000885": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L159",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceTableFull\" OR \"0x00000885\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000886": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L160",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceInstalled\" OR \"0x00000886\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000887": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L161",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceEntryLocked\" OR \"0x00000887\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000888": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L162",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://jpwinsup.github.io/blog/2021/11/30/FileServices/SMB/BrowserEventId8021/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_community_success; scoped Microsoft Japan support procedure found",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceNotInstalled\" OR \"0x00000888\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API.",
+          "procedure_scope": "Only Windows Server 2016/2019/2022 with System/BROWSER Event 8021 returning 0x888 from the master browser and Browser/LanmanServer split across svchost processes. The 2024 note adds SvcHostSplitThresholdInKB only if RAM is at least 3.5 GB."
+        }
       },
       "0x00000889": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L163",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_BadServiceName\" OR \"0x00000889\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x0000088a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L164",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceCtlTimeout\" OR \"0x0000088A\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x0000088b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L165",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceCtlBusy\" OR \"0x0000088B\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x0000088c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L166",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_BadServiceProgName\" OR \"0x0000088C\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API.",
+          "unresolved_context": "Microsoft message does not identify the exact config filename, grammar, path, or maximum length/name; no such value invented."
+        }
       },
       "0x0000088d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L167",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceNotCtrl\" OR \"0x0000088D\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x0000088e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L168",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceKillProc\" OR \"0x0000088E\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x0000088f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L169",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceCtlNotValid\" OR \"0x0000088F\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000890": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L170",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_NotInDispatchTbl\" OR \"0x00000890\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000891": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L171",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_BadControlRecv\" OR \"0x00000891\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000892": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L172",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/netservicecontrol",
+          "https://learn.microsoft.com/en-us/windows/win32/services/service-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_ServiceNotStarting\" OR \"0x00000892\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair.",
+          "legacy_api_scope": "Microsoft marks NetServiceControl obsolete and retained for 16-bit compatibility; use this note only if the recorded code came from the corresponding legacy Network Management service API."
+        }
       },
       "0x00000898": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L178",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L179"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Windows Network Management NERR namespace; numeric matches from other subsystems excluded. Legacy/API applicability is distinct from user-facing OS compatibility.",
+          "forum_result": "no_verified_exact_code_community_success",
+          "reddit_result": "No verified successful thread for the exact NERR symbol/value found in reviewed results.",
+          "search_queries": [
+            "\"NERR_AlreadyLoggedOn\" OR \"0x00000898\" Microsoft Q&A Reddit; exact symbol/value search with Microsoft Q&A and Reddit context"
+          ],
+          "note": "Code meaning checked independently against the pinned Microsoft SDK lmerr.h and Microsoft Network Management Error Codes. Do not present diagnosis, adjacent error codes, or a suggestion without successful outcome as a verified repair."
+        }
       },
       "0x00000899": {
         "status": "reviewed",
