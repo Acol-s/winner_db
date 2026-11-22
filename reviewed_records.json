@@ -170856,183 +170856,190 @@
       },
       "0x00000a43": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L526",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение сверены с Microsoft Learn. Руководство RPL подтверждает структуру базы и резервное копирование, но не универсальную починку этой записи. Точный успешный форумный/Reddit-кейс не найден."
       },
       "0x00000a44": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L527",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft Learn подтверждает код; руководство и архивная статья Microsoft объясняют модель RPL. Точный успешный форумный/Reddit-кейс или универсальный рецепт не найден."
       },
       "0x00000a45": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L528",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Процедура Fix Security описана в руководстве Microsoft для RPL. Она не переносится на WDS/PXE или современные Windows."
       },
       "0x00000a46": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L529",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Пошаговая процедура и побочный эффект Fix Security взяты из руководства Microsoft по RPL."
       },
       "0x00000a47": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L530",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код подтверждён таблицей Microsoft; руководство подтверждает RPL-записи и резервное копирование. Точный успешный форумный/Reddit-кейс не найден."
       },
       "0x00000a48": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L531",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Смысл кода подтверждён Microsoft; критерии совместимости (ОС, архитектура/тип клиента и сетевой адаптер) подтверждены руководством RPL. Форумный успешный кейс не найден."
       },
       "0x00000a49": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L532",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Причина конфликта следует из определения Microsoft. Процедура сверки ограничена моделью RPL; подтверждённого решения на форуме/Reddit не найдено."
       },
       "0x00000a4a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L533",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сам факт использования профилями прямо указан Microsoft; шаги ограничены проверкой и штатным изменением зависимостей."
       },
       "0x00000a4b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L534",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сообщение Microsoft перечисляет использующие объекты. Это документированное ограничение, а не самостоятельная ошибка загрузки."
       },
       "0x00000a4c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L535",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает код и штатную операцию резервного копирования. Точный корень сбоя и подтверждённый пользовательский фикс не найдены."
       },
       "0x00000a4d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L536",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код подтверждён Microsoft; руководство подтверждает роль записей адаптера/производителя и резервное копирование. Форумный успешный кейс не найден."
       },
       "0x00000a4e": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L537",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код и смысл подтверждены Microsoft. Точный успешный пользовательский кейс или безопасная пошаговая операция восстановления не найдены."
       },
       "0x00000a4f": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L538",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Определение Microsoft указывает на занятое имя. Изменение ограничено уникальным именем через RPL Manager и проверкой ссылок."
       },
       "0x00000a50": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L539",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сообщение Microsoft прямо указывает занятую пару; шаги ограничены проверкой существующей записи и выбором корректной уникальной пары."
       },
       "0x00000a51": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L540",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Занятое имя подтверждено сообщением Microsoft; безопасные действия ограничены использованием существующей или уникальным именем с проверкой ссылок."
       },
       "0x00000a64": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L549",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/recovery-process-of-dfs-namespace",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код подтверждён Microsoft. Рекомендации DFS восстановления зависят от типа namespace и резервной копии; универсальный ремонт именно для кода не найден. Точного успешного форума/Reddit-кейса нет."
       },
       "0x00000a65": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L551",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/recovery-process-of-dfs-namespace",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает код и описывает разные пути DFS-восстановления. Без сведений о месте повреждения точный фикс подтвердить нельзя; конкретного успешного форумного/Reddit-кейса нет."
       },
       "0x00000a66": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L552",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft определяет ошибку как отсутствие DFS-имени для переданного пути. Для современных Server процедура создания описана отдельно; не переносить команды на неподдерживаемые версии."
       },
       "0x00000a67": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L553",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmdfs/nf-lmdfs-netdfsaddftroot",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код означает уже существующий корень/ссылку. Microsoft документирует, что NetDfsAddFtRoot добавляет target к существующему namespace; применимость зависит от типа namespace и версии."
       },
       "0x00000a68": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L554",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-dfs-namespace",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сообщение Microsoft прямо указывает, что share уже есть в DFS. Без данных среды нельзя безопасно советовать удаление/повторное добавление; конкретного успешного форума/Reddit-кейса не найдено."
       },
       "0x00000a69": {
         "status": "reviewed",

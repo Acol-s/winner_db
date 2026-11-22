@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "0887ff2bf11a819ed18047ce5ee311b152b823753eb32087849ecf6b77ea15f1",
+  "current_windows_sha256": "5d5ceebe526bc51f7e568759a9cf4195e3d2d18154d290682dd44c11d518bf64",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -4898,30 +4898,170 @@
       "forum_result": "no_usable_exact_code_success_case",
       "reddit_result": "no_usable_exact_code_success_case",
       "note": "Числовой смысл подтверждён Microsoft; точного подтверждённого forum/Reddit решения или универсального ремонта не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a43": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только legacy Windows NT Remoteboot; точная процедура восстановления повреждённой записи не подтверждена.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Символ и значение сверены с Microsoft Learn. Руководство RPL подтверждает структуру базы и резервное копирование, но не универсальную починку этой записи. Точный успешный форумный/Reddit-кейс не найден."
+    },
+    "0x00000a44": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только legacy Windows NT Remoteboot; универсальный ремонт записи не документирован.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft Learn подтверждает код; руководство и архивная статья Microsoft объясняют модель RPL. Точный успешный форумный/Reddit-кейс или универсальный рецепт не найден."
+    },
+    "0x00000a45": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Процедура только для Windows NT Server Remoteboot; Fix Security меняет ACL каталога RPL.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Процедура Fix Security описана в руководстве Microsoft для RPL. Она не переносится на WDS/PXE или современные Windows."
+    },
+    "0x00000a46": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только Windows NT Server Remoteboot; операция меняет ACL всего каталога RPL.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Пошаговая процедура и побочный эффект Fix Security взяты из руководства Microsoft по RPL."
+    },
+    "0x00000a47": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только legacy RPL; точные шаги восстановления пропавшей записи не подтверждены.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код подтверждён таблицей Microsoft; руководство подтверждает RPL-записи и резервное копирование. Точный успешный форумный/Reddit-кейс не найден."
+    },
+    "0x00000a48": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Ограничение профилей только для Windows NT Remoteboot; не относится к современным профилям Windows.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Смысл кода подтверждён Microsoft; критерии совместимости (ОС, архитектура/тип клиента и сетевой адаптер) подтверждены руководством RPL. Форумный успешный кейс не найден."
+    },
+    "0x00000a49": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт идентификаторов в базе Windows NT RPL; безопасный выбор записи зависит от конкретных клиентов.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Причина конфликта следует из определения Microsoft. Процедура сверки ограничена моделью RPL; подтверждённого решения на форуме/Reddit не найдено."
+    },
+    "0x00000a4a": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Зависимости конфигураций/профилей Windows NT RPL; не удаляйте используемую конфигурацию.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Сам факт использования профилями прямо указан Microsoft; шаги ограничены проверкой и штатным изменением зависимостей."
+    },
+    "0x00000a4b": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Зависимости объектов Windows NT RPL; код не указывает на повреждение загрузочного блока.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Сообщение Microsoft перечисляет использующие объекты. Это документированное ограничение, а не самостоятельная ошибка загрузки."
+    },
+    "0x00000a4c": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только Windows NT Remoteboot. Проверки места/прав — диагностика по симптомам, не найденное Microsoft универсальное исправление.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает код и штатную операцию резервного копирования. Точный корень сбоя и подтверждённый пользовательский фикс не найдены."
+    },
+    "0x00000a4d": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только Windows NT RPL; точный мастер восстановления записи не подтверждён.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код подтверждён Microsoft; руководство подтверждает роль записей адаптера/производителя и резервное копирование. Форумный успешный кейс не найден."
+    },
+    "0x00000a4e": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Только Windows NT RPL; универсальная процедура добавления записи не установлена.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код и смысл подтверждены Microsoft. Точный успешный пользовательский кейс или безопасная пошаговая операция восстановления не найдены."
+    },
+    "0x00000a4f": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт имён в базе Windows NT RPL; не означает неисправность адаптера.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Определение Microsoft указывает на занятое имя. Изменение ограничено уникальным именем через RPL Manager и проверкой ссылок."
+    },
+    "0x00000a50": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Уникальность пары BootName/Vendor ID в Windows NT RPL.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Сообщение Microsoft прямо указывает занятую пару; шаги ограничены проверкой существующей записи и выбором корректной уникальной пары."
+    },
+    "0x00000a51": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт имён конфигураций Windows NT RPL.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Занятое имя подтверждено сообщением Microsoft; безопасные действия ограничены использованием существующей или уникальным именем с проверкой ссылок."
+    },
+    "0x00000a64": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Старые коды Network Management и современные DFS Namespace имеют разный охват; восстановление выбирается по версии и месту повреждения.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код подтверждён Microsoft. Рекомендации DFS восстановления зависят от типа namespace и резервной копии; универсальный ремонт именно для кода не найден. Точного успешного форума/Reddit-кейса нет."
+    },
+    "0x00000a65": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Восстановление зависит от типа DFS Namespace и версии Server; универсальный ремонт записи не найден.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает код и описывает разные пути DFS-восстановления. Без сведений о месте повреждения точный фикс подтвердить нельзя; конкретного успешного форумного/Reddit-кейса нет."
+    },
+    "0x00000a66": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Сопоставление пути в API DFS; средства перечисления и создания зависят от версии Windows Server.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft определяет ошибку как отсутствие DFS-имени для переданного пути. Для современных Server процедура создания описана отдельно; не переносить команды на неподдерживаемые версии."
+    },
+    "0x00000a67": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт имени DFS; добавление root target и создание нового namespace — разные действия.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код означает уже существующий корень/ссылку. Microsoft документирует, что NetDfsAddFtRoot добавляет target к существующему namespace; применимость зависит от типа namespace и версии."
+    },
+    "0x00000a68": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт повторного включения share в DFS; проверяйте существующие цели и зависимости.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Сообщение Microsoft прямо указывает, что share уже есть в DFS. Без данных среды нельзя безопасно советовать удаление/повторное добавление; конкретного успешного форума/Reddit-кейса не найдено."
     }
   },
-  "pending_count": 5886,
+  "pending_count": 5866,
   "pending_codes": [
-    "0x00000a43",
-    "0x00000a44",
-    "0x00000a45",
-    "0x00000a46",
-    "0x00000a47",
-    "0x00000a48",
-    "0x00000a49",
-    "0x00000a4a",
-    "0x00000a4b",
-    "0x00000a4c",
-    "0x00000a4d",
-    "0x00000a4e",
-    "0x00000a4f",
-    "0x00000a50",
-    "0x00000a51",
-    "0x00000a64",
-    "0x00000a65",
-    "0x00000a66",
-    "0x00000a67",
-    "0x00000a68",
     "0x00000a69",
     "0x00000a6a",
     "0x00000a6b",
@@ -11067,6 +11207,26 @@
     "0x00000a3e",
     "0x00000a3f",
     "0x00000a41",
-    "0x00000a42"
+    "0x00000a42",
+    "0x00000a43",
+    "0x00000a44",
+    "0x00000a45",
+    "0x00000a46",
+    "0x00000a47",
+    "0x00000a48",
+    "0x00000a49",
+    "0x00000a4a",
+    "0x00000a4b",
+    "0x00000a4c",
+    "0x00000a4d",
+    "0x00000a4e",
+    "0x00000a4f",
+    "0x00000a50",
+    "0x00000a51",
+    "0x00000a64",
+    "0x00000a65",
+    "0x00000a66",
+    "0x00000a67",
+    "0x00000a68"
   ]
 }
