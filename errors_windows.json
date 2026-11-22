@@ -14007,15 +14007,15 @@
   },
   {
     "errorCode": "0x00000899",
-    "title": "Network Management (LAN Manager) — NERR_NotLoggedOn",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NotLoggedOn. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NotLoggedOn — The workstation is not logged on to the LAN.",
+    "description": "0x00000899: NERR_NotLoggedOn. The workstation is not logged on to the LAN. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The code describes a LAN logon state in the Network Management error family. It does not identify which legacy API or logon provider produced the status; no generic modern Windows repair is established.",
+    "officialSolution": "Microsoft подтверждает значение NERR_NotLoggedOn: The workstation is not logged on to the LAN. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного современного Microsoft Q&A/Reddit случая с подтверждённым исправлением не найдено; найденная Q197236 описывает только отдельный Windows 95/98 API-сценарий.",
+      "По точному коду/символу не найдено проверяемого пользовательского результата."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните полный код, имя вызывающей программы/API, целевой сервер, время и состояние пользователя; не считайте 0x899 ошибкой входа в Windows без контекста.\",\"Шаг 2: Проверьте в журнале именно вызывающего приложения, выполнился ли сетевой вход на указанный сервер и какой статус вернула функция.\",\"Шаг 3: Если приложение использует исторический NetWkstaSetUID2, зафиксируйте версию Windows и сценарий; Microsoft KB Q197236 относится только к Windows 95/98 и отдельному сценарию отмены диалога сетевого пароля.\",\"Шаг 4: Для другого API следуйте документации этого API/поставщика; не перезапускайте службы и не меняйте пароль по одному NERR-коду. Подтверждённого универсального исправления не найдено.\"]"
   },
   {
     "errorCode": "0x0000089A",
@@ -14028,423 +14028,423 @@
   },
   {
     "errorCode": "0x0000089B",
-    "title": "Network Management (LAN Manager) — NERR_BadPassword",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_BadPassword. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_BadPassword — The password parameter is invalid.",
+    "description": "0x0000089b: NERR_BadPassword. The password parameter is invalid. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The message says the API password parameter is invalid. Microsoft documents NERR_BadPassword in different network-management contexts, including a share-name/password pair and password validation; it does not prove that the user merely typed a wrong Windows sign-in password.",
+    "officialSolution": "Microsoft подтверждает значение NERR_BadPassword: The password parameter is invalid. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного Microsoft Q&A/Reddit кейса, который связывает этот NERR с подтверждённым конкретным исправлением, не найдено.",
+      "По точному коду/символу проверяемого пользовательского результата не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите вызывающую функцию, имя сервера и точный параметр, для которого получен 0x89B; это сообщение говорит о параметре API, а не обязательно о пароле интерактивного входа.\",\"Шаг 2: Сопоставьте значение с документацией именно этой функции: для NetUserSetInfo Microsoft отдельно описывает поле как недопустимое имя общего ресурса или пароль; для валидации пароля код означает отрицательный результат проверки.\",\"Шаг 3: Проверьте формат, длину и требования параметра по контракту конкретного API и действующей политике; не сбрасывайте пользовательский пароль, пока журнал не подтвердит, что код пришёл именно из проверки учётных данных.\",\"Шаг 4: Если параметр/контекст не установлен, передайте API-лог владельцу приложения; универсального пользовательского исправления для NERR_BadPassword не подтверждено.\"]"
   },
   {
     "errorCode": "0x0000089C",
-    "title": "Network Management (LAN Manager) — NERR_UnableToAddName_W",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UnableToAddName_W. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UnableToAddName_W — The logon processor did not add the message alias.",
+    "description": "0x0000089c: NERR_UnableToAddName_W. The logon processor did not add the message alias. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The warning form is shown as a nonfatal status only in archived Microsoft KB Q197236 for a Windows 95/98 NetWkstaSetUID2 logon path. Message-alias APIs themselves are unsupported from Windows Vista onward; do not apply this historical procedure to a modern caller.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UnableToAddName_W: The logon processor did not add the message alias. The warning form is shown as a nonfatal status only in archived Microsoft KB Q197236 for a Windows 95/98 NetWkstaSetUID2 logon path. Message-alias APIs themselves are unsupported from Windows Vista onward; do not apply this historical procedure to a modern caller. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Архивная Microsoft Q197236 даёт конкретный Windows 95/98 пример обработки warning-кода; это документация старого API, не пользовательский отзыв об универсальном ремонте.",
+      "Современного подтверждённого Reddit-решения для этого legacy-кода не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите, что код пришёл именно из старого сценария Windows 95/98 и NetWkstaSetUID2; если ОС Vista или новее либо используется другой API, KB Q197236 неприменима.\",\"Шаг 2: В описанном Q197236 случае отмена диалога Enter Network Password оставляет пользователя локально, без сетевого доступа; повторный сетевой вход выполнялся через штатный трёхуровневый диалог или отдельный вызов NetWkstaSetUID2.\",\"Шаг 3: В sample-коде KB статус NERR_UnableToAddName_W явно допускается наряду с NERR_Success при этом конкретном входе; не переносите такую обработку на вариант _F или другой продукт.\",\"Шаг 4: Для Windows Vista и новее Microsoft сообщает, что message functions не поддерживаются; ищите поддерживаемый путь в документации вызывающего продукта, а не включайте удалённый Messenger-service из сторонних инструкций.\"]"
   },
   {
     "errorCode": "0x0000089D",
-    "title": "Network Management (LAN Manager) — NERR_UnableToAddName_F",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UnableToAddName_F. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UnableToAddName_F — The logon processor did not add the message alias.",
+    "description": "0x0000089d: NERR_UnableToAddName_F. The logon processor did not add the message alias. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The failure form belongs to legacy message-alias/logon processing. Microsoft documents message-alias functions as unsupported from Windows Vista onward. Q197236 only demonstrates the warning form _W, not a fix for _F.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UnableToAddName_F: The logon processor did not add the message alias. The failure form belongs to legacy message-alias/logon processing. Microsoft documents message-alias functions as unsupported from Windows Vista onward. Q197236 only demonstrates the warning form _W, not a fix for _F. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного успешного случая Microsoft Q&A/Reddit для варианта _F не найдено; Q197236 охватывает только _W.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте полный символ: _F — отдельный failure-код, не warning 0x89C.\",\"Шаг 2: Зафиксируйте вызывающее приложение/API и версию Windows; не используйте пример Q197236 для _F, поскольку он допускает только NERR_UnableToAddName_W в одном Windows 95/98 сценарии.\",\"Шаг 3: Если вызов — NetMessageNameAdd на Windows Vista или новее, документация Microsoft указывает ERROR_NOT_SUPPORTED; проверьте, почему приложение всё ещё вызывает устаревшую message-функцию.\",\"Шаг 4: Используйте только поддерживаемый поставщиком путь обмена сообщениями; точный пользовательский фикс именно для 0x89D не подтверждён.\"]"
   },
   {
     "errorCode": "0x0000089E",
-    "title": "Network Management (LAN Manager) — NERR_UnableToDelName_W",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UnableToDelName_W. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UnableToDelName_W — @W The logoff processor did not delete the message alias.",
+    "description": "0x0000089e: NERR_UnableToDelName_W. @W The logoff processor did not delete the message alias. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The warning form is accepted as nonfatal only in the archived Microsoft Q197236 Windows 95/98 NetWkstaSetUID2 logoff example. Current NetMessageNameDel is unsupported from Vista onward; the old sample is not a modern repair.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UnableToDelName_W: @W The logoff processor did not delete the message alias. The warning form is accepted as nonfatal only in the archived Microsoft Q197236 Windows 95/98 NetWkstaSetUID2 logoff example. Current NetMessageNameDel is unsupported from Vista onward; the old sample is not a modern repair. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Q197236 подтверждает только старый Windows 95/98 путь и считает _W nonfatal при logoff; современного пользовательского фикса не найдено.",
+      "Точного подтверждённого Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите, что статус вернул именно NetWkstaSetUID2 в Windows 95/98; для другой ОС/API старый пример неприменим.\",\"Шаг 2: В Q197236 этот _W warning явно обрабатывается как успешный logoff в описанном API-сценарии; сверяйте поведение только с этим примером и фактическим кодом возврата.\",\"Шаг 3: Если вызван NetMessageNameDel в Windows Vista или новее, Microsoft указывает, что функция не поддерживается; не пытайтесь устранять это запуском Messenger service.\",\"Шаг 4: Для современных приложений используйте их документированный способ завершения сетевой сессии; общего исправления для всех источников 0x89E не найдено.\"]"
   },
   {
     "errorCode": "0x0000089F",
-    "title": "Network Management (LAN Manager) — NERR_UnableToDelName_F",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UnableToDelName_F. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UnableToDelName_F — The logoff processor did not delete the message alias.",
+    "description": "0x0000089f: NERR_UnableToDelName_F. The logoff processor did not delete the message alias. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. This failure variant is a legacy message-alias/logoff status. Microsoft message-alias APIs are unsupported from Windows Vista onward. Q197236 demonstrates only the warning variant _W, not this failure.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UnableToDelName_F: The logoff processor did not delete the message alias. This failure variant is a legacy message-alias/logoff status. Microsoft message-alias APIs are unsupported from Windows Vista onward. Q197236 demonstrates only the warning variant _W, not this failure. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного Microsoft Q&A/Reddit успешного результата не найдено; Q197236 не покрывает failure-вариант _F.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте полный символ и вызывающий API: 0x89F — failure-вариант, его нельзя считать warning 0x89E.\",\"Шаг 2: Запишите ОС, имя компьютера/алиаса и процесс, который выполнял logoff; Q197236 не подтверждает фикс для _F.\",\"Шаг 3: Если вызов — NetMessageNameDel на Windows Vista или новее, учитывайте документированный ERROR_NOT_SUPPORTED; не включайте устаревший Messenger-service для обхода.\",\"Шаг 4: Для старого продукта применяйте только его версионную процедуру logoff; подтверждённого универсального исправления для 0x89F нет.\"]"
   },
   {
     "errorCode": "0x000008A1",
-    "title": "Network Management (LAN Manager) — NERR_LogonsPaused",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonsPaused. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonsPaused — Network logons are paused.",
+    "description": "0x000008a1: NERR_LogonsPaused. Network logons are paused. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The NERR table states that network logons are paused, but the code alone does not identify the responsible service, server version, or authorized resume operation.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonsPaused: Network logons are paused. The NERR table states that network logons are paused, but the code alone does not identify the responsible service, server version, or authorized resume operation. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого решения Microsoft Q&A/Reddit для NERR_LogonsPaused не найдено.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите сервер и службу, которые вернули 0x8A1; сохраните время, API и соседние записи журнала.\",\"Шаг 2: У администратора соответствующего сервера проверьте состояние сетевого logon-компонента его штатным средством управления и установите, кто/какая операция поставила паузу.\",\"Шаг 3: Снимайте паузу только после подтверждения причины и по документации именно этого компонента/версии сервера.\",\"Шаг 4: Повторите исходный запрос и проверьте результат; Microsoft не задаёт универсальную команду возобновления по одному NERR-коду.\"]"
   },
   {
     "errorCode": "0x000008A2",
-    "title": "Network Management (LAN Manager) — NERR_LogonServerConflict",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonServerConflict. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonServerConflict — A centralized logon-server conflict occurred.",
+    "description": "0x000008a2: NERR_LogonServerConflict. A centralized logon-server conflict occurred. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The legacy message identifies a centralized logon-server conflict but does not name the conflicting server, database, or product-specific recovery procedure.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonServerConflict: A centralized logon-server conflict occurred. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого решения в Microsoft Q&A/Reddit не найдено; найденные SEO-инструкции не подтверждают этот NERR.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите точный продукт, API, сервер и домен; сохраните полный журнал вокруг 0x8A2.\",\"Шаг 2: Установите по документации вызывающего продукта, какие именно централизованные logon-серверы или записи сравниваются; не приравнивайте этот NERR к конфликту контроллеров Active Directory без подтверждения.\",\"Шаг 3: Сверьте найденные значения на целевых серверах и передайте несовпадения их администратору; не удаляйте компьютерные/доменные объекты вслепую.\",\"Шаг 4: Исправление допустимо только по процедуре конкретного продукта и после резервирования его конфигурации; точный универсальный фикс не найден.\"]"
   },
   {
     "errorCode": "0x000008A3",
-    "title": "Network Management (LAN Manager) — NERR_LogonNoUserPath",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonNoUserPath. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonNoUserPath — The server is configured without a valid user path.",
+    "description": "0x000008a3: NERR_LogonNoUserPath. The server is configured without a valid user path. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The old NERR text does not define which product-specific user path is invalid. It must not be assumed to mean an AD profile path, home directory, or logon-script path without API evidence.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonNoUserPath: The server is configured without a valid user path. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного успешного Microsoft Q&A/Reddit кейса с доказанной причинной связью не найдено.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните вызывающее приложение, API, сервер и версию ОС; термин user path в одном NERR-сообщении не определяет конкретный атрибут AD.\",\"Шаг 2: По журналу/документации именно этого вызывающего компонента найдите, какое поле или путь он проверял.\",\"Шаг 3: Проверьте этот путь и права доступа только в продукте, который им владеет; не меняйте scriptPath/homeDirectory/profilePath наугад.\",\"Шаг 4: Если владельца поля установить нельзя, передайте API-журнал администратору/поставщику; подтверждённого универсального исправления нет.\"]"
   },
   {
     "errorCode": "0x000008A4",
-    "title": "Network Management (LAN Manager) — NERR_LogonScriptError",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonScriptError. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonScriptError — An error occurred while loading or running the logon script.",
+    "description": "0x000008a4: NERR_LogonScriptError. An error occurred while loading or running the logon script. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The documented checks apply only if the calling logon path actually uses a user logon script. Microsoft documents scriptPath/level 1009 and a legacy Server 2003 assignment procedure; exact execution failures remain product- and OS-specific.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonScriptError: An error occurred while loading or running the logon script. The documented checks apply only if the calling logon path actually uses a user logon script. Microsoft documents scriptPath/level 1009 and a legacy Server 2003 assignment procedure; exact execution failures remain product- and OS-specific. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого Microsoft Q&A/Reddit результата для 0x8A4 не найдено; шаги опираются на документацию Microsoft по scriptPath, а не на неподтверждённый форумный фикс.",
+      "Поиск Reddit по точному коду не дал проверяемого исправления."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите, что 0x8A4 вернул именно компонент запуска logon script; запишите пользователя, ОС, домен/GPO и полный текст ошибки.\",\"Шаг 2: В свойствах пользователя проверьте фактический scriptPath и место хранения сценария. Microsoft описывает scriptPath и NetUserSetInfo level 1009; не подменяйте этот параметр случайным Group Policy cache reset.\",\"Шаг 3: Если применяется описанный Microsoft сценарий Windows Server 2003, проверьте путь относительно Netlogon-share и то, что пользователь может читать файл в момент входа; статья Microsoft отдельно указывает формат относительного пути в подпапке.\",\"Шаг 4: Для другой версии Windows проверяйте GPO/профиль и журнал запуска по документации этой версии. Не выполняйте найденные в SEO-статьях команды удаления GroupPolicy-папок: подтверждённой связи с NERR_LogonScriptError нет.\"]"
   },
   {
     "errorCode": "0x000008A6",
-    "title": "Network Management (LAN Manager) — NERR_StandaloneLogon",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_StandaloneLogon. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_StandaloneLogon — The logon server was not specified. The computer will be logged on as STANDALONE.",
+    "description": "0x000008a6: NERR_StandaloneLogon. The logon server was not specified. The computer will be logged on as STANDALONE. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The status explicitly says that no logon server was specified and standalone logon will be used. Whether that is an error depends on the intended domain/workgroup behavior and caller.",
+    "officialSolution": "Microsoft подтверждает значение NERR_StandaloneLogon: The logon server was not specified. The computer will be logged on as STANDALONE. The status explicitly says that no logon server was specified and standalone logon will be used. Whether that is an error depends on the intended domain/workgroup behavior and caller. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого решения Microsoft Q&A/Reddit для этого legacy-кода не найдено.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте, ожидался ли вход в домен или автономный вход; зафиксируйте полный текст, вызывающий продукт, сервер и версию Windows.\",\"Шаг 2: Если автономный вход ожидаем, не меняйте конфигурацию только из-за этого кода.\",\"Шаг 3: Если требовался доменный вход, проверьте именно поле/параметр logon server, который использует вызывающее приложение, и подтвердите конфигурацию домена у администратора.\",\"Шаг 4: Не удаляйте доменное членство и не переименовывайте компьютер как универсальный обход; точная процедура зависит от продукта/ОС.\"]"
   },
   {
     "errorCode": "0x000008A7",
-    "title": "Network Management (LAN Manager) — NERR_LogonServerNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonServerNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonServerNotFound — The logon server could not be found.",
+    "description": "0x000008a7: NERR_LogonServerNotFound. The logon server could not be found. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The code establishes only that the caller could not find a logon server. It does not distinguish name resolution, network reachability, domain configuration, or obsolete API behavior.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonServerNotFound: The logon server could not be found. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного пользователя/версии с подтверждённым устранением именно NERR_LogonServerNotFound не найдено.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите точное имя logon server/domain и API/продукт, который его искал.\",\"Шаг 2: Сверьте это имя с фактической конфигурацией домена и журналом того же компонента; не выводите неисправность DNS только из 0x8A7.\",\"Шаг 3: Если продукт подтверждает доменный сценарий, администратор проверяет разрешение имени и доступность именно целевого сервера штатными средствами этой версии.\",\"Шаг 4: Повторите исходный вызов и сохраните новый код; не сбрасывайте secure channel и не переустанавливайте домен без подтверждения первопричины.\"]"
   },
   {
     "errorCode": "0x000008A8",
-    "title": "Network Management (LAN Manager) — NERR_LogonDomainExists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LogonDomainExists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LogonDomainExists — There is already a logon domain for this computer.",
+    "description": "0x000008a8: NERR_LogonDomainExists. There is already a logon domain for this computer. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The message says a logon domain is already configured for this computer. It does not prove that the existing domain is wrong or that the machine should be unjoined.",
+    "officialSolution": "Microsoft подтверждает значение NERR_LogonDomainExists: There is already a logon domain for this computer. The message says a logon domain is already configured for this computer. It does not prove that the existing domain is wrong or that the machine should be unjoined. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого Microsoft Q&A/Reddit исправления не найдено; по коду подтверждено только условие уже заданного logon domain.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните, какая операция пыталась задать logon domain, и сохраните текущую доменную/рабочую конфигурацию машины.\",\"Шаг 2: Сверьте фактически настроенный домен с доменом, который приложение ожидало установить; проверьте точное имя машины и сервера.\",\"Шаг 3: Если найденный домен правильный, не добавляйте его повторно. Если нужен другой домен, следуйте процедуре миграции домена для этой версии Windows и получите одобрение администратора.\",\"Шаг 4: Не удаляйте компьютерный объект и не выводите устройство из домена только по этому NERR; универсального фикс-процесса Microsoft не задаёт.\"]"
   },
   {
     "errorCode": "0x000008A9",
-    "title": "Network Management (LAN Manager) — NERR_NonValidatedLogon",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NonValidatedLogon. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NonValidatedLogon — The logon server could not validate the logon.",
+    "description": "0x000008a9: NERR_NonValidatedLogon. The logon server could not validate the logon. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The code states that the logon server did not validate the logon; it does not identify credentials, trust, policy, server reachability, or a safe repair.",
+    "officialSolution": "Microsoft подтверждает значение NERR_NonValidatedLogon: The logon server could not validate the logon. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого кейса Microsoft Q&A/Reddit для 0x8A9 не найдено; общие советы о сбросе пароля не доказывают причину этого кода.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните журнал клиента и сервера с точным временем, учётной записью, доменом, API и исходным кодом ошибки.\",\"Шаг 2: Определите по документам продукта, какой сервер выполнял проверку; не сводите сообщение автоматически к неправильному паролю.\",\"Шаг 3: Сопоставьте серверный журнал с конкретным отказом проверки и применяйте процедуру только для установленного механизма аутентификации.\",\"Шаг 4: Не отключайте валидацию, политику безопасности или secure channel ради обхода; проверенного универсального решения для NERR_NonValidatedLogon не найдено.\"]"
   },
   {
     "errorCode": "0x000008AB",
-    "title": "Network Management (LAN Manager) — NERR_ACFNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFNotFound — The security database could not be found.",
+    "description": "0x000008ab: NERR_ACFNotFound. The security database could not be found. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. This is a legacy Network Management security-database status. The code alone does not identify the database format, path, host OS, or supported recovery method; do not equate it with a corrupt modern AD/SAM database.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFNotFound: The security database could not be found. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного современного пользовательского восстановления Microsoft Q&A/Reddit не найдено; SEO-советы о ручной правке SAM/реестра исключены.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите вызывающий API/продукт и ОС, на которой он работает; сохраните исходный журнал и точное имя базы, если оно указано.\",\"Шаг 2: По документации именно этой legacy-системы определите формат и ожидаемое расположение security database.\",\"Шаг 3: Если продукт подтверждает отсутствующий файл/хранилище, используйте только его процедуру резервного копирования и восстановления; не редактируйте SAM/реестр и не удаляйте доменные данные.\",\"Шаг 4: Для современного Windows-компонента ищите первичный код/событие, а не применяйте старые NERR-инструкции; универсальное восстановление по 0x8AB не найдено.\"]"
   },
   {
     "errorCode": "0x000008AC",
-    "title": "Network Management (LAN Manager) — NERR_GroupNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_GroupNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_GroupNotFound — The group name could not be found.",
+    "description": "0x000008ac: NERR_GroupNotFound. The group name could not be found. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Два узких подтверждённых сценария: BizTalk Server 2006 SSO (архивированный KB/hotfix) и GSS 3.x domain join (описание поставщика). Не универсальное исправление для любого 0x8AC.",
+    "officialSolution": "BizTalk hotfix из архива относится только к BizTalk Server 2006; не скачивать его из стороннего архива для современной системы. Решение Broadcom применимо только к описанному GSS 3.x журналу и политике домена. Два узких подтверждённых сценария: BizTalk Server 2006 SSO (архивированный KB/hotfix) и GSS 3.x domain join (описание поставщика). Не универсальное исправление для любого 0x8AC.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точный BizTalk 2006 KB описывает код и исправление; Broadcom support case сообщает, что GSS 3.x domain join исправлен использованием доменной административной учётной записи. Stack Overflow лишь подтверждает возврат 0x8AC для отсутствующей группы, не является ремонтом.",
+      "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите приложение, вызывающую функцию, домен и точный журнал. Проверьте, что это NERR_GroupNotFound 0x8AC, а не другой код с похожим числом.\",\"Шаг 2: Если это BizTalk Server 2006 Enterprise SSO и сообщение говорит о невозможности добавить доменную учётную запись в SSO Administrators, сверьте домены service account и SSO Administrators group. Архив Microsoft KB 927279 описывает именно этот дефект и отдельный hotfix для этого продукта/версии.\",\"Шаг 3: Если это Ghost Solution Suite 3.x и Netsetup.log содержит NetpLsaLookupSidFromName / NetStatus 0x8ac, проверьте установленную в GSS Console учётную запись: опубликованный Broadcom кейс был решён переходом с локального администратора на разрешённую доменную административную учётную запись.\",\"Шаг 4: Эти два решения не переносите на другие API или версии. В прочих случаях проверьте имя группы и сервер через документированную функцию NetGroupAddUser/NetGroupDelUser, затем согласуйте права у администратора домена.\"]"
   },
   {
     "errorCode": "0x000008AD",
-    "title": "Network Management (LAN Manager) — NERR_UserNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UserNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UserNotFound — The user name could not be found.",
+    "description": "0x000008ad: NERR_UserNotFound. The user name could not be found. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Архивный фикс относится только к Windows NT 3.51 и NetUserGetLocalGroups с параметром domain\\username; в современных кейсах upgrade причинная связь не установлена.",
+    "officialSolution": "Не трактовать 0x8AD как объяснение ошибки обновления Windows, если журнал Setup показывает другие фатальные коды; при поиске оставались неудачные/несвязанные случаи. Архивный фикс относится только к Windows NT 3.51 и NetUserGetLocalGroups с параметром domain\\username; в современных кейсах upgrade причинная связь не установлена.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точных современных Q&A/Reddit кейсов с подтверждённым успешным исправлением не найдено. Найденный Microsoft KB 140784 — подтверждённый исторический API/OS-specific дефект, а не общий ремонт.",
+      "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите API, сервер и точное имя пользователя, переданные вызывающему коду; Microsoft NetUserGetInfo/NetUserGetLocalGroups могут вернуть NERR_UserNotFound, если имя не найдено на указанном сервере.\",\"Шаг 2: Если ошибка возникла именно в Windows NT 3.51 при NetUserGetLocalGroups и параметр передавался как domain\\\\username, архивированный KB 140784 подтверждает эту историческую проблему; он указывал, что параметр не принимает такой формат, и что дефект исправлен последним service pack NT 3.51.\",\"Шаг 3: На современной поддерживаемой версии не устанавливайте пакет NT 3.51; проверьте допустимый формат имени в документации текущей функции и что запрос направлен к нужному серверу/домену.\",\"Шаг 4: В двух современных Microsoft Q&A лог 0x8AD встречается среди ошибок upgrade, но дальнейший сбой имеет другие коды; это не доказывает, что исправление пользователя решает upgrade. Сохраняйте основной код сбоя отдельно.\"]"
   },
   {
     "errorCode": "0x000008AE",
-    "title": "Network Management (LAN Manager) — NERR_ResourceNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ResourceNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ResourceNotFound — The resource name could not be found.",
+    "description": "0x000008ae: NERR_ResourceNotFound. The resource name could not be found. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. The NERR text does not identify the type of resource or the API namespace. A missing share, device, group resource, or product object must not be assumed from the code alone.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ResourceNotFound: The resource name could not be found. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; дальнейшие проверки ниже — диагностика по найденному контексту, а не подтверждённый пользовательский ремонт.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого решения Microsoft Q&A/Reddit для NERR_ResourceNotFound не найдено; найденные совпадения относились к другим типам ресурсов.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите вызывающую функцию, переданное имя ресурса, сервер и полный журнал.\",\"Шаг 2: Определите из документации API, какой тип объекта он называл resource; одинаковое слово может означать разные объекты у разных сетевых функций.\",\"Шаг 3: Прочитайте состояние объекта на том же сервере через документированное средство этого API и сверьте имя/область видимости.\",\"Шаг 4: Создавайте или перенастраивайте объект только если это подтверждает владелец приложения; конкретного универсального исправления не найдено.\"]"
   },
   {
     "errorCode": "0x000008AF",
-    "title": "Network Management (LAN Manager) — NERR_GroupExists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_GroupExists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_GroupExists — The group already exists.",
+    "description": "0x000008af: NERR_GroupExists. The group already exists. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Microsoft documents NERR_GroupExists for NetLocalGroupAdd when the requested name is already in use as a group name. Check the exact server and group namespace; do not delete an existing group to force a retry.",
+    "officialSolution": "Microsoft подтверждает значение NERR_GroupExists: The group already exists. Microsoft documents NERR_GroupExists for NetLocalGroupAdd when the requested name is already in use as a group name. Check the exact server and group namespace; do not delete an existing group to force a retry. Диагностические шаги ниже применимы только в указанном контексте; это не универсальное исправление.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного пользовательского кейса с подтверждённым результатом для 0x8AF не найдено; точная процедура условна и подтверждается документацией NetLocalGroupAdd.",
+      "Проверяемого точного Reddit-решения не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите вызывающую функцию и сервер; Microsoft документирует NERR_GroupExists для NetLocalGroupAdd, когда указанное имя уже занято группой.\",\"Шаг 2: Прочитайте список групп на том же компьютере/domain namespace и проверьте имя и тип группы; не объединяйте локальную группу и глобальную группу без подтверждения API.\",\"Шаг 3: Если существует именно требуемая группа и операция повторяет создание, создание уже достигнуто — не удаляйте и не создавайте её заново.\",\"Шаг 4: Если имя занято не тем объектом, подтвердите требуемый тип/имя и права администратора; меняйте структуру групп только по политике владельца системы.\"]"
   },
   {
     "errorCode": "0x000008B0",
-    "title": "Network Management (LAN Manager) — NERR_UserExists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UserExists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UserExists — The user account already exists.",
+    "description": "0x000008b0: NERR_UserExists. The user account already exists. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Microsoft описывает 0x8B0 как вторичный код повтора в современном domain join; в этом сценарии первичный итоговый код 0xAAC. Правила статьи относятся к поддерживаемым версиям Windows Server.",
+    "officialSolution": "Не применять к 0x8B0 советы Microsoft о 0xAAC без подтверждения того же лога. Не устанавливать legacy registry override и не ослаблять domain-join policy. Microsoft описывает 0x8B0 как вторичный код повтора в современном domain join; в этом сценарии первичный итоговый код 0xAAC. Правила статьи относятся к поддерживаемым версиям Windows Server.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Подтверждённый exact-code user outcome не найден; Microsoft Learn показывает реальный Netsetup.log и официальную процедуру для конкретного 0xAAC domain-join сценария.",
+      "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите, выполнялся ли NetUserAdd при создании учётной записи или присоединении компьютера к домену.\",\"Шаг 2: В сценарии domain join проверьте C:\\\\Windows\\\\Debug\\\\Netsetup.log и найдите итоговый статус. Microsoft показывает пример, где 0x8B0 возникает при повторном NetUserAdd, а первичная причина — более конкретный 0xAAC (NERR_AccountReuseBlockedByPolicy).\",\"Шаг 3: Если присутствует 0xAAC, следуйте только официальной процедуре повторного использования существующей computer account: подтвердить владельца/создателя объекта или применить одобренную доменную политику; stale account удалять лишь после подтверждения администратора.\",\"Шаг 4: Если 0x8B0 получен при обычном создании пользователя, проверьте существующий объект на целевом сервере и определите, нужно ли переиспользовать его или выбрать другое имя. Не удаляйте объект ради обхода ошибки.\"]"
   },
   {
     "errorCode": "0x000008B1",
-    "title": "Network Management (LAN Manager) — NERR_ResourceExists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ResourceExists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ResourceExists — The resource permission list already exists.",
+    "description": "0x000008b1: NERR_ResourceExists. The resource permission list already exists. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Совпадение с NERR_ResourceExists подтверждено; точный API, возвращающий код, из имеющихся данных не установлен.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ResourceExists: The resource permission list already exists. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите полный код, имя вызывающего приложения/API, сервер и точный ресурс; это сетевой статус NERR, а не общий сбой Windows.\",\"Шаг 2: Через штатную функцию чтения именно этого приложения проверьте, существует ли список разрешений у указанного ресурса.\",\"Шаг 3: Если список уже есть и это ожидаемое состояние, не создавайте его повторно; если он неверен, перед изменением сохраните текущие разрешения и используйте документированную процедуру приложения.\",\"Шаг 4: Если контекст или владелец списка неясен, передайте журнал администратору приложения; универсальное исправление для этого кода Microsoft не задаёт.\"]"
   },
   {
     "errorCode": "0x000008B2",
-    "title": "Network Management (LAN Manager) — NERR_NotPrimary",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NotPrimary. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NotPrimary — This operation is allowed only on the primary domain controller of the domain.",
+    "description": "0x000008b2: NERR_NotPrimary. This operation is allowed only on the primary domain controller of the domain. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Документация NetAPI называет primary domain controller; не приравнивать автоматически к любому контроллеру домена или менять AD FSMO-роли.",
+    "officialSolution": "Microsoft подтверждает значение NERR_NotPrimary: This operation is allowed only on the primary domain controller of the domain. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните вызывающий API, сервер-цель, домен и операцию изменения учётной записи/группы.\",\"Шаг 2: Проверьте по документации именно этой функции, требуется ли primary domain controller; Microsoft указывает это условие для NetUserSetInfo и ряда NetAPI функций.\",\"Шаг 3: У администратора домена подтвердите правильный целевой контроллер и полномочия; не переназначайте роли контроллера ради обхода статуса.\",\"Шаг 4: Повторите ту же операцию на сервере, который предписан документацией и политикой домена; если ошибка пришла от другого продукта, следуйте его процедуре.\"]"
   },
   {
     "errorCode": "0x000008B3",
-    "title": "Network Management (LAN Manager) — NERR_ACFNotLoaded",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFNotLoaded. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFNotLoaded — The security database has not been started.",
+    "description": "0x000008b3: NERR_ACFNotLoaded. The security database has not been started. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Формулировка из старого Network Management NERR; текущий компонент и поддерживаемый способ восстановления зависят от вызывающего API.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFNotLoaded: The security database has not been started. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Зафиксируйте вызывающее приложение, API, сервер и момент появления кода.\",\"Шаг 2: Установите по журналу/документации продукта, о какой именно security database идёт речь; не предполагайте, что это современная база Active Directory.\",\"Шаг 3: На соответствующем сервере проверьте журналы запуска службы или компонента, названного владельцем API.\",\"Шаг 4: Используйте только руководство для найденного продукта и его версии; Microsoft не описывает универсальный способ «запустить базу» для этого сообщения.\"]"
   },
   {
     "errorCode": "0x000008B4",
-    "title": "Network Management (LAN Manager) — NERR_ACFNoRoom",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFNoRoom. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFNoRoom — There are too many names in the user accounts database.",
+    "description": "0x000008b4: NERR_ACFNoRoom. There are too many names in the user accounts database. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Код указывает на исчерпание ёмкости конкретной базы; Microsoft не задаёт общей команды для очистки или расширения.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFNoRoom: There are too many names in the user accounts database. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите продукт/API и точную базу учётных записей, которая вернула NERR_ACFNoRoom.\",\"Шаг 2: Сохраните журнал и установите фактический размер/лимит этой базы по документации продукта.\",\"Шаг 3: Не удаляйте учётные записи и не изменяйте лимиты без владельца системы; выберите только документированную для данного продукта процедуру управления ёмкостью.\",\"Шаг 4: Если такого руководства для конкретной версии нет, передайте сведения администратору/поставщику вместо применения советов для другой базы данных.\"]"
   },
   {
     "errorCode": "0x000008B5",
-    "title": "Network Management (LAN Manager) — NERR_ACFFileIOFail",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFFileIOFail. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFFileIOFail — A disk I/O failure occurred.",
+    "description": "0x000008b5: NERR_ACFFileIOFail. A disk I/O failure occurred. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Значение сообщает о сбое дискового I/O, но не указывает носитель, файл или первопричину; подтверждённого точного пользовательского фикса не найдено.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFFileIOFail: A disk I/O failure occurred. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите имя сервера, вызывающий процесс/API, время и полный код.\",\"Шаг 2: Сохраните относящиеся к этому времени системные и прикладные журналы об ошибках ввода-вывода; не запускайте исправление базы до выяснения носителя и файла.\",\"Шаг 3: Убедитесь, что актуальная резервная копия важной базы доступна, и используйте диагностику диска/контроллера, документированную производителем для данного устройства и ОС.\",\"Шаг 4: Если ошибки ввода-вывода повторяются, прекратите рискованные записи и обратитесь к администратору хранения/производителю; точный отказ нельзя вывести из одного NERR-кода.\"]"
   },
   {
     "errorCode": "0x000008B6",
-    "title": "Network Management (LAN Manager) — NERR_ACFTooManyLists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFTooManyLists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFTooManyLists — The limit of 64 entries per resource was exceeded.",
+    "description": "0x000008b6: NERR_ACFTooManyLists. The limit of 64 entries per resource was exceeded. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Документированное ограничение NERR; универсальная процедура перераспределения списков не установлена.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFTooManyLists: The limit of 64 entries per resource was exceeded. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните API и ресурс, для которого вернулся код; Microsoft определяет предел именно как 64 записи на ресурс.\",\"Шаг 2: Считайте текущие записи штатной функцией управления этим ресурсом и сохраните результат для сравнения.\",\"Шаг 3: Не удаляйте разрешения вслепую. Если предел действительно достигнут, согласуйте с владельцем ресурса допустимую структуру или очистку по документации продукта.\",\"Шаг 4: Повторите добавление только после подтверждённого изменения списка; если фактических записей меньше 64, приложите дамп списка и контекст API поставщику.\"]"
   },
   {
     "errorCode": "0x000008B7",
-    "title": "Network Management (LAN Manager) — NERR_UserLogon",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UserLogon. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UserLogon — Deleting a user with a session is not allowed.",
+    "description": "0x000008b7: NERR_UserLogon. Deleting a user with a session is not allowed. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. NetUserDel поддерживается в настольных приложениях начиная с Windows 2000; удаление учётной записи является изменением состояния и требует разрешения администратора.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UserLogon: Deleting a user with a session is not allowed. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Убедитесь, что код вернулся именно при удалении учётной записи через NetUserDel или эквивалентный вызов.\",\"Шаг 2: По журналам сервера установите, использует ли пользователь или приложение ресурс этого сервера: Microsoft прямо запрещает удаление, пока доступ активен.\",\"Шаг 3: Если удаление согласовано, штатно завершите соответствующую пользовательскую сессию/доступ после проверки влияния на работу и сохранность данных.\",\"Шаг 4: Проверьте, что доступ закрыт, и повторите удаление с требуемыми правами; если активных обращений нет, сохраните журнал и уточните вызывающую функцию.\"]"
   },
   {
     "errorCode": "0x000008B8",
-    "title": "Network Management (LAN Manager) — NERR_ACFNoParent",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_ACFNoParent. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_ACFNoParent — The parent directory could not be located.",
+    "description": "0x000008b8: NERR_ACFNoParent. The parent directory could not be located. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Код сообщает только, что вызывающая функция не нашла родительский каталог; имя файла и требуемый путь не закодированы в NERR.",
+    "officialSolution": "Microsoft подтверждает значение NERR_ACFNoParent: The parent directory could not be located. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите поле пути/ресурса и сервер, переданные вызывающему API.\",\"Шаг 2: Проверьте посимвольно полный путь и наличие родительского каталога на правильном сервере; для сетевого пути отдельно проверьте доступ к указанному ресурсу.\",\"Шаг 3: Не создавайте каталог автоматически, пока владелец приложения не подтвердит, что именно такое расположение ожидается.\",\"Шаг 4: Если путь существует, сохраните журнал API и проверьте права/контекст учётной записи по документации продукта; точный сценарий по коду не определяется.\"]"
   },
   {
     "errorCode": "0x000008B9",
-    "title": "Network Management (LAN Manager) — NERR_CanNotGrowSegment",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_CanNotGrowSegment. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_CanNotGrowSegment — Unable to add to the security database session cache segment.",
+    "description": "0x000008b9: NERR_CanNotGrowSegment. Unable to add to the security database session cache segment. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Точное сообщение Microsoft относится к сегменту кэша сессий security database; универсального безопасного сброса Microsoft не документирует.",
+    "officialSolution": "Microsoft подтверждает значение NERR_CanNotGrowSegment: Unable to add to the security database session cache segment. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите продукт, API, сервер и операцию, которая вернула NERR_CanNotGrowSegment.\",\"Шаг 2: Подтвердите, что источник действительно использует старый Network Management/учётный session-cache механизм; не переносите это сообщение на произвольную современную кэш-систему.\",\"Шаг 3: Сохраните журналы компонента и сведения о нагрузке/ёмкости, которые он документирует.\",\"Шаг 4: Не очищайте кэш, не редактируйте SAM и не меняйте память/реестр по советам для другого компонента; применяйте только версионную инструкцию владельца API.\"]"
   },
   {
     "errorCode": "0x000008BA",
-    "title": "Network Management (LAN Manager) — NERR_SpeGroupOp",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_SpeGroupOp. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_SpeGroupOp — This operation is not allowed on this special group.",
+    "description": "0x000008ba: NERR_SpeGroupOp. This operation is not allowed on this special group. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Действие ограничено специальными группами и конкретным Network Management API; не применять найденные SEO-инструкции с прямым доступом к SAM/реестру.",
+    "officialSolution": "Microsoft подтверждает значение NERR_SpeGroupOp: This operation is not allowed on this special group. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Зафиксируйте API и операцию; Microsoft перечисляет NERR_SpeGroupOp среди результатов NetUserSetInfo, NetGroupAddUser и NetGroupDelUser.\",\"Шаг 2: Проверьте фактический тип/область группы и выясните, относится ли она к защищённым специальным группам, включая администраторские, пользовательские, локальные или гостевые.\",\"Шаг 3: Не редактируйте SAM/реестр и не обходите ограничение. Используйте только API, предназначенный для данного типа группы и разрешённый политикой.\",\"Шаг 4: Если тип группы или допустимая операция не ясны, передайте имя группы, API и код администратору домена.\"]"
   },
   {
     "errorCode": "0x000008BB",
-    "title": "Network Management (LAN Manager) — NERR_NotInCache",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NotInCache. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NotInCache — This user is not cached in the user accounts database session cache.",
+    "description": "0x000008bb: NERR_NotInCache. This user is not cached in the user accounts database session cache. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Название указывает на UAS session cache; точный вызов и способ создания записи не определяются кодом.",
+    "officialSolution": "Microsoft подтверждает значение NERR_NotInCache: This user is not cached in the user accounts database session cache. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Определите старый API/продукт и пользователя, для которых возвращено состояние NERR_NotInCache.\",\"Шаг 2: Уточните, ожидает ли этот вызов уже существующую сессию/запись UAS; сверяйте сервер и источник учётной записи.\",\"Шаг 3: Сохраните журналы входа и кэша, предусмотренные документацией данного продукта.\",\"Шаг 4: Не сбрасывайте произвольные кэши и не меняйте пароль/учётную запись без подтверждения причины; для современных систем обратитесь к документации компонента, который вернул NERR.\"]"
   },
   {
     "errorCode": "0x000008BC",
-    "title": "Network Management (LAN Manager) — NERR_UserInGroup",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UserInGroup. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UserInGroup — The user already belongs to this group.",
+    "description": "0x000008bc: NERR_UserInGroup. The user already belongs to this group. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Код означает существующее членство по таблице Microsoft; найденные точные поиски не дали подтверждённого пользовательского исправления.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UserInGroup: The user already belongs to this group. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните, выполнялась ли операция добавления пользователя в группу, и запишите домен/сервер и точные имена.\",\"Шаг 2: Прочитайте текущий состав этой группы на том же сервере и проверьте, что найден именно нужный пользователь, а не одноимённая учётная запись.\",\"Шаг 3: Если членство уже соответствует требуемому состоянию, повторное добавление не нужно. Если состав не совпадает, сохраните вывод и проверьте контекст API/репликации с администратором.\",\"Шаг 4: Не добавляйте или удаляйте членство, если это не соответствует требуемой политике доступа.\"]"
   },
   {
     "errorCode": "0x000008BD",
-    "title": "Network Management (LAN Manager) — NERR_UserNotInGroup",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_UserNotInGroup. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_UserNotInGroup — The user does not belong to this group.",
+    "description": "0x000008bd: NERR_UserNotInGroup. The user does not belong to this group. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. NetGroupDelUser указывает глобальную группу; изменения членства требуют соответствующих прав и одобрения владельца домена.",
+    "officialSolution": "Microsoft подтверждает значение NERR_UserNotInGroup: The user does not belong to this group. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте, что операция была удалением пользователя из глобальной группы через NetGroupDelUser или соответствующую функцию.\",\"Шаг 2: Сверьте полное имя пользователя, группы и целевой сервер; Microsoft возвращает этот статус, если пользователя нет именно в указанной группе.\",\"Шаг 3: Если желаемое состояние — отсутствие членства, оно уже достигнуто; не добавляйте пользователя автоматически.\",\"Шаг 4: Если членство должно быть, сначала подтвердите право доступа и нужную группу, затем используйте разрешённый инструмент управления группой.\"]"
   },
   {
     "errorCode": "0x000008BE",
-    "title": "Network Management (LAN Manager) — NERR_AccountUndefined",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_AccountUndefined. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_AccountUndefined — This user account is undefined.",
+    "description": "0x000008be: NERR_AccountUndefined. This user account is undefined. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. «Undefined» не доказывает, что учётной записи нигде нет: значение зависит от сервера и базы, к которой обращался вызывающий API.",
+    "officialSolution": "Microsoft подтверждает значение NERR_AccountUndefined: This user account is undefined. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните вызывающий API и конкретный сервер, на котором искалась учётная запись.\",\"Шаг 2: Сверьте точное имя, домен/локальный компьютер и то, где приложение ожидает хранение этой учётной записи.\",\"Шаг 3: Если вызов — NetUserGetInfo, проверьте результат чтения на том же сервере и сохраните статус/API-журнал; Microsoft документирует чтение сведений через эту функцию.\",\"Шаг 4: Не создавайте новую учётную запись без подтверждения, что она действительно должна существовать и кто отвечает за её выдачу.\"]"
   },
   {
     "errorCode": "0x000008BF",
-    "title": "Network Management (LAN Manager) — NERR_AccountExpired",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_AccountExpired. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_AccountExpired — This user account has expired.",
+    "description": "0x000008bf: NERR_AccountExpired. This user account has expired. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Проверка/изменение применимы к учётной записи, которой управляет соответствующий NetAPI/каталог; подтверждённого форумного обхода нет.",
+    "officialSolution": "Microsoft подтверждает значение NERR_AccountExpired: This user account has expired. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите домен/сервер и пользователя, для которых получен NERR_AccountExpired.\",\"Шаг 2: Прочитайте срок действия в свойствах учётной записи через разрешённое средство администратора; NetUserGetInfo включает поле срока действия учётной записи.\",\"Шаг 3: Если срок истёк и доступ должен быть восстановлен, владелец учётной записи должен подтвердить это по политике организации.\",\"Шаг 4: Только уполномоченный администратор меняет дату истечения согласно политике; если используется NetAPI, Microsoft документирует NetUserSetInfo с уровнем 1017 для задания срока действия. Затем повторно проверьте вход; не снимайте ограничение без разрешения.\"]"
   },
   {
     "errorCode": "0x000008C0",
-    "title": "Network Management (LAN Manager) — NERR_InvalidWorkstation",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_InvalidWorkstation. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_InvalidWorkstation — The user is not allowed to log on from this workstation.",
+    "description": "0x000008c0: NERR_InvalidWorkstation. The user is not allowed to log on from this workstation. Это статус пространства Network Management (NERR), обычно возвращаемый вызывающей функцией NetAPI/сетевого компонента; сам по себе он не определяет поломку всей Windows. Точный сценарий и совместимость зависят от вызывающего приложения, API, сервера и версии ОС. Поле userWorkstations применяется к каталоговым учётным записям; проверка касается именно разрешённых компьютеров, а не драйвера/сети.",
+    "officialSolution": "Microsoft подтверждает значение NERR_InvalidWorkstation: The user is not allowed to log on from this workstation. Для этого точного NERR универсальная процедура исправления не опубликована. Сначала установите вызывающую функцию, целевой сервер и объект; затем проверяйте состояние только документированным способом для этого API и версии Windows. Диагностические шаги ниже не являются подтверждённым пользовательским ремонтом.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Поиск Microsoft Q&A и Reddit по точному коду/символу не выявил подтверждённого успешного исправления.",
+      "Точный Reddit-кейс с подтверждённым результатом не найден."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните учётную запись, домен и фактическое имя клиентской рабочей станции.\",\"Шаг 2: В каталоге проверьте ограничение userWorkstations: Microsoft указывает список разрешённых NetBIOS-имён рабочих станций.\",\"Шаг 3: Сравните имя клиента со списком и действующей политикой входа; не пытайтесь обходить ограничение другой учётной записью.\",\"Шаг 4: Если доступ с этого компьютера требуется, уполномоченный администратор может изменить список только по политике организации; для NetAPI Microsoft документирует NetUserSetInfo, уровень 1014. Затем повторите вход и зафиксируйте результат.\"]"
   },
   {
     "errorCode": "0x000008C1",

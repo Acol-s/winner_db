@@ -168698,54 +168698,140 @@
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L180",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/197236"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The code describes a LAN logon state in the Network Management error family. It does not identify which legacy API or logon provider produced the status; no generic modern Windows repair is established.",
+          "forum_result": "Точного современного Microsoft Q&A/Reddit случая с подтверждённым исправлением не найдено; найденная Q197236 описывает только отдельный Windows 95/98 API-сценарий.",
+          "reddit_result": "По точному коду/символу не найдено проверяемого пользовательского результата.",
+          "search_queries": [
+            "\"0x00000899\" \"NERR_NotLoggedOn\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x0000089b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L182",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/ns-lmaccess-net_validate_output_arg"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The message says the API password parameter is invalid. Microsoft documents NERR_BadPassword in different network-management contexts, including a share-name/password pair and password validation; it does not prove that the user merely typed a wrong Windows sign-in password.",
+          "forum_result": "Точного Microsoft Q&A/Reddit кейса, который связывает этот NERR с подтверждённым конкретным исправлением, не найдено.",
+          "reddit_result": "По точному коду/символу проверяемого пользовательского результата не найдено.",
+          "search_queries": [
+            "\"0x0000089B\" \"NERR_BadPassword\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x0000089c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L183",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/197236",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenameadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "The warning form is shown as a nonfatal status only in archived Microsoft KB Q197236 for a Windows 95/98 NetWkstaSetUID2 logon path. Message-alias APIs themselves are unsupported from Windows Vista onward; do not apply this historical procedure to a modern caller.",
+          "forum_result": "Архивная Microsoft Q197236 даёт конкретный Windows 95/98 пример обработки warning-кода; это документация старого API, не пользовательский отзыв об универсальном ремонте.",
+          "reddit_result": "Современного подтверждённого Reddit-решения для этого legacy-кода не найдено.",
+          "search_queries": [
+            "\"NERR_UnableToAddName_W\" \"0x0000089C\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x0000089d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L184",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenameadd",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/197236"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "The failure form belongs to legacy message-alias/logon processing. Microsoft documents message-alias functions as unsupported from Windows Vista onward. Q197236 only demonstrates the warning form _W, not a fix for _F.",
+          "forum_result": "Точного успешного случая Microsoft Q&A/Reddit для варианта _F не найдено; Q197236 охватывает только _W.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"NERR_UnableToAddName_F\" \"0x0000089D\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x0000089e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L185",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/197236",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenamedel"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "The warning form is accepted as nonfatal only in the archived Microsoft Q197236 Windows 95/98 NetWkstaSetUID2 logoff example. Current NetMessageNameDel is unsupported from Vista onward; the old sample is not a modern repair.",
+          "forum_result": "Q197236 подтверждает только старый Windows 95/98 путь и считает _W nonfatal при logoff; современного пользовательского фикса не найдено.",
+          "reddit_result": "Точного подтверждённого Reddit-решения не найдено.",
+          "search_queries": [
+            "\"NERR_UnableToDelName_W\" \"0x0000089E\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x0000089f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L186",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenamedel",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/197236"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "This failure variant is a legacy message-alias/logoff status. Microsoft message-alias APIs are unsupported from Windows Vista onward. Q197236 demonstrates only the warning variant _W, not this failure.",
+          "forum_result": "Точного Microsoft Q&A/Reddit успешного результата не найдено; Q197236 не покрывает failure-вариант _F.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"NERR_UnableToDelName_F\" \"0x0000089F\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x000008a1": {
         "status": "reviewed",
@@ -168754,7 +168840,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L188",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "The NERR table states that network logons are paused, but the code alone does not identify the responsible service, server version, or authorized resume operation.",
+          "forum_result": "Точного подтверждённого решения Microsoft Q&A/Reddit для NERR_LogonsPaused не найдено.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A1\" \"NERR_LogonsPaused\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a2": {
         "status": "reviewed",
@@ -168763,7 +168860,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L189",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The legacy message identifies a centralized logon-server conflict but does not name the conflicting server, database, or product-specific recovery procedure.",
+          "forum_result": "Точного подтверждённого решения в Microsoft Q&A/Reddit не найдено; найденные SEO-инструкции не подтверждают этот NERR.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A2\" \"NERR_LogonServerConflict\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a3": {
         "status": "reviewed",
@@ -168772,16 +168880,48 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L190",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The old NERR text does not define which product-specific user path is invalid. It must not be assumed to mean an AD profile path, home directory, or logon-script path without API evidence.",
+          "forum_result": "Точного успешного Microsoft Q&A/Reddit кейса с доказанной причинной связью не найдено.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A3\" \"NERR_LogonNoUserPath\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a4": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L191",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/user-profiles-and-logon/assign-logon-script-profile-local-user",
+          "https://learn.microsoft.com/en-us/windows/win32/ad/security-properties",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/changing-elements-of-user-information"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "The documented checks apply only if the calling logon path actually uses a user logon script. Microsoft documents scriptPath/level 1009 and a legacy Server 2003 assignment procedure; exact execution failures remain product- and OS-specific.",
+          "forum_result": "Точного подтверждённого Microsoft Q&A/Reddit результата для 0x8A4 не найдено; шаги опираются на документацию Microsoft по scriptPath, а не на неподтверждённый форумный фикс.",
+          "reddit_result": "Поиск Reddit по точному коду не дал проверяемого исправления.",
+          "search_queries": [
+            "\"NERR_LogonScriptError\" \"0x000008A4\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code.",
+          "sources_not_used": [
+            {
+              "url": "https://erropedia.com/solution.php?slug=logon-script-error-0x000008a4-quick-fix-that-works",
+              "reason": "SEO-страница советует удалять GroupPolicy каталоги, но не приводит подтверждённого источника, связывающего это действие с точным NERR-кодом."
+            }
+          ]
+        }
       },
       "0x000008a6": {
         "status": "reviewed",
@@ -168790,7 +168930,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L193",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "The status explicitly says that no logon server was specified and standalone logon will be used. Whether that is an error depends on the intended domain/workgroup behavior and caller.",
+          "forum_result": "Точного подтверждённого решения Microsoft Q&A/Reddit для этого legacy-кода не найдено.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A6\" \"NERR_StandaloneLogon\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a7": {
         "status": "reviewed",
@@ -168799,7 +168950,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L194",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The code establishes only that the caller could not find a logon server. It does not distinguish name resolution, network reachability, domain configuration, or obsolete API behavior.",
+          "forum_result": "Точного пользователя/версии с подтверждённым устранением именно NERR_LogonServerNotFound не найдено.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A7\" \"NERR_LogonServerNotFound\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a8": {
         "status": "reviewed",
@@ -168808,7 +168970,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L195",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "The message says a logon domain is already configured for this computer. It does not prove that the existing domain is wrong or that the machine should be unjoined.",
+          "forum_result": "Точного подтверждённого Microsoft Q&A/Reddit исправления не найдено; по коду подтверждено только условие уже заданного logon domain.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A8\" \"NERR_LogonDomainExists\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008a9": {
         "status": "reviewed",
@@ -168817,34 +168990,89 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L196",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The code states that the logon server did not validate the logon; it does not identify credentials, trust, policy, server reachability, or a safe repair.",
+          "forum_result": "Точного подтверждённого кейса Microsoft Q&A/Reddit для 0x8A9 не найдено; общие советы о сбросе пароля не доказывают причину этого кода.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008A9\" \"NERR_NonValidatedLogon\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008ab": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L202",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L203"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "This is a legacy Network Management security-database status. The code alone does not identify the database format, path, host OS, or supported recovery method; do not equate it with a corrupt modern AD/SAM database.",
+          "forum_result": "Точного современного пользовательского восстановления Microsoft Q&A/Reddit не найдено; SEO-советы о ручной правке SAM/реестра исключены.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008AB\" \"NERR_ACFNotFound\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008ac": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L204",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupadduser",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupdeluser",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/927279",
+          "https://knowledge.broadcom.com/external/article/268681/computer-not-joined-to-domain-after-imag.html",
+          "https://stackoverflow.com/questions/33935825/pinvoke-netlocalgroupgetmembers-runs-into-fatalexecutionengineerror"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_fix_and_user_report",
+          "scope": "Два узких подтверждённых сценария: BizTalk Server 2006 SSO (архивированный KB/hotfix) и GSS 3.x domain join (описание поставщика). Не универсальное исправление для любого 0x8AC.",
+          "forum_result": "Точный BizTalk 2006 KB описывает код и исправление; Broadcom support case сообщает, что GSS 3.x domain join исправлен использованием доменной административной учётной записи. Stack Overflow лишь подтверждает возврат 0x8AC для отсутствующей группы, не является ремонтом.",
+          "reddit_result": "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления.",
+          "search_queries": [
+            "\"0x8AC\" \"NERR_GroupNotFound\" BizTalk Microsoft forum Reddit"
+          ],
+          "note": "BizTalk hotfix из архива относится только к BizTalk Server 2006; не скачивать его из стороннего архива для современной системы. Решение Broadcom применимо только к описанному GSS 3.x журналу и политике домена.",
+          "procedure_scope": "Два узких подтверждённых сценария: BizTalk Server 2006 SSO (архивированный KB/hotfix) и GSS 3.x domain join (описание поставщика). Не универсальное исправление для любого 0x8AC."
+        }
       },
       "0x000008ad": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L205",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo",
+          "https://learn.microsoft.com/en-us/windows/desktop/api/lmaccess/nf-lmaccess-netusergetlocalgroups",
+          "https://www.betaarchive.com/wiki/index.php/Microsoft_KB_Archive/140784"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Архивный фикс относится только к Windows NT 3.51 и NetUserGetLocalGroups с параметром domain\\username; в современных кейсах upgrade причинная связь не установлена.",
+          "forum_result": "Точных современных Q&A/Reddit кейсов с подтверждённым успешным исправлением не найдено. Найденный Microsoft KB 140784 — подтверждённый исторический API/OS-specific дефект, а не общий ремонт.",
+          "reddit_result": "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления.",
+          "search_queries": [
+            "\"0x000008AD\" \"NERR_UserNotFound\" Microsoft Q&A Reddit"
+          ],
+          "note": "Не трактовать 0x8AD как объяснение ошибки обновления Windows, если журнал Setup показывает другие фатальные коды; при поиске оставались неудачные/несвязанные случаи.",
+          "procedure_scope": "Архивный фикс относится только к Windows NT 3.51 и NetUserGetLocalGroups с параметром domain\\username; в современных кейсах upgrade причинная связь не установлена."
+        }
       },
       "0x000008ae": {
         "status": "reviewed",
@@ -168853,25 +169081,63 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L206",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "The NERR text does not identify the type of resource or the API namespace. A missing share, device, group resource, or product object must not be assumed from the code alone.",
+          "forum_result": "Точного подтверждённого решения Microsoft Q&A/Reddit для NERR_ResourceNotFound не найдено; найденные совпадения относились к другим типам ресурсов.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008AE\" \"NERR_ResourceNotFound\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded."
+        }
       },
       "0x000008af": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L207",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netlocalgroupadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Microsoft documents NERR_GroupExists for NetLocalGroupAdd when the requested name is already in use as a group name. Check the exact server and group namespace; do not delete an existing group to force a retry.",
+          "forum_result": "Точного пользовательского кейса с подтверждённым результатом для 0x8AF не найдено; точная процедура условна и подтверждается документацией NetLocalGroupAdd.",
+          "reddit_result": "Проверяемого точного Reddit-решения не найдено.",
+          "search_queries": [
+            "\"0x000008AF\" \"NERR_GroupExists\" Microsoft forum Reddit"
+          ],
+          "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
+          "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+        }
       },
       "0x000008b0": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L208",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netuseradd",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/failure-when-you-use-an-existing-computer-account-to-join-a-domain"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Microsoft описывает 0x8B0 как вторичный код повтора в современном domain join; в этом сценарии первичный итоговый код 0xAAC. Правила статьи относятся к поддерживаемым версиям Windows Server.",
+          "forum_result": "Подтверждённый exact-code user outcome не найден; Microsoft Learn показывает реальный Netsetup.log и официальную процедуру для конкретного 0xAAC domain-join сценария.",
+          "reddit_result": "Поиск Reddit по точному NERR/значению не дал подтверждённого успешного исправления.",
+          "search_queries": [
+            "\"0x8B0\" \"NERR_UserExists\" Microsoft Q&A"
+          ],
+          "note": "Не применять к 0x8B0 советы Microsoft о 0xAAC без подтверждения того же лога. Не устанавливать legacy registry override и не ослаблять domain-join policy.",
+          "procedure_scope": "Microsoft описывает 0x8B0 как вторичный код повтора в современном domain join; в этом сценарии первичный итоговый код 0xAAC. Правила статьи относятся к поддерживаемым версиям Windows Server."
+        }
       },
       "0x000008b1": {
         "status": "reviewed",
@@ -168880,16 +169146,42 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L209",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Совпадение с NERR_ResourceExists подтверждено; точный API, возвращающий код, из имеющихся данных не установлен.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B1\" \"NERR_ResourceExists\" Microsoft forum OR Reddit"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b2": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L210",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusersetinfo",
+          "https://learn.microsoft.com/en-us/windows/desktop/api/lmaccess/nf-lmaccess-netusersetgroups",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupdeluser"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Документация NetAPI называет primary domain controller; не приравнивать автоматически к любому контроллеру домена или менять AD FSMO-роли.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B2\" \"NERR_NotPrimary\" Microsoft forum OR Reddit"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008b3": {
         "status": "reviewed",
@@ -168898,7 +169190,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L211",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Формулировка из старого Network Management NERR; текущий компонент и поддерживаемый способ восстановления зависят от вызывающего API.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B3\" \"NERR_ACFNotLoaded\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b4": {
         "status": "reviewed",
@@ -168907,7 +169210,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L212",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Код указывает на исчерпание ёмкости конкретной базы; Microsoft не задаёт общей команды для очистки или расширения.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B4\" \"NERR_ACFNoRoom\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b5": {
         "status": "reviewed",
@@ -168916,7 +169230,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L213",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Значение сообщает о сбое дискового I/O, но не указывает носитель, файл или первопричину; подтверждённого точного пользовательского фикса не найдено.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B5\" \"NERR_ACFFileIOFail\" Microsoft answers"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b6": {
         "status": "reviewed",
@@ -168925,16 +169250,40 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L214",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Документированное ограничение NERR; универсальная процедура перераспределения списков не установлена.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B6\" \"NERR_ACFTooManyLists\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b7": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L215",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netuserdel"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "NetUserDel поддерживается в настольных приложениях начиная с Windows 2000; удаление учётной записи является изменением состояния и требует разрешения администратора.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B7\" \"NERR_UserLogon\" Microsoft forum"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008b8": {
         "status": "reviewed",
@@ -168943,7 +169292,18 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L216",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Код сообщает только, что вызывающая функция не нашла родительский каталог; имя файла и требуемый путь не закодированы в NERR.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B8\" \"NERR_ACFNoParent\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008b9": {
         "status": "reviewed",
@@ -168952,16 +169312,48 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L217",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Точное сообщение Microsoft относится к сегменту кэша сессий security database; универсального безопасного сброса Microsoft не документирует.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008B9\" \"NERR_CanNotGrowSegment\" Microsoft"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008ba": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L218",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusersetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupadduser",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupdeluser"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Действие ограничено специальными группами и конкретным Network Management API; не применять найденные SEO-инструкции с прямым доступом к SAM/реестру.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BA\" \"NERR_SpeGroupOp\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code.",
+          "sources_not_used": [
+            {
+              "url": "https://erropedia.com/solution.php?slug=fix-0x000008ba-nerrspegroupop-special-group-error",
+              "reason": "Unverified SEO article recommends risky registry/SAM operations and makes unsupported claims about generic PowerShell fixes."
+            }
+          ]
+        }
       },
       "0x000008bb": {
         "status": "reviewed",
@@ -168970,52 +169362,133 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L219",
           "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Название указывает на UAS session cache; точный вызов и способ создания записи не определяются кодом.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BB\" \"NERR_NotInCache\" Windows"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded."
+        }
       },
       "0x000008bc": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L220",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupadduser",
+          "https://learn.microsoft.com/en-us/windows/desktop/api/lmaccess/nf-lmaccess-netusersetgroups"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Код означает существующее членство по таблице Microsoft; найденные точные поиски не дали подтверждённого пользовательского исправления.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BC\" \"NERR_UserInGroup\" Microsoft forum"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008bd": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L221",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netgroupdeluser"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "NetGroupDelUser указывает глобальную группу; изменения членства требуют соответствующих прав и одобрения владельца домена.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BD\" \"NERR_UserNotInGroup\" Microsoft Q&A"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008be": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L222",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "«Undefined» не доказывает, что учётной записи нигде нет: значение зависит от сервера и базы, к которой обращался вызывающий API.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BE\" \"NERR_AccountUndefined\" Microsoft"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008bf": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L223",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/ad/security-properties",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusersetinfo"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Проверка/изменение применимы к учётной записи, которой управляет соответствующий NetAPI/каталог; NetUserSetInfo level 1017 документирован для задания срока действия; подтверждённого форумного обхода нет.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008BF\" \"NERR_AccountExpired\" Microsoft forum"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008c0": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L224",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/ad/security-properties",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusersetinfo"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Поле userWorkstations применяется к каталоговым учётным записям; NetUserSetInfo level 1014 документирован для задания списка разрешённых рабочих станций; проверка касается этих имён, а не драйвера/сети.",
+          "forum_result": "no_verified_exact_code_success_found",
+          "reddit_result": "no_verified_exact_code_success_found",
+          "search_queries": [
+            "\"0x000008C0\" \"NERR_InvalidWorkstation\" Windows forum Reddit"
+          ],
+          "note": "Exact meaning checked against the pinned Microsoft SDK and Microsoft Network Management Error Codes. Generic repair claims and unrelated cross-subsystem matches were excluded.",
+          "api_scope": "Microsoft NetAPI documentation lists the cited return conditions and/or account fields; those API procedures apply only when that specific API/context is the source of the code."
+        }
       },
       "0x000008c1": {
         "status": "reviewed",
