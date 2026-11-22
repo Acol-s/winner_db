@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "5cd2e69f01cd69a79229dd92e00d1037afe11ca66eec2b090eef66262ba449e8",
+  "current_windows_sha256": "ab2f794ed6ff1c702b7a3209ce0fa68dfa10f17811998c9dc38fa8911322b8ff",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -3933,30 +3933,330 @@
         "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
       ],
       "note": "Точные поиски Microsoft Q&A и Reddit не дали подтверждённого пользовательского исправления. Источники не подтверждают безопасное универсальное действие очистки; оно исключено."
+    },
+    "0x0000094a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Сообщение относится к журналу, изменившемуся между чтениями. NetErrorLogRead устарел; применимость самого кода зависит от вызывающего legacy API.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft подтверждает точное значение и статус устаревшего NetErrorLogRead. По точным кодам в Microsoft Q&A/Reddit не найден пользовательский случай с подтверждённым результатом; повторное чтение — условная диагностика, не гарантированный ремонт."
+    },
+    "0x0000094b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Подтверждено повреждение указанного файла журнала; причина и безопасный ремонт не установлены.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённого пользовательского исправления. Шаги только сохраняют доказательства и направляют к владельцу формата."
+    },
+    "0x0000094c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Таблица подтверждает только, что исходный путь не может быть каталогом в контексте этой функции; не всякая копирующая операция имеет такое ограничение.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "По точным символу/коду в Microsoft Q&A/Reddit не найден кейс с подтверждённым результатом. Рекомендация условна и следует из типа исходного объекта."
+    },
+    "0x0000094d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Сообщено о недопустимом источнике; код не устанавливает, что объект отсутствует, недоступен или повреждён.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точные запросы Microsoft Q&A/Reddit не дали подтверждённого пользовательского исправления; распространённые советы менять ACL не подтверждены для этого кода."
+    },
+    "0x0000094e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждено, что путь назначения недопустим для конкретной операции; причины вроде ACL/свободного места таблица не утверждает.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённого результата. Нехватка диска и ACL не внесены как установленная причина."
+    },
+    "0x0000094f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код подтверждает разные серверы; требование одного сервера зависит от конкретной операции.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точных подтверждённых пользовательских кейсов в Microsoft Q&A/Reddit не найдено. Скопировать через локальный промежуточный диск как универсальное решение не рекомендовано из-за неизвестной политики данных."
+    },
+    "0x00000951": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код описывает paused Run server, но не определяет текущую Windows-службу или поддержку компонента в конкретном выпуске.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точных пользовательских отчётов с подтверждённым исправлением в Microsoft Q&A/Reddit не найдено. Не найдено основания связывать Run server с Windows Print Spooler."
+    },
+    "0x00000955": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Общая ошибка связи с legacy Run server; источник, транспорт и поддерживаемые версии не установлены.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Exact-code поиски не дали подтверждённых кейсов Microsoft Q&A/Reddit. Результаты AI-генерируемых сайтов с общими советами остановить службы не использованы."
+    },
+    "0x00000957": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Подтверждён только неудачный запуск фонового процесса; не установлено, что это печать, драйвер или неисправность Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Erropedia выдаёт неподтверждённую гипотезу про Print Spooler и AI-generated общий рецепт; Microsoft Q&A/Reddit точного подтверждённого решения не дали. Утверждение о spooler отвергнуто."
+    },
+    "0x00000958": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Ошибка говорит об отсутствующем сетевом ресурсе; доступ к современному Windows share и legacy API — разные сценарии.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённого по этому коду пользовательского исхода. Создание share или отключение защиты не представлено как исправление."
+    },
+    "0x00000960": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Значение кода подтверждено; оно не доказывает физическую неисправность сетевой карты и не задаёт идентификатор интерфейса для любого Windows API.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "По точным кодам/символу в Microsoft Q&A и Reddit не найдено случая с авторским подтверждением решения."
+    },
+    "0x00000963": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Код объединяет два поля — share name или password — поэтому не позволяет выбрать виновное поле без контекста. NetUseAdd — только одна возможная legacy функция.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft NetUseAdd документирует область функции и альтернативы для WebDAV/DFS, но exact-code Microsoft Q&A/Reddit не дал подтверждённого успеха. Пароль/ACL/сброс credentials не утверждаются как универсальная причина или фикс."
+    },
+    "0x00000965": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Точное значение — занята локальная буква диска; инструменты проверки и UI зависят от версии Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "В Microsoft Q&A/Reddit не найден exact-code случай с подтверждённым исходом. Советы отключить все подключения исключены."
+    },
+    "0x0000097e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код и alert registration относятся к legacy API; Microsoft помечает alert functions неподдерживаемыми с Windows Vista.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft Alert Functions docs explicitly state Vista+ unsupported. Точных подтверждённых форумных исправлений нет."
+    },
+    "0x0000097f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Ограничение относится к legacy таблице alerts; не следует обобщать на уведомления Windows 10/11.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft подтверждает полный alert table и неподдерживаемость alert functions с Vista. Точных пользовательских отчётов с подтверждённым исправлением не найдено."
+    },
+    "0x00000980": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Legacy alert name validation; alert functions не поддерживаются начиная с Windows Vista.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Подтверждено Microsoft Network Management Error Codes и Alert Functions. Точные поиски Microsoft Q&A/Reddit не дали успешного пользовательского отчёта."
+    },
+    "0x00000981": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Получатель legacy network alert недопустим; не обобщать на другие системы уведомлений.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft docs подтверждают код и ограничения alert API. Exact-code кейсов с подтверждённым исправлением в Microsoft Q&A/Reddit не найдено."
+    },
+    "0x00000982": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Текст Microsoft — удалён сеанс пользователя; имя символа вводит в заблуждение и не подтверждает лимит аккаунта.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft MS-ERREF прямо указывает удалённую сессию. Erropedia приписывает этому коду неподтверждённую причину про account/logon limits; это отклонено. Точных авторски подтверждённых решений на форумах не найдено."
+    },
+    "0x00000988": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Описание относится к номеру записи в legacy log; оно не означает повреждение всего журнала.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Microsoft Network Management table/MS-ERREF подтверждают значение; NetErrorLogRead docs — статус устаревшего API. Точных форумных успешных случаев не найдено."
+    },
+    "0x00000992": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft подтверждает неверную конфигурацию user accounts database, но не называет её современным SAM/AD и не даёт универсального восстановления.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\")",
+        "site:reddit.com (\"NERR_LogFileChanged\" OR \"NERR_LogFileCorrupt\" OR \"NERR_InvalidLogSeek\" OR \"0x0000094a\")",
+        "site:learn.microsoft.com/answers (\"NERR_SourceIsDir\" OR \"NERR_BadSource\" OR \"NERR_BadDest\" OR \"NERR_DifferentServers\")",
+        "site:reddit.com (\"NERR_AlertExists\" OR \"NERR_TooManyAlerts\" OR \"NERR_BadRecipient\" OR \"NERR_AcctLimitExceeded\" OR \"NERR_BadUasConfig\")",
+        "\"NERR_RunSrvPaused\" OR \"NERR_ErrCommRunSrv\" OR \"NERR_ErrorExecingGhost\"",
+        "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
+      ],
+      "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённой процедуры. Совет «перестроить базу/сбросить SAM» не подтверждён и исключён."
     }
   },
-  "pending_count": 5966,
+  "pending_count": 5946,
   "pending_codes": [
-    "0x0000094a",
-    "0x0000094b",
-    "0x0000094c",
-    "0x0000094d",
-    "0x0000094e",
-    "0x0000094f",
-    "0x00000951",
-    "0x00000955",
-    "0x00000957",
-    "0x00000958",
-    "0x00000960",
-    "0x00000963",
-    "0x00000965",
-    "0x0000097e",
-    "0x0000097f",
-    "0x00000980",
-    "0x00000981",
-    "0x00000982",
-    "0x00000988",
-    "0x00000992",
     "0x00000993",
     "0x00000994",
     "0x00000995",
@@ -10122,6 +10422,26 @@
     "0x00000945",
     "0x00000946",
     "0x00000947",
-    "0x00000949"
+    "0x00000949",
+    "0x0000094a",
+    "0x0000094b",
+    "0x0000094c",
+    "0x0000094d",
+    "0x0000094e",
+    "0x0000094f",
+    "0x00000951",
+    "0x00000955",
+    "0x00000957",
+    "0x00000958",
+    "0x00000960",
+    "0x00000963",
+    "0x00000965",
+    "0x0000097e",
+    "0x0000097f",
+    "0x00000980",
+    "0x00000981",
+    "0x00000982",
+    "0x00000988",
+    "0x00000992"
   ]
 }
