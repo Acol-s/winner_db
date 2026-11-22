@@ -167268,252 +167268,616 @@
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L73",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2102\" \"workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000837": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L74",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2103\" \"server\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000838": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L75",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2104\" \"shared memory\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000839": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L76",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2105\" \"network resource\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000083a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L78",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2106\" \"workstations\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000083b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L79",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-brws/995d4fc3-1e1e-4f50-95fe-190674021266"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2107\" \"network\" \"device\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000842": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L86",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/active-directory/netlogon-service-not-start-event-2112-7024",
+          "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query",
+          "https://learn.microsoft.com/en-us/answers/questions/2449614/windows-7-services-server-service-is-not-started"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Separate cases: Windows 7 helpmsg misunderstanding; official KB269375 procedure specifically describes Windows 2000 Netlogon dependencies after Client for Microsoft Networks changes.",
+          "forum_result": "matching_number_but_help_text_mistaken_for_service_status",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2114\" \"Server service\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "Native net help helpmsg output verified read-only. Modern service state can be queried with sc.exe; do not copy historical Netlogon dependency replacement to arbitrary modern domain systems.",
+          "local_verification": {
+            "command": "net help helpmsg",
+            "result": "NET HELPMSG displays information about Windows network messages; this is not a service-state query."
+          }
+        }
       },
       "0x00000843": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L87",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2115\" \"queue\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000844": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L88",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmshare/nf-lmshare-netshareadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2116\" \"device\" \"directory\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000845": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L89",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmshare/nf-lmshare-netshareadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2117\" \"redirected\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs.",
+          "sources_not_used": [
+            {
+              "url": "https://learn.microsoft.com/en-us/answers/questions/2806152/after-installation-of-kb4056892-boot-failure-after?page=7",
+              "reason": "Windows Update HRESULT 0x800F0845 was looked up via low bits 0x845. Matching the low numeric portion does not establish NERR_RedirectedPath semantics or a NetAPI repair."
+            }
+          ]
+        }
       },
       "0x00000846": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L90",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmshare/nf-lmshare-netshareadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2118\" \"shared\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000847": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L91",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2119\" \"resource\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000849": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L93",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2121\" \"network\" \"items\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000084a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L94",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2122\" \"Peer service\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000084b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L95",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-function-buffer-lengths",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmwksta/nf-lmwksta-netwkstatransportenum"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Documented developer procedure for NetWkstaTransportEnum, minimum Windows 2000 Professional/Server desktop apps. Other NetAPI calls have their own buffer contracts.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2123\" \"buffer\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "API allocates result memory; MAX_PREFERRED_LENGTH and required NetApiBufferFree on partial/error results are documented. Do not blindly reallocate an API-owned result buffer or conflate every 2123 with RAM shortage."
+        }
       },
       "0x0000084f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L99",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmserver/nf-lmserver-netserverenum"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2127\" \"remote API\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000853": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L103",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2131\" \"configuration file\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000858": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L108",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2136\" \"network error\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000859": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L109",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2137\" \"Workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000085a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L111",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/sc-query",
+          "https://learn.microsoft.com/en-us/answers/questions/2561814/solved-windows-7-pc-cannot-access-remote-or-local"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "research_incomplete",
+          "scope": "Exact-code Windows 7 x64 case in 2013. Later Windows 10 ProviderOrder comment is a different version/context.",
+          "forum_result": "author_identified_malware_no_completed_repair_outcome",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2138\" \"Workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"The Workstation service has not been started\" site:reddit.com",
+            "net use 2138 fixed workstation service site:reddit.com"
+          ],
+          "note": "SOLVED title and accepted TechNet referral are not evidence of a tested repair. No blanket ProviderOrder overwrite, service recreation, registry deletion or reinstall recommendation promoted."
+        }
       },
       "0x0000085b": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L112",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Historical Computer Browser/SMB1 dependency versus Windows 10/Server 1709 defaults and Windows 11. Source mentions newer preview systems, which are not used to infer 2004-2026 behavior.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2139\" \"Browser\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+            "\"NERR_BrowserNotStarted\" site:reddit.com"
+          ],
+          "note": "Generic info-unavailable message does not prove Browser service is merely stopped. No enabling SMB1 or claiming modern discovery is a drop-in repair of a legacy Browser API."
+        }
       },
       "0x0000085c": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L113",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2140\" \"network\" \"internal\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000085d": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L114",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "no_verified_fix_found",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2141\" \"transactions\" \"server\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000085e": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L115",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2142\" \"API\" \"server\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x0000085f": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L116",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_constraint",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2143\" \"event name\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000860": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L117",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://support.microsoft.com/en-us/accounts-billing/manage/rename-your-windows-device",
+          "https://support.microsoft.com/en-gb/accounts-billing/manage/manage-devices-used-with-your-microsoft-account"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_procedure",
+          "scope": "Documented rename UI only for personal unmanaged Windows 10/11 PCs. Not a domain-controller/server rename guide or proof for XP/7 UI.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2144\" \"computer name\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "SDK requires changed computer name and restart. Current Microsoft device guidance excludes self-renaming company-managed devices."
+        }
       },
       "0x00000862": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L124",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2146\" \"configuration\" \"component\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000863": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L125",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn.",
+        "solution_review": {
+          "reviewed_at": "2026-11-22",
+          "status": "documented_recommendation_needs_procedure",
+          "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+          "forum_result": "no_usable_exact_code_success",
+          "reddit_result": "no_usable_exact_code_success",
+          "search_queries": [
+            "\"2147\" \"configuration\" \"parameter\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+          ],
+          "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+        }
       },
       "0x00000865": {
         "status": "reviewed",
