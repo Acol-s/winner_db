@@ -170648,184 +170648,211 @@
         "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d6": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L484",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Точное имя и сообщение подтверждены Microsoft. Процедура ограничена проверкой журнала и документированными параметрами RPL; точного подтверждённого форумного исправления по коду не найдено. userSolutions очищен."
       },
       "0x000009d7": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_constraint",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L485",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Числовой смысл подтверждён Microsoft. Отдельного подтверждённого пользовательского решения не найдено; предложенные шаги только выявляют повторное подключение и не заявлены как проверенное исправление."
       },
       "0x000009f6": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "user_reported_success",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L502",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/settings-for-minimizing-periodic-wan-traffic",
+          "https://groups.google.com/g/comp.os.ms-windows.misc/c/6uVHLY3h524",
+          "https://learn.microsoft.com/en-us/answers/questions/5554643/my-new-windows-11-pc-cannot-access-windows-10-and"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Точное значение NERR подтверждено Microsoft. Успешный форумный пример отмечен только как исторически похожий случай, не как точный кодовый кейс. Microsoft указывает устаревание Browser в Windows 10/Server 2016+; не рекомендовано включать её без необходимости."
       },
       "0x00000a32": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L509",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158455/",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сообщение подтверждено Microsoft. Проверка адаптера и журнала следует документации NT4; точного пользовательского успешного кейса для кода не найдено."
       },
       "0x00000a33": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L510",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Оставлены только диагностика и предупреждение не редактировать реестр вслепую. Форумного подтверждённого решения по точному коду не найдено."
       },
       "0x00000a34": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L511",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Точное состояние подтверждено Microsoft. Найдена документация по резервным копиям, но не подтверждённый точный ремонт; не использованы найденные сторонние советы удалять файлы RPLMAP/RPLSVC."
       },
       "0x00000a35": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L512",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Проверка ресурса и перезапуск службы прямо описаны в Microsoft KB Q158277. Переустановка оставлена последним шагом только при подтверждённом NT4 и после резервирования."
       },
       "0x00000a36": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L513",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Название и требуемая группа подтверждены Microsoft; действие Fix Security описано в старом руководстве Microsoft. Современные эквиваленты не предполагаются."
       },
       "0x00000a37": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L514",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Оставлена только диагностика и резервирование; точных успешных случаев на форуме не найдено."
       },
       "0x00000a38": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L515",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Не выдаётся предположение о восстановлении записи за проверенное исправление. Точного успешного форумного кейса не найдено."
       },
       "0x00000a39": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L516",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft описывает поиск по adapter ID и настройку профиля клиента. Не найден отдельный пользовательский success case для точного кода."
       },
       "0x00000a3a": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_constraint",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L517",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Значение кода подтверждено Microsoft. Шаги предотвращают дубли и требуют проверить MAC/adapter ID; отдельного подтверждённого пользовательского решения не найдено."
       },
       "0x00000a3b": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L518",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Диагностика и резервирование отделены от неподтверждённого ремонта; точного успешного форумного кейса не найдено."
       },
       "0x00000a3c": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L519",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Создание нового профиля указано как условная процедура, а не как универсальный ремонт; пользовательского success case по точному коду не найдено."
       },
       "0x00000a3d": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_constraint",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L520",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Значение кода подтверждено Microsoft; отдельного форумного подтверждённого решения нет. Рекомендация сводится к выявлению конфликта имени."
       },
       "0x00000a3e": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_constraint",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L521",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Причина подтверждена таблицей Microsoft; шаги ограничены выявлением зависимостей и штатным назначением профиля. Нельзя трактовать как подтверждённый ремонт конкретного сбоя."
       },
       "0x00000a3f": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L522",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Сохранена только диагностика зависимостей и резервирование. Точного успешного пользовательского кейса не найдено."
       },
       "0x00000a40": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "documented_procedure",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L523",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158277/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Действие прямо описано в Microsoft KB Q158277; точного успешного пользовательского кейса по коду не найдено."
       },
       "0x00000a41": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L524",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ftp.zx.net.nz/pub/archive/ftp.microsoft.com/MISC/KB/en-us/158/278.HTM",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf",
+          "https://jeffpar.github.io/kbarchive/kb/158/Q158455/"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Проверены официальные значения и старые материалы по adapter ID; универсальное исправление повреждённой записи не найдено."
       },
       "0x00000a42": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "status": "no_verified_fix_found",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L525",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://ccfit.nsu.ru/~arom/old/data/REMOTEBO.pdf"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Числовой смысл подтверждён Microsoft; точного подтверждённого forum/Reddit решения или универсального ремонта не найдено."
       },
       "0x00000a43": {
         "status": "reviewed",

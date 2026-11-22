@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "baaf1d4608bac849f3c403bdb53e316ed1e48cddb912316b865ad3bf33348f55",
+  "current_windows_sha256": "0887ff2bf11a819ed18047ce5ee311b152b823753eb32087849ecf6b77ea15f1",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -4733,30 +4733,175 @@
       "reviewed_at": "2026-11-22",
       "forum_result": "no_usable_exact_code_success_case",
       "scope": "Сообщение прямо отсылает к журналу remote-boot service; применимость ограничена legacy RPL/RIS."
+    },
+    "0x000009d6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Старый Microsoft Remoteboot/RPL, документ NT Server 4.0; не обобщать на WDS/PXE.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Точное имя и сообщение подтверждены Microsoft. Процедура ограничена проверкой журнала и документированными параметрами RPL; точного подтверждённого форумного исправления по коду не найдено. userSolutions очищен. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x000009d7": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Историческая служба Remoteboot; точное ограничение Microsoft не доказывает одинаковое поведение других сетевых API.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Числовой смысл подтверждён Microsoft. Отдельного подтверждённого пользовательского решения не найдено; предложенные шаги только выявляют повторное подключение и не заявлены как проверенное исправление. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x000009f6": {
+      "reviewed_at": "2026-11-22",
+      "status": "user_reported_success",
+      "scope": "Сообщение описывает старую службу Browser. Пользовательский отчёт 1997 года относится к похожей видимости Network Neighborhood на Windows 95/NT 4.0, а не к точному коду; для Windows 10/11 настройка не обоснована.",
+      "forum_result": "historical_similar_case_reported_success_not_exact_code",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Точное значение NERR подтверждено Microsoft. Успешный форумный пример отмечен только как исторически похожий случай, не как точный кодовый кейс. Microsoft указывает устаревание Browser в Windows 10/Server 2016+; не рекомендовано включать её без необходимости. Steps are source-backed diagnostics/procedures; they do not claim a universal fix.",
+      "search_queries": [
+        "\"NERR_BrowserConfiguredToNotRun\" Microsoft Q&A Reddit",
+        "\"MaintainServerList\" \"worked for me\" Windows 95 NT 4.0",
+        "\"PC Name Does Not Appear in Network Neighborhood\""
+      ]
+    },
+    "0x00000a32": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Таблица совместимости относится к NT Server 4.0 RPL; список старого оборудования не переносится на современные службы загрузки.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Сообщение подтверждено Microsoft. Проверка адаптера и журнала следует документации NT4; точного пользовательского успешного кейса для кода не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a33": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый NT Remoteboot. Microsoft определяет состояние, но не найдено безопасной универсальной правки реестра.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Оставлены только диагностика и предупреждение не редактировать реестр вслепую. Форумного подтверждённого решения по точному коду не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a34": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый Windows NT Remoteboot; процедура резервирования из руководства не является универсальной инструкцией восстановления.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Точное состояние подтверждено Microsoft. Найдена документация по резервным копиям, но не подтверждённый точный ремонт; не использованы найденные сторонние советы удалять файлы RPLMAP/RPLSVC. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a35": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Прямая процедура Microsoft KB для Windows NT Server 4.0 Remoteboot.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Проверка ресурса и перезапуск службы прямо описаны в Microsoft KB Q158277. Переустановка оставлена последним шагом только при подтверждённом NT4 и после резервирования. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a36": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Старый Windows NT Remoteboot; Fix Security относится к инструменту NT RPL.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Название и требуемая группа подтверждены Microsoft; действие Fix Security описано в старом руководстве Microsoft. Современные эквиваленты не предполагаются. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a37": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый RPL; опубликованное сообщение не определяет повреждённую запись или восстановление.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Оставлена только диагностика и резервирование; точных успешных случаев на форуме не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a38": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый Windows NT RPL; нет подтверждённого ремонта отдельной записи.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Не выдаётся предположение о восстановлении записи за проверенное исправление. Точного успешного форумного кейса не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a39": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Создание workstation-записи описано для старого Windows NT Remoteboot; не относится к WDS/PXE.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Microsoft описывает поиск по adapter ID и настройку профиля клиента. Не найден отдельный пользовательский success case для точного кода. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Ограничение уникальности имени в старом RPL.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Значение кода подтверждено Microsoft. Шаги предотвращают дубли и требуют проверить MAC/adapter ID; отдельного подтверждённого пользовательского решения не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый Windows NT RPL; нет подтверждённого восстановления отдельного повреждённого профиля.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Диагностика и резервирование отделены от неподтверждённого ремонта; точного успешного форумного кейса не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Создание профиля описано Microsoft для Windows NT Server 4.0 Remoteboot.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Создание нового профиля указано как условная процедура, а не как универсальный ремонт; пользовательского success case по точному коду не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Ограничение имени профиля старого RPL.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Значение кода подтверждено Microsoft; отдельного форумного подтверждённого решения нет. Рекомендация сводится к выявлению конфликта имени. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Сообщение о зависимых workstation-записях старого RPL.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Причина подтверждена таблицей Microsoft; шаги ограничены выявлением зависимостей и штатным назначением профиля. Нельзя трактовать как подтверждённый ремонт конкретного сбоя. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a3f": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый Windows NT RPL; нет подтверждённого восстановления повреждённой configuration-записи.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Сохранена только диагностика зависимостей и резервирование. Точного успешного пользовательского кейса не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a40": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Процедура Check Configurations описана Microsoft для NT4 Remoteboot.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Действие прямо описано в Microsoft KB Q158277; точного успешного пользовательского кейса по коду не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a41": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый RPL; источники объясняют назначение adapter ID, но не восстановление повреждённой записи.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Проверены официальные значения и старые материалы по adapter ID; универсальное исправление повреждённой записи не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
+    },
+    "0x00000a42": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Старый Windows NT Remoteboot; внутренний код без отдельной опубликованной причины.",
+      "forum_result": "no_usable_exact_code_success_case",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "note": "Числовой смысл подтверждён Microsoft; точного подтверждённого forum/Reddit решения или универсального ремонта не найдено. Steps are source-backed diagnostics/procedures; they do not claim a universal fix."
     }
   },
-  "pending_count": 5906,
+  "pending_count": 5886,
   "pending_codes": [
-    "0x000009d6",
-    "0x000009d7",
-    "0x000009f6",
-    "0x00000a32",
-    "0x00000a33",
-    "0x00000a34",
-    "0x00000a35",
-    "0x00000a36",
-    "0x00000a37",
-    "0x00000a38",
-    "0x00000a39",
-    "0x00000a3a",
-    "0x00000a3b",
-    "0x00000a3c",
-    "0x00000a3d",
-    "0x00000a3e",
-    "0x00000a3f",
-    "0x00000a40",
-    "0x00000a41",
-    "0x00000a42",
     "0x00000a43",
     "0x00000a44",
     "0x00000a45",
@@ -10910,6 +11055,18 @@
     "0x000009cc",
     "0x000009d0",
     "0x000009d1",
-    "0x000009d5"
+    "0x000009d5",
+    "0x000009d7",
+    "0x00000a33",
+    "0x00000a34",
+    "0x00000a37",
+    "0x00000a38",
+    "0x00000a3a",
+    "0x00000a3b",
+    "0x00000a3d",
+    "0x00000a3e",
+    "0x00000a3f",
+    "0x00000a41",
+    "0x00000a42"
   ]
 }
