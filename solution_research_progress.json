@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "43763a10f80464e86e8a7b8d4b21a5ae84e6abf76eb02866ab00dcb1394661b6",
+  "current_windows_sha256": "a65693b6daab869cb30afc0a5b34afd6dac616b3ad17368935c8a2dadbbd4a74",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -1843,38 +1843,331 @@
         "\"956\" \"RRAS\" (site:learn.microsoft.com/answers OR site:reddit.com)"
       ],
       "note": "First research pass. Code meanings, documented procedures and user-confirmed outcomes are distinct. No fixed product limit or universal network reset invented."
+    },
+    "0x00000836": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2102\" \"workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000837": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2103\" \"server\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000838": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2104\" \"shared memory\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000839": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2105\" \"network resource\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000083a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2106\" \"workstations\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000083b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2107\" \"network\" \"device\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000842": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Separate cases: Windows 7 helpmsg misunderstanding; official KB269375 procedure specifically describes Windows 2000 Netlogon dependencies after Client for Microsoft Networks changes.",
+      "forum_result": "matching_number_but_help_text_mistaken_for_service_status",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2114\" \"Server service\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "Native net help helpmsg output verified read-only. Modern service state can be queried with sc.exe; do not copy historical Netlogon dependency replacement to arbitrary modern domain systems.",
+      "local_verification": {
+        "command": "net help helpmsg",
+        "result": "NET HELPMSG displays information about Windows network messages; this is not a service-state query."
+      }
+    },
+    "0x00000843": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2115\" \"queue\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000844": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2116\" \"device\" \"directory\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000845": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2117\" \"redirected\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs.",
+      "sources_not_used": [
+        {
+          "url": "https://learn.microsoft.com/en-us/answers/questions/2806152/after-installation-of-kb4056892-boot-failure-after?page=7",
+          "reason": "Windows Update HRESULT 0x800F0845 was looked up via low bits 0x845. Matching the low numeric portion does not establish NERR_RedirectedPath semantics or a NetAPI repair."
+        }
+      ]
+    },
+    "0x00000846": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2118\" \"shared\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000847": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2119\" \"resource\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000849": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2121\" \"network\" \"items\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000084a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2122\" \"Peer service\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000084b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Documented developer procedure for NetWkstaTransportEnum, minimum Windows 2000 Professional/Server desktop apps. Other NetAPI calls have their own buffer contracts.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2123\" \"buffer\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "API allocates result memory; MAX_PREFERRED_LENGTH and required NetApiBufferFree on partial/error results are documented. Do not blindly reallocate an API-owned result buffer or conflate every 2123 with RAM shortage."
+    },
+    "0x0000084f": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2127\" \"remote API\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000853": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2131\" \"configuration file\" \"network\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000858": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2136\" \"network error\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000859": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2137\" \"Workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000085a": {
+      "reviewed_at": "2026-11-22",
+      "status": "research_incomplete",
+      "scope": "Exact-code Windows 7 x64 case in 2013. Later Windows 10 ProviderOrder comment is a different version/context.",
+      "forum_result": "author_identified_malware_no_completed_repair_outcome",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2138\" \"Workstation\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"The Workstation service has not been started\" site:reddit.com",
+        "net use 2138 fixed workstation service site:reddit.com"
+      ],
+      "note": "SOLVED title and accepted TechNet referral are not evidence of a tested repair. No blanket ProviderOrder overwrite, service recreation, registry deletion or reinstall recommendation promoted."
+    },
+    "0x0000085b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Historical Computer Browser/SMB1 dependency versus Windows 10/Server 1709 defaults and Windows 11. Source mentions newer preview systems, which are not used to infer 2004-2026 behavior.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2139\" \"Browser\" (site:learn.microsoft.com/answers OR site:reddit.com)",
+        "\"NERR_BrowserNotStarted\" site:reddit.com"
+      ],
+      "note": "Generic info-unavailable message does not prove Browser service is merely stopped. No enabling SMB1 or claiming modern discovery is a drop-in repair of a legacy Browser API."
+    },
+    "0x0000085c": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2140\" \"network\" \"internal\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000085d": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2141\" \"transactions\" \"server\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000085e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2142\" \"API\" \"server\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x0000085f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2143\" \"event name\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000860": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Documented rename UI only for personal unmanaged Windows 10/11 PCs. Not a domain-controller/server rename guide or proof for XP/7 UI.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2144\" \"computer name\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "SDK requires changed computer name and restart. Current Microsoft device guidance excludes self-renaming company-managed devices."
+    },
+    "0x00000862": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2146\" \"configuration\" \"component\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
+    },
+    "0x00000863": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Network Management/NetAPI namespace. Legacy component support and procedure-specific OS applicability are separate from the SDK definition.",
+      "forum_result": "no_usable_exact_code_success",
+      "reddit_result": "no_usable_exact_code_success",
+      "search_queries": [
+        "\"2147\" \"configuration\" \"parameter\" (site:learn.microsoft.com/answers OR site:reddit.com)"
+      ],
+      "note": "First research pass; symbol/value independently checked against pinned lmerr.h. Diagnostics and API constraints are not represented as user-confirmed repairs."
     }
   },
-  "pending_count": 6138,
+  "pending_count": 6110,
   "pending_codes": [
-    "0x00000836",
-    "0x00000837",
-    "0x00000838",
-    "0x00000839",
-    "0x0000083a",
-    "0x0000083b",
-    "0x00000842",
-    "0x00000843",
-    "0x00000844",
-    "0x00000845",
-    "0x00000846",
-    "0x00000847",
-    "0x00000849",
-    "0x0000084a",
-    "0x0000084b",
-    "0x0000084f",
-    "0x00000853",
-    "0x00000858",
-    "0x00000859",
-    "0x0000085a",
-    "0x0000085b",
-    "0x0000085c",
-    "0x0000085d",
-    "0x0000085e",
-    "0x0000085f",
-    "0x00000860",
-    "0x00000862",
-    "0x00000863",
     "0x00000865",
     "0x00000866",
     "0x00000867",
@@ -8108,6 +8401,21 @@
     "0x000003b8",
     "0x000003b9",
     "0x000003ba",
-    "0x000003bb"
+    "0x000003bb",
+    "0x00000836",
+    "0x00000837",
+    "0x00000838",
+    "0x00000839",
+    "0x0000083b",
+    "0x00000847",
+    "0x0000084f",
+    "0x00000853",
+    "0x00000858",
+    "0x0000085a",
+    "0x0000085b",
+    "0x0000085c",
+    "0x0000085d",
+    "0x00000862",
+    "0x00000863"
   ]
 }
