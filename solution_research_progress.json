@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "ab2f794ed6ff1c702b7a3209ce0fa68dfa10f17811998c9dc38fa8911322b8ff",
+  "current_windows_sha256": "5a5018bec4e7fbd9c77c38c8fb5f906c391ef2221fe0fec5233e60daf4c868e8",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -4253,30 +4253,330 @@
         "\"NERR_AcctLimitExceeded\" OR \"0x00000982\" OR \"2434\" \"user session\""
       ],
       "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённой процедуры. Совет «перестроить базу/сбросить SAM» не подтверждён и исключён."
+    },
+    "0x00000993": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Условие относится к данной сетевой операции при работающей Netlogon; оно не доказывает неисправность службы.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft подтверждает точный смысл кода. Точных пользовательских решений с подтверждённым исходом в Microsoft Q&A/Reddit не найдено."
+    },
+    "0x00000994": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft прямо документирует защиту для NetUserSetInfo в SAM/AD; правило нельзя трактовать как общий сбой авторизации.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft NetUserSetInfo подтверждает условие отказа. Поиск Microsoft Q&A/Reddit не нужен для превращения защитного ограничения в обход; обходы не рекомендованы."
+    },
+    "0x00000995": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Пошаговая проверка DC Locator подходит для доменных сценариев; не относится к автономным ПК и Microsoft Entra-only устройствам.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft публикует пошаговое устранение проблем DC Locator и проверку SRV/DNS. Точного Q&A/Reddit-кейса с авторским подтверждением для этого NERR-кода не найдено; форумная успешность не заявляется."
+    },
+    "0x00000996": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Подтверждена ошибка записи tracking-информации; её причина и пользовательское исправление не установлены.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "По точному коду в Microsoft Q&A и Reddit не найдено подтверждённого автором решения. Шаги только диагностические."
+    },
+    "0x00000997": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Состояние службы зависит от роли/присоединения. Entra-only машина не должна запускать Netlogon; опубликованный workaround охватывает конкретный upgrade-сценарий Server 2016/2019.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft Netlogon startup docs ограничивают контекст службы и документируют специфичный случай исправления. Exact-code пользовательского успеха в Q&A/Reddit не найдено; общая команда запуска не обещается."
+    },
+    "0x00000998": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Сообщение об отказе добавления в UAS; конкретный лимит или безопасное средство расширения не указан.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft подтверждает смысл кода; точной пользовательской процедуры на Microsoft Q&A/Reddit не найдено. Свободное место диска и повреждение базы не объявлены доказанной причиной."
+    },
+    "0x00000999": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Процедура относится к доменным серверам и Windows Time; для рабочей группы/другой операции нужно иное руководство. Поддержка документирована в актуальных версиях Windows Server и исторически начиная с Windows 2000 Server.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft документирует W32Time и доменную иерархию; exact-code Q&A/Reddit-кейс с подтверждённым результатом не найден. Ручной NTP на всех узлах не рекомендован."
+    },
+    "0x0000099a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждено несовпадение пароля, но код не идентифицирует его владельца и не указывает причину.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Точных пользовательских решений с авторским подтверждением в Microsoft Q&A/Reddit не найдено. Привязка к machine trust или конкретной учётной записи без дополнительных данных не делалась."
+    },
+    "0x0000099c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код описывает неверный идентификатор сервера; способ обнаружения и список серверов зависят от API.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft таблица подтверждает определение. Точных случаев с подтверждённым решением в Microsoft Q&A/Reddit не найдено."
+    },
+    "0x0000099d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код относится к ID сессии в конкретном серверном API; не равен невозможности войти в Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Точных форумных случаев с подтверждённым успешным решением не найдено. Рекомендация обновить состояние — ограниченная диагностика идентификатора."
+    },
+    "0x0000099e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждена недействительная идентификация соединения; код не указывает на общую неисправность сетевого подключения.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Точных Microsoft Q&A/Reddit кейсов с подтверждённым ремонтом не найдено; действия ограничены повторной проверкой актуального ID."
+    },
+    "0x0000099f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Ограничение относится к таблице доступных серверов; оно не устанавливает конкретный современный Windows лимит.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Официальное описание подтверждает полный table slot. Exact-code пользовательского результата на Microsoft Q&A/Reddit не найдено."
+    },
+    "0x000009a0": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Официально подтверждён максимальный лимит сессий; конкретная ёмкость и management-инструмент зависят от серверного продукта/выпуска.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft NetSessionEnum предоставляет сведения о сессиях, но exact-code Q&A/Reddit успех не найден. Принудительное завершение не рекомендовано."
+    },
+    "0x000009a1": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код подтверждает достигнутый максимум соединений, но конкретный максимум и решение не заданы таблицей.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Точные Q&A/Reddit cases с авторским подтверждением не найдены. Числовой максимум и принудительное отключение не выдумывались."
+    },
+    "0x000009a2": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Лимит open files подтверждён; число и современная применимость зависят от сервера. Microsoft предупреждает о риске принудительного NetFileClose.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft NetFile functions docs описывают перечисление и риск принудительного закрытия. Точных пользовательских success reports по коду не найдено."
+    },
+    "0x000009a3": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код сообщает об отсутствии записи альтернативного сервера; он не доказывает сбой основного сервера.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Официальная таблица подтверждает только пустой набор alternate servers; exact-code подтверждённых форумных ремонтов не найдено."
+    },
+    "0x000009a6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Прямое указание для API-клиента; используется только когда удалённый сервер не поддерживает текущий API уровень.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft error table прямо предлагает down-level RAP API. Точных пользовательских форумных кейсов с подтверждённым успехом не найдено; процедура относится к разработке/совместимости."
+    },
+    "0x000009b0": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft подтверждает недоступность driver для UPS service, но не указывает модель, интерфейс, выпуск Windows или способ исправления.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Exact-code searches Microsoft Q&A/Reddit не обнаружили подтверждённых кейсов; generic driver reinstalls не представлены как доказанный фикс."
+    },
+    "0x000009b1": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Подтверждена ошибка конфигурации UPS service; конкретная настройка и поддерживаемые ОС не указаны.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Точного пользовательского подтверждения решения на Microsoft Q&A/Reddit не найдено. Не добавлялись универсальные изменения портов/реестра."
+    },
+    "0x000009b2": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Указан недоступный Comm Port для UPS service; не универсально для современных USB/сетевых UPS.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\")",
+        "site:reddit.com (\"NERR_TimeDiffAtDC\" OR \"NERR_NetlogonNotStarted\" OR \"NERR_DCNotFound\" OR \"0x00000999\")",
+        "site:learn.microsoft.com/answers (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:reddit.com (\"NERR_LastAdmin\" OR \"NERR_TimeDiffAtDC\" OR \"NERR_PasswordMismatch\")",
+        "site:learn.microsoft.com/answers (\"NERR_TooManySessions\" OR \"NERR_TooManyConnections\" OR \"NERR_TooManyFiles\")",
+        "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
+      ],
+      "note": "Microsoft подтверждает значение кода, но exact-code Q&A/Reddit fix не найден. Аппаратная неисправность не выводится автоматически."
     }
   },
-  "pending_count": 5946,
+  "pending_count": 5926,
   "pending_codes": [
-    "0x00000993",
-    "0x00000994",
-    "0x00000995",
-    "0x00000996",
-    "0x00000997",
-    "0x00000998",
-    "0x00000999",
-    "0x0000099a",
-    "0x0000099c",
-    "0x0000099d",
-    "0x0000099e",
-    "0x0000099f",
-    "0x000009a0",
-    "0x000009a1",
-    "0x000009a2",
-    "0x000009a3",
-    "0x000009a6",
-    "0x000009b0",
-    "0x000009b1",
-    "0x000009b2",
     "0x000009b3",
     "0x000009b4",
     "0x000009c4",
@@ -10442,6 +10742,26 @@
     "0x00000981",
     "0x00000982",
     "0x00000988",
-    "0x00000992"
+    "0x00000992",
+    "0x00000993",
+    "0x00000994",
+    "0x00000995",
+    "0x00000996",
+    "0x00000997",
+    "0x00000998",
+    "0x00000999",
+    "0x0000099a",
+    "0x0000099c",
+    "0x0000099d",
+    "0x0000099e",
+    "0x0000099f",
+    "0x000009a0",
+    "0x000009a1",
+    "0x000009a2",
+    "0x000009a3",
+    "0x000009a6",
+    "0x000009b0",
+    "0x000009b1",
+    "0x000009b2"
   ]
 }
