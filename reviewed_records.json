@@ -171043,183 +171043,203 @@
       },
       "0x00000a69": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L555",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-namespace-servers-to-a-domain-based-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Значение проверено по Microsoft. Официальные требования и добавление target подтверждены для современных Server. Поиск точного кода в Microsoft Q&A/Reddit не дал подтверждённого пользовательского исправления."
       },
       "0x00000a6a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L556",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/previous-versions/ms940500(v=msdn.10)",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-folder-in-a-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft Learn подтверждает общий отказ для этой части namespace; старая таблица уточняет non-leaf. Точного форума/Reddit-фикса не найдено; это ограничение операции."
       },
       "0x00000a6b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L557",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/previous-versions/ms940500(v=msdn.10)",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-folder-in-a-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Не добавляю универсальный ремонт: код говорит о недопустимой операции на leaf-объекте. Точного пользовательского фикса на форумах/Reddit не найдено."
       },
       "0x00000a6c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L558",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/get-dfsnfoldertarget?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Причина неоднозначности прямо указана Microsoft. Точного кода/подтверждённого пользовательского фикса на Microsoft Q&A или Reddit не найдено."
       },
       "0x00000a6d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L559",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Определение Microsoft подтверждено; точный корень и успешный фикс по этому коду на форумах/Reddit не обнаружены. Шаги — локализация причин, не обещание исправления."
       },
       "0x00000a6e": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L560",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/dfs-overview",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-namespace-servers-to-a-domain-based-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код и необходимые понятия проверены по Microsoft. Это не подтверждает, что роль отсутствует во всех случаях; точный форумный/Reddit-кейс не найден."
       },
       "0x00000a6f": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L561",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmdfs/nf-lmdfs-netdfsmove"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Пошаговые ограничения взяты из документации Microsoft для NetDfsMove. Подтверждённого форума/Reddit-решения по точному коду не найдено."
       },
       "0x00000a70": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L562",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/set-dfsnfolder?view=windowsserver2025-ps"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает состояние ссылки и поведение referrals. Найденные обсуждения Reddit были общими про обслуживание DFS и не подтвердили данный код или успешное исправление; поэтому не выданы за фикс."
       },
       "0x00000a71": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L563",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/get-dfsnfoldertarget?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-namespace-servers-to-a-domain-based-dfs-namespace"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Значение ошибки однозначно подтверждено Microsoft. Точных форумных/Reddit-кейсов с успешным решением не найдено."
       },
       "0x00000a72": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L564",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dfsc/7186a5d0-5482-4b1d-b23d-211363b8cde2",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает обнаружение цикла и определяет interlinks. Советы ограничены удалением цикла в фактической цепочке; форумного успешного кейса по точному коду нет."
       },
       "0x00000a73": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L565",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/dfs-overview"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код прямо сообщает об ограничении server-based DFS. Без названия операции нельзя безопасно дать единый обходной путь; конкретного форумного/Reddit-фикса не найдено."
       },
       "0x00000a74": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L566",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/get-dfsnfoldertarget?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Текст Microsoft описывает уже привязанный target. Это не означает отказ доступа к файлам; точный пользовательский фикс не найден."
       },
       "0x00000a75": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L567",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/add-folder-targets",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Нельзя удалять последний поддерживающий target — это прямое сообщение Microsoft. Безопасная замена основана на документированном добавлении targets; конкретного форумного/Reddit-кейса не найдено."
       },
       "0x00000a76": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L568",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dfsc/7186a5d0-5482-4b1d-b23d-211363b8cde2",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft определяет ошибку как ограничение операции на Inter-DFS link, а протокол отдельно документирует interlinks. Успешного точного форума/Reddit-кейса нет."
       },
       "0x00000a77": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L569",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/recovery-process-of-dfs-namespace",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код подтверждён Microsoft. Статьи Microsoft описывают зависимость восстановления от topology/backup и предупреждают о прямом редактировании AD/реестра. Точного успешного forum/Reddit-кейса нет."
       },
       "0x00000a78": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L570",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/dfs-overview"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Точное сообщение Microsoft указывает на установку DFS. Не считаю его подтверждённым пользовательским исправлением и помечаю как статус для проверки классификации."
       },
       "0x00000a79": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L571",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Код означает идентичность reconciled data. Не найдено доказательств, что он требует самостоятельного ремонта; помечен как статус."
       },
       "0x00000a7a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L572",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/remove-dfsnroot?view=windowsserver2025-ps",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Таблица Microsoft подтверждает отказ и возможную деинсталляцию DFS. Современная документация даёт отдельное удаление namespace; деинсталляция не предлагается автоматически."
       },
       "0x00000a7b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L573",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows-server/storage/dfs-namespaces/create-a-folder-in-a-dfs-namespace",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-dfsc/7186a5d0-5482-4b1d-b23d-211363b8cde2"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает parent/child DFS-конфликт; современная документация описывает ограничения folders/targets и отдельно interlinks. Точного форумного/Reddit-фикса нет."
       },
       "0x00000a82": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L574",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/windows/win32/dfs/distributed-file-system-dfs-functions",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/recovery-process-of-dfs-namespace",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/dfs-namespaces-service-configuration-data"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft подтверждает только внутреннюю ошибку. Recovery docs применимы только после установления повреждённого состояния; конкретных форумных/Reddit-решений по коду нет."
       },
       "0x00000a83": {
         "status": "reviewed",

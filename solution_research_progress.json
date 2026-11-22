@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "5d5ceebe526bc51f7e568759a9cf4195e3d2d18154d290682dd44c11d518bf64",
+  "current_windows_sha256": "6b644dc480a80ae9c5a23e4be0979ef0a999ad40d755445f0a47ec9036eddab5",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -5058,30 +5058,170 @@
       "forum_result": "no_usable_exact_code_result",
       "reddit_result": "no_usable_exact_code_result",
       "note": "Сообщение Microsoft прямо указывает, что share уже есть в DFS. Без данных среды нельзя безопасно советовать удаление/повторное добавление; конкретного успешного форума/Reddit-кейса не найдено."
+    },
+    "0x00000a69": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Смысл кода общий; приведённая GUI-процедура подтверждена для Windows Server 2016–2025. Для Server 2003/2008 и старше нужна документация их версии.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Значение проверено по Microsoft. Официальные требования и добавление target подтверждены для современных Server. Поиск точного кода в Microsoft Q&A/Reddit не дал подтверждённого пользовательского исправления."
+    },
+    "0x00000a6a": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Различение leaf/non-leaf берётся из исторической таблицы Microsoft; современная структура папок описана для Windows Server 2016–2025.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft Learn подтверждает общий отказ для этой части namespace; старая таблица уточняет non-leaf. Точного форума/Reddit-фикса не найдено; это ограничение операции."
+    },
+    "0x00000a6b": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Семантика leaf уточнена исторической таблицей Microsoft; текущая иерархия DFS Namespaces документирована для Windows Server 2016–2025.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Не добавляю универсальный ремонт: код говорит о недопустимой операции на leaf-объекте. Точного пользовательского фикса на форумах/Reddit не найдено."
+    },
+    "0x00000a6c": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Современный cmdlet DFSN доступен с Windows Server 2012; для более старых ОС используйте соответствующую консоль/API.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Причина неоднозначности прямо указана Microsoft. Точного кода/подтверждённого пользовательского фикса на Microsoft Q&A или Reddit не найдено."
+    },
+    "0x00000a6d": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Текст ошибки общий; современные prerequisites относятся к Windows Server 2016–2025, восстановление зависит от версии и типа namespace.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Определение Microsoft подтверждено; точный корень и успешный фикс по этому коду на форумах/Reddit не обнаружены. Шаги — локализация причин, не обещание исправления."
+    },
+    "0x00000a6e": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Установка DFS Namespaces роли и современные процедуры приведены для Windows Server 2016–2025; старые версии требуют своей инструкции.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код и необходимые понятия проверены по Microsoft. Это не подтверждает, что роль отсутствует во всех случаях; точный форумный/Reddit-кейс не найден."
+    },
+    "0x00000a6f": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Ограничения NetDfsMove подтверждены Microsoft; доступность другого интерфейса зависит от ОС/версии.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Пошаговые ограничения взяты из документации Microsoft для NetDfsMove. Подтверждённого форума/Reddit-решения по точному коду не найдено."
+    },
+    "0x00000a70": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "DFS state semantics from Microsoft API; Set-DfsnFolder cmdlet introduced in Windows Server 2012. Не переводите offline в online при продолжающемся обслуживании.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает состояние ссылки и поведение referrals. Найденные обсуждения Reddit были общими про обслуживание DFS и не подтвердили данный код или успешное исправление; поэтому не выданы за фикс."
+    },
+    "0x00000a71": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Namespace server и folder target различаются; современные cmdlets доступны только на поддерживаемых версиях.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Значение ошибки однозначно подтверждено Microsoft. Точных форумных/Reddit-кейсов с успешным решением не найдено."
+    },
+    "0x00000a72": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Циклическое имя — подтверждённая ошибка DFS; DFS interlinks разрешены, поэтому наличие interlink само по себе не является ошибкой.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает обнаружение цикла и определяет interlinks. Советы ограничены удалением цикла в фактической цепочке; форумного успешного кейса по точному коду нет."
+    },
+    "0x00000a73": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Ошибка зависит от старого API и типа namespace; современные DFSN инструменты зависят от версии Windows Server.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код прямо сообщает об ограничении server-based DFS. Без названия операции нельзя безопасно дать единый обходной путь; конкретного форумного/Reddit-фикса не найдено."
+    },
+    "0x00000a74": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Конфликт повторного добавления target; современные GUI/DFSN шаги применяются к поддерживаемым Windows Server.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Текст Microsoft описывает уже привязанный target. Это не означает отказ доступа к файлам; точный пользовательский фикс не найден."
+    },
+    "0x00000a75": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Ограничение и доступные операции описаны Microsoft; интерфейс зависит от типа root/link и версии сервера.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Нельзя удалять последний поддерживающий target — это прямое сообщение Microsoft. Безопасная замена основана на документированном добавлении targets; конкретного форумного/Reddit-кейса не найдено."
+    },
+    "0x00000a76": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Interlink поддерживается DFS, но отдельные операции на нём могут быть запрещены; допустимые targets зависят от типа namespace.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft определяет ошибку как ограничение операции на Inter-DFS link, а протокол отдельно документирует interlinks. Успешного точного форума/Reddit-кейса нет."
+    },
+    "0x00000a77": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Рекомендации восстановления зависят от поколения Windows Server и места хранения данных; инструкции для Windows Server 2003/2008 и поддерживаемых Server различаются.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код подтверждён Microsoft. Статьи Microsoft описывают зависимость восстановления от topology/backup и предупреждают о прямом редактировании AD/реестра. Точного успешного forum/Reddit-кейса нет."
+    },
+    "0x00000a78": {
+      "status": "informational_status",
+      "reviewed_at": "2026-11-22",
+      "scope": "Сообщение из таблицы Network Management; функция и трактовка могут зависеть от поколения DFS.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Точное сообщение Microsoft указывает на установку DFS. Не считаю его подтверждённым пользовательским исправлением и помечаю как статус для проверки классификации."
+    },
+    "0x00000a79": {
+      "status": "informational_status",
+      "reviewed_at": "2026-11-22",
+      "scope": "Трактовка как no-op основана на буквальном сообщении Microsoft; для конкретной функции нужен её контекст.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Код означает идентичность reconciled data. Не найдено доказательств, что он требует самостоятельного ремонта; помечен как статус."
+    },
+    "0x00000a7a": {
+      "status": "documented_procedure",
+      "reviewed_at": "2026-11-22",
+      "scope": "Remove-DfsnRoot — современный DFSN cmdlet; он удаляет namespace folders и меняет доступ через него, но не target files. Старые Server используют иные интерфейсы.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Таблица Microsoft подтверждает отказ и возможную деинсталляцию DFS. Современная документация даёт отдельное удаление namespace; деинсталляция не предлагается автоматически."
+    },
+    "0x00000a7b": {
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "scope": "Пересечение parent/child пути подтверждено текстом кода; правила hierarchy зависят от типа DFS и версии.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает parent/child DFS-конфликт; современная документация описывает ограничения folders/targets и отдельно interlinks. Точного форумного/Reddit-фикса нет."
+    },
+    "0x00000a82": {
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "scope": "Код API DFS общий; конкретная диагностика зависит от старой/современной версии службы и типа namespace.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "note": "Microsoft подтверждает только внутреннюю ошибку. Recovery docs применимы только после установления повреждённого состояния; конкретных форумных/Reddit-решений по коду нет."
     }
   },
-  "pending_count": 5866,
+  "pending_count": 5846,
   "pending_codes": [
-    "0x00000a69",
-    "0x00000a6a",
-    "0x00000a6b",
-    "0x00000a6c",
-    "0x00000a6d",
-    "0x00000a6e",
-    "0x00000a6f",
-    "0x00000a70",
-    "0x00000a71",
-    "0x00000a72",
-    "0x00000a73",
-    "0x00000a74",
-    "0x00000a75",
-    "0x00000a76",
-    "0x00000a77",
-    "0x00000a78",
-    "0x00000a79",
-    "0x00000a7a",
-    "0x00000a7b",
-    "0x00000a82",
     "0x00000a83",
     "0x00000a84",
     "0x00000a85",
@@ -11227,6 +11367,26 @@
     "0x00000a65",
     "0x00000a66",
     "0x00000a67",
-    "0x00000a68"
+    "0x00000a68",
+    "0x00000a69",
+    "0x00000a6a",
+    "0x00000a6b",
+    "0x00000a6c",
+    "0x00000a6d",
+    "0x00000a6e",
+    "0x00000a6f",
+    "0x00000a70",
+    "0x00000a71",
+    "0x00000a72",
+    "0x00000a73",
+    "0x00000a74",
+    "0x00000a75",
+    "0x00000a76",
+    "0x00000a77",
+    "0x00000a78",
+    "0x00000a79",
+    "0x00000a7a",
+    "0x00000a7b",
+    "0x00000a82"
   ]
 }
