@@ -170419,183 +170419,233 @@
       },
       "0x000009b3": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L452",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/battery/writing-ups-minidrivers"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009b4": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L453",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/windows-hardware/drivers/battery/writing-ups-minidrivers"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c4": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L466",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c5": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L467",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c6": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L468",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c7": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L469",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c8": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L470",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009c9": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L471",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009ca": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L472",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009cb": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L473",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009cc": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L474",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009cd": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L475",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009ce": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L476",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009cf": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L477",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d0": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L478",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d1": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L479",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d2": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L480",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d3": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L481",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d4": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L482",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d5": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L483",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h",
+          "https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix."
       },
       "0x000009d6": {
         "status": "reviewed",

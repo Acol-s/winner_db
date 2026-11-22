@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "5a5018bec4e7fbd9c77c38c8fb5f906c391ef2221fe0fec5233e60daf4c868e8",
+  "current_windows_sha256": "baaf1d4608bac849f3c403bdb53e316ed1e48cddb912316b865ad3bf33348f55",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -4573,30 +4573,170 @@
         "site:reddit.com (\"NERR_UPSInvalidConfig\" OR \"NERR_UPSInvalidCommPort\" OR \"NERR_UPSDriverNotStarted\" OR \"NERR_TryDownLevel\")"
       ],
       "note": "Microsoft подтверждает значение кода, но exact-code Q&A/Reddit fix не найден. Аппаратная неисправность не выводится автоматически."
+    },
+    "0x000009b3": {
+      "note": "Microsoft UPS minidriver docs уточняют старую COM-модель и её совместимость; точных подтверждённых форумных кейсов по NERR-коду не найдено. Ни одна инструкция не предлагает отключить UPS или игнорировать low-battery сигнал. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Microsoft подтверждает line-fail/low-battery сигнал. Системная UPS-служба с COM относится к Windows 2000/XP/Server 2003; код нельзя трактовать как универсальную ошибку современного USB/network UPS."
+    },
+    "0x000009b4": {
+      "note": "Точных случаев Microsoft Q&A/Reddit с подтверждённым решением не обнаружено. Источник подтверждает только сообщение; автоматическое изменение порогов, скриптов и прав не рекомендовано. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Подтверждена неудача shutdown через UPS service; её причина и актуальность для конкретного Windows/UPS не определены."
+    },
+    "0x000009c4": {
+      "note": "Точные поиски Microsoft Q&A/Reddit по символу и коду не дали подтверждённого результата. Без вложенного MS-DOS кода нельзя корректно выбрать решение. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Код относится к старой MS-DOS программе в контексте remote boot; не является обычным кодом запуска современного Windows-приложения."
+    },
+    "0x000009c5": {
+      "note": "Microsoft описывает значение, но exact-code форума с подтверждённым результатом не найдено. Конкретные EMS/XMS/размеры памяти не выдумывались. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Подтверждена потребность DOS-программы в дополнительной памяти; конкретный объём и параметр конфигурации неизвестны."
+    },
+    "0x000009c6": {
+      "note": "Точных Q&A/Reddit-кейсов с авторским подтверждением не найдено; советы менять настройки современной Windows были бы ошибочным переносом контекста. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Неподдерживаемая DOS-функция в legacy boot-программе; не относится к произвольному приложению Windows."
+    },
+    "0x000009c7": {
+      "note": "Microsoft error table и Remote Installation service docs подтверждают контекст; точного подтверждённого пользовательского fix на Microsoft Q&A/Reddit не найдено. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_recommendation_needs_procedure",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Код относится к workstation remote boot, особенно legacy DOS/RPL; Microsoft описывает RIS/PXE для Windows 2000, XP и Server 2003, не универсальную современную загрузку Windows."
+    },
+    "0x000009c8": {
+      "note": "Microsoft подтверждает код, но форумных exact-code успешных исходов не найдено. Восстановление из доверенной копии — ограниченная мера после идентификации файла, не универсальный fix. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Подтверждена checksum corruption в remote-boot файле; не установлена причина, конкретный файл или физическое повреждение диска."
+    },
+    "0x000009c9": {
+      "note": "Точных пользовательских случаев с подтверждённым решением не найдено. Microsoft подтверждает только отсутствие loader; инструкция по конкретному boot-block формату в коде не дана. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Отсутствует loader в RPL boot-block definition; синтаксис и совместимые загрузчики зависят от legacy продукта."
+    },
+    "0x000009ca": {
+      "note": "Microsoft таблица описывает NCB/SMB dump. Точных решений с авторским подтверждением на Microsoft Q&A/Reddit не найдено; универсальное сетевое исправление не заявлено. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_recommendation_needs_procedure",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Legacy NetBIOS/SMB remote-boot loader; код отсылает к предыдущему дампу и сам по себе не называет причину."
+    },
+    "0x000009cb": {
+      "note": "Точных форумных решений с подтверждённым исходом не найдено. Автоматический `chkdsk /f` по одному коду был бы небезопасным и не добавлен. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Подтверждена ошибка disk I/O в старом remote-boot потоке, но объект и причина не определены."
+    },
+    "0x000009cc": {
+      "note": "Точных Microsoft Q&A/Reddit кейсов с авторским подтверждением не найдено. Никакая конкретная переменная/формат не выдуманы. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Обнаружен сбой image parameter substitution; точная переменная, формат и поддержка по выпускам не указаны."
+    },
+    "0x000009cd": {
+      "note": "Microsoft подтверждает точный смысл. Форумного exact-code решения с подтверждённым результатом нет; манипуляции бинарным образом не предлагались. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Описание связано с секторными границами legacy image; к обычным ISO/WIM/EFI образам Windows автоматически не относится."
+    },
+    "0x000009ce": {
+      "note": "Официальная таблица подтверждает требование legacy образа, но точные пользовательские успехи на Microsoft Q&A/Reddit не найдены. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Точное сообщение относится к MS-DOS boot image; нет оснований применять его к Windows 10/11 или современному USB/ISO."
+    },
+    "0x000009cf": {
+      "note": "Microsoft подтверждает значение. Точных пользовательских отчётов с подтверждённым ремонтом не найдено; событие не объявлено ошибкой, если повтор завершился успешно. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Текст описывает отложенный restart remote boot; одиночное появление само по себе не доказывает сбой."
+    },
+    "0x000009d0": {
+      "note": "Microsoft Q&A/Reddit не дали точного пользовательского случая с подтверждённым решением. Нельзя выводить единственную причину из общего кода. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "no_verified_fix_found",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Общий failed call к Remoteboot server; конкретный API, transport и версия не заданы."
+    },
+    "0x000009d1": {
+      "note": "Точных Microsoft Q&A/Reddit случаев с успешным решением не найдено. UDP 4011 указана только для RIS BINL, не как универсальный RPL-фикс. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_recommendation_needs_procedure",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Legacy RPL/RIS connectivity. Microsoft documents RIS installation support for Windows 2000, XP and Server 2003; современный WDS/UEFI требует отдельной диагностики."
+    },
+    "0x000009d2": {
+      "note": "Точные пользовательские фиксы не найдены. Широкие ACL и замена образа без проверки не рекомендованы. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Проблема открытия image file на legacy Remoteboot server; код не различает отсутствие файла, доступ и повреждение."
+    },
+    "0x000009d3": {
+      "note": "Microsoft MS-ERREF подтверждает текст. Поиск выдавал AI-генерируемую страницу про NERR_StartingRplBoot, но она не подтверждает ошибочный исход; совет отвергнут. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Microsoft message — connecting to Remoteboot server; статус может быть информационным. Код не доказывает сбой."
+    },
+    "0x000009d4": {
+      "note": "Microsoft MS-ERREF даёт текст status. Erropedia публикует AI-generated «Remoteboot Connection Error» fix без авторски проверенного кейса; инструкция отклонена. В Microsoft Q&A/Reddit успешный exact-code кейс не найден. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_constraint",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Символ содержит Starting, а официальное сообщение — Connecting; статус может быть informational. Контекст — legacy remote boot."
+    },
+    "0x000009d5": {
+      "note": "Microsoft таблица рекомендует проверить error log; exact-code пользовательского успеха на Microsoft Q&A/Reddit не найдено. Не добавлялись универсальные registry/driver процедуры. Solution research 2026-11-22: exact-code Microsoft Q&A/Reddit searches found no applicable successful user report. Related modern WDS/PXE threads were not treated as proof for legacy RPL. userSolutions is empty; stepByStep contains safe diagnostics or product-documented procedure, not a claimed user-verified fix.",
+      "reddit_result": "no_usable_exact_code_success_case",
+      "status": "documented_recommendation_needs_procedure",
+      "reviewed_at": "2026-11-22",
+      "forum_result": "no_usable_exact_code_success_case",
+      "scope": "Сообщение прямо отсылает к журналу remote-boot service; применимость ограничена legacy RPL/RIS."
     }
   },
-  "pending_count": 5926,
+  "pending_count": 5906,
   "pending_codes": [
-    "0x000009b3",
-    "0x000009b4",
-    "0x000009c4",
-    "0x000009c5",
-    "0x000009c6",
-    "0x000009c7",
-    "0x000009c8",
-    "0x000009c9",
-    "0x000009ca",
-    "0x000009cb",
-    "0x000009cc",
-    "0x000009cd",
-    "0x000009ce",
-    "0x000009cf",
-    "0x000009d0",
-    "0x000009d1",
-    "0x000009d2",
-    "0x000009d3",
-    "0x000009d4",
-    "0x000009d5",
     "0x000009d6",
     "0x000009d7",
     "0x000009f6",
@@ -10762,6 +10902,14 @@
     "0x000009a6",
     "0x000009b0",
     "0x000009b1",
-    "0x000009b2"
+    "0x000009b2",
+    "0x000009b4",
+    "0x000009c4",
+    "0x000009c7",
+    "0x000009ca",
+    "0x000009cc",
+    "0x000009d0",
+    "0x000009d1",
+    "0x000009d5"
   ]
 }
