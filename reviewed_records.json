@@ -170417,186 +170417,6 @@
         ],
         "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
-      "0x0000091e": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L305",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x0000091f": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L306",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000921": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L307",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000922": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L308",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000924": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L309",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000925": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L310",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000926": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L311",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000927": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L312",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x0000092f": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L319",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000932": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L323",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000934": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L325",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000935": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L326",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x0000093a": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L329",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000942": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L335",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000943": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L337",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000944": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L338",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000945": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L339",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000946": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L340",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000947": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L341",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
-      "0x00000949": {
-        "status": "reviewed",
-        "reviewed_at": "2026-11-21",
-        "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L348",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
-        ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
-      },
       "0x0000094a": {
         "status": "reviewed",
         "reviewed_at": "2026-11-21",
@@ -177228,6 +177048,189 @@
           "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/um/WindowsSearchErrors.h#L8417"
         ],
         "note": "MSG_CI_CREATE_SEVER_ITEM_FAILED is a Windows Search message-table identifier (MessageId/MessageText), not an API return error code; excluded from errors_windows.json."
+      },
+      "0x0000091e": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Смысл подтверждён таблицей Network Management; она не устанавливает выпуск Windows или конкретный вызывающий компонент. Точные поиски по символу/коду в Microsoft Q&A и Reddit не дали пригодного пользовательского случая с подтверждённым результатом. Предложенные проверки — диагностика по буквальному смыслу, не опубликованное Microsoft универсальное исправление."
+      },
+      "0x0000091f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Подтверждено только, что переданный приоритет недействителен; конкретный допустимый диапазон и поддержка по версиям здесь не установлены. Точные поиски в Microsoft Q&A и Reddit не дали случая с подтверждённым исправлением. Намеренно не добавлен часто встречающийся, но не подтверждённый общий диапазон приоритета."
+      },
+      "0x00000921": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Точное значение — отсутствие общих устройств связи в контексте вызвавшей функции; это не доказывает поломку физического устройства. Точные поиски символа/кода в Microsoft Q&A и Reddit не дали подтверждённого автором решения. Действия ограничены проверкой ожидаемой серверной конфигурации."
+      },
+      "0x00000922": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Таблица описывает отсутствующую очередь, но не подтверждает современный пользовательский UI или поддержку данного legacy-кода во всех выпусках Windows. В точных запросах к Microsoft Q&A и Reddit не найдено случая с подтверждённым результатом. Указание использовать существующее имя — вывод из значения кода, не гарантированный ремонт сервера."
+      },
+      "0x00000924": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Таблица Network Management не устанавливает формат списка или область версий для конкретной службы. По точным символу/коду в Microsoft Q&A и Reddit не найдено пригодного подтверждённого случая; рекомендации — безопасная диагностика, не проверенный универсальный ремонт."
+      },
+      "0x00000925": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Значение кода подтверждено Microsoft; вида устройства, пользовательского исправления и поддержки конкретных выпусков Windows таблица не указывает. Точные поиски в Microsoft Q&A и Reddit не дали пользовательского отчёта с подтверждённым решением."
+      },
+      "0x00000926": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Подтверждён факт использования устройства spooler; точная причина и безопасная процедура зависят от вызывающего legacy API и версии сервера. Найденный поиском сайт Erropedia прямо называет советы AI-generated и не содержит проверяемого подтверждения; предложенные им остановка процессов и удаление spool-файлов отвергнуты. Точных подтверждённых случаев в Microsoft Q&A/Reddit не найдено."
+      },
+      "0x00000927": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Таблица сообщает, что устройство занято как communication device; не определяет современный процесс/службу, которую следует остановить. Точные поиски в Microsoft Q&A и Reddit не выявили подтверждённого пользовательского решения. Поисковый AI-генерируемый совет без проверяемого случая отвергнут; пользовательские destructive-шаги не добавлялись."
+      },
+      "0x0000092f": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmjoin/nf-lmjoin-netvalidatename"
+        ],
+        "note": "Значение и символ сверены с Microsoft. NetValidateName поддерживается с Windows 2000, но это применимо только если именно эта функция выдала статус; общий охват всех NERR-кодов по этому факту не устанавливается. Microsoft API page documents parameters, name types, failure code and Windows 2000+ support. Точные поиски в Microsoft Q&A/Reddit не дали дополнительного подтверждённого решения."
+      },
+      "0x00000932": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Установлено только, что строка вместе с префиксом слишком длинна; конкретный предел зависит от API. Точных совпадений Microsoft Q&A/Reddit с авторским подтверждением исправления не найдено; числовой предел намеренно не выдуман."
+      },
+      "0x00000934": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Код подтверждает недействительный сегмент пути; синтаксис не универсален и зависит от потребителя пути. По точному коду в Microsoft Q&A и Reddit не найден подтверждённый результат. Общие советы менять ACL, реестр или файловую систему не добавлялись."
+      },
+      "0x00000935": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Подтверждено только, что тип входа не удалось определить; код не указывает, какой тип нужен. Точные запросы Microsoft Q&A/Reddit не дали подтверждённого пользовательского исправления."
+      },
+      "0x0000093a": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Microsoft подтверждает недостаточный буфер; практическое изменение — разработческое/API-уровня, а не общий шаг Windows для конечного пользователя. Официальная таблица подтверждает состояние. Точные поиски Microsoft Q&A/Reddit не выявили конкретного пользовательского случая с подтверждённым результатом; рекомендации ограничены контрактом API."
+      },
+      "0x00000942": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Точное ограничение 64 КБ дано Microsoft для этой категории; нельзя переносить его на профили Windows вообще или на любой выпуск ОС. Microsoft Network Management Error Codes подтверждает лимит. Точные поиски Microsoft Q&A/Reddit не дали подтверждённого решения; распространённая трактовка как ошибка современного Windows user profile не поддержана."
+      },
+      "0x00000943": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Код обозначает offset за допустимым диапазоном; правила границ зависят от формата и API. Нет точного пользовательского отчёта с подтверждённым результатом в выдаче Microsoft Q&A/Reddit; универсальное значение offset не выдумывалось."
+      },
+      "0x00000944": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Описание ограничено удалением текущих соединений в старом сетевом профиле; оно не относится к любому современному профилю пользователя Windows. Точных подтверждённых кейсов Microsoft Q&A/Reddit не найдено. Массовое отключение ресурсов и ручное удаление сессий не рекомендованы."
+      },
+      "0x00000945": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Код говорит о неразобранной командной строке в конкретном файле; не описывает сценарий командной строки Windows в целом. В точных поисках Microsoft Q&A/Reddit не найдено подтверждённого случая. Не добавлялся выдуманный список команд или совет массово переписывать профиль."
+      },
+      "0x00000946": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Общее сообщение об ошибке загрузки; конкретные причины, версия Windows и способ исправления не указаны. Точные поиски Microsoft Q&A/Reddit не дали подтверждённого исправления. Шаги являются сбором контекста, не решением проблемы."
+      },
+      "0x00000947": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Подтверждено частичное сохранение старого profile file; причина и ремонт зависят от вызывающего компонента. Точных случаев Microsoft Q&A/Reddit с подтверждённым решением не найдено. Проверки места/доступа указаны как диагностические гипотезы, не как установленная причина."
+      },
+      "0x00000949": {
+        "status": "reviewed",
+        "reviewed_at": "2026-11-22",
+        "sources": [
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/neterrorlogread"
+        ],
+        "note": "Значение и символ сверены с Microsoft. Microsoft подтверждает заполненный файл; NetErrorLogRead устарел для совместимости с 16-битными приложениями. Нельзя трактовать этот код как требование очищать современные журналы Windows. Точные поиски Microsoft Q&A и Reddit не дали подтверждённого пользовательского исправления. Источники не подтверждают безопасное универсальное действие очистки; оно исключено."
       }
     }
   },

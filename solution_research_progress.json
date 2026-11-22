@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "9b9d57bf78eb2e3164fdd2e954ee18159bab4d502927002c79598608ae1a5d6d",
+  "current_windows_sha256": "5cd2e69f01cd69a79229dd92e00d1037afe11ca66eec2b090eef66262ba449e8",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -3653,30 +3653,290 @@
         "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
       ],
       "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000091e": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Смысл подтверждён таблицей Network Management; она не устанавливает выпуск Windows или конкретный вызывающий компонент.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски по символу/коду в Microsoft Q&A и Reddit не дали пригодного пользовательского случая с подтверждённым результатом. Предложенные проверки — диагностика по буквальному смыслу, не опубликованное Microsoft универсальное исправление."
+    },
+    "0x0000091f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждено только, что переданный приоритет недействителен; конкретный допустимый диапазон и поддержка по версиям здесь не установлены.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски в Microsoft Q&A и Reddit не дали случая с подтверждённым исправлением. Намеренно не добавлен часто встречающийся, но не подтверждённый общий диапазон приоритета."
+    },
+    "0x00000921": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Точное значение — отсутствие общих устройств связи в контексте вызвавшей функции; это не доказывает поломку физического устройства.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски символа/кода в Microsoft Q&A и Reddit не дали подтверждённого автором решения. Действия ограничены проверкой ожидаемой серверной конфигурации."
+    },
+    "0x00000922": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Таблица описывает отсутствующую очередь, но не подтверждает современный пользовательский UI или поддержку данного legacy-кода во всех выпусках Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "В точных запросах к Microsoft Q&A и Reddit не найдено случая с подтверждённым результатом. Указание использовать существующее имя — вывод из значения кода, не гарантированный ремонт сервера."
+    },
+    "0x00000924": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Таблица Network Management не устанавливает формат списка или область версий для конкретной службы.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "По точным символу/коду в Microsoft Q&A и Reddit не найдено пригодного подтверждённого случая; рекомендации — безопасная диагностика, не проверенный универсальный ремонт."
+    },
+    "0x00000925": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Значение кода подтверждено Microsoft; вида устройства, пользовательского исправления и поддержки конкретных выпусков Windows таблица не указывает.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски в Microsoft Q&A и Reddit не дали пользовательского отчёта с подтверждённым решением."
+    },
+    "0x00000926": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждён факт использования устройства spooler; точная причина и безопасная процедура зависят от вызывающего legacy API и версии сервера.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Найденный поиском сайт Erropedia прямо называет советы AI-generated и не содержит проверяемого подтверждения; предложенные им остановка процессов и удаление spool-файлов отвергнуты. Точных подтверждённых случаев в Microsoft Q&A/Reddit не найдено."
+    },
+    "0x00000927": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Таблица сообщает, что устройство занято как communication device; не определяет современный процесс/службу, которую следует остановить.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски в Microsoft Q&A и Reddit не выявили подтверждённого пользовательского решения. Поисковый AI-генерируемый совет без проверяемого случая отвергнут; пользовательские destructive-шаги не добавлялись."
+    },
+    "0x0000092f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "NetValidateName поддерживается с Windows 2000, но это применимо только если именно эта функция выдала статус; общий охват всех NERR-кодов по этому факту не устанавливается.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Microsoft API page documents parameters, name types, failure code and Windows 2000+ support. Точные поиски в Microsoft Q&A/Reddit не дали дополнительного подтверждённого решения."
+    },
+    "0x00000932": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Установлено только, что строка вместе с префиксом слишком длинна; конкретный предел зависит от API.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точных совпадений Microsoft Q&A/Reddit с авторским подтверждением исправления не найдено; числовой предел намеренно не выдуман."
+    },
+    "0x00000934": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код подтверждает недействительный сегмент пути; синтаксис не универсален и зависит от потребителя пути.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "По точному коду в Microsoft Q&A и Reddit не найден подтверждённый результат. Общие советы менять ACL, реестр или файловую систему не добавлялись."
+    },
+    "0x00000935": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Подтверждено только, что тип входа не удалось определить; код не указывает, какой тип нужен.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные запросы Microsoft Q&A/Reddit не дали подтверждённого пользовательского исправления."
+    },
+    "0x0000093a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Microsoft подтверждает недостаточный буфер; практическое изменение — разработческое/API-уровня, а не общий шаг Windows для конечного пользователя.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Официальная таблица подтверждает состояние. Точные поиски Microsoft Q&A/Reddit не выявили конкретного пользовательского случая с подтверждённым результатом; рекомендации ограничены контрактом API."
+    },
+    "0x00000942": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Точное ограничение 64 КБ дано Microsoft для этой категории; нельзя переносить его на профили Windows вообще или на любой выпуск ОС.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Microsoft Network Management Error Codes подтверждает лимит. Точные поиски Microsoft Q&A/Reddit не дали подтверждённого решения; распространённая трактовка как ошибка современного Windows user profile не поддержана."
+    },
+    "0x00000943": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код обозначает offset за допустимым диапазоном; правила границ зависят от формата и API.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Нет точного пользовательского отчёта с подтверждённым результатом в выдаче Microsoft Q&A/Reddit; универсальное значение offset не выдумывалось."
+    },
+    "0x00000944": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Описание ограничено удалением текущих соединений в старом сетевом профиле; оно не относится к любому современному профилю пользователя Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точных подтверждённых кейсов Microsoft Q&A/Reddit не найдено. Массовое отключение ресурсов и ручное удаление сессий не рекомендованы."
+    },
+    "0x00000945": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код говорит о неразобранной командной строке в конкретном файле; не описывает сценарий командной строки Windows в целом.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "В точных поисках Microsoft Q&A/Reddit не найдено подтверждённого случая. Не добавлялся выдуманный список команд или совет массово переписывать профиль."
+    },
+    "0x00000946": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Общее сообщение об ошибке загрузки; конкретные причины, версия Windows и способ исправления не указаны.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски Microsoft Q&A/Reddit не дали подтверждённого исправления. Шаги являются сбором контекста, не решением проблемы."
+    },
+    "0x00000947": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Подтверждено частичное сохранение старого profile file; причина и ремонт зависят от вызывающего компонента.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точных случаев Microsoft Q&A/Reddit с подтверждённым решением не найдено. Проверки места/доступа указаны как диагностические гипотезы, не как установленная причина."
+    },
+    "0x00000949": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft подтверждает заполненный файл; NetErrorLogRead устарел для совместимости с 16-битными приложениями. Нельзя трактовать этот код как требование очищать современные журналы Windows.",
+      "forum_result": "no_exact_case_with_author_confirmed_fix_found",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "site:learn.microsoft.com/answers \"NERR_BadQueueDevString\" OR \"NERR_BadQueuePriority\" OR \"NERR_CommDevInUse\"",
+        "site:reddit.com \"NERR_CommDevInUse\" OR \"NERR_InUseBySpooler\" OR \"NERR_QueueNotFound\"",
+        "site:learn.microsoft.com/answers \"NERR_ProfileFileTooBig\" OR \"NERR_ProfileOffset\" OR \"NERR_ProfileLoadErr\"",
+        "site:reddit.com \"NERR_ProfileFileTooBig\" OR \"NERR_LogOverflow\" OR \"NERR_ProfileSaveErr\""
+      ],
+      "note": "Точные поиски Microsoft Q&A и Reddit не дали подтверждённого пользовательского исправления. Источники не подтверждают безопасное универсальное действие очистки; оно исключено."
     }
   },
-  "pending_count": 5986,
+  "pending_count": 5966,
   "pending_codes": [
-    "0x0000091e",
-    "0x0000091f",
-    "0x00000921",
-    "0x00000922",
-    "0x00000924",
-    "0x00000925",
-    "0x00000926",
-    "0x00000927",
-    "0x0000092f",
-    "0x00000932",
-    "0x00000934",
-    "0x00000935",
-    "0x0000093a",
-    "0x00000942",
-    "0x00000943",
-    "0x00000944",
-    "0x00000945",
-    "0x00000946",
-    "0x00000947",
-    "0x00000949",
     "0x0000094a",
     "0x0000094b",
     "0x0000094c",
@@ -9842,6 +10102,26 @@
     "0x000008f7",
     "0x000008fb",
     "0x0000090b",
-    "0x0000090c"
+    "0x0000090c",
+    "0x0000091e",
+    "0x0000091f",
+    "0x00000921",
+    "0x00000922",
+    "0x00000924",
+    "0x00000925",
+    "0x00000926",
+    "0x00000927",
+    "0x0000092f",
+    "0x00000932",
+    "0x00000934",
+    "0x00000935",
+    "0x0000093a",
+    "0x00000942",
+    "0x00000943",
+    "0x00000944",
+    "0x00000945",
+    "0x00000946",
+    "0x00000947",
+    "0x00000949"
   ]
 }
