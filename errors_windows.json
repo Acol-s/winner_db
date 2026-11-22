@@ -14601,243 +14601,243 @@
   },
   {
     "errorCode": "0x000008DE",
-    "title": "Network Management (LAN Manager) — NERR_NoComputerName",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NoComputerName. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NoComputerName — The computer name could not be added as a message alias. The name may already exist on the network.",
+    "description": "0x000008de: NERR_NoComputerName. The computer name could not be added as a message alias. The name may already exist on the network. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy error article classifies 2270 as a software error and directs the user to technical support; the code alone does not prove a duplicate hostname.",
+    "officialSolution": "Microsoft описывает NERR_NoComputerName: The computer name could not be added as a message alias. The name may already exist on the network. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy error article classifies 2270 as a software error and directs the user to technical support; the code alone does not prove a duplicate hostname. Сначала установите вызывающий API и версию ОС; универсальное исправление не подтверждено.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните код 2270, вызывающую программу/API, имя узла, alias, сеть и версию Windows; этот NERR относится к старому механизму message aliases.\",\"Шаг 2: Если это Windows Vista или новее, прекратите попытки использовать Messenger API: Microsoft указывает, что эти API не поддерживаются.\",\"Шаг 3: На поддерживаемой legacy-системе проверьте журнал и контекст регистрации alias; сообщение допускает конфликт имени, но Microsoft KB не описывает проверенную процедуру устранения.\",\"Шаг 4: Передайте код и журнал администратору/поставщику приложения. Универсальное исправление источниками не подтверждено.\"]"
   },
   {
     "errorCode": "0x000008DF",
-    "title": "Network Management (LAN Manager) — NERR_MsgAlreadyStarted",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_MsgAlreadyStarted. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_MsgAlreadyStarted — The Messenger service is already started.",
+    "description": "0x000008df: NERR_MsgAlreadyStarted. The Messenger service is already started. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy article says this state needs no action; repeated occurrences can be referred to technical support.",
+    "officialSolution": "Microsoft описывает NERR_MsgAlreadyStarted: The Messenger service is already started. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy article says this state needs no action; repeated occurrences can be referred to technical support. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Убедитесь, что приложение сообщает именно 2271/NERR_MsgAlreadyStarted, а не ошибку запуска другой службы.\",\"Шаг 2: Если на старой поддерживаемой системе Messenger уже работает, не останавливайте и не запускайте его повторно только из-за этого кода.\",\"Шаг 3: Microsoft указывает, что при единичном сообщении действий не требуется; если оно повторяется и мешает операции, сохраните журнал и передайте владельцу legacy-приложения.\",\"Шаг 4: На Vista и новее Messenger API не поддерживается; ищите поддерживаемый путь в документации приложения, а не включайте старую службу.\"]"
   },
   {
     "errorCode": "0x000008E0",
-    "title": "Network Management (LAN Manager) — NERR_MsgInitFailed",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_MsgInitFailed. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_MsgInitFailed — The Messenger service failed to start.",
+    "description": "0x000008e0: NERR_MsgInitFailed. The Messenger service failed to start. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article scopes the failure to legacy/down-level systems and recommends inspecting the error log for Messenger startup events; it lists configuration, hardware, or software as possible areas, not a confirmed cause.",
+    "officialSolution": "Microsoft описывает NERR_MsgInitFailed: The Messenger service failed to start. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article scopes the failure to legacy/down-level systems and recommends inspecting the error log for Messenger startup events; it lists configuration, hardware, or software as possible areas, not a confirmed cause. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите, что источник — старое приложение/Windows с Messenger service; на Vista и новее этот механизм не поддерживается.\",\"Шаг 2: На поддерживаемой legacy-системе проверьте System/Event Viewer и журнал службы на сообщения, возникшие одновременно с неудачным стартом.\",\"Шаг 3: Сопоставьте событие с конфигурацией узла и конкретной программной/аппаратной ошибкой; не переустанавливайте службы и не редактируйте реестр по одному NERR-коду.\",\"Шаг 4: Если причина из журнала не ясна, передайте события администратору или поставщику legacy-программы; KB не даёт универсального исправления.\"]"
   },
   {
     "errorCode": "0x000008E1",
-    "title": "Network Management (LAN Manager) — NERR_NameNotFound",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NameNotFound. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NameNotFound — The message alias could not be found on the network.",
+    "description": "0x000008e1: NERR_NameNotFound. The message alias could not be found on the network. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article says to check the alias spelling and retry later if the receiving computer may be busy. A matching 2010 Microsoft Q&A answer suggests checking Messenger on both Windows XP computers, but the thread has no user-confirmed success; that suggestion must not be generalized to modern Windows.",
+    "officialSolution": "Microsoft описывает NERR_NameNotFound: The message alias could not be found on the network. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article says to check the alias spelling and retry later if the receiving computer may be busy. A matching 2010 Microsoft Q&A answer suggests checking Messenger on both Windows XP computers, but the thread has no user-confirmed success; that suggestion must not be generalized to modern Windows. Сначала установите вызывающий API и версию ОС; универсальное исправление не подтверждено.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Microsoft Q&A содержит совпадающий старый случай NET HELPMSG 2273. Ответ предлагает проверить Messenger на обеих машинах Windows XP, но автор не подтвердил успех; сам ответ предупреждает о риске безопасности. Это не проверенное универсальное решение.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте точное имя alias и адрес получателя; Microsoft documents NERR_NameNotFound for the legacy network-message send operation.\",\"Шаг 2: Если alias введён правильно, убедитесь по журналу/владельцу удалённого узла, что именно этот компьютер регистрировал его и доступен в нужной сети.\",\"Шаг 3: Только в старой поддерживаемой среде (например, Windows XP/Server 2003) администратор может проверить Messenger на принимающем узле и Workstation на отправляющем. Q&A советует включить Messenger на обоих узлах, но не подтверждает результат и предупреждает о риске безопасности.\",\"Шаг 4: Не включайте Messenger ради Net Send на Vista и новее — Microsoft считает message API неподдерживаемыми. Если удалённый alias корректен и узел доступен, передайте сетевые журналы администратору.\"]"
   },
   {
     "errorCode": "0x000008E2",
-    "title": "Network Management (LAN Manager) — NERR_AlreadyForwarded",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_AlreadyForwarded. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_AlreadyForwarded — This message alias has already been forwarded.",
+    "description": "0x000008e2: NERR_AlreadyForwarded. This message alias has already been forwarded. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. The legacy code indicates an alias-forwarding state. Microsoft’s modern Network Management message-function documentation says forwarding is no longer supported; the KB entry gives no corrective action for 2274.",
+    "officialSolution": "Microsoft описывает NERR_AlreadyForwarded: This message alias has already been forwarded. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. The legacy code indicates an alias-forwarding state. Microsoft’s modern Network Management message-function documentation says forwarding is no longer supported; the KB entry gives no corrective action for 2274. Сначала установите вызывающий API и версию ОС; универсальное исправление не подтверждено.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите, какая старая программа и API вернули 2274 и какой alias она пыталась переслать.\",\"Шаг 2: Если это Vista или новее, не пытайтесь настраивать Messenger forwarding: Microsoft документирует, что эта функция больше не поддерживается.\",\"Шаг 3: В legacy-среде передайте alias и состояние forwarding администратору; запись Microsoft для 2274 не содержит безопасной процедуры снятия конфликта.\",\"Шаг 4: Не удаляйте alias и не меняйте конфигурацию пересылки по догадке. Подтверждённого универсального исправления не найдено.\"]"
   },
   {
     "errorCode": "0x000008E3",
-    "title": "Network Management (LAN Manager) — NERR_AddForwarded",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_AddForwarded. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_AddForwarded — This message alias has been added but is still forwarded.",
+    "description": "0x000008e3: NERR_AddForwarded. This message alias has been added but is still forwarded. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says messages for the alias are forwarded to another computer and prescribes stopping forwarding so the local computer can receive them. Message forwarding is unsupported by later message-function versions.",
+    "officialSolution": "Microsoft описывает NERR_AddForwarded: This message alias has been added but is still forwarded. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says messages for the alias are forwarded to another computer and prescribes stopping forwarding so the local computer can receive them. Message forwarding is unsupported by later message-function versions. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите код 2275 и имя alias; это относится к пересылке старых Messenger-сообщений.\",\"Шаг 2: Проверьте, куда пересылается alias и должна ли принимающая legacy-машина получать сообщения локально.\",\"Шаг 3: Если это поддерживаемая старая версия и локальный приём действительно нужен, администратор прекращает пересылку alias и восстанавливает локальный приём согласно конфигурации той системы.\",\"Шаг 4: Не применяйте процедуру к Vista и новее: Microsoft указывает, что forwarding для этих API не поддерживается.\"]"
   },
   {
     "errorCode": "0x000008E4",
-    "title": "Network Management (LAN Manager) — NERR_AlreadyExists",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_AlreadyExists. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_AlreadyExists — This message alias already exists locally.",
+    "description": "0x000008e4: NERR_AlreadyExists. This message alias already exists locally. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft recommends choosing a different alias and using NET NAME to list aliases on that legacy computer.",
+    "officialSolution": "Microsoft описывает NERR_AlreadyExists: This message alias already exists locally. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft recommends choosing a different alias and using NET NAME to list aliases on that legacy computer. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте локальный компьютер и alias, который приложение пытается зарегистрировать.\",\"Шаг 2: На поддерживаемой legacy-системе выполните NET NAME, чтобы увидеть текущие alias; не удаляйте имя пользователя или службы, пока не выясните, кому оно принадлежит.\",\"Шаг 3: Если нужен новый alias, выберите другое допустимое имя. Удаляйте существующий alias только если его владелец и назначение подтверждены администратором.\",\"Шаг 4: На Vista и новее alias API не поддерживается; используйте актуальную документацию приложения.\"]"
   },
   {
     "errorCode": "0x000008E5",
-    "title": "Network Management (LAN Manager) — NERR_TooManyNames",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_TooManyNames. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_TooManyNames — The maximum number of added message aliases has been exceeded.",
+    "description": "0x000008e5: NERR_TooManyNames. The maximum number of added message aliases has been exceeded. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says the limit depends on system hardware, recommends consulting system documentation/administrator, and gives NET NAME plus NET NAME alias /DELETE to inspect/remove aliases. Deleting a live alias can stop its recipient from receiving messages.",
+    "officialSolution": "Microsoft описывает NERR_TooManyNames: The maximum number of added message aliases has been exceeded. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says the limit depends on system hardware, recommends consulting system documentation/administrator, and gives NET NAME plus NET NAME alias /DELETE to inspect/remove aliases. Deleting a live alias can stop its recipient from receiving messages. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите, что 2277 пришёл при регистрации Messenger alias на старой поддерживаемой системе.\",\"Шаг 2: Выполните NET NAME, чтобы получить список alias; сверяйте их с владельцами и текущими задачами.\",\"Шаг 3: Уточните лимит для конкретного legacy-оборудования/системы у администратора. Если надо освободить место, удаляйте только подтверждённо ненужный alias командой NET NAME alias /DELETE.\",\"Шаг 4: Не удаляйте alias ради теста и не переносите процедуру на Vista+; Microsoft помечает message functions как неподдерживаемые начиная с Vista.\"]"
   },
   {
     "errorCode": "0x000008E6",
-    "title": "Network Management (LAN Manager) — NERR_DelComputerName",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_DelComputerName. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_DelComputerName — The computer name could not be deleted.",
+    "description": "0x000008e6: NERR_DelComputerName. The computer name could not be deleted. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says an alias that is also the computer name cannot be deleted and no action is needed. NetMessageNameDel lists this exact return code.",
+    "officialSolution": "Microsoft описывает NERR_DelComputerName: The computer name could not be deleted. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says an alias that is also the computer name cannot be deleted and no action is needed. NetMessageNameDel lists this exact return code. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Убедитесь, что ошибка относится к удалению message alias, а не к переименованию компьютера.\",\"Шаг 2: Сопоставьте alias с NetBIOS/компьютерным именем узла; Microsoft запрещает удалять совпадающий с hostname alias через NetMessageNameDel.\",\"Шаг 3: Если нужно убрать alias, который не является computer name, сначала уточните у администратора фактический владелец/тип записи; не переименовывайте узел только ради удаления alias.\",\"Шаг 4: Если удалялось именно имя компьютера, Microsoft указывает, что действие не требуется; на Vista+ API не поддерживается.\"]"
   },
   {
     "errorCode": "0x000008E7",
-    "title": "Network Management (LAN Manager) — NERR_LocalForward",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_LocalForward. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_LocalForward — Messages cannot be forwarded back to the same workstation.",
+    "description": "0x000008e7: NERR_LocalForward. Messages cannot be forwarded back to the same workstation. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says a workstation cannot forward a message to itself and no action is needed. The message-forwarding feature is legacy and unsupported in newer message API versions.",
+    "officialSolution": "Microsoft описывает NERR_LocalForward: Messages cannot be forwarded back to the same workstation. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says a workstation cannot forward a message to itself and no action is needed. The message-forwarding feature is legacy and unsupported in newer message API versions. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните alias, локальное имя узла и целевой узел из операции forwarding.\",\"Шаг 2: Сравните исходный и целевой компьютер; если это одна и та же legacy-станция, код соответствует запрещённой пересылке на себя.\",\"Шаг 3: Для одноразового такого состояния Microsoft не требует действий. Если приложение должно пересылать сообщения, передайте его конфигурацию разработчику и задайте корректный удалённый узел.\",\"Шаг 4: На Vista и новее не настраивайте Messenger forwarding: этот механизм не поддерживается.\"]"
   },
   {
     "errorCode": "0x000008E8",
-    "title": "Network Management (LAN Manager) — NERR_GrpMsgProcessor",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_GrpMsgProcessor. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_GrpMsgProcessor — An error occurred in the domain message processor.",
+    "description": "0x000008e8: NERR_GrpMsgProcessor. An error occurred in the domain message processor. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB recommends checking the workstation System event log and restarting Messenger on that old system; modern Windows does not support these message functions.",
+    "officialSolution": "Microsoft описывает NERR_GrpMsgProcessor: An error occurred in the domain message processor. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB recommends checking the workstation System event log and restarting Messenger on that old system; modern Windows does not support these message functions. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите legacy-сценарий domain-wide Messenger message и запишите время, sender, alias, получателя и полный текст ошибки.\",\"Шаг 2: На поддерживаемом старом узле откройте Event Viewer → System и проверьте записи в момент сбоя обработки/получения сообщения.\",\"Шаг 3: Только если это старая система, служба существует и журнал не запрещает перезапуск, администратор может остановить и запустить Messenger, как указано в KB Microsoft.\",\"Шаг 4: При повторе передайте события поддержке. На Vista+ не пытайтесь включить/перезапустить Messenger для исправления такого кода.\"]"
   },
   {
     "errorCode": "0x000008E9",
-    "title": "Network Management (LAN Manager) — NERR_PausedRemote",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PausedRemote. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PausedRemote — The message was sent, but the recipient has paused the Messenger service.",
+    "description": "0x000008e9: NERR_PausedRemote. The message was sent, but the recipient has paused the Messenger service. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the recipient paused Messenger; retry later and consult the network administrator if it persists.",
+    "officialSolution": "Microsoft описывает NERR_PausedRemote: The message was sent, but the recipient has paused the Messenger service. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the recipient paused Messenger; retry later and consult the network administrator if it persists. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте, что это результат legacy send-to-alias операции и что указан правильный компьютер/получатель.\",\"Шаг 2: Попросите владельца поддерживаемого старого принимающего узла проверить, действительно ли он приостановил получение сообщений.\",\"Шаг 3: После возобновления службы или готовности получателя отправьте сообщение ещё раз; при повторении обратитесь к администратору сети.\",\"Шаг 4: Не пытайтесь включать Messenger на Vista и новее; Microsoft не поддерживает там эти message functions.\"]"
   },
   {
     "errorCode": "0x000008EA",
-    "title": "Network Management (LAN Manager) — NERR_BadReceive",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_BadReceive. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_BadReceive — The message was sent but not received.",
+    "description": "0x000008ea: NERR_BadReceive. The message was sent but not received. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft lists a stopped Workstation/Messenger service on the recipient, an already-busy recipient, or a message buffer that is too small as possible legacy causes; retry and contact the administrator if persistent. These are possibilities, not a diagnosis.",
+    "officialSolution": "Microsoft описывает NERR_BadReceive: The message was sent but not received. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft lists a stopped Workstation/Messenger service on the recipient, an already-busy recipient, or a message buffer that is too small as possible legacy causes; retry and contact the administrator if persistent. These are possibilities, not a diagnosis. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните время отправки, alias, отправителя, принимающий компьютер и размер сообщения.\",\"Шаг 2: На поддерживаемой legacy-системе проверьте, была ли принимающая станция занята другим сообщением; Microsoft также перечисляет состояние Workstation/Messenger и недостаточный буфер как возможные причины.\",\"Шаг 3: Повторите отправку позже. Если проблема остаётся, попросите администратора проверить службу и ограничения конкретного старого получателя; не меняйте буфер или службу наугад.\",\"Шаг 4: На Vista и новее message API не поддерживается, поэтому диагностируйте приложение и его поддерживаемый транспорт.\"]"
   },
   {
     "errorCode": "0x000008EB",
-    "title": "Network Management (LAN Manager) — NERR_NameInUse",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NameInUse. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NameInUse — The message alias is currently in use. Try again later.",
+    "description": "0x000008eb: NERR_NameInUse. The message alias is currently in use. Try again later. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft describes a recipient currently handling another message and recommends retrying later.",
+    "officialSolution": "Microsoft описывает NERR_NameInUse: The message alias is currently in use. Try again later. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft describes a recipient currently handling another message and recommends retrying later. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните alias и компьютер, который принимает сообщение; не трактуйте это как ошибку имени учётной записи Windows.\",\"Шаг 2: Если целевой legacy-компьютер действительно обрабатывает другое сообщение, дождитесь завершения обработки.\",\"Шаг 3: Повторите отправку позже; если ошибка возникает постоянно, передайте журнал администратору сети.\",\"Шаг 4: На Windows Vista и новее не пытайтесь лечить её включением Messenger: данный API не поддерживается.\"]"
   },
   {
     "errorCode": "0x000008EC",
-    "title": "Network Management (LAN Manager) — NERR_MsgNotStarted",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_MsgNotStarted. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_MsgNotStarted — The Messenger service has not been started.",
+    "description": "0x000008ec: NERR_MsgNotStarted. The Messenger service has not been started. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s old KB says Messenger is needed for the command and gives NET START MESSENGER, but Microsoft currently marks these APIs unsupported from Vista onward; a 2010 Microsoft Q&A answer warns that enabling the service on XP creates security vulnerabilities.",
+    "officialSolution": "Microsoft описывает NERR_MsgNotStarted: The Messenger service has not been started. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s old KB says Messenger is needed for the command and gives NET START MESSENGER, but Microsoft currently marks these APIs unsupported from Vista onward; a 2010 Microsoft Q&A answer warns that enabling the service on XP creates security vulnerabilities. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите версию Windows и точный вызывающий продукт. В Vista и новее service/API Messenger не поддерживается — не запускайте или не устанавливайте его.\",\"Шаг 2: Только на изолированной старой системе, где Messenger service действительно присутствует и использование одобрено администратором, проверьте её состояние и журнал.\",\"Шаг 3: Историческая KB предлагает NET START MESSENGER для старого клиента. Включайте службу лишь после оценки риска; Microsoft Q&A отдельно предупреждает о связанных с ней уязвимостях и говорит, что Windows XP отключает её по умолчанию.\",\"Шаг 4: Если это современное приложение или сетевой сценарий, используйте поддерживаемый транспорт/процедуру производителя; универсального современного исправления для NERR_MsgNotStarted нет.\"]"
   },
   {
     "errorCode": "0x000008ED",
-    "title": "Network Management (LAN Manager) — NERR_NotLocalName",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NotLocalName. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NotLocalName — The name is not on the local computer.",
+    "description": "0x000008ed: NERR_NotLocalName. The name is not on the local computer. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says this occurs when deleting an alias not registered on the local computer; NET NAME lists current local aliases. NetMessageNameDel returns this code.",
+    "officialSolution": "Microsoft описывает NERR_NotLocalName: The name is not on the local computer. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says this occurs when deleting an alias not registered on the local computer; NET NAME lists current local aliases. NetMessageNameDel returns this code. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните имя alias, имя сервера и операцию; проверьте, что запрос действительно пытается удалить alias на локальном узле.\",\"Шаг 2: На поддерживаемой старой системе выполните NET NAME и сравните точное написание с локальным списком.\",\"Шаг 3: Если alias принадлежит другому компьютеру, выполните разрешённую операцию на его владельце, а не удаляйте его на текущем узле.\",\"Шаг 4: На Vista+ NetMessageNameDel не поддерживается; ищите актуальный интерфейс в документации программы.\"]"
   },
   {
     "errorCode": "0x000008EE",
-    "title": "Network Management (LAN Manager) — NERR_NoForwardName",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NoForwardName. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NoForwardName — The forwarded message alias could not be found on the network.",
+    "description": "0x000008ee: NERR_NoForwardName. The forwarded message alias could not be found on the network. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the remote workstation may have deleted the alias or restarted and suggests restarting that workstation or adding the alias again. Forwarding is not supported in later message-function versions.",
+    "officialSolution": "Microsoft описывает NERR_NoForwardName: The forwarded message alias could not be found on the network. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the remote workstation may have deleted the alias or restarted and suggests restarting that workstation or adding the alias again. Forwarding is not supported in later message-function versions. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Уточните имя forwarded alias и целевую legacy-станцию, на которой она должна быть зарегистрирована.\",\"Шаг 2: Попросите владельца станции проверить, не удалялся ли alias и не перезапускалась ли машина после настройки forwarding.\",\"Шаг 3: Только в старом поддерживаемом сценарии администратор может перезапустить целевую станцию либо зарегистрировать alias заново, как указывает KB Microsoft.\",\"Шаг 4: Не переносите пересылку на Vista+; Microsoft указывает, что message forwarding больше не поддерживается.\"]"
   },
   {
     "errorCode": "0x000008EF",
-    "title": "Network Management (LAN Manager) — NERR_RemoteFull",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_RemoteFull. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_RemoteFull — The message alias table on the remote station is full.",
+    "description": "0x000008ef: NERR_RemoteFull. The message alias table on the remote station is full. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says the remote legacy workstation has no space for an additional alias and suggests asking its user/admin whether an existing alias can be removed or routing to another workstation. Forwarding is unsupported on newer systems.",
+    "officialSolution": "Microsoft описывает NERR_RemoteFull: The message alias table on the remote station is full. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says the remote legacy workstation has no space for an additional alias and suggests asking its user/admin whether an existing alias can be removed or routing to another workstation. Forwarding is unsupported on newer systems. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите, что ошибка относится к таблице alias конкретной удалённой legacy-станции.\",\"Шаг 2: Попросите её владельца/администратора выполнить NET NAME и определить, какие alias ещё используются.\",\"Шаг 3: Удаляйте alias только после согласования с владельцем; если безопасно освободить место нельзя, историческая KB предлагает другой workstation как получателя.\",\"Шаг 4: Не используйте процедуру пересылки на современных Windows: Microsoft отмечает, что forwarding не поддерживается с новых версий API.\"]"
   },
   {
     "errorCode": "0x000008F0",
-    "title": "Network Management (LAN Manager) — NERR_NameNotForwarded",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_NameNotForwarded. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_NameNotForwarded — Messages for this alias are not currently being forwarded.",
+    "description": "0x000008f0: NERR_NameNotForwarded. Messages for this alias are not currently being forwarded. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says no action is needed when messages for this alias are not being forwarded. The forwarding mechanism is not supported in later message-function versions.",
+    "officialSolution": "Microsoft описывает NERR_NameNotForwarded: Messages for this alias are not currently being forwarded. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says no action is needed when messages for this alias are not being forwarded. The forwarding mechanism is not supported in later message-function versions. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте полный код и alias; 2288 сообщает отсутствие активной пересылки для имени.\",\"Шаг 2: Если пересылка не была нужна, Microsoft указывает, что действий не требуется.\",\"Шаг 3: Если приложение ожидает пересылку, уточните нужную конфигурацию у администратора и владельца legacy-приложения; не добавляйте forwarding автоматически.\",\"Шаг 4: На Vista и новее пересылка Messenger не поддерживается, поэтому используйте предусмотренный приложением актуальный транспорт.\"]"
   },
   {
     "errorCode": "0x000008F1",
-    "title": "Network Management (LAN Manager) — NERR_TruncatedBroadcast",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_TruncatedBroadcast. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_TruncatedBroadcast — The broadcast message was truncated.",
+    "description": "0x000008f1: NERR_TruncatedBroadcast. The broadcast message was truncated. Код семейства Network Management (NERR); применимость зависит от вызывающего message API и версии Windows. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB states that only the first 128 characters were sent and recommends keeping a broadcast at or below that length. The protocol status identifies the send-message operation; this does not imply a file or disk truncation.",
+    "officialSolution": "Microsoft описывает NERR_TruncatedBroadcast: The broadcast message was truncated. Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB states that only the first 128 characters were sent and recommends keeping a broadcast at or below that length. The protocol status identifies the send-message operation; this does not imply a file or disk truncation. Следуйте этим шагам только в указанном legacy-контексте; для Vista и новее такой Messenger API не поддерживается.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте, что код возник при отправке legacy broadcast message, и сохраните исходный текст сообщения.\",\"Шаг 2: Сравните длину с ограничением, указанным в Microsoft KB: сообщение длиннее лимита передало только первые 128 символов.\",\"Шаг 3: Сократите broadcast до 128 символов или менее и повторите отправку только в поддерживаемой legacy-среде.\",\"Шаг 4: Для Vista и новее message APIs не поддерживаются; используйте поддерживаемую замену приложения, а не меняйте настройки диска или починяйте файлы.\"]"
   },
   {
     "errorCode": "0x000008F6",

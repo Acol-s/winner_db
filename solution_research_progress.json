@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "60ce97cbe3b25462f82e2ba060ded3bc7ba9797307a32e0ee60420fec38118d3",
+  "current_windows_sha256": "870995f17df4fdcb4f3d46ef20d704b7c5ec54eed311d5d44bee821e357ddd04",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -3153,30 +3153,230 @@
         "\"NERR_SameAsComputerName\" OR \"NET HELPMSG 2253\" site:learn.microsoft.com/answers OR site:reddit.com"
       ],
       "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008de": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy error article classifies 2270 as a software error and directs the user to technical support; the code alone does not prove a duplicate hostname.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"0x000008DE\" OR \"NET HELPMSG 2270\" OR \"NERR_NoComputerName\" OR \"NET HELPMSG 2271\" OR \"NERR_MsgAlreadyStarted\" OR \"NET HELPMSG 2272\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008df": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy article says this state needs no action; repeated occurrences can be referred to technical support.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"0x000008DE\" OR \"NET HELPMSG 2270\" OR \"NERR_NoComputerName\" OR \"NET HELPMSG 2271\" OR \"NERR_MsgAlreadyStarted\" OR \"NET HELPMSG 2272\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e0": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article scopes the failure to legacy/down-level systems and recommends inspecting the error log for Messenger startup events; it lists configuration, hardware, or software as possible areas, not a confirmed cause.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"0x000008DE\" OR \"NET HELPMSG 2270\" OR \"NERR_NoComputerName\" OR \"NET HELPMSG 2271\" OR \"NERR_MsgAlreadyStarted\" OR \"NET HELPMSG 2272\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e1": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s article says to check the alias spelling and retry later if the receiving computer may be busy. A matching 2010 Microsoft Q&A answer suggests checking Messenger on both Windows XP computers, but the thread has no user-confirmed success; that suggestion must not be generalized to modern Windows.",
+      "forum_result": "Microsoft Q&A содержит совпадающий старый случай NET HELPMSG 2273. Ответ предлагает проверить Messenger на обеих машинах Windows XP, но автор не подтвердил успех; сам ответ предупреждает о риске безопасности. Это не проверенное универсальное решение.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "\"NERR_NameNotFound\" OR \"NET HELPMSG 2273\" site:learn.microsoft.com/en-us/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e2": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. The legacy code indicates an alias-forwarding state. Microsoft’s modern Network Management message-function documentation says forwarding is no longer supported; the KB entry gives no corrective action for 2274.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e3": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says messages for the alias are forwarded to another computer and prescribes stopping forwarding so the local computer can receive them. Message forwarding is unsupported by later message-function versions.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e4": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft recommends choosing a different alias and using NET NAME to list aliases on that legacy computer.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e5": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says the limit depends on system hardware, recommends consulting system documentation/administrator, and gives NET NAME plus NET NAME alias /DELETE to inspect/remove aliases. Deleting a live alias can stop its recipient from receiving messages.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says an alias that is also the computer name cannot be deleted and no action is needed. NetMessageNameDel lists this exact return code.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e7": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says a workstation cannot forward a message to itself and no action is needed. The message-forwarding feature is legacy and unsupported in newer message API versions.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_AlreadyForwarded\" OR \"NERR_AddForwarded\" OR \"NERR_AlreadyExists\" OR \"NERR_TooManyNames\" OR \"NERR_DelComputerName\" OR \"NERR_LocalForward\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e8": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB recommends checking the workstation System event log and restarting Messenger on that old system; modern Windows does not support these message functions.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_GrpMsgProcessor\" OR \"NERR_PausedRemote\" OR \"NERR_BadReceive\" OR \"NERR_NameInUse\" OR \"NERR_MsgNotStarted\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008e9": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the recipient paused Messenger; retry later and consult the network administrator if it persists.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_GrpMsgProcessor\" OR \"NERR_PausedRemote\" OR \"NERR_BadReceive\" OR \"NERR_NameInUse\" OR \"NERR_MsgNotStarted\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008ea": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft lists a stopped Workstation/Messenger service on the recipient, an already-busy recipient, or a message buffer that is too small as possible legacy causes; retry and contact the administrator if persistent. These are possibilities, not a diagnosis.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_GrpMsgProcessor\" OR \"NERR_PausedRemote\" OR \"NERR_BadReceive\" OR \"NERR_NameInUse\" OR \"NERR_MsgNotStarted\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008eb": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft describes a recipient currently handling another message and recommends retrying later.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_GrpMsgProcessor\" OR \"NERR_PausedRemote\" OR \"NERR_BadReceive\" OR \"NERR_NameInUse\" OR \"NERR_MsgNotStarted\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008ec": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s old KB says Messenger is needed for the command and gives NET START MESSENGER, but Microsoft currently marks these APIs unsupported from Vista onward; a 2010 Microsoft Q&A answer warns that enabling the service on XP creates security vulnerabilities.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_GrpMsgProcessor\" OR \"NERR_PausedRemote\" OR \"NERR_BadReceive\" OR \"NERR_NameInUse\" OR \"NERR_MsgNotStarted\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008ed": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says this occurs when deleting an alias not registered on the local computer; NET NAME lists current local aliases. NetMessageNameDel returns this code.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008ee": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft says the remote workstation may have deleted the alias or restarted and suggests restarting that workstation or adding the alias again. Forwarding is not supported in later message-function versions.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008ef": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s KB says the remote legacy workstation has no space for an additional alias and suggests asking its user/admin whether an existing alias can be removed or routing to another workstation. Forwarding is unsupported on newer systems.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008f0": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB says no action is needed when messages for this alias are not being forwarded. The forwarding mechanism is not supported in later message-function versions.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008f1": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft states that the network-management message functions are unsupported from Windows Vista onward because the Alerter and Messenger services are unsupported. The procedure below is limited to a legacy Windows version and API that actually supports the Messenger service; it is not a current Windows repair. Microsoft’s legacy KB states that only the first 128 characters were sent and recommends keeping a broadcast at or below that length. The protocol status identifies the send-message operation; this does not imply a file or disk truncation.",
+      "forum_result": "По групповому поиску Microsoft Q&A и Reddit для этого семейства NERR не найден подтверждённый пользовательский результат; применимая процедура взята из документации Microsoft.",
+      "reddit_result": "В групповых поисках Reddit по символам этой серии не найден пригодный для проверки отчёт об успешном исправлении.",
+      "search_queries": [
+        "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
     }
   },
-  "pending_count": 6026,
+  "pending_count": 6006,
   "pending_codes": [
-    "0x000008de",
-    "0x000008df",
-    "0x000008e0",
-    "0x000008e1",
-    "0x000008e2",
-    "0x000008e3",
-    "0x000008e4",
-    "0x000008e5",
-    "0x000008e6",
-    "0x000008e7",
-    "0x000008e8",
-    "0x000008e9",
-    "0x000008ea",
-    "0x000008eb",
-    "0x000008ec",
-    "0x000008ed",
-    "0x000008ee",
-    "0x000008ef",
-    "0x000008f0",
-    "0x000008f1",
     "0x000008f6",
     "0x000008f7",
     "0x000008f9",
@@ -9375,6 +9575,9 @@
     "0x000008ab",
     "0x000008ae",
     "0x000008c7",
-    "0x000008cd"
+    "0x000008cd",
+    "0x000008de",
+    "0x000008e1",
+    "0x000008e2"
   ]
 }
