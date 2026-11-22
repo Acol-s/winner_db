@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "5c378a681159c69eb94bdbd43572ef4145abd3f5971dc8eece1cace89e9d3a13",
+  "current_windows_sha256": "60ce97cbe3b25462f82e2ba060ded3bc7ba9797307a32e0ee60420fec38118d3",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -3021,22 +3021,142 @@
       ],
       "note": "Code, symbol, and canonical text checked against the pinned Microsoft Windows SDK and Microsoft Network Management Error Codes. Generic cross-subsystem repairs were excluded.",
       "api_scope": "The cited Microsoft documentation applies only when the recorded API and OS/product context are the source of this code."
+    },
+    "0x000008c1": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft maps this status to an account logon-hours restriction. The legacy error article says the network administrator must change the hours on the account. For AD accounts, Microsoft documents Logon Hours on the Account tab in Active Directory Users and Computers; the NetAPI representation uses 168 weekly hour bits in GMT. This is a network/account policy condition, not a generic Windows sign-in repair.",
+      "forum_result": "Точного сообщения Microsoft Q&A с подтверждённым пользовательским исправлением по NERR_InvalidLogonHours не найдено; применимая процедура есть в документации Microsoft.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого отчёта Reddit об успешном исправлении.",
+      "search_queries": [
+        "\"NERR_InvalidLogonHours\" OR \"0x000008C1\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c2": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "The code states that the network account password expired. Microsoft’s legacy error article says to use the secure Change Password flow; current managed-domain accounts should follow the organization’s password-change/reset path. It is not evidence that the Windows installation or local profile is corrupt.",
+      "forum_result": "По точному NERR-коду не найдено отдельного пользовательского отчёта Microsoft Q&A с подтверждённым результатом; шаг смены пароля приведён в официальной статье Microsoft.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_PasswordExpired\" OR \"0x000008C2\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c3": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft marks the legacy error as down-level and directs the user to the network administrator. For an AD account, Microsoft documents a User cannot change password setting on the Account tab; whether changing it is permitted is an organization policy decision, not a user-side bypass.",
+      "forum_result": "Точного форума с подтверждённым обходом или исправлением NERR_PasswordCantChange не найдено; Microsoft направляет к сетевому администратору.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-результата.",
+      "search_queries": [
+        "\"NERR_PasswordCantChange\" OR \"0x000008C3\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c4": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft documents this as a password-change validation failure: the candidate password cannot be used at this time, commonly because password history disallows reuse. The precise policy and whether a password merely expired are environment-specific; do not bypass history controls.",
+      "forum_result": "Точного Microsoft Q&A кейса с подтверждённым решением по NERR_PasswordHistConflict не найдено; документированное действие — использовать ранее не применявшийся пароль.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_PasswordHistConflict\" OR \"0x000008C4\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c5": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft’s current NERR table mentions length, complexity, and history for this code; NetUserSetInfo further warns that the returned status may represent length, age/history, uniqueness, or another password-policy requirement. Therefore “make it longer” alone is not a universally valid diagnosis.",
+      "forum_result": "Точного пользовательского кейса Microsoft Q&A с подтверждённым исправлением кода не найдено; Microsoft API документация предупреждает, что этот статус может обозначать разные нарушения политики.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_PasswordTooShort\" OR \"0x000008C5\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft says the account password cannot be changed again for a policy-defined interval and recommends asking the network administrator for that interval. NetValidatePasswordPolicy classifies this as a password-change validation result.",
+      "forum_result": "Точного Microsoft Q&A случая с подтверждённым решением по NERR_PasswordTooRecent не найдено; Microsoft предписывает дождаться интервала и уточнить его у администратора.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_PasswordTooRecent\" OR \"0x000008C6\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c7": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_recommendation_needs_procedure",
+      "scope": "Microsoft’s legacy error article says the security database is damaged and directs an administrator to restore it from backup. The code does not identify which database implementation or provide a current-version recovery runbook; do not apply an old database restore procedure to a modern AD DS/SAM system without identifying the caller and supported recovery plan.",
+      "forum_result": "Точного подтверждённого пользовательского исправления Microsoft Q&A для NERR_InvalidDatabase не найдено; историческая статья Microsoft называет восстановление из резервной копии, но не даёт универсальных современных шагов.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_InvalidDatabase\" OR \"0x000008C7\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c8": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "This is an informational/no-update-needed result, not a corruption or repair failure. Microsoft’s legacy article says it should occur only on a down-level computer and that no action is needed; the source and target systems must be identified if a caller reports it as fatal.",
+      "forum_result": "Точного пользовательского отчёта с необходимым исправлением не найдено; Microsoft описывает код как отсутствие необходимости обновления и указывает, что действий не требуется.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-результата.",
+      "search_queries": [
+        "\"NERR_DatabaseUpToDate\" OR \"0x000008C8\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008c9": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft’s legacy article says the local server security database is out of sync with the domain controller and prescribes Synchronize With Domain in Server Manager. That is a historical server workflow; the code alone does not establish a current AD DS replication fault or authorize a forced modern replication.",
+      "forum_result": "Точного пользовательского случая Microsoft Q&A с подтверждённым современным исправлением не найдено; шаг Server Manager взят только из исторической статьи Microsoft.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_SyncRequired\" OR \"0x000008C9\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008cb": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft’s legacy error article describes this as a software error and recommends technical support. If the status comes from NetUseAdd, its USE_INFO_1 documentation defines ui1_asg_type values (wildcard, disk, spooled printer, IPC); validate the caller’s level and value rather than changing unrelated Windows settings.",
+      "forum_result": "Точного Microsoft Q&A кейса с подтверждённым исправлением NERR_BadAsgType не найдено; Microsoft советует обратиться в техническую поддержку, API docs помогают проверить только контекст NetUseAdd.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого пользовательского Reddit-решения.",
+      "search_queries": [
+        "\"NERR_BadAsgType\" OR \"0x000008CB\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008cc": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft says this condition should occur only on a down-level computer: the local device name being assigned to a shared resource already represents a shared device. Its documented actions are to choose another device name or stop sharing the specified device; stopping sharing can disrupt users and requires authorization.",
+      "forum_result": "Точного сообщества Microsoft Q&A с подтверждённым случаем не найдено; конкретная процедура доступна в статье Microsoft KB 186555.",
+      "reddit_result": "По точному коду/символу не найдено проверяемого Reddit-решения.",
+      "search_queries": [
+        "\"NERR_DeviceIsShared\" OR \"0x000008CC\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
+    },
+    "0x000008cd": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Microsoft Q&A contains a 2015/2016 local-account case where NET USER and Computer Management reject a username matching the hostname, while the author reports a different result in Control Panel. The accepted answer only redirects the user; it does not explain the difference or confirm a safe remedy. Do not generalize across account-creation paths.",
+      "forum_result": "Найден похожий Microsoft Q&A случай: NET USER и Computer Management отклоняли совпадающее имя, а автор сообщил, что другой интерфейс ведёт себя иначе. Ответ Q&A не объяснил разницу и не подтвердил исправление.",
+      "reddit_result": "Проверяемого Reddit-решения по NERR_SameAsComputerName/2253 не найдено.",
+      "search_queries": [
+        "\"NERR_SameAsComputerName\" OR \"NET HELPMSG 2253\" site:learn.microsoft.com/answers OR site:reddit.com"
+      ],
+      "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. Historical Microsoft procedure is scoped to its documented OS/API context; no generic repair was invented."
     }
   },
-  "pending_count": 6038,
+  "pending_count": 6026,
   "pending_codes": [
-    "0x000008c1",
-    "0x000008c2",
-    "0x000008c3",
-    "0x000008c4",
-    "0x000008c5",
-    "0x000008c6",
-    "0x000008c7",
-    "0x000008c8",
-    "0x000008c9",
-    "0x000008cb",
-    "0x000008cc",
-    "0x000008cd",
     "0x000008de",
     "0x000008df",
     "0x000008e0",
@@ -9253,6 +9373,8 @@
     "0x000008a7",
     "0x000008a9",
     "0x000008ab",
-    "0x000008ae"
+    "0x000008ae",
+    "0x000008c7",
+    "0x000008cd"
   ]
 }

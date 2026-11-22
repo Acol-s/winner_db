@@ -14448,111 +14448,111 @@
   },
   {
     "errorCode": "0x000008C1",
-    "title": "Network Management (LAN Manager) — NERR_InvalidLogonHours",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_InvalidLogonHours. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_InvalidLogonHours — The user is not allowed to log on at this time.",
+    "description": "0x000008c1: NERR_InvalidLogonHours. The user is not allowed to log on at this time. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft maps this status to an account logon-hours restriction. The legacy error article says the network administrator must change the hours on the account. For AD accounts, Microsoft documents Logon Hours on the Account tab in Active Directory Users and Computers; the NetAPI representation uses 168 weekly hour bits in GMT. This is a network/account policy condition, not a generic Windows sign-in repair.",
+    "officialSolution": "Microsoft описывает NERR_InvalidLogonHours: The user is not allowed to log on at this time. Microsoft maps this status to an account logon-hours restriction. The legacy error article says the network administrator must change the hours on the account. For AD accounts, Microsoft documents Logon Hours on the Account tab in Active Directory Users and Computers; the NetAPI representation uses 168 weekly hour bits in GMT. This is a network/account policy condition, not a generic Windows sign-in repair. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного сообщения Microsoft Q&A с подтверждённым пользовательским исправлением по NERR_InvalidLogonHours не найдено; применимая процедура есть в документации Microsoft.",
+      "По точному коду/символу не найдено проверяемого отчёта Reddit об успешном исправлении."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните полный код, имя пользователя, домен или локальный компьютер, сервер, точное время и часовой пояс; установите, какая программа/API вернула статус.\",\"Шаг 2: Для доменной учётной записи попросите администратора открыть пользователя в Active Directory Users and Computers → Properties → Account → Logon Hours и проверить разрешённые часы.\",\"Шаг 3: Сравните расписание с фактическим временем и часовым поясом. Администратор меняет окно входа только если это соответствует политике организации; ограничение не следует обходить.\",\"Шаг 4: Повторите сетевой вход в разрешённое окно. Для старого приложения NetAPI учтите, что USER_INFO_1020 хранит 168 часовых интервалов в GMT; при неясном расписании передайте журнал администратору.\"]"
   },
   {
     "errorCode": "0x000008C2",
-    "title": "Network Management (LAN Manager) — NERR_PasswordExpired",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PasswordExpired. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PasswordExpired — The password of this user has expired.",
+    "description": "0x000008c2: NERR_PasswordExpired. The password of this user has expired. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. The code states that the network account password expired. Microsoft’s legacy error article says to use the secure Change Password flow; current managed-domain accounts should follow the organization’s password-change/reset path. It is not evidence that the Windows installation or local profile is corrupt.",
+    "officialSolution": "Microsoft описывает NERR_PasswordExpired: The password of this user has expired. The code states that the network account password expired. Microsoft’s legacy error article says to use the secure Change Password flow; current managed-domain accounts should follow the organization’s password-change/reset path. It is not evidence that the Windows installation or local profile is corrupt. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "По точному NERR-коду не найдено отдельного пользовательского отчёта Microsoft Q&A с подтверждённым результатом; шаг смены пароля приведён в официальной статье Microsoft.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Подтвердите, что сообщение относится к нужной доменной/сетевой учётной записи, и запишите приложение, сервер и полный статус.\",\"Шаг 2: Если политика позволяет самостоятельную смену, в старом Windows-сценарии используйте Ctrl+Alt+Delete → Change Password; в управляемой современной среде используйте утверждённый организацией способ смены пароля.\",\"Шаг 3: Если смена запрещена, сервер недоступен или сообщение возвращает приложение, обратитесь к администратору домена; не сбрасывайте пароль локальной учётной записи наугад.\",\"Шаг 4: После смены повторите именно ту сетевую операцию, которая вернула NERR_PasswordExpired. API NetUserChangePassword документирует этот код в контексте смены пароля.\"]"
   },
   {
     "errorCode": "0x000008C3",
-    "title": "Network Management (LAN Manager) — NERR_PasswordCantChange",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PasswordCantChange. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PasswordCantChange — The password of this user cannot change.",
+    "description": "0x000008c3: NERR_PasswordCantChange. The password of this user cannot change. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft marks the legacy error as down-level and directs the user to the network administrator. For an AD account, Microsoft documents a User cannot change password setting on the Account tab; whether changing it is permitted is an organization policy decision, not a user-side bypass.",
+    "officialSolution": "Microsoft описывает NERR_PasswordCantChange: The password of this user cannot change. Microsoft marks the legacy error as down-level and directs the user to the network administrator. For an AD account, Microsoft documents a User cannot change password setting on the Account tab; whether changing it is permitted is an organization policy decision, not a user-side bypass. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного форума с подтверждённым обходом или исправлением NERR_PasswordCantChange не найдено; Microsoft направляет к сетевому администратору.",
+      "По точному коду/символу не найдено проверяемого Reddit-результата."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите, какой аккаунт и какой сервер вернули 0x8C3; код относится к запрету смены пароля, а не обязательно к неверному текущему паролю.\",\"Шаг 2: Попросите администратора проверить свойства доменного пользователя в Active Directory Users and Computers → Account → User cannot change password, а также действующие права и политику.\",\"Шаг 3: Администратор меняет настройку или выполняет сброс только если это разрешено политикой и подтверждена личность владельца учётной записи.\",\"Шаг 4: Повторите смену через утверждённый доменный интерфейс. Не используйте сторонние утилиты и не меняйте пароль локально, если ошибка пришла от сетевого сервера.\"]"
   },
   {
     "errorCode": "0x000008C4",
-    "title": "Network Management (LAN Manager) — NERR_PasswordHistConflict",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PasswordHistConflict. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PasswordHistConflict — This password cannot be used now.",
+    "description": "0x000008c4: NERR_PasswordHistConflict. This password cannot be used now. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft documents this as a password-change validation failure: the candidate password cannot be used at this time, commonly because password history disallows reuse. The precise policy and whether a password merely expired are environment-specific; do not bypass history controls.",
+    "officialSolution": "Microsoft описывает NERR_PasswordHistConflict: This password cannot be used now. Microsoft documents this as a password-change validation failure: the candidate password cannot be used at this time, commonly because password history disallows reuse. The precise policy and whether a password merely expired are environment-specific; do not bypass history controls. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного Microsoft Q&A кейса с подтверждённым решением по NERR_PasswordHistConflict не найдено; документированное действие — использовать ранее не применявшийся пароль.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Проверьте, что код возник при смене/проверке пароля, и зафиксируйте, локальная ли это или доменная учётная запись.\",\"Шаг 2: Выберите новый пароль, который не использовался ранее для этой учётной записи; не пытайтесь циклически менять пароли ради обхода истории.\",\"Шаг 3: Если новый уникальный пароль отклонён, попросите администратора проверить применённую password-history policy и password filters для конкретного аккаунта.\",\"Шаг 4: Повторите смену через разрешённый интерфейс после исправления кандидата/политики. NetValidatePasswordPolicy относит NERR_PasswordHistConflict к отказу проверки смены пароля.\"]"
   },
   {
     "errorCode": "0x000008C5",
-    "title": "Network Management (LAN Manager) — NERR_PasswordTooShort",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PasswordTooShort. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PasswordTooShort — The password does not meet the password policy requirements.",
+    "description": "0x000008c5: NERR_PasswordTooShort. The password does not meet the password policy requirements. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft’s current NERR table mentions length, complexity, and history for this code; NetUserSetInfo further warns that the returned status may represent length, age/history, uniqueness, or another password-policy requirement. Therefore “make it longer” alone is not a universally valid diagnosis.",
+    "officialSolution": "Microsoft описывает NERR_PasswordTooShort: The password does not meet the password policy requirements. Microsoft’s current NERR table mentions length, complexity, and history for this code; NetUserSetInfo further warns that the returned status may represent length, age/history, uniqueness, or another password-policy requirement. Therefore “make it longer” alone is not a universally valid diagnosis. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного пользовательского кейса Microsoft Q&A с подтверждённым исправлением кода не найдено; Microsoft API документация предупреждает, что этот статус может обозначать разные нарушения политики.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите функцию/API и тип операции: создание, смена или административный сброс пароля могут применять разные проверки.\",\"Шаг 2: Проверьте требования, фактически применённые к этой учётной записи: минимальную и максимальную длину, сложность, историю и password-filter DLL.\",\"Шаг 3: Подберите новый пароль, соответствующий всем применимым правилам; не отключайте политику и не повторяйте один кандидат через варианты.\",\"Шаг 4: Если соответствующий правилам пароль отклоняется, передайте администратору статус API и контекст. Microsoft предупреждает, что NERR_PasswordTooShort может обозначать и другие нарушения password policy.\"]"
   },
   {
     "errorCode": "0x000008C6",
-    "title": "Network Management (LAN Manager) — NERR_PasswordTooRecent",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_PasswordTooRecent. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_PasswordTooRecent — The password of this user is too recent to change.",
+    "description": "0x000008c6: NERR_PasswordTooRecent. The password of this user is too recent to change. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft says the account password cannot be changed again for a policy-defined interval and recommends asking the network administrator for that interval. NetValidatePasswordPolicy classifies this as a password-change validation result.",
+    "officialSolution": "Microsoft описывает NERR_PasswordTooRecent: The password of this user is too recent to change. Microsoft says the account password cannot be changed again for a policy-defined interval and recommends asking the network administrator for that interval. NetValidatePasswordPolicy classifies this as a password-change validation result. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного Microsoft Q&A случая с подтверждённым решением по NERR_PasswordTooRecent не найдено; Microsoft предписывает дождаться интервала и уточнить его у администратора.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Убедитесь, что статус пришёл именно при повторной смене пароля; сохраните время последней смены и имя учётной записи.\",\"Шаг 2: Не выполняйте повторные сбросы. Подождите установленный минимальный возраст пароля или уточните интервал у администратора домена.\",\"Шаг 3: Если ожидание прошло, попросите администратора проверить применённую политику и часы/репликацию контроллера, с которого вернулся статус.\",\"Шаг 4: Повторите операцию через утверждённый интерфейс. Не меняйте доменную политику только для обхода этого ответа без решения администратора.\"]"
   },
   {
     "errorCode": "0x000008C7",
-    "title": "Network Management (LAN Manager) — NERR_InvalidDatabase",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_InvalidDatabase. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_InvalidDatabase — The security database is corrupted.",
+    "description": "0x000008c7: NERR_InvalidDatabase. The security database is corrupted. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft’s legacy error article says the security database is damaged and directs an administrator to restore it from backup. The code does not identify which database implementation or provide a current-version recovery runbook; do not apply an old database restore procedure to a modern AD DS/SAM system without identifying the caller and supported recovery plan.",
+    "officialSolution": "Microsoft описывает NERR_InvalidDatabase: The security database is corrupted. Microsoft’s legacy error article says the security database is damaged and directs an administrator to restore it from backup. The code does not identify which database implementation or provide a current-version recovery runbook; do not apply an old database restore procedure to a modern AD DS/SAM system without identifying the caller and supported recovery plan. Сначала установите, какая программа и подсистема вернули статус; без этого универсальное исправление не подтверждено.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного подтверждённого пользовательского исправления Microsoft Q&A для NERR_InvalidDatabase не найдено; историческая статья Microsoft называет восстановление из резервной копии, но не даёт универсальных современных шагов.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните код, имя вызывающей программы/API, имя хоста, время и соседние записи журнала; подтвердите, что это именно NERR_InvalidDatabase.\",\"Шаг 2: Установите, какая security database и какая версия Windows/Windows Server фигурируют в операции. Не заключайте по коду одному, что повреждена текущая база Active Directory.\",\"Шаг 3: Перед изменениями остановите повторные записи в этой базе и передайте диагностику администратору, ответственному за резервное копирование и восстановление.\",\"Шаг 4: Историческая статья Microsoft рекомендует восстановление из резервной копии, но не задаёт безопасную процедуру для любой современной версии. Выполняйте восстановление только по runbook для подтверждённого типа базы и проверенной копии; универсальный ремонт не подтверждён.\"]"
   },
   {
     "errorCode": "0x000008C8",
-    "title": "Network Management (LAN Manager) — NERR_DatabaseUpToDate",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_DatabaseUpToDate. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_DatabaseUpToDate — No updates are necessary to this replicant network/local security database.",
+    "description": "0x000008c8: NERR_DatabaseUpToDate. No updates are necessary to this replicant network/local security database. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. This is an informational/no-update-needed result, not a corruption or repair failure. Microsoft’s legacy article says it should occur only on a down-level computer and that no action is needed; the source and target systems must be identified if a caller reports it as fatal.",
+    "officialSolution": "Microsoft описывает NERR_DatabaseUpToDate: No updates are necessary to this replicant network/local security database. This is an informational/no-update-needed result, not a corruption or repair failure. Microsoft’s legacy article says it should occur only on a down-level computer and that no action is needed; the source and target systems must be identified if a caller reports it as fatal. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного пользовательского отчёта с необходимым исправлением не найдено; Microsoft описывает код как отсутствие необходимости обновления и указывает, что действий не требуется.",
+      "По точному коду/символу не найдено проверяемого Reddit-результата."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сверьте полный код и текст: 0x8C8 означает, что обновление реплики не требуется.\",\"Шаг 2: Зафиксируйте вызывающую программу, локальный/удалённый узел и ожидаемый результат синхронизации; проверьте, почему приложение трактует статус как ошибку.\",\"Шаг 3: Для legacy/down-level сценария не восстанавливайте базу и не запускайте принудительную синхронизацию только из-за этого кода — Microsoft указывает, что действие не требуется.\",\"Шаг 4: Если современная программа возвращает этот NERR, передайте её владельцу код вместе с API и версией ОС; подтверждённого универсального исправления нет.\"]"
   },
   {
     "errorCode": "0x000008C9",
-    "title": "Network Management (LAN Manager) — NERR_SyncRequired",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_SyncRequired. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_SyncRequired — This replicant database is outdated; synchronization is required.",
+    "description": "0x000008c9: NERR_SyncRequired. This replicant database is outdated; synchronization is required. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft’s legacy article says the local server security database is out of sync with the domain controller and prescribes Synchronize With Domain in Server Manager. That is a historical server workflow; the code alone does not establish a current AD DS replication fault or authorize a forced modern replication.",
+    "officialSolution": "Microsoft описывает NERR_SyncRequired: This replicant database is outdated; synchronization is required. Microsoft’s legacy article says the local server security database is out of sync with the domain controller and prescribes Synchronize With Domain in Server Manager. That is a historical server workflow; the code alone does not establish a current AD DS replication fault or authorize a forced modern replication. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного пользовательского случая Microsoft Q&A с подтверждённым современным исправлением не найдено; шаг Server Manager взят только из исторической статьи Microsoft.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Запишите локальный сервер, домен/контроллер, вызывающий API и полный текст; определите, относится ли это к описанному Microsoft legacy/down-level сценарию.\",\"Шаг 2: Если это именно старый LAN Manager/Server Manager сценарий, администратор проверяет актуальность основной базы на контроллере домена и затронутый сервер.\",\"Шаг 3: Для старой конфигурации Microsoft указывает Server Manager → Synchronize With Domain для полной синхронизации локальной базы с контроллером домена.\",\"Шаг 4: На современных Windows Server не переносите старый пункт меню или команду автоматически: сначала проверьте журналы и здоровье репликации средствами, предназначенными для конкретной версии и AD DS; общая современная процедура этим кодом не подтверждена.\"]"
   },
   {
     "errorCode": "0x000008CA",
@@ -14565,39 +14565,39 @@
   },
   {
     "errorCode": "0x000008CB",
-    "title": "Network Management (LAN Manager) — NERR_BadAsgType",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_BadAsgType. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_BadAsgType — This asg_type is invalid.",
+    "description": "0x000008cb: NERR_BadAsgType. This asg_type is invalid. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft’s legacy error article describes this as a software error and recommends technical support. If the status comes from NetUseAdd, its USE_INFO_1 documentation defines ui1_asg_type values (wildcard, disk, spooled printer, IPC); validate the caller’s level and value rather than changing unrelated Windows settings.",
+    "officialSolution": "Microsoft описывает NERR_BadAsgType: This asg_type is invalid. Microsoft’s legacy error article describes this as a software error and recommends technical support. If the status comes from NetUseAdd, its USE_INFO_1 documentation defines ui1_asg_type values (wildcard, disk, spooled printer, IPC); validate the caller’s level and value rather than changing unrelated Windows settings. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного Microsoft Q&A кейса с подтверждённым исправлением NERR_BadAsgType не найдено; Microsoft советует обратиться в техническую поддержку, API docs помогают проверить только контекст NetUseAdd.",
+      "По точному коду/символу не найдено проверяемого пользовательского Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Сохраните вызывающую программу, функцию NetAPI, уровень структуры и значение параметра asg_type; по одному коду нельзя считать, что это пользовательское подключение диска.\",\"Шаг 2: Если вызывается NetUseAdd с USE_INFO_1, сравните ui1_asg_type с документированными USE_WILDCARD, USE_DISKDEV, USE_SPOOLDEV или USE_IPC; wildcard допустим только при NULL ui1_local.\",\"Шаг 3: Исправляйте поле и уровень только в приложении, которое формирует запрос. Microsoft называет этот статус программной ошибкой; если значения валидны, передайте журнал разработчику/поддержке.\",\"Шаг 4: Не меняйте сетевые службы или Windows настройки в качестве универсального исправления — такого решения источники не подтверждают.\"]"
   },
   {
     "errorCode": "0x000008CC",
-    "title": "Network Management (LAN Manager) — NERR_DeviceIsShared",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_DeviceIsShared. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_DeviceIsShared — This device is currently being shared.",
+    "description": "0x000008cc: NERR_DeviceIsShared. This device is currently being shared. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft says this condition should occur only on a down-level computer: the local device name being assigned to a shared resource already represents a shared device. Its documented actions are to choose another device name or stop sharing the specified device; stopping sharing can disrupt users and requires authorization.",
+    "officialSolution": "Microsoft описывает NERR_DeviceIsShared: This device is currently being shared. Microsoft says this condition should occur only on a down-level computer: the local device name being assigned to a shared resource already represents a shared device. Its documented actions are to choose another device name or stop sharing the specified device; stopping sharing can disrupt users and requires authorization. Следуйте процедуре только при совпадении указанного контекста; это не универсальное исправление для любого Windows-сбоя.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Точного сообщества Microsoft Q&A с подтверждённым случаем не найдено; конкретная процедура доступна в статье Microsoft KB 186555.",
+      "По точному коду/символу не найдено проверяемого Reddit-решения."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Установите, какой локальный device name программа пытается назначить и какой сервер/операция вернули 0x8CC.\",\"Шаг 2: На legacy/down-level узле проверьте, что имя действительно принадлежит локальному устройству, уже опубликованному как общий ресурс; не удаляйте посторонние сетевые подключения.\",\"Шаг 3: Если назначение ошибочно, укажите другое свободное имя устройства. Если требуется освободить это имя, администратор может остановить общий доступ только после проверки зависимых пользователей и политики.\",\"Шаг 4: Если код появляется на современной ОС или из неизвестного приложения, сначала установите источник/API; старое описание не является универсальной инструкцией менять современную конфигурацию общего доступа.\"]"
   },
   {
     "errorCode": "0x000008CD",
-    "title": "Network Management (LAN Manager) — NERR_SameAsComputerName",
-    "description": "Сетевой код Network Management, определённый Microsoft SDK как NERR_SameAsComputerName. Его числовое значение относится к API управления сетью; установите конкретную функцию и версию службы, вернувшую его.",
-    "officialSolution": "Код и семейство подтверждены Microsoft; общего ремонта по коду не добавлено. Диагностируйте вызвавшую сетевую функцию и сверяйтесь с документацией её версии.",
+    "title": "NERR_SameAsComputerName — The user name may not be the same as the computer name.",
+    "description": "0x000008cd: NERR_SameAsComputerName. The user name may not be the same as the computer name. Код семейства Network Management (NERR); применимость зависит от вызывающего API, версии Windows/Windows Server и сетевого контекста. Не считайте его сам по себе доказательством неисправности Windows. Microsoft Q&A contains a 2015/2016 local-account case where NET USER and Computer Management reject a username matching the hostname, while the author reports a different result in Control Panel. The accepted answer only redirects the user; it does not explain the difference or confirm a safe remedy. Do not generalize across account-creation paths.",
+    "officialSolution": "Microsoft описывает NERR_SameAsComputerName: The user name may not be the same as the computer name. Microsoft Q&A contains a 2015/2016 local-account case where NET USER and Computer Management reject a username matching the hostname, while the author reports a different result in Control Panel. The accepted answer only redirects the user; it does not explain the difference or confirm a safe remedy. Do not generalize across account-creation paths. Сначала установите, какая программа и подсистема вернули статус; без этого универсальное исправление не подтверждено.",
     "userSolutions": [
-      "• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.",
-      "• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника."
+      "Найден похожий Microsoft Q&A случай: NET USER и Computer Management отклоняли совпадающее имя, а автор сообщил, что другой интерфейс ведёт себя иначе. Ответ Q&A не объяснил разницу и не подтвердил исправление.",
+      "Проверяемого Reddit-решения по NERR_SameAsComputerName/2253 не найдено."
     ],
     "category": "Windows",
-    "stepByStep": "[\"• Запишите вызывающий сетевой API, операцию, сервер/ресурс и полный код вместе с журналом.\",\"• Сверьте код с Microsoft Network Management Error Codes и документацией функции; не перезапускайте службы без установления конкретного источника.\"]"
+    "stepByStep": "[\"Шаг 1: Зафиксируйте полный код NET HELPMSG 2253, команду или интерфейс создания пользователя, локальное имя компьютера и целевую область учётной записи.\",\"Шаг 2: Проверьте, совпадает ли переданное имя пользователя с именем компьютера, и уточните, создаётся ли локальная или доменная учётная запись.\",\"Шаг 3: Если это локальная запись и политика допускает другое имя, используйте уникальное имя пользователя; это соответствует буквальному ограничению сообщения, но не объясняет расхождение интерфейсов из Q&A.\",\"Шаг 4: Если требуются одинаковые имена или один интерфейс принимает их, а другой нет, не обходите проверку через другой инструмент без проверки фактического типа/идентификатора созданного аккаунта; передайте поведение администратору или поддержке.\"]"
   },
   {
     "errorCode": "0x000008DE",
