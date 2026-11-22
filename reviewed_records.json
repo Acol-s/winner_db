@@ -170216,183 +170216,206 @@
       },
       "0x000008f6": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L271",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x000008f7": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L272",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x000008f9": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L274",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenameadd"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Коды alias относятся к старым message-функциям. Microsoft указывает, что они не поддерживаются начиная с Windows Vista; не переносить старую процедуру на Vista–11/Server. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x000008fa": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L275",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenamedel"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x000008fb": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L276",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/message-functions",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmmsg/nf-lmmsg-netmessagenamedel"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x000008fc": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L277",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x00000906": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L283",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-srvs/9d316eca-5d20-4618-8044-9e6468f8ebc2"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x00000907": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L285",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions",
+          "https://learn.microsoft.com/en-us/windows/desktop/api/Lmshare/nf-lmshare-netsharecheck"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Документ NetShareCheck указывает минимум Windows XP для клиента и Windows Server 2003 для сервера. Он относится только к SMB, не к DFS/WebDAV. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x00000908": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L286",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/session-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Функции сессий требуют работающую службу Server; проверяйте минимальную клиентскую/серверную версию в документации выбранной функции. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090a": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L287",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/api/lmshare/nf-lmshare-netfileenum",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/netfile-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Microsoft указывает минимум Windows XP для клиента и Server 2003 для сервера для NetFileEnum; NetFileClose может потерять кэшированные клиентом данные. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L288",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L289",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L290",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090e": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L291",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000090f": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L292",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows-server/storage/file-server/troubleshoot/smbv1-not-installed-by-default-in-windows"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x00000910": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L293",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x00000911": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L294",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions",
+          "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dfsutil",
+          "https://learn.microsoft.com/en-us/powershell/module/dfsn/remove-dfsnfoldertarget?view=windowsserver2025-ps"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Командлет DFSN PowerShell введён в Windows Server 2012; выбор интерфейса/команды зависит от версии Windows Server и наличия DFS management tools. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000091b": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L302",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000091c": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L303",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d",
+          "https://learn.microsoft.com/en-us/windows/win32/netshare/network-share-functions",
+          "https://learn.microsoft.com/en-us/windows/desktop/api/Lmshare/nf-lmshare-netsharecheck"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000091d": {
         "status": "reviewed",
-        "reviewed_at": "2026-11-21",
+        "reviewed_at": "2026-11-22",
         "sources": [
-          "https://github.com/microsoft/win32metadata/blob/a40ed3186943620f304649a077b78f8271034736/generation/WinSDK/RecompiledIdlHeaders/shared/lmerr.h#L304",
-          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes"
+          "https://learn.microsoft.com/en-us/windows/win32/netmgmt/network-management-error-codes",
+          "https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-erref/18d8fbe8-a967-4f1c-ae50-99ca8e491d2d"
         ],
-        "note": "Code and symbol verified against pinned Microsoft Windows SDK; code-specific repair is only included where supported by Microsoft Learn."
+        "note": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника. Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется."
       },
       "0x0000091e": {
         "status": "reviewed",

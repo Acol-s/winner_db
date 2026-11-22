@@ -5,7 +5,7 @@
   "current_windows_records": 17742,
   "added_records": 6295,
   "baseline_sha256": "a7af9a85ecd17a57f0f6ceedc80e6981241f80f8d08a1923decf69510e3631f8",
-  "current_windows_sha256": "870995f17df4fdcb4f3d46ef20d704b7c5ec54eed311d5d44bee821e357ddd04",
+  "current_windows_sha256": "9b9d57bf78eb2e3164fdd2e954ee18159bab4d502927002c79598608ae1a5d6d",
   "research_completed_for": {
     "0x80240019": {
       "status": "prior_sourced_review",
@@ -3373,30 +3373,290 @@
         "site:learn.microsoft.com/en-us/answers OR site:reddit.com (\"NERR_NotLocalName\" OR \"NERR_NoForwardName\" OR \"NERR_RemoteFull\" OR \"NERR_NameNotForwarded\" OR \"NERR_TruncatedBroadcast\")"
       ],
       "note": "Numeric code, symbol, and canonical message checked against the pinned Microsoft SDK and Microsoft Learn. The old OS limitation is explicit: Microsoft message APIs are unsupported as of Windows Vista. Forum suggestions without a user-confirmed result are not presented as verified fixes."
+    },
+    "0x000008f6": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x000008f7": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x000008f9": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Коды alias относятся к старым message-функциям. Microsoft указывает, что они не поддерживаются начиная с Windows Vista; не переносить старую процедуру на Vista–11/Server.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x000008fa": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Исторический API псевдонимов сообщений; Microsoft указывает отсутствие поддержки начиная с Windows Vista.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x000008fb": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Историческая операция удаления message alias; поддержка message-функций прекращена начиная с Windows Vista.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x000008fc": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x00000906": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x00000907": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Документ NetShareCheck указывает минимум Windows XP для клиента и Windows Server 2003 для сервера. Он относится только к SMB, не к DFS/WebDAV.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x00000908": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Функции сессий требуют работающую службу Server; проверяйте минимальную клиентскую/серверную версию в документации выбранной функции.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x0000090a": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Microsoft указывает минимум Windows XP для клиента и Server 2003 для сервера для NetFileEnum; NetFileClose может потерять кэшированные клиентом данные.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x0000090b": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000090c": {
+      "reviewed_at": "2026-11-22",
+      "status": "no_verified_fix_found",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000090d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Разбиение на более узкие выборки — осторожный вывод из задокументированного ограничения размера, а не подтверждённое для каждого вызывающего приложения исправление.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000090e": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x0000090f": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Применимость различается по версии/редакции: SMB1 и Computer Browser отсутствуют по умолчанию в новых установках с Windows 10/Server 1709; Microsoft рекомендует прямое подключение ресурсов.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x00000910": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x00000911": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_procedure",
+      "scope": "Командлет DFSN PowerShell введён в Windows Server 2012; выбор интерфейса/команды зависит от версии Windows Server и наличия DFS management tools.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. Шаги ограничены операциями, прямо описанными Microsoft; пользовательский успех в форумах не подтверждён."
+    },
+    "0x0000091b": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000091c": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Код 2332 в таблице Microsoft означает невозможность поделиться устройством; не переводить символ DevNotFound как диагноз физического устройства.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
+    },
+    "0x0000091d": {
+      "reviewed_at": "2026-11-22",
+      "status": "documented_constraint",
+      "scope": "Символ и значение подтверждены Microsoft. Для NERR_* таблица ошибок сама по себе не доказывает поддержку конкретной Windows-сборкой: сверяйте фактически вызванную функцию и версию сервера/клиента. Некоторые текущие Win32 API Microsoft указывают минимум Windows XP для клиента и Windows Server 2003 для сервера; не распространяйте это на более старые системы без отдельного источника.",
+      "forum_result": "no_usable_exact_code_result",
+      "reddit_result": "no_usable_exact_code_result",
+      "search_queries": [
+        "\"NERR_InvalidDevice\" OR \"0x000008F6\" forum OR \"NERR_WriteFault\"",
+        "\"0x00000906\" OR \"NERR_NetNameNotFound\" Microsoft Q&A OR Reddit solution",
+        "\"NERR_DeviceShareConflict\" OR \"NERR_BrowserTableIncomplete\" forum Microsoft Reddit",
+        "\"NERR_IsDfsShare\" OR \"NERR_DevInvalidOpCode\" OR \"NERR_DevNotOpen\" solution forum"
+      ],
+      "note": "Групповые поиски точных символов/кодов в Microsoft Q&A и Reddit не дали кейса с совпадающим кодом и подтверждённым автором результатом. Решение пользователя не заявляется. В тексте решения явно отделены документированное состояние/порядок проверки от вывода; универсальное исправление не заявлено."
     }
   },
-  "pending_count": 6006,
+  "pending_count": 5986,
   "pending_codes": [
-    "0x000008f6",
-    "0x000008f7",
-    "0x000008f9",
-    "0x000008fa",
-    "0x000008fb",
-    "0x000008fc",
-    "0x00000906",
-    "0x00000907",
-    "0x00000908",
-    "0x0000090a",
-    "0x0000090b",
-    "0x0000090c",
-    "0x0000090d",
-    "0x0000090e",
-    "0x0000090f",
-    "0x00000910",
-    "0x00000911",
-    "0x0000091b",
-    "0x0000091c",
-    "0x0000091d",
     "0x0000091e",
     "0x0000091f",
     "0x00000921",
@@ -9578,6 +9838,10 @@
     "0x000008cd",
     "0x000008de",
     "0x000008e1",
-    "0x000008e2"
+    "0x000008e2",
+    "0x000008f7",
+    "0x000008fb",
+    "0x0000090b",
+    "0x0000090c"
   ]
 }
